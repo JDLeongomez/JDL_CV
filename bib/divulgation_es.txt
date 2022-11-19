@@ -1,0 +1,7 @@
+Leongómez, J.D. (2021). Meta-análisis de correlaciones en R. *Zenodo*. doi:10.5281/zenodo.5640182
+
+Leongómez, J.D. (2020). Análisis de poder estadístico y cálculo de tamaño de muestra en R: Guía práctica. *Zenodo*. doi:10.5281/zenodo.3988776
+
+Mileva, V. R., & Leongómez, J.D. (2018). Want to know if your partner’s cheating on you? Just listen to their voice. *The Conversation*. https://theconversation.com/want-to-know-if-your-partners-cheating-on-you-just-listen-to-their-voice-92387
+
+Mileva, V. R., & Leongómez, J.D. (2017). We change our voice when we talk to high-status people, shows new study. *The Conversation*. https://theconversation.com/we-change-our-voice-when-we-talk-to-high-status-people-shows-new-study-80053

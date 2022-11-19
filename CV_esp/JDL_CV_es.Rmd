@@ -1,0 +1,236 @@
+---
+graphics: yes
+name: Juan David
+surname: Leongómez
+position: "Profesor Asociado"
+address: "Facultad de Psicología, Universidad El Bosque"
+phone: (+57) 601-6489000 Ext. 1901
+email: "jleongomez@unbosque.edu.co"
+github: JDLeongomez
+orcid: 0000-0002-0092-6298
+profilepic: "../images/JDL.jpg"
+aboutme: |
+  Soy un investigador interesado principalmente en el comportamiento humano, así como en los métodos cuantitativos y la ciencia reproducible.
+date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d de %B de %Y')`"
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
+headcolor: 207373
+docname: Hoja de Vida Académica
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+pkgs <- c('vitae' ,'here' ,'tinytex' ,'tibble' ,'glue' ,'rmarkdown' ,'dplyr', 'readr' ,'yaml')
+xfun::pkg_attach2(pkgs)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data sctructure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative Filepaths
+             ,'readr'     # Data Loading
+             ,'tidyverse' # Needed for bind_rows and whatever
+             ,'scholar'   # Updating publications from google scholar
+             ,'kableExtra'# Adding technicalskills table
+            )
+library(magrittr)
+# Install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
+
+# Packages loading
+lapply(packages, library, character.only = TRUE) %>%
+  invisible()
+```
+
+# Acerca de mí
+
+\begin{minipage}[c]{0.85\linewidth}
+Soy Profesor Asociado e investigador de \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}}, y lider del grupo de investigación \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificación  \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}),  \href{https://www.uelbosque.edu.co/psicologia}{Facultad de Psicología}, \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} en Bogotá, Colombia. Mis intereses incluyen los procesos de elección de pareja, la comunicación vocal humana y la musicalidad. También tengo intereses en bioacústica y psicoacústica, así como efectos hormonales en el comportamiento humano. Publiqué uno de los primeros artículos que muestran los cambios en el tono de la voz en respuesta al estatus social del oyente, y he demostrado los fuertes efectos de la modulación de la voz en los oyentes en contextos de cortejo. Me apasionan los métodos cuantitativos y la programación en \textbf{R}, como herramienta para promover la reproducibilidad y la ciencia abierta.
+\end{minipage} \begin{minipage}[c]{0.15\linewidth}
+\begin{flushright} 
+\hfill \href{https://jdleongomez.info/es/team/}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_EvoCo.png}} \newline \href{https://investigaciones.unbosque.edu.co/codec}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_CODEC.png}}
+\end{flushright}
+\end{minipage}
+
+# Habilidades
+
+\begin{cvskills}
+  \cvskill
+    {Programación}
+    {R (avanzado: todo el procesamiento de datos, análisis, diagramas y tablas -e incluso esta HV- hechas en R)}
+
+  \cvskill
+    {Informes reproducibles}
+    {Markdown/Rmarkdown (incluyendo {\fontfamily{cmr}\selectfont\LaTeX} y HTML\faHtml5)}
+
+  \cvskill
+    {Investigación Cuantitativa}
+    {Modelado estadístico, modelos de efectos mixtos, selección y promediación de modelos, \textit{Machine Learning}}
+
+  \cvskill
+    {Software}
+    {RStudio, Visual Studio Code, Praat, Audacity, InkScape, Mendeley, Zotero}
+
+  \cvskill
+    {Idiomas}
+    {Inglés/Español}
+\end{cvskills}
+
+# Investigación
+
+\begin{cvskills}
+  \cvskill
+    {Areas de Investigacion}
+    {\textbf{Voz humana • Modulación vocal • Elección de pareja • Comportamiento humano}}
+
+  \cvskill
+    {Métodos de Investigación Principales}
+    {Diseños experimentales • Análisis acústico • Morfometrías geométricas • Estímulos}
+\end{cvskills}
+
+# Educación
+
+```{r education}
+ezpickr::pick("../data/education_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Educación complementaria relevante
+
+```{r edu_comp}
+ezpickr::pick("../data/edu_comp_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Experiencia Laboral
+
+```{r working-experience}
+ezpickr::pick("../data/working-experience_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Experiencia Docente
+
+```{r teaching-experience}
+ezpickr::pick("../data/teaching-experience_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Becas, Premios y Honores
+
+```{r award}
+ezpickr::pick("../data/award_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Subvenciones
+
+```{r grant}
+ezpickr::pick("../data/grant_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Publicaciones
+
+## \textbf{Artículos y Trabajos Publicados}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/journal.txt")`
+
+\endgroup
+
+## \textbf{\textit{Preprints} y Artículos en Revisión}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/working_paper.txt")`
+
+\endgroup
+
+## \textbf{Articulos de Divulgacion}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/divulgation_es.txt")`
+
+\endgroup
+
+# Investigación Abierta (canal de YouTube)
+
+\begin{minipage}[c]{0.15\linewidth}
+\href{https://www.youtube.com/@InvestigacionAbierta}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_IA.png}}
+\end{minipage} \begin{minipage}[c]{0.85\linewidth}
+\textcolor{red}{\faYoutubePlay} \href{https://www.youtube.com/@InvestigacionAbierta}{Investigación Abierta} es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas prácticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
+\end{minipage}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/IA_es.txt")`
+
+\endgroup
+
+# Presentaciones en Conferencias, Pósters y Talleress
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/poster_es.txt")`
+
+\endgroup
+
+# Eventos Científicos
+
+```{r event}
+ezpickr::pick("../data/event_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Supervisión de Posgrado y Pregrado
+
+```{r supervision}
+ezpickr::pick("../data/supervision_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Roles Editoriales
+
+Mi registro verificado como par académico internacional está disponible en mi perfil de [Web of Science](https://www.webofscience.com/wos/author/record/387716).
+
+```{r service}
+ezpickr::pick("../data/service_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Membresías
+
+## \textbf{Actualmente}
+
+  * [International Society for Human Ethology (ISHE)](https://ishe.org/)
+  
+## \textbf{Anteriormente}
+
+  * [European Human Behaviour and Evolution Association (EHBEA)](https://www.cambridge.org/core/membership/ehbea)
+  * [Association for Psychological Science (APS)](https://www.psychologicalscience.org/)

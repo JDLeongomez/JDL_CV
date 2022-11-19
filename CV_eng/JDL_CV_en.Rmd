@@ -1,0 +1,236 @@
+---
+graphics: yes
+name: Juan David
+surname: Leongómez
+position: "Associate Professor"
+address: "Faculty of Psychology, Universidad El Bosque"
+phone: (+57) 601-6489000 Ext. 1901
+email: "jleongomez@unbosque.edu.co"
+github: JDLeongomez
+orcid: 0000-0002-0092-6298
+profilepic: "../images/JDL.jpg"
+aboutme: |
+  I am a researcher mainly interested in human behaviour, as well as quantitative methods and reproducible science.
+date: "`r Sys.setlocale('LC_TIME','English');format(Sys.Date(),'%d %B, %Y')`"
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
+headcolor: 207373
+docname: Curriculum Vitae
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+pkgs <- c('vitae' ,'here' ,'tinytex' ,'tibble' ,'glue' ,'rmarkdown' ,'dplyr', 'readr' ,'yaml')
+xfun::pkg_attach2(pkgs)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data sctructure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative Filepaths
+             ,'readr'     # Data Loading
+             ,'tidyverse' # Needed for bind_rows and whatever
+             ,'scholar'   # Updating publications from google scholar
+             ,'kableExtra'# Adding technicalskills table
+            )
+library(magrittr)
+# Install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
+
+# Packages loading
+lapply(packages, library, character.only = TRUE) %>%
+  invisible()
+```
+
+# About me
+
+\begin{minipage}[c]{0.85\linewidth}
+I am an Associate Professor and Researcher at \href{https://jdleongomez.info/en/team/}{\textit{\textbf{EvoCo}: Human Behaviour and Evolution Lab}}, and leader of the \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Cognitive and Behavioural Sciences}} research group (cassification \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), \href{https://www.uelbosque.edu.co/psicologia}{Faculty of Psychology}, at \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} in Bogota, Colombia. My research interests include mate choice and human vocal communication, with an aspiration towards understanding musicality. I am also interested in bioacoustics and psychoacoustics, as well as hormonal effects on human behaviour. I published among the first articles showing within-individual changes in voice pitch in response to the social status of the listener, and have demonstrated strong effects of voice modulation on listeners in courtship contexts. I am very passionate about quantitative methods and \textbf{R} programming, as a tool to promote reproducibility and open science.
+\end{minipage} \begin{minipage}[c]{0.15\linewidth}
+\begin{flushright} 
+\hfill \href{https://jdleongomez.info/es/team/}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_EvoCo.png}} \newline \href{https://investigaciones.unbosque.edu.co/codec}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_CODEC.png}}
+\end{flushright}
+\end{minipage}
+
+# Skills
+
+\begin{cvskills}
+  \cvskill
+    {Programming}
+    {R (advanced: all data wrangling, analysis, plots and tables -and even this CV- made in R)}
+
+  \cvskill
+    {Reproducible Reports}
+    {Markdown/Rmarkdown (including {\fontfamily{cmr}\selectfont\LaTeX} and HTML\faHtml5)}
+
+  \cvskill
+    {Quantitative Research}
+    {General and Generalised Models, Linear Mixed-effects Models, Model selection and Averaging, Machine Learning}
+
+  \cvskill
+    {Software}
+    {RStudio, Visual Studio Code, Praat, Audacity, InkScape, Mendeley, Zotero}
+
+  \cvskill
+    {Languages}
+    {English/Spanish (native)}
+\end{cvskills}
+
+# Research
+
+\begin{cvskills}
+  \cvskill
+    {Research Areas}
+    {\textbf{Human voice • Vocal modulation • Mate choice • Human behaviour}}
+
+  \cvskill
+    {Primary Research Methods}
+    {Experimental designs • Acoustic analysis • Geometric morphometrics • Stimuli rating}
+\end{cvskills}
+
+# Education
+
+```{r education}
+ezpickr::pick("../data/education_en.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Relevant further education
+
+```{r edu_comp}
+ezpickr::pick("../data/edu_comp_en.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Working Experience
+
+```{r working-experience}
+ezpickr::pick("../data/working-experience_en.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Teaching Experience
+
+```{r teaching-experience}
+ezpickr::pick("../data/teaching-experience_en.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Scholarships, Awards and Honors
+
+```{r award}
+ezpickr::pick("../data/award_en.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Grants
+
+```{r grant}
+ezpickr::pick("../data/grant_en.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Publications
+
+## \textbf{Published Journal Articles and Works}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/journal.txt")`
+
+\endgroup
+
+## \textbf{Preprints and Articles under Review}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/working_paper.txt")`
+
+\endgroup
+
+## \textbf{Science outreach}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/divulgation_en.txt")`
+
+\endgroup
+
+# Investigación Abierta (YouTube channel)
+
+\begin{minipage}[c]{0.15\linewidth}
+\href{https://www.youtube.com/@InvestigacionAbierta}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_IA.png}}
+\end{minipage} \begin{minipage}[c]{0.85\linewidth}
+\textcolor{red}{\faYoutubePlay} \href{https://www.youtube.com/@InvestigacionAbierta}{Investigación Abierta} [\textit{Open Research}] is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software.
+\end{minipage}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/IA_en.txt")`
+
+\endgroup
+
+# Conference Presentations, Posters and Workshops
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/poster_en.txt")`
+
+\endgroup
+
+# Scientific Events
+
+```{r event}
+ezpickr::pick("../data/event_en.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Postgraduate and undergraduate Supervision
+
+```{r supervision}
+ezpickr::pick("../data/supervision_en.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Editorial Appointments
+
+My verified review record is available from my [Web of Science](https://www.webofscience.com/wos/author/record/387716) profile. 
+
+```{r service}
+ezpickr::pick("../data/service_en.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Memberships
+
+## \textbf{Current}
+
+  * [International Society for Human Ethology (ISHE)](https://ishe.org/)
+
+## \textbf{Past}
+
+  * [European Human Behaviour and Evolution Association (EHBEA)](https://www.cambridge.org/core/membership/ehbea)
+  * [Association for Psychological Science (APS)](https://www.psychologicalscience.org/)

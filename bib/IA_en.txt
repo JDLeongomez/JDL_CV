@@ -1,0 +1,9 @@
+Leongómez, J.D. [Investigación Abierta]. (2021). *Hacer meta-análisis en jamovi es muy fácil [Meta-analysis in jamovi is very easy]* [Video]. Youtube. https://jdleongomez.info/en/post/meta/
+
+Leongómez, J.D. [Investigación Abierta]. (2020). *Poder estadístico y tamaño de muestra en R [Statistical power and sample size calculation in R]* [3 Videos]. Youtube. https://jdleongomez.info/en/post/power/
+
+Leongómez, J.D. [Investigación Abierta]. (2020). *¿Qué es un valor p? Te lo puedo mostrar gráficamente y con simulaciones [What is a p-value? I can show you graphically]* [Video]. Youtube. https://jdleongomez.info/en/post/pvalue/
+
+Leongómez, J.D. [Investigación Abierta]. (2020). *Introducción a jamovi [Introduction to jamovi]* [Video]. Youtube. https://jdleongomez.info/en/post/jamovi/
+
+Leongómez, J.D. [Investigación Abierta]. (2020). *Introducción a OBS Studio [Introduction to OBS Studio]* [2 Videos]. Youtube. https://jdleongomez.info/en/post/obs/

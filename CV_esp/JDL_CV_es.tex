@@ -1,0 +1,862 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{207373}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\photo{../images/JDL.jpg}
+\name{Juan David}{Leongómez}
+
+\position{Profesor Asociado}
+\address{Facultad de Psicología, Universidad El Bosque}
+
+\mobile{(+57) 601-6489000 Ext. 1901}
+\email{\href{mailto:jleongomez@unbosque.edu.co}{\nolinkurl{jleongomez@unbosque.edu.co}}}
+\orcid{0000-0002-0092-6298}
+\github{JDLeongomez}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+\quote{Soy un investigador interesado principalmente en el
+comportamiento humano, así como en los métodos cuantitativos y la
+ciencia reproducible.}
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {18 de noviembre de 2022}
+    {Juan David Leongómez~~~·~~~Hoja de Vida Académica}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{acerca-de-muxed}{%
+\section{Acerca de mí}\label{acerca-de-muxed}}
+
+\begin{minipage}[c]{0.85\linewidth}
+Soy Profesor Asociado e investigador de \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}}, y lider del grupo de investigación \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificación  \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}),  \href{https://www.uelbosque.edu.co/psicologia}{Facultad de Psicología}, \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} en Bogotá, Colombia. Mis intereses incluyen los procesos de elección de pareja, la comunicación vocal humana y la musicalidad. También tengo intereses en bioacústica y psicoacústica, así como efectos hormonales en el comportamiento humano. Publiqué uno de los primeros artículos que muestran los cambios en el tono de la voz en respuesta al estatus social del oyente, y he demostrado los fuertes efectos de la modulación de la voz en los oyentes en contextos de cortejo. Me apasionan los métodos cuantitativos y la programación en \textbf{R}, como herramienta para promover la reproducibilidad y la ciencia abierta.
+\end{minipage} \begin{minipage}[c]{0.15\linewidth}
+\begin{flushright} 
+\hfill \href{https://jdleongomez.info/es/team/}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_EvoCo.png}} \newline \href{https://investigaciones.unbosque.edu.co/codec}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_CODEC.png}}
+\end{flushright}
+\end{minipage}
+
+\hypertarget{habilidades}{%
+\section{Habilidades}\label{habilidades}}
+
+\begin{cvskills}
+  \cvskill
+    {Programación}
+    {R (avanzado: todo el procesamiento de datos, análisis, diagramas y tablas -e incluso esta HV- hechas en R)}
+
+  \cvskill
+    {Informes reproducibles}
+    {Markdown/Rmarkdown (incluyendo {\fontfamily{cmr}\selectfont\LaTeX} y HTML\faHtml5)}
+
+  \cvskill
+    {Investigación Cuantitativa}
+    {Modelado estadístico, modelos de efectos mixtos, selección y promediación de modelos, \textit{Machine Learning}}
+
+  \cvskill
+    {Software}
+    {RStudio, Visual Studio Code, Praat, Audacity, InkScape, Mendeley, Zotero}
+
+  \cvskill
+    {Idiomas}
+    {Inglés/Español}
+\end{cvskills}
+
+\hypertarget{investigaciuxf3n}{%
+\section{Investigación}\label{investigaciuxf3n}}
+
+\begin{cvskills}
+  \cvskill
+    {Areas de Investigacion}
+    {\textbf{Voz humana • Modulación vocal • Elección de pareja • Comportamiento humano}}
+
+  \cvskill
+    {Métodos de Investigación Principales}
+    {Diseños experimentales • Análisis acústico • Morfometrías geométricas • Estímulos}
+\end{cvskills}
+
+\hypertarget{educaciuxf3n}{%
+\section{Educación}\label{educaciuxf3n}}
+
+\begin{cventries}
+    \cventry{PhD - Psychology}{University of Stirling}{Stirling, Reino Unido}{2014}{\begin{cvitems}
+\item Tesis: ``Contextual musicality: vocal modulation and its perception in human social interaction''
+\item Supervisores: Prof. S. Craig Roberts, y Prof. Anthony C. Little
+\item Miembros del comité: Prof. Phyllis C. Lee (dissertation chair), y Prof. Stuart Semple
+\end{cvitems}}
+    \cventry{MSc in Evolutionary Psychology}{University of Liverpool}{Liverpool, Reino Unido}{2009}{\begin{cvitems}
+\item Supervisor: Prof. S. Craig Roberts
+\item Mejor desempeño general en la maestría
+\end{cvitems}}
+    \cventry{Licenciatura en Pedagogía Musical}{Universidad Pedagógica Nacional}{Bogotá, Colombia}{2006}{\begin{cvitems}
+\item Trabajo de Grado: 4.90/5.00
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{educaciuxf3n-complementaria-relevante}{%
+\section{Educación complementaria
+relevante}\label{educaciuxf3n-complementaria-relevante}}
+
+\begin{cventries}
+    \cventry{Practical Machine Learning}{Johns Hopkins University}{Coursera (MOOC platform)}{2021}{\begin{cvitems}
+\item Promedio: 97/100
+\item Certificado: https://www.coursera.org/account/accomplishments/verify/DC7ULMJ3CZWM
+\end{cvitems}}
+    \cventry{Statistical Programming in R and Linear Mixed Models}{University of Dundee}{Dundee, Reino Unido}{2012}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{experiencia-laboral}{%
+\section{Experiencia Laboral}\label{experiencia-laboral}}
+
+\begin{cventries}
+    \cventry{Profesor Asociado}{Universidad El Bosque}{Bogotá, Colombia}{Abr. 2019 - Actualmente}{\begin{cvitems}
+\item Investigador en el Laboratorio de Análisis del Comportamiento Humano (LACH)
+\item Líder del grupo de investigación Procesos Cognitivos y Educación (desde 2016)
+\item Supervisión de una variedad de proyectos de investigación de pregrado asociados con psicología y biología
+\item Miembro del Comité de Investigación
+\item Miembro del Comité Asesor de Asuntos Éticos
+\end{cvitems}}
+    \cventry{Profesor Asistente}{Universidad El Bosque}{Bogotá, Colombia}{Ene. 2015 - Abr. 2019}{\begin{cvitems}
+\item Investigador en el Laboratorio de Análisis del Comportamiento Humano (LACH)
+\item Asesor metodológico y estadístico para proyectos de investigación de posgrado y profesores de la Facultad
+\item Líder del grupo de investigación Procesos Cognitivos y Educación (desde 2016)
+\item Organizador de la serie de conferencias semanales Café Nerd de la Facultad de Psicología (2016-2017)
+\item Supervisión de una variedad de proyectos de investigación de pregrado asociados con psicología y biología
+\item Estancia posdoctoral (2018-2019)
+\item Co-supervisión de estudiantes de doctorado: Milena Vásquez-Amézquita (PhD en Neurociencia, Universidad de Valencia, España - 2015-2018)
+\item Co-supervisión de estudiantes de doctorado: Francisco Javier Flores  (Professional Doctorate in Counselling Psychology, University of East London, Reino Unido – 2016-2018)
+\end{cvitems}}
+    \cventry{Profesor Catedrático}{Universidad de La Sabana}{Chia, Colombia}{Ene. 2015 - Dic. 2016}{\begin{cvitems}
+\item Docencia y supervisión de proyectos de investigación
+\end{cvitems}}
+    \cventry{Asistente de Enseñanza}{University of Stirling}{Stirling, Reino Unido}{2011 - 2014}{\begin{cvitems}
+\item Supervisión de un proyecto de investigación de maestría (Evolutionary Psychology MSc)
+\item Calificación y asesoramiento estadístico a estudiantes de maestría
+\end{cvitems}}
+    \cventry{Profesor Auxiliar}{Universidad Pedagógica Nacional}{Bogotá, Colombia}{2010}{\begin{cvitems}
+\item Miembro del Comité de Investigación
+\item Supervisión de proyectos de investigación
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{experiencia-docente}{%
+\section{Experiencia Docente}\label{experiencia-docente}}
+
+\begin{cventries}
+    \cventry{Profesor Asociado}{Universidad El Bosque}{Bogotá, Colombia}{2019}{\begin{cvitems}
+\item Métodos cuantitativos II (Maestría en Psicología)
+\end{cvitems}}
+    \cventry{Profesor Asistente}{Universidad El Bosque}{Bogotá, Colombia}{2017-2018}{\begin{cvitems}
+\item Métodos cuantitativos II (Maestría en Psicología)
+\end{cvitems}}
+    \cventry{Profesor Asistente}{Universidad El Bosque}{Bogotá, Colombia}{2017}{\begin{cvitems}
+\item Métodos cuantitativos I (Maestría en Psicología)
+\end{cvitems}}
+    \cventry{Profesor Asistente}{Universidad El Bosque}{Bogotá, Colombia}{2018}{\begin{cvitems}
+\item Taller Proyecto de Grado I
+\end{cvitems}}
+    \cventry{Profesor Asistente}{Universidad El Bosque}{Bogotá, Colombia}{2015}{\begin{cvitems}
+\item Fuentes y estilos de documentación en psicología
+\end{cvitems}}
+    \cventry{Profesor Catedrático}{Universidad de La Sabana}{Chia, Colombia}{2016}{\begin{cvitems}
+\item Evolución y desarrollo de la comunicación vocal: canciones, moda y lenguaje
+\end{cvitems}}
+    \cventry{Profesor Catedrático}{Universidad de La Sabana}{Chia, Colombia}{2015 - 2016}{\begin{cvitems}
+\item Estadística inferencial
+\item Estadística descriptiva
+\end{cvitems}}
+    \cventry{Adistente de Enseñanza}{University of Stirling}{Stirling, Reino Unido}{2012}{\begin{cvitems}
+\item Comportamiento animal (cátedra de comunicación vocal)
+\end{cvitems}}
+    \cventry{Adistente de Enseñanza}{University of Stirling}{Stirling, Reino Unido}{2012-2014}{\begin{cvitems}
+\item Métodos cuantitativos (Maestría en psicología: varias conferencias, supervisión práctica, enseñanza individualizada)
+\item Módulo de Cognición (liderando proyectos de investigación en psicoacústica)
+\end{cvitems}}
+    \cventry{Profesor Auxiliar}{Universidad Pedagógica Nacional}{Bogotá, Colombia}{2010}{\begin{cvitems}
+\item Proyecto de investigación I
+\item Laboratorio de investigación II
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{becas-premios-y-honores}{%
+\section{Becas, Premios y Honores}\label{becas-premios-y-honores}}
+
+\begin{cventries}
+    \cventry{Economics Prize}{Ig Nobel Prize}{
+Cambridge, MA, EE.UU.}{Sep. 2020}{\begin{cvitems}
+\item Por ‘tratar de cuantificar la relación entre la desigualdad de ingresos nacionales en diferentes países y la cantidad promedio de besos boca a boca’ (Watkins,, et al., 2019)
+\end{cvitems}}
+    \cventry{VIII Convocatoria de Estímulos a la Excelencia}{Universidad El Bosque}{Bogotá, Colombia}{Dic. 2019}{\begin{cvitems}
+\item COP\$7.000.000
+\end{cvitems}}
+    \cventry{VII Convocatoria de Estímulos a la Excelencia}{Universidad El Bosque}{Bogotá, Colombia}{Dic. 2018}{\begin{cvitems}
+\item COP\$5.000.000
+\end{cvitems}}
+    \cventry{VI Convocatoria de Estímulos a la Excelencia}{Universidad El Bosque}{Bogotá, Colombia}{Dic. 2017}{\begin{cvitems}
+\item COP\$5.000.000
+\end{cvitems}}
+    \cventry{Grindley Grants}{Experimental Psychology Society}{Canterbury, Reino Unido}{Sep. 2014}{}\vspace{-4.0mm}
+    \cventry{Becas Francisco José de Caldas}{Minciencias}{Bogotá, Colombia}{Oct. 2010 - Oct. 2014}{}\vspace{-4.0mm}
+    \cventry{Annual Prize in Evolutionary Psychology}{School of Life Sciences – University of Liverpool}{Liverpool, Reino Unido}{Oct. 2009}{\begin{cvitems}
+\item Mejor desempeño general en la maestría
+\end{cvitems}}
+    \cventry{University of Liverpool International Scholarship}{University of Liverpool}{Liverpool, Reino Unido}{Sep. 2008 - Sep. 2009}{}\vspace{-4.0mm}
+    \cventry{Programa Crédito-Beca}{Colfuturo}{Bogotá, Colombia}{Sep. 2008 - Sep. 2009}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{subvenciones}{%
+\section{Subvenciones}\label{subvenciones}}
+
+\begin{cventries}
+    \cventry{Convocatoria programa de Estancias Postdoctorales beneficiarios Colciencias 2017}{Minciencias}{Bogota, Colombia}{Ene. 2018 - Ene. 2019}{\begin{cvitems}
+\item Proyecto: Señales perceptibles de salud física y mental en rostros, voces y olores corporales, y su relación con niveles hormonales
+\item COP\$84.000.000
+\end{cvitems}}
+    \cventry{IX Convocatoria Interna para la Financiación de Proyectos de Investigación, 2017}{Universidad El Bosque}{Bogota, Colombia}{Ene. 2018 - Dic. 2021}{\begin{cvitems}
+\item Proyecto: Señales perceptibles de salud física y mental en rostros, voces y olores corporales, y su relación con niveles hormonales
+\item COP\$136.586.537
+\end{cvitems}}
+    \cventry{VIII Convocatoria Interna para la Financiación de Proyectos de Investigación, 2016}{Universidad El Bosque}{Bogota, Colombia}{Ene. 2017 - Dic. 2020}{\begin{cvitems}
+\item Proyecto: Efecto de señales estáticas evolutivamente relevantes (sexo, dominancia y atractivo) en el procesamiento cortical de rostros humanos
+\item COP\$80.000.000
+\end{cvitems}}
+    \cventry{VII Convocatoria Interna para la Financiación de Proyectos de Investigación, 2015}{Universidad El Bosque}{Bogota, Colombia}{Ene. 2016 - Dic. 2019}{\begin{cvitems}
+\item Proyecto: Efectos de los niveles hormonales, masculinidad y feminidad, en la discriminación tonal en hombres y mujeres
+\item COP\$13.000.000
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{publicaciones}{%
+\section{Publicaciones}\label{publicaciones}}
+
+\hypertarget{section}{%
+\subsection{\texorpdfstring{\textbf{Artículos y Trabajos Publicados}}{}}\label{section}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+Vásquez-Amézquita, M., \textbf{Leongómez, J. D.}, Salvador, A., \& Seto,
+M. C. (in press). What can the eyes tell us about atypical sexual
+preferences as a function of sex and age? Linking eye movements with
+child-related chronophilias. \emph{Forensic Sciences Research}.
+\url{https://jdleongomez.info/en/files/eye-tracking_review.pdf}
+
+\textbf{Leongómez, J. D.}, Havlíček, J., \& Roberts, S. C. (2022).
+Musicality in Human Vocal Communication: An Evolutionary Perspective.
+\emph{Philosophical Transactions of the Royal Society B: Biological
+Sciences, 377}, 20200391. \url{https://doi.org/10.1098/rstb.2020.0391}
+
+Santamaría-García, H., Burgaleta, M., Legaz, A., Flichtentrei, D.,
+Cordoba-Delgado, M., Molina, J., Linares, J., Montealegre, J.,
+Castelblanco Toro, S., Schulte, M., Paramo, J., Mondragón, I.,
+\textbf{Leongómez, J. D.}, Salamone, P., González‑Pacheco, J., Baez, S.,
+\& Ibañez, A.(2022). The price of prosociality in pandemic times.
+\emph{Humanities and Social Sciences Communications, 9}, 15.
+\url{https://doi.org/10.1057/s41599-021-01022-2}
+
+Vásquez-Amézquita, M., Salvador, A., \& \textbf{Leongómez, J. D.}
+(2022). Is digit ratio (2D:4D) different between sexual and non-sexual
+offenders, and non-offending men? Study of a Colombian sample {[}Existen
+diferencias en la ratio 2D:4D entre delincuentes sexuales y no sexuales,
+y hombres no delincuentes? Un estudio en una muestra colombiana{]}.
+\emph{Interdisciplinaria. Revista de Psicología y Ciencias Afines,
+39}(1), 127--141. \url{https://doi.org/10.16888/interd.2022.39.1.8}
+
+Watkins, C., Bovet, J., Fernandez, A. M., \textbf{Leongómez, J. D.},
+Zelazniewicz, A., Correa Varella, M. A., \& Wagstaff, D. (2022). Men say
+`I love you' before women do: Robust across several countries.
+\emph{Journal of Social and Personal Relationships, 39}(7), 2134--2153.
+\url{https://doi.org/10.1177/02654075221075264}
+
+Fiala, V., Třebický, V., Pazhoohi, F., \textbf{Leongómez, J. D.},
+Tureček, P., Saribay, S. A., \ldots{} Kleisner, K. (2021). Facial
+attractiveness and preference of sexual dimorphism: A comparison across
+five populations. \emph{Evolutionary Human Sciences, 3}, e38.
+\url{https://doi.org/10.1017/ehs.2021.33}
+
+Jones, B. C., DeBruine, L. M., Flake, J. K., \ldots,
+\textbf{Leongómez, J. D.}, \ldots, \& Chartier, C. R. (2021). To which
+world regions does the valence-dominance model of social perception
+apply? \emph{Nature Human Behaviour, 5}, 159--169.
+\url{https://doi.org/10.1038/s41562-020-01007-2}
+
+Kleisner, K., \textbf{Leongómez, J. D.}, Pisanski, K., Fiala, V.,
+Cornec, C., Groyecka, A., \ldots{} Akoko, R. M. (2021). Predicting
+strength from aggressive vocalisations versus speech in African bushland
+and urban communities. \emph{Philosophical Transactions of the Royal
+Society B: Biological Sciences, 376}, 20200403.
+\url{https://doi.org/10.1098/rstb.2020.0403}
+
+Kleisner, K., Tureček, P., Roberts, S. C., Havlíček, J., Valentova, J.
+V., Akoko, R. M., Leongómez, J. D., Apostol, S., Varella, M. A. C., \&
+Saribay, S. A. (2021). How and Why Patterns of Sexual Dimorphism in
+Human Faces Vary across the World. \emph{Scientific Reports, 11}, 5978.
+\url{https://doi.org/10.1038/s41598-021-85402-3}
+
+\textbf{Leongómez, J. D.}, Pisanski, K., Reby, D., Sauter, D., Lavan,
+N., Perlman, M., \& Varella Valentova, J. (2021). Voice modulation: From
+origin and mechanism to social impact. \emph{Philosophical Transactions
+of the Royal Society B: Biological Sciences, 376}, 20200386.
+\url{https://doi.org/10.1098/rstb.2020.0386}
+
+\textbf{Leongómez, J. D.}, Sánchez, O. R., Vásquez-Amézquita, M., \&
+Roberts, S. C. (2021). Contextualising courtship: Exploring male body
+odour effects on vocal modulation. \emph{Behavioural Processes, 193},
+104531. \url{https://doi.org/10.1016/j.beproc.2021.104531}
+
+\textbf{Leongómez, J. D.}, Sánchez, O. R., Vásquez-Amézquita, M.,
+Valderrama, E., Castellanos-Chacón, A., Morales-Sánchez, L., \ldots{}
+González-Santoyo, I. (2020). Self-reported Health is Related to Body
+Height and Waist Circumference in Rural Indigenous and Urbanised
+Latin-American Populations. \emph{Scientific Reports, 10}, 4391.
+\url{https://doi.org/10.1038/s41598-020-61289-4}
+
+Bonilla, F. M., \& \textbf{Leongómez, J. D.} (2019). Efectos de la
+expresión emocional y de la orientación del rostro sobre las respuestas
+conductuales y el componente N170. \emph{Psychologia, 13}(2), 95--106.
+\url{https://doi.org/10.21500/19002386.3473}
+
+Vásquez Amézquita, M., \textbf{Leongómez, J. D.}, Seto, M. C., \&
+Salvador, A. (2019). Differences in Visual Attention Patterns to
+Sexually Mature and Immature Stimuli Between Heterosexual Sexual
+Offenders, Nonsexual Offenders, and Nonoffending Men. \emph{Journal of
+Sex Research, 56}(2), 213--228.
+\url{https://doi.org/10.1080/00224499.2018.1511965}
+
+Vásquez-Amézquita, M., \textbf{Leongómez, J. D.}, Seto, M. C., Bonilla,
+F. M., Rodríguez-Padilla, A., \& Salvador, A. (2019). Visual Attention
+Patterns Differ in Gynephilic and Androphilic Men and Women Depending on
+Age and Gender of Targets. \emph{Journal of Sex Research, 56}(1),
+85--101. \url{https://doi.org/10.1080/00224499.2017.1372353}
+
+Watkins, C. D., \textbf{Leongómez, J. D.}, Bovet, J., Żelaźniewicz, A.,
+Korbmacher, M., Corrêa Varella, M. A., \ldots{} Bolgan, S. (2019).
+National income inequality predicts cultural variation in mouth to mouth
+kissing. \emph{Scientific Reports, 9}, 6698.
+\url{https://doi.org/10.1038/s41598-019-43267-7}
+
+Culpepper, P. D., Havlíček, J., \textbf{Leongómez, J. D.}, \& Roberts,
+S. C. (2018). Visually Activating Pathogen Disgust: A New Instrument for
+Studying the Behavioral Immune System. \emph{Frontiers in Psychology,
+9}, 1397. \url{https://doi.org/10.3389/fpsyg.2018.01397}
+
+Danel, D. P., Valentova, J. V., Sánchez, O. R.,
+\textbf{Leongómez, J. D.}, Corrêa Varella, M. A., \& Kleisner, K.
+(2018). A cross-cultural study of sex-typicality and averageness:
+Correlation between frontal and lateral measures of human faces.
+\emph{American Journal of Human Biology, 30}(5), e23147.
+\url{https://doi.org/10.1002/ajhb.23147}
+
+Vásquez-Amézquita, M., \textbf{Leongómez, J. D.}, Seto, M. C., Bonilla,
+F. M., Rodríguez-Padilla, A., \& Salvador, A. (2018). No relation
+between digit ratio (2D:4D) and visual attention patterns to sexually
+preferred and non-preferred stimuli. \emph{Personality and Individual
+Differences, 120}, 151--158.
+\url{https://doi.org/10.1016/j.paid.2017.08.022}
+
+Bonilla, F. M., \& \textbf{Leongómez, J. D.} (2017). Efectos en la
+amplitud y la latencia del componente N170 ante la presentación de
+rostros emocionales de ira y miedo. \emph{Psychologia, 11}(1), 39--48.
+\url{https://doi.org/10.21500/19002386.3100}
+
+\textbf{Leongómez, J. D.}, Mileva, V. R., Little, A. C., \& Roberts, S.
+C. (2017). Perceived differences in social status between speaker and
+listener affect the speaker's vocal characteristics. \emph{PLOS One,
+12}(6), e0179407. \url{https://doi.org/10.1371/journal.pone.0179407}
+
+Cobey, K. D., Nicholls, M., \textbf{Leongómez, J. D.}, \& Roberts, S. C.
+(2015). Self-reported Dominance in Women: Associations with Hormonal
+Contraceptive use, Relationship Status, and Testosterone. \emph{Adaptive
+Human Behavior and Physiology, 1}(4), 449--459.
+\url{https://doi.org/10.1007/s40750-015-0022-8}
+
+\textbf{Leongómez, J. D.} (2015). La música como objeto de estudio
+científico: consideraciones en torno a la musicalidad y el origen de la
+música. \emph{(Pensamiento), (Palabra) y Obra, 13}, 77--86.
+\url{https://doi.org/10.17227/2011804X.15PPO77.86}
+
+\textbf{Leongómez, J. D.} (2014). \emph{Contextual musicality: vocal
+modulation and its perception in human social interaction} {[}PhD,
+University of Stirling{]}. \url{http://hdl.handle.net/1893/21102}
+
+\textbf{Leongómez, J. D.}, Binter, J., Kubicová, L., Stolařová, P.,
+Klapilová, K., Havlíček, J., \& Roberts, S. C. (2014). Vocal modulation
+during courtship increases proceptivity even in naive listeners.
+\emph{Evolution and Human Behavior, 35}(6), 489--496.
+\url{https://doi.org/10.1016/j.evolhumbehav.2014.06.008}
+
+Binter, J., \textbf{Leongómez, J. D.}, Moyano, N., Valentova, J., Jouza,
+L., \& Klapilová, K. (2012). Sex differences in the incidence of sexual
+fantasies focused on evolutionary relevant objects. \emph{Anthropologie,
+50}(1), 83--93.
+
+Ferdenzi, C., Lemaître, J.-F., \textbf{Leongómez, J. D.}, \& Roberts, S.
+C. (2011). Digit ratio (2D:4D) predicts facial, but not voice or body
+odour, attractiveness in men. \emph{Proceedings of the Royal Society B:
+Biological Sciences, 278}(1724), 3551--3557.
+\url{https://doi.org/10.1098/rspb.2011.0544}
+
+\textbf{Leongómez, J. D.} (2009). \emph{Variation of pitch and loudness
+range of human voice in response to intra- and inter-sexual stimuli}
+{[}MSc{]}. University of Liverpool.
+
+\textbf{Leongómez, J. D.} (2008). El origen no humano de la música.
+\emph{(Pensamiento), (Palabra) y Obra, 1}(1), 87--97. Ανακτήθηκε από
+\url{https://revistas.pedagogica.edu.co/index.php/revistafba/article/view/50}
+
+\endgroup
+
+\hypertarget{section-1}{%
+\subsection{\texorpdfstring{\textbf{\textit{Preprints} y Artículos en Revisión}}{}}\label{section-1}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+Martínez, C. A., \& \textbf{Leongómez, J. D.} (submitted).
+Dehumanization Effects on Agency Attributions, Retributive Justice
+Judgments, and Resocialization Attitudes towards Former Perpetrators in
+Post-Conflict. \emph{Political Behavior}.
+\url{https://jdleongomez.info/en/files/Dehumanization_effects.pdf}
+
+\endgroup
+
+\hypertarget{section-2}{%
+\subsection{\texorpdfstring{\textbf{Articulos de Divulgacion}}{}}\label{section-2}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\textbf{Leongómez, J. D.} (2021). Meta-análisis de correlaciones en R.
+\emph{Zenodo}. \url{doi:10.5281/zenodo.5640182}
+
+\textbf{Leongómez, J. D.} (2020). Análisis de poder estadístico y
+cálculo de tamaño de muestra en R: Guía práctica. \emph{Zenodo}.
+\url{doi:10.5281/zenodo.3988776}
+
+Mileva, V. R., \& \textbf{Leongómez, J. D.} (2018). Want to know if your
+partner's cheating on you? Just listen to their voice. \emph{The
+Conversation}.
+\url{https://theconversation.com/want-to-know-if-your-partners-cheating-on-you-just-listen-to-their-voice-92387}
+
+Mileva, V. R., \& \textbf{Leongómez, J. D.} (2017). We change our voice
+when we talk to high-status people, shows new study. \emph{The
+Conversation}.
+\url{https://theconversation.com/we-change-our-voice-when-we-talk-to-high-status-people-shows-new-study-80053}
+
+\endgroup
+
+\hypertarget{investigaciuxf3n-abierta-canal-de-youtube}{%
+\section{Investigación Abierta (canal de
+YouTube)}\label{investigaciuxf3n-abierta-canal-de-youtube}}
+
+\begin{minipage}[c]{0.15\linewidth}
+\href{https://www.youtube.com/@InvestigacionAbierta}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_IA.png}}
+\end{minipage} \begin{minipage}[c]{0.85\linewidth}
+\textcolor{red}{\faYoutubePlay} \href{https://www.youtube.com/@InvestigacionAbierta}{Investigación Abierta} es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas prácticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
+\end{minipage}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\textbf{Leongómez, J. D.} {[}Investigación Abierta{]}. (2021).
+\emph{Hacer meta-análisis en jamovi es muy fácil} {[}Video{]}. Youtube.
+\url{https://jdleongomez.info/en/post/meta/}
+
+\textbf{Leongómez, J. D.} {[}Investigación Abierta{]}. (2020).
+\emph{Poder estadístico y tamaño de muestra en R} {[}3 Videos{]}.
+Youtube. \url{https://jdleongomez.info/en/post/power/}
+
+\textbf{Leongómez, J. D.} {[}Investigación Abierta{]}. (2020).
+\emph{¿Qué es un valor p? Te lo puedo mostrar gráficamente y con
+simulaciones} {[}Video{]}. Youtube.
+\url{https://jdleongomez.info/en/post/pvalue/}
+
+\textbf{Leongómez, J. D.} {[}Investigación Abierta{]}. (2020).
+\emph{Introducción a jamovi} {[}Video{]}. Youtube.
+\url{https://jdleongomez.info/en/post/jamovi/}
+
+\textbf{Leongómez, J. D.} {[}Investigación Abierta{]}. (2020).
+\emph{Introducción a OBS Studio} {[}2 Videos{]}. Youtube.
+\url{https://jdleongomez.info/en/post/obs/}
+
+\endgroup
+
+\hypertarget{presentaciones-en-conferencias-puxf3sters-y-talleress}{%
+\section{Presentaciones en Conferencias, Pósters y
+Talleress}\label{presentaciones-en-conferencias-puxf3sters-y-talleress}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\textbf{Leongómez, J. D.}, Havlíček, J., \& Roberts, S.C. (2022,
+October). \emph{Musicality in human vocal communication}. Artículo
+presentado como parte del simposio The Evolution of Human Musicality en
+el 4th Brazilian Meeting on Evolution of Human Behavior (Universidad de
+São Paulo), São Paulo, Brasil. \url{https://youtu.be/gK_rl0r4nfs?t=9662}
+
+\textbf{Leongómez, J. D.} (2022, Octubre). \emph{Sesión presencial de
+jamovi}. Taller para el Plan de formación en investigación de la
+Vicerrectoría de Investigaciones (Universidad El Bosque), Bogotá,
+Colombia.
+
+\textbf{Leongómez, J. D.} (2022, Septiembre). \emph{Introducción a
+jamovi: Alternativa moderna, gratuita y de código abierto para la
+realización de análisis estadísticos}. Presentación organizada como
+parte del Plan de formación en investigación de la Vicerrectoría de
+Investigaciones (Universidad El Bosque), Bogotá, Colombia.
+\url{https://investigaciones.unbosque.edu.co/eventos/cuestioneseticas-jjnlm-92bkj-n249w-hbnhl-6tpj4-pm22x-8m3yh-645tt-gw59h-xwc6x-d9sgw-6fzel-hm6dd-2wrls-569m2-8zns8-rg363}
+
+\textbf{Leongómez, J. D.} (2022, Agosto). \emph{Más allá del Open
+Access: Necesidad de una Ciencia Abierta integral para enfrentar las
+implicaciones de la naturalización de malas prácticas y la crisis de la
+replicación}. Presentación organizada como parte del Plan de formación
+en investigación de la Vicerrectoría de Investigaciones (Universidad El
+Bosque), Bogotá, Colombia.
+\url{https://investigaciones.unbosque.edu.co/eventos/cuestioneseticas-jjnlm-92bkj-n249w-hbnhl-6tpj4-pm22x-8m3yh-645tt-gw59h-xwc6x-d9sgw-6fzel-hm6dd-2wrls-569m2-8zns8}
+
+\textbf{Leongómez, J. D.} (2022, Abril). \emph{¿Qué tan confiable es la
+literatura científica? Ciencia abierta como estrategia para enfrentar
+las implicaciones de la naturalización de malas prácticas y la crisis de
+la replicación}. Presentación organizada por la Unidad de
+Investigaciones de la Facultad de Psicología (Universidad El Bosque),
+Bogotá, Colombia. \url{https://youtu.be/Fl98MoBqSaI}
+
+\textbf{Leongómez, J. D.} (2020, Noviembre). \emph{¿Cuántos
+participantes necesito? Análisis de poder estadístico y cálculo de
+tamaño de muestra en R}. Taller para el Congreso Internacional de
+Neurociencias: Cerebro y Comportamiento en Tiempos de COVID-19
+(Universidad El Bosque, Universidad de los Andes), Bogotá, Colombia.
+\url{https://youtu.be/tVB9sh5ZFH0}
+
+\textbf{Leongómez, J. D.} \& Sánchez, O. R. (2019, Septiembre).
+\emph{Asociación entre altura y circunferencia de cintura con salud en
+poblaciones rurales indígenas y urbanas en América Latina}. Artículo
+presentado en el XXV Congreso Institucional de Investigaciones
+(Universidad El Bosque), Bogotá, Colombia.
+
+\textbf{Leongómez, J. D.}, Sánchez, O.R., Vásquez-Amézquita, M.,
+Valderrama, E., Castellanos-Chacón, A., Morales-Sánchez, L., Nieto, J.,
+\& González-Santoyo, I. (2019, Agosto). \emph{Self-reported Health is
+Related to Body Height and Waist Circumference in Rural Indigenous and
+Urbanised Latin-American Populations}. Artículo y póster presentados en
+el VII Summer Institute of the International Society for Human Ethology
+(ISHE), Zadar, Croatia. Póster:
+\url{https://jdleongomez.info/en/publication/leongomez2020/PosterA0.pdf}
+
+\textbf{Leongómez, J. D.} (2019, Juio). \emph{Diseños Experimentales}.
+Taller para la Vicerrectoría de Investigaciones (Universidad El Bosque),
+Bogotá, Colombia.
+
+\textbf{Leongómez, J. D.}, Murray, A.K., \& Roberts, S.C. (2018,
+Septiembre). \emph{Contextualising courtship: Male body odour effects on
+vocal modulation}. Artículo presentado en el XXIV Biannual Conference
+for Human Ethology (ISHE), Santiago, Chile.
+
+\textbf{Leongómez, J. D.} (2017, Septiembre). \emph{Efectos de los
+niveles hormonales, masculinidad y feminidad, en la discriminación tonal
+de hombres y mujeres.}. Artículo presentado en el XXIII Congreso
+Institucional de Investigaciones (Universidad El Bosque), Bogotá,
+Colombia.
+
+\textbf{Leongómez, J. D.} (2017, Agosto). \emph{The sound of seduction:
+Vocal modulations and their effects during courtship}. Sesión plenaria
+en el 2do Simposio de Neurociencias, Cognición y Sociedad (Universidad
+Javeriana), Bogotá, Colombia.
+
+\textbf{Leongómez, J. D.} (2017, Marzo). \emph{Is the relationship
+between musical and linguistic processing a vestige of the evolutionary
+origins of music?}. Sesión plenaria en el 2017 Brain Awareness Week 2017
+(Universidad El Bosque), Bogotá, Colombia.
+
+\textbf{Leongómez, J. D.}, Mileva, V.R., Little, A.C., \& Roberts, S.C.
+(2016, Agosto). \emph{Perceived differences in social status between
+speaker and listener affect the speaker's vocal characteristics}.
+Artículo presentado en el XXIII Biennial Congress On Human Ethology
+(ISHE), Stirling, Reino Unido.
+
+\textbf{Leongómez, J. D.}, Binter, J., Kubicová, L., Stolařová, P.,
+Klapilová, K., Havlíček, J., \& Roberts, S.C. (2014, Abril). \emph{Vocal
+modulation during courtship increases proceptivity even in naive
+listeners}. Artículo presentado en el European Human Behaviour and
+Evolution Association (EHBEA) Annual Meeting 2014 (University of
+Bristol), Bristol, Reino Unido.
+
+\textbf{Leongómez, J. D.}, \& Roberts, S.C. (2013, Abril). \emph{The
+sound of sweet nothings: How men and women modulate vocal parameters in
+speech directed towards attractive and unattractive individuals}.
+Presentación oral para el Mind and Brain Group (University of Stirling),
+Stirling, Reino Unido.
+
+\textbf{Leongómez, J. D.}, \& Roberts, S.C. (2013, Marzo). \emph{The
+sound of sweet nothings: How men and women modulate vocal parameters in
+speech directed towards attractive and unattractive individuals}. Póster
+presentado en el European Human Behaviour and Evolution Association
+(EHBEA) Annual Meeting 2013 (VU University Amsterdam), Amsterdam,
+Netherlands.
+
+\textbf{Leongómez, J. D.} (2013, Marzo). \emph{Voice research techniques
+using Praat}. Taller en la Facultad de Humanidades (Charles University),
+Praga, República Checa.
+
+\textbf{Leongómez, J. D.} (2013, Marzo). \emph{Acoustic Communication}.
+Presentación oral en el Centre for Theoretical Study, Praga, República
+Checa.
+
+\textbf{Leongómez, J. D.}, \& Roberts, S.C. (2012, Mayo). \emph{The
+sound of sweet nothings: How men and women modulate vocal parameters in
+speech directed towards attractive and unattractive individuals}.
+Presentación oral para el Group of Human Ethology (Charles University),
+Praga, República Checa.
+
+\textbf{Leongómez, J. D.} (2013, Marzo). \emph{Voice research techniques
+using Praat}. Taller en Scottish Universities Psychology Postgraduate
+Research Training -- SUPPORT (University of Stirling), Stirling, Reino
+Unido.
+
+\textbf{Leongómez, J. D.}, \& Roberts, S.C. (2011, Febrero). \emph{The
+sound of sweet nothings: How men and women modulate vocal parameters in
+speech directed towards attractive and unattractive individuals}.
+Presentación para el Behaviour and Evolution Research Group (University
+of Stirling), Stirling, Reino Unido.
+
+\textbf{Leongómez, J. D.}, \& Roberts, S.C. (2010, Diciembre).
+\emph{Context-dependant modulation of vocal parameters}. Póster
+presentado en el Language of Music, the Music of Language; Meeting 2:
+Entrainment/Meaning (Centre for Music \& Science, University of
+Cambridge), Cambridge, Reino Unido.
+
+\endgroup
+
+\hypertarget{eventos-cientuxedficos}{%
+\section{Eventos Científicos}\label{eventos-cientuxedficos}}
+
+\begin{cventries}
+    \cventry{Presidente del Comité Científico}{CIVN2020 - Congreso Internacional de Neurociencias: Cerebro y Comportamiento en Tiempos de COVID-19}{Universidad El Bosque y Universidad de los Andes}{Nov. 25 ‑ 28, 2020}{\begin{cvitems}
+\item http://doi.org/10.17605/OSF.IO/5BWNX
+\end{cvitems}}
+    \cventry{Miembro del Comité Científico}{1er Congreso Internacional Virtual ISEP}{ISEP}{May. 5 - 7, 2020}{\begin{cvitems}
+\item https://www.isep.es/congreso2020/\#comite
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{supervisiuxf3n-de-posgrado-y-pregrado}{%
+\section{Supervisión de Posgrado y
+Pregrado}\label{supervisiuxf3n-de-posgrado-y-pregrado}}
+
+\begin{cventries}
+    \cventry{PhD in Neuroscience}{Posgrado}{Universidad de Valencia, España}{2015 - 2018}{\begin{cvitems}
+\item Milena Vásquez-Amézquita. Supervisión conjunta con  Alicia Salvador
+\end{cvitems}}
+    \cventry{Professional Doctorate in Counselling Psychology}{Posgrado}{University of East London, UK}{2015 - 2018}{\begin{cvitems}
+\item Francisco Javier Flores. Supervisión conjunta con Lisa Chiara Fellin
+\end{cvitems}}
+    \cventry{Psychological Research Methods (Evolutionary Psychology) MSc}{Posgrado}{University of Stirling, UK}{2013 - 2014}{\begin{cvitems}
+\item Julia Sanz-Vidania. Supervisión conjunta con S Craig Roberts
+\end{cvitems}}
+    \cventry{Maestría en Psicología}{Posgrado}{Universidad El Bosque, Colombia}{2019 - 2020}{\begin{cvitems}
+\item Adrián Acosta Guerrero. Supervisión conjunta con Milena Vásquez-Amézquita
+\end{cvitems}}
+    \cventry{Biología}{Posgrado}{Universidad El Bosque, Colombia}{2017 - 2018}{\begin{cvitems}
+\item Maria Alejandra Abello Mozo  (2018 - 2018)
+\end{cvitems}}
+    \cventry{Pedagogía Musical}{Posgrado}{Universidad Pedagógica Nacional, Colombia}{2017 - 2019}{\begin{cvitems}
+\item Natalia Elízabeth Moreno Buitrago (2017 - 2019)
+\item Juan Felipe Pérez Ariza (2017 - 2019)
+\end{cvitems}}
+    \cventry{Psicología}{Pregrado}{Universidad El Bosque, Colombia}{Desde 2015}{\begin{cvitems}
+\item Andrés Castellano Chacón (2017 -2018; supervisión docente, 2019 - actualmente)
+\item Angie Alejandra Lozano Sanjuan (2021 - 2022)
+\item Daniela Martínez Franco (2021 - 2022)
+\item Mariana Saavedra Botero (2021 - 2022)
+\item John Jairo Rubio (2021 - 2022)
+\item Maria Paula Moreno Rodríguez (2019 - 2021)
+\item Andrés Felipe Orozco Serrato (2020 - 2021)
+\item Danny Ferley Gaitan Rodríguez (2019 - 2020)
+\item Hasbleidy Gamboa Ordoñez (2019 - 2020)
+\item Paula Andrea Betancourt Velandia  (2018 - 2019)
+\item Ana Sofía Gómez Castelblanco (2018 - 2019)
+\item Lina María García Hoyos  (2016 - 2017)
+\item Angie Liliana Pérez Rodríguez  (2016 - 2018)
+\item Lina María Morales Sánchez (2016 - 2017)
+\item Laura Milena Estupiñan Aldana  (2016 - 2017)
+\item Vanesa Díaz Güiza  (2016 - 2018)
+\item Cindy Paola Moncada Gómez (2016 - 2017)
+\item Haydn Ricardo Roldán Morales (2015 - 2016)
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{roles-editoriales}{%
+\section{Roles Editoriales}\label{roles-editoriales}}
+
+Mi registro verificado como par académico internacional está disponible
+en mi perfil de
+\href{https://www.webofscience.com/wos/author/record/387716}{Web of
+Science}.
+
+\begin{cventries}
+    \cventry{Guest Editor}{Philosophical Transactions of the Royal Society B}{Comités Editoriales}{2020 - 2021}{\begin{cvitems}
+\item Theme Issue ``Voice modulation: from origin and mechanism to social impact''
+\item Editado por Juan David Leongómez, Katarzyna Pisanski, David Reby, Disa Sauter, Nadine Lavan, Marcus Perlman y Jaroslava Varella Valentova
+\end{cvitems}}
+    \cventry{Review Editor}{Frontiers in Psychology}{Comités Editoriales}{2019 - Actualmente}{\begin{cvitems}
+\item Specialty section on Evolutionary Psychology
+\end{cvitems}}
+    \cventry{Journals Incluyen}{Par Ad Hoc}{Journals Internacionales}{Desde 2013}{\begin{cvitems}
+\item Proceedings of the Royal Society B: Biological Sciences
+\item Royal Society Open Science
+\item PLOS ONE
+\item Evolution and Human Behavior
+\item Scientific Reports
+\item Cortex
+\item Journal of Nonverbal Behavior
+\item Perception
+\item Basic and Applied Social Psychology
+\item Frontiers in Psychology
+\item Evolutionary Psychology
+\item Human Ethology Bulletin
+\item Summa Psicológica
+\end{cvitems}}
+    \cventry{Evaluación de Publicaciones}{Par Académico}{Instituciones Colombianas}{Desde 2015}{\begin{cvitems}
+\item MinCiencias
+\item Universidad Nacional de Colombia
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{membresuxedas}{%
+\section{Membresías}\label{membresuxedas}}
+
+\hypertarget{section-3}{%
+\subsection{\texorpdfstring{\textbf{Actualmente}}{}}\label{section-3}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://ishe.org/}{International Society for Human Ethology
+  (ISHE)}
+\end{itemize}
+
+\hypertarget{section-4}{%
+\subsection{\texorpdfstring{\textbf{Anteriormente}}{}}\label{section-4}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.cambridge.org/core/membership/ehbea}{European Human
+  Behaviour and Evolution Association (EHBEA)}
+\item
+  \href{https://www.psychologicalscience.org/}{Association for
+  Psychological Science (APS)}
+\end{itemize}
+
+
+
+\end{document}

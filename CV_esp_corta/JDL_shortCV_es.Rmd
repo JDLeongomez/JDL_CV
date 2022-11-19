@@ -1,0 +1,143 @@
+---
+graphics: yes
+name: Juan David
+surname: Leongómez
+position: "Profesor Asociado"
+address: "Facultad de Psicología, Universidad El Bosque"
+phone: (+57) 601-6489000 Ext. 1901
+email: "jleongomez@unbosque.edu.co"
+github: JDLeongomez
+orcid: 0000-0002-0092-6298
+profilepic: "../images/JDL.jpg"
+aboutme: |
+  Soy un investigador interesado principalmente en el comportamiento humano, así como en los métodos cuantitativos y la ciencia reproducible.
+date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d de %B de %Y')`"
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
+headcolor: 207373
+docname: Hoja de Vida Resumida
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+pkgs <- c('vitae' ,'here' ,'tinytex' ,'tibble' ,'glue' ,'rmarkdown' ,'dplyr', 'readr' ,'yaml')
+xfun::pkg_attach2(pkgs)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data sctructure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative Filepaths
+             ,'readr'     # Data Loading
+             ,'tidyverse' # Needed for bind_rows and whatever
+             ,'scholar'   # Updating publications from google scholar
+             ,'kableExtra'# Adding technicalskills table
+            )
+library(magrittr)
+# Install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
+
+# Packages loading
+lapply(packages, library, character.only = TRUE) %>%
+  invisible()
+```
+
+# Acerca de mí
+
+\begin{minipage}[c]{0.85\linewidth}
+Soy Profesor Asociado e investigador de \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}}, y lider del grupo de investigación \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificación  \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}),  \href{https://www.uelbosque.edu.co/psicologia}{Facultad de Psicología}, \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} en Bogotá, Colombia. Mis intereses incluyen los procesos de elección de pareja, la comunicación vocal humana y la musicalidad. También tengo intereses en bioacústica y psicoacústica, así como efectos hormonales en el comportamiento humano. Publiqué uno de los primeros artículos que muestran los cambios en el tono de la voz en respuesta al estatus social del oyente, y he demostrado los fuertes efectos de la modulación de la voz en los oyentes en contextos de cortejo. Me apasionan los métodos cuantitativos y la programación en \textbf{R}, como herramienta para promover la reproducibilidad y la ciencia abierta.
+\end{minipage} \begin{minipage}[c]{0.15\linewidth}
+\begin{flushright} 
+\hfill \href{https://jdleongomez.info/es/team/}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_EvoCo.png}} \newline \href{https://investigaciones.unbosque.edu.co/codec}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_CODEC.png}}
+\end{flushright}
+\end{minipage}
+
+# Habilidades
+
+\begin{cvskills}
+  \cvskill
+    {Programación}
+    {R (avanzado: todo el procesamiento de datos, análisis, diagramas y tablas -e incluso esta HV- hechas en R)}
+
+  \cvskill
+    {Informes reproducibles}
+    {Markdown/Rmarkdown (incluyendo {\fontfamily{cmr}\selectfont\LaTeX} y HTML\faHtml5)}
+
+  \cvskill
+    {Investigación Cuantitativa}
+    {Modelado estadístico, modelos de efectos mixtos, selección y promediación de modelos, \textit{Machine Learning}}
+
+  \cvskill
+    {Software}
+    {RStudio, Visual Studio Code, Praat, Audacity, InkScape, Mendeley, Zotero}
+
+  \cvskill
+    {Idiomas}
+    {Inglés/Español}
+\end{cvskills}
+
+# Educación
+
+```{r education}
+ezpickr::pick("../data/education_esp_S.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Experiencia laboral y docente
+
+Para una lista completa y descripción de responsabilidades, por favor consulta mi [sitio web](https://jdleongomez.info/es/#experience) o mi [CV detallada](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+
+```{r working-experience}
+ezpickr::pick("../data/working-experience_esp_S.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Logros
+
+Para información sobre **subvenciones**, **becas** y **premios**, por favor visita mi [sitio web](https://jdleongomez.info/es/#accomplishments) o mi [CV detallada](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+
+# Publicaciones Seleccionadas
+
+Para una lista completa, por favor visita la sección de publicaciones en mi [sitio web](https://jdleongomez.info/es/publication/) o mi [CV detallada](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/featured.txt")`
+
+\endgroup
+
+\begin{footnotesize}
+\textbf{Nota:} Soy el/un autor de correspondencia en todas estas publicaciones
+\end{footnotesize}
+
+# Investigación Abierta (canal de YouTube)
+
+\begin{minipage}[c]{0.15\linewidth}
+\href{https://www.youtube.com/@InvestigacionAbierta}{\includegraphics[width=2cm, height=2cm]{Logo_IA.png}}
+\end{minipage} \begin{minipage}[c]{0.85\linewidth}
+\textcolor{red}{\faYoutubePlay} \href{https://www.youtube.com/@InvestigacionAbierta}{Investigación Abierta} es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas prácticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
+\end{minipage}
+
+# Supervisión de Posgrado
+
+Para una lista completa, incluyendo la supervisión de pregrado, por favor visita mi [sitio web](https://jdleongomez.info/es/team/#students) o mi [CV detallada](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+
+```{r supervision}
+ezpickr::pick("../data/supervision_esp_S.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Roles Editoriales
+
+Recientemente fui editor de un número temático en dos partes para [Philosophical Transactions B](https://royalsocietypublishing.org/journal/rstb) (ver [Parte 1](https://royalsocietypublishing.org/toc/rstb/2021/376/1840), [Parte 2](https://royalsocietypublishing.org/toc/rstb/2022/377/1841)). Soy par revisor de diversas revistas, incuyendo [Proceedings of the Royal Society B](https://royalsocietypublishing.org/journal/rspb), [Royal Society Open Science](https://royalsocietypublishing.org/journal/rsos), [PLOS ONE](https://journals.plos.org/plosone/), [Evolution and Human Behavior](https://www.sciencedirect.com/journal/evolution-and-human-behavior), [Scientific Reports](https://www.nature.com/srep/), [Basic and Applied Social Psychology](https://www.tandfonline.com/toc/hbas20/current),
+[Cortex](https://www.journals.elsevier.com/cortex), [Perception](https://journals.sagepub.com/home/pec),
+[Evolutionary Psychology](https://journals.sagepub.com/home/evp), y [Frontiers in Psychology](https://www.frontiersin.org/journals/psychology), en donde actualmente soy *review editor* de la [\textit{Evolutionary Psychology specialty section}](https://www.frontiersin.org/journals/psychology/sections/evolutionary-psychology). Mi registro verificado completo como par académico internacional está disponible en mi perfil de [Web of Science](https://www.webofscience.com/wos/author/record/387716).
