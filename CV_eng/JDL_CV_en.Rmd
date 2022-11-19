@@ -14,7 +14,7 @@ aboutme: |
 date: "`r Sys.setlocale('LC_TIME','English');format(Sys.Date(),'%d %B, %Y')`"
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
 headcolor: 207373
-docname: Curriculum Vitae
+docname: Academic Curriculum Vitae
 ---
 
 ```{r setup, include=FALSE}

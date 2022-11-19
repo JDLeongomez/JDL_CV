@@ -90,7 +90,7 @@ ezpickr::pick("../data/education_eng_S.xlsx") %>%
 
 # Working and Teaching Experience
 
-For a full list, and a description of responsibilities, please check [my website](https://jdleongomez.info/en/#experience) or my [detailed CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
+For a full list, and a description of responsibilities, please check [my website](https://jdleongomez.info/en/#experience) or my [academic CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
 
 ```{r working-experience}
 ezpickr::pick("../data/working-experience_eng_S.xlsx") %>%
@@ -100,11 +100,11 @@ ezpickr::pick("../data/working-experience_eng_S.xlsx") %>%
 
 # Accomplishments
 
-For information on **grants**, **scholarships**, **awards** and **prizes**, please check [my website](https://jdleongomez.info/en/#accomplishments) or my [detailed CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
+For information on **grants**, **scholarships**, **awards** and **prizes**, please check [my website](https://jdleongomez.info/en/#accomplishments) or my [academic CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
 
 # Selected Publications
 
-For a full list, please check the publications section on [my website](https://jdleongomez.info/en/publication/) or my [detailed CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf). 
+For a full list, please check the publications section on [my website](https://jdleongomez.info/en/publication/) or my [academic CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf). 
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -128,7 +128,7 @@ For a full list, please check the publications section on [my website](https://j
 
 # Postgraduate Supervision
 
-For a full list, including undergraduate supervision, please check [my website](https://jdleongomez.info/en/team/#students) or my [detailed CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
+For a full list, including undergraduate supervision, please check [my website](https://jdleongomez.info/en/team/#students) or my [academic CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
 
 ```{r supervision}
 ezpickr::pick("../data/supervision_eng_S.xlsx") %>%
