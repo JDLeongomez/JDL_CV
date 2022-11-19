@@ -90,7 +90,7 @@ ezpickr::pick("../data/education_esp_S.xlsx") %>%
 
 # Experiencia laboral y docente
 
-Para una lista completa y descripción de responsabilidades, por favor consulta mi [sitio web](https://jdleongomez.info/es/#experience) o mi [Hoja de Vida Académica](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+Para una lista completa y descripción de responsabilidades, por favor consulta mi [sitio web](https://jdleongomez.info/es/profile/#experience) o mi [Hoja de Vida Académica](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
 
 ```{r working-experience}
 ezpickr::pick("../data/working-experience_esp_S.xlsx") %>%
@@ -100,7 +100,7 @@ ezpickr::pick("../data/working-experience_esp_S.xlsx") %>%
 
 # Logros
 
-Para información sobre **subvenciones**, **becas** y **premios**, por favor visita mi [sitio web](https://jdleongomez.info/es/#accomplishments) o mi [Hoja de Vida Académica](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+Para información sobre **subvenciones**, **becas** y **premios**, por favor visita mi [sitio web](https://jdleongomez.info/es/profile/#accomplishments) o mi [Hoja de Vida Académica](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
 
 # Publicaciones Seleccionadas
 
@@ -128,7 +128,7 @@ Para una lista completa, por favor visita la sección de publicaciones en mi [si
 
 # Supervisión de Posgrado
 
-Para una lista completa, incluyendo la supervisión de pregrado, por favor visita mi [sitio web](https://jdleongomez.info/es/team/#students) o mi [Hoja de Vida Académica](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+Para una lista completa, incluyendo la supervisión de pregrado, por favor visita mi [sitio web](https://jdleongomez.info/es/team/) o mi [Hoja de Vida Académica](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
 
 ```{r supervision}
 ezpickr::pick("../data/supervision_esp_S.xlsx") %>%
