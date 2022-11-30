@@ -6,7 +6,7 @@ position: "Profesor Asociado"
 address: "Facultad de Psicología, Universidad El Bosque"
 phone: (+57) 601-6489000 Ext. 1901
 email: "jleongomez@unbosque.edu.co"
-github: JDLeongomez
+www: jdleongomez.info/es
 orcid: 0000-0002-0092-6298
 profilepic: "../images/JDL.jpg"
 aboutme: |
