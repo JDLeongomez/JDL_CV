@@ -97,7 +97,8 @@ Soy Profesor Asociado e investigador de \href{https://jdleongomez.info/es/team/}
 ```{r education}
 ezpickr::pick("../data/education_es.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Educación complementaria relevante
@@ -105,7 +106,8 @@ ezpickr::pick("../data/education_es.xlsx") %>%
 ```{r edu_comp}
 ezpickr::pick("../data/edu_comp_es.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Experiencia Laboral
@@ -113,7 +115,8 @@ ezpickr::pick("../data/edu_comp_es.xlsx") %>%
 ```{r working-experience}
 ezpickr::pick("../data/working-experience_es.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Experiencia Docente
@@ -121,7 +124,8 @@ ezpickr::pick("../data/working-experience_es.xlsx") %>%
 ```{r teaching-experience}
 ezpickr::pick("../data/teaching-experience_es.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Becas, Premios y Honores
@@ -129,7 +133,7 @@ ezpickr::pick("../data/teaching-experience_es.xlsx") %>%
 ```{r award}
 ezpickr::pick("../data/award_es.xlsx") %>%
   tidyr::fill(-c(with, where, why)) %>%
-  vitae::detailed_entries(what, when)
+  vitae::detailed_entries(what, when, where, why)
 ```
 
 # Subvenciones
@@ -137,7 +141,7 @@ ezpickr::pick("../data/award_es.xlsx") %>%
 ```{r grant}
 ezpickr::pick("../data/grant_es.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, where, why)
 ```
 
 # Publicaciones
