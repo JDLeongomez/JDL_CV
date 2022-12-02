@@ -128,8 +128,8 @@ ezpickr::pick("../data/teaching-experience_es.xlsx") %>%
 
 ```{r award}
 ezpickr::pick("../data/award_es.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  tidyr::fill(-c(with, where, why)) %>%
+  vitae::detailed_entries(what, when)
 ```
 
 # Subvenciones
@@ -203,7 +203,8 @@ ezpickr::pick("../data/grant_es.xlsx") %>%
 ```{r event}
 ezpickr::pick("../data/event_es.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Supervisión de Posgrado y Pregrado
@@ -221,16 +222,15 @@ Mi registro verificado como par académico internacional está disponible en mi 
 ```{r service}
 ezpickr::pick("../data/service_es.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Membresías
 
-## \textbf{Actualmente}
-
-  * [International Society for Human Ethology (ISHE)](https://ishe.org/)
-  
-## \textbf{Anteriormente}
-
-  * [European Human Behaviour and Evolution Association (EHBEA)](https://www.cambridge.org/core/membership/ehbea)
-  * [Association for Psychological Science (APS)](https://www.psychologicalscience.org/)
+```{r member}
+ezpickr::pick("../data/member_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
