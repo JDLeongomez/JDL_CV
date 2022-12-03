@@ -61,19 +61,19 @@ Soy Profesor Asociado e investigador de \href{https://jdleongomez.info/es/team/}
 \begin{cvskills}
   \cvskill
     {Programación}
-    {R (avanzado: todo el procesamiento de datos, análisis, diagramas y tablas -e incluso esta HV- hechas en R)}
+    {\href{https://www.r-project.org/}{\textbf{R}} (avanzado: todo el procesamiento de datos, análisis, diagramas y tablas -e incluso esta HV- hechas en R)}
 
   \cvskill
     {Informes reproducibles}
-    {Markdown/Rmarkdown (incluyendo {\fontfamily{cmr}\selectfont\LaTeX} y HTML\faHtml5)}
+    {Markdown/\href{https://rmarkdown.rstudio.com/}{R Markdown} (incluyendo código  \href{https://www.latex-project.org/}{{\fontfamily{cmr}\selectfont\LaTeX}} y \href{https://html.spec.whatwg.org/}{HTML}\faHtml5). Control de versiones con \href{https://git-scm.com/}{Git} en \href{https://github.com/JDLeongomez}{GitHub} \faGithub}
 
   \cvskill
     {Investigación Cuantitativa}
-    {Modelado estadístico, modelos de efectos mixtos, selección y promediación de modelos, \textit{Machine Learning}}
+    {Modelado estadístico, modelos de efectos mixtos, inferencia multimodelo, \textit{machine learning}}
 
   \cvskill
     {Software}
-    {RStudio, Visual Studio Code, Praat, Audacity, InkScape, Mendeley, Zotero}
+    {\href{https://posit.co/products/open-source/rstudio/}{RStudio}, \href{https://code.visualstudio.com/}{Visual Studio Code}, \href{https://www.fon.hum.uva.nl/praat/}{Praat}, \href{https://www.audacityteam.org/}{Audacity}, \href{https://inkscape.org/}{InkScape}, \href{https://www.zotero.org/}{Zotero}}
 
   \cvskill
     {Idiomas}
@@ -88,8 +88,8 @@ Soy Profesor Asociado e investigador de \href{https://jdleongomez.info/es/team/}
     {\textbf{Voz humana • Modulación vocal • Elección de pareja • Comportamiento humano}}
 
   \cvskill
-    {Métodos de Investigación Principales}
-    {Diseños experimentales • Análisis acústico • Morfometrías geométricas • Estímulos}
+    {Principales Métodos de Investigación}
+    {Diseños experimentales • Análisis acústico • Morfometría • Calificación de estímulos}
 \end{cvskills}
 
 # Educación
@@ -132,8 +132,9 @@ ezpickr::pick("../data/teaching-experience_es.xlsx") %>%
 
 ```{r award}
 ezpickr::pick("../data/award_es.xlsx") %>%
-  tidyr::fill(-c(with, where, why)) %>%
-  vitae::detailed_entries(what, when, where, why)
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Subvenciones
@@ -141,7 +142,8 @@ ezpickr::pick("../data/award_es.xlsx") %>%
 ```{r grant}
 ezpickr::pick("../data/grant_es.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Publicaciones
@@ -216,7 +218,8 @@ ezpickr::pick("../data/event_es.xlsx") %>%
 ```{r supervision}
 ezpickr::pick("../data/supervision_es.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Roles Editoriales

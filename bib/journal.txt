@@ -14,7 +14,7 @@ Jones, B. C., DeBruine, L. M., Flake, J. K., ..., Leongómez, J.D., ..., & Chart
 
 Kleisner, K., Leongómez, J.D., Pisanski, K., Fiala, V., Cornec, C., Groyecka, A., … Akoko, R. M. (2021). Predicting strength from aggressive vocalisations versus speech in African bushland and urban communities. *Philosophical Transactions of the Royal Society B: Biological Sciences, 376*, 20200403. https://doi.org/10.1098/rstb.2020.0403
 
-Kleisner, K., Tureček, P., Roberts, S. C., Havlíček, J., Valentova, J. V., Akoko, R. M., Leongómez, J. D., Apostol, S., Varella, M. A. C., & Saribay, S. A. (2021). How and Why Patterns of Sexual Dimorphism in Human Faces Vary across the World. *Scientific Reports, 11*, 5978. https://doi.org/10.1038/s41598-021-85402-3
+Kleisner, K., Tureček, P., Roberts, S. C., Havlíček, J., Valentova, J. V., Akoko, R. M., Leongómez, J.D., Apostol, S., Varella, M. A. C., & Saribay, S. A. (2021). How and Why Patterns of Sexual Dimorphism in Human Faces Vary across the World. *Scientific Reports, 11*, 5978. https://doi.org/10.1038/s41598-021-85402-3
 
 Leongómez, J.D., Pisanski, K., Reby, D., Sauter, D., Lavan, N., Perlman, M., & Varella Valentova, J. (2021). Voice modulation: From origin and mechanism to social impact. *Philosophical Transactions of the Royal Society B: Biological Sciences, 376*, 20200386. https://doi.org/10.1098/rstb.2020.0386
 
@@ -54,4 +54,4 @@ Ferdenzi, C., Lemaître, J.-F., Leongómez, J.D., & Roberts, S. C. (2011). Digit
 
 Leongómez, J.D. (2009). *Variation of pitch and loudness range of human voice in response to intra- and inter-sexual stimuli* [MSc]. University of Liverpool.
 
-Leongómez, J.D. (2008). El origen no humano de la música. *(Pensamiento), (Palabra) y Obra, 1*(1), 87–97. Ανακτήθηκε από https://revistas.pedagogica.edu.co/index.php/revistafba/article/view/50
+Leongómez, J.D. (2008). El origen no humano de la música. *(Pensamiento), (Palabra) y Obra, 1*, 87–97. https://revistas.pedagogica.edu.co/index.php/revistafba/article/view/50
