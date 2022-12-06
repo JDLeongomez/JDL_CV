@@ -61,19 +61,19 @@ I am an Associate Professor and Researcher at \href{https://jdleongomez.info/en/
 \begin{cvskills}
   \cvskill
     {Programming}
-    {R (advanced: all data wrangling, analysis, plots and tables -and even this CV- made in R)}
+    {\href{https://www.r-project.org/}{\textbf{R}} (advanced: all data wrangling, analysis, plots and tables -and even this CV- made in R)}
 
   \cvskill
     {Reproducible Reports}
-    {Markdown/Rmarkdown (including {\fontfamily{cmr}\selectfont\LaTeX} and HTML\faHtml5)}
+    {Markdown/\href{https://rmarkdown.rstudio.com/}{R Markdown} (including {\fontfamily{cmr}\selectfont\LaTeX} and HTML\faHtml5). Version control with \href{https://git-scm.com/}{Git} in \href{https://github.com/JDLeongomez}{GitHub} \faGithub}
 
   \cvskill
     {Quantitative Research}
-    {General and Generalised Models, Linear Mixed-effects Models, Model selection and Averaging, Machine Learning}
+    {General and generalised models, linear mixed-effects models, multi-model inference, machine learning}
 
   \cvskill
     {Software}
-    {RStudio, Visual Studio Code, Praat, Audacity, InkScape, Mendeley, Zotero}
+    {\href{https://posit.co/products/open-source/rstudio/}{RStudio}, \href{https://code.visualstudio.com/}{Visual Studio Code}, \href{https://www.fon.hum.uva.nl/praat/}{Praat}, \href{https://www.audacityteam.org/}{Audacity}, \href{https://inkscape.org/}{InkScape}, \href{https://www.zotero.org/}{Zotero}}
 
   \cvskill
     {Languages}
@@ -85,7 +85,8 @@ I am an Associate Professor and Researcher at \href{https://jdleongomez.info/en/
 ```{r education}
 ezpickr::pick("../data/education_eng_S.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Working and Teaching Experience
@@ -95,7 +96,8 @@ For a full list, and a description of responsibilities, please check [my website
 ```{r working-experience}
 ezpickr::pick("../data/working-experience_eng_S.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Accomplishments
@@ -133,7 +135,8 @@ For a full list, including undergraduate supervision, please check [my website](
 ```{r supervision}
 ezpickr::pick("../data/supervision_eng_S.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Editorial Appointments

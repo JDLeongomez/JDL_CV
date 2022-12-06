@@ -61,19 +61,19 @@ Soy Profesor Asociado e investigador de \href{https://jdleongomez.info/es/team/}
 \begin{cvskills}
   \cvskill
     {Programación}
-    {R (avanzado: todo el procesamiento de datos, análisis, diagramas y tablas -e incluso esta HV- hechas en R)}
+    {\href{https://www.r-project.org/}{\textbf{R}} (avanzado: todo el procesamiento de datos, análisis, diagramas y tablas -e incluso esta HV- hechas en R)}
 
   \cvskill
     {Informes reproducibles}
-    {Markdown/Rmarkdown (incluyendo {\fontfamily{cmr}\selectfont\LaTeX} y HTML\faHtml5)}
+    {Markdown/\href{https://rmarkdown.rstudio.com/}{R Markdown} (incluyendo código  \href{https://www.latex-project.org/}{{\fontfamily{cmr}\selectfont\LaTeX}} y \href{https://html.spec.whatwg.org/}{HTML}\faHtml5). Control de versiones con \href{https://git-scm.com/}{Git} en \href{https://github.com/JDLeongomez}{GitHub} \faGithub}
 
   \cvskill
     {Investigación Cuantitativa}
-    {Modelado estadístico, modelos de efectos mixtos, selección y promediación de modelos, \textit{Machine Learning}}
+    {Modelado estadístico, modelos de efectos mixtos, inferencia multimodelo, \textit{machine learning}}
 
   \cvskill
     {Software}
-    {RStudio, Visual Studio Code, Praat, Audacity, InkScape, Mendeley, Zotero}
+    {\href{https://posit.co/products/open-source/rstudio/}{RStudio}, \href{https://code.visualstudio.com/}{Visual Studio Code}, \href{https://www.fon.hum.uva.nl/praat/}{Praat}, \href{https://www.audacityteam.org/}{Audacity}, \href{https://inkscape.org/}{InkScape}, \href{https://www.zotero.org/}{Zotero}}
 
   \cvskill
     {Idiomas}
@@ -85,17 +85,19 @@ Soy Profesor Asociado e investigador de \href{https://jdleongomez.info/es/team/}
 ```{r education}
 ezpickr::pick("../data/education_esp_S.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Experiencia laboral y docente
 
-Para una lista completa y descripción de responsabilidades, por favor consulta mi [sitio web](https://jdleongomez.info/es/profile/#experience) o mi [Hoja de Vida Académica](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+Para una lista completa y descripción detallada, por favor consulta mi [sitio web](https://jdleongomez.info/es/profile/#experience) o mi [Hoja de Vida Académica](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
 
 ```{r working-experience}
 ezpickr::pick("../data/working-experience_esp_S.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Logros
@@ -133,7 +135,8 @@ Para una lista completa, incluyendo la supervisión de pregrado, por favor visit
 ```{r supervision}
 ezpickr::pick("../data/supervision_esp_S.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Roles Editoriales
