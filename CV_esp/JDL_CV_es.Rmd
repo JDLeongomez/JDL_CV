@@ -213,21 +213,21 @@ ezpickr::pick("../data/event_es.xlsx") %>%
                           .protect = FALSE)
 ```
 
-# Supervisión de Posgrado y Pregrado
-
-```{r supervision}
-ezpickr::pick("../data/supervision_es.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
-```
-
 # Roles Editoriales
 
 Mi registro verificado como par académico internacional está disponible en mi perfil de [Web of Science](https://www.webofscience.com/wos/author/record/387716).
 
 ```{r service}
 ezpickr::pick("../data/service_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+# Supervisión de Posgrado y Pregrado
+
+```{r supervision}
+ezpickr::pick("../data/supervision_es.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)

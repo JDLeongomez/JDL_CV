@@ -61,19 +61,19 @@ I am an Associate Professor and Researcher at \href{https://jdleongomez.info/en/
 \begin{cvskills}
   \cvskill
     {Programming}
-    {R (advanced: all data wrangling, analysis, plots and tables -and even this CV- made in R)}
+    {\href{https://www.r-project.org/}{\textbf{R}} (advanced: all data wrangling, analysis, plots and tables -and even this CV- made in R)}
 
   \cvskill
     {Reproducible Reports}
-    {Markdown/Rmarkdown (including {\fontfamily{cmr}\selectfont\LaTeX} and HTML\faHtml5)}
+    {Markdown/\href{https://rmarkdown.rstudio.com/}{R Markdown} (including {\fontfamily{cmr}\selectfont\LaTeX} and HTML\faHtml5). Version control with \href{https://git-scm.com/}{Git} in \href{https://github.com/JDLeongomez}{GitHub} \faGithub}
 
   \cvskill
     {Quantitative Research}
-    {General and Generalised Models, Linear Mixed-effects Models, Model selection and Averaging, Machine Learning}
+    {General and generalised models, linear mixed-effects models, multi-model inference, machine learning}
 
   \cvskill
     {Software}
-    {RStudio, Visual Studio Code, Praat, Audacity, InkScape, Mendeley, Zotero}
+    {\href{https://posit.co/products/open-source/rstudio/}{RStudio}, \href{https://code.visualstudio.com/}{Visual Studio Code}, \href{https://www.fon.hum.uva.nl/praat/}{Praat}, \href{https://www.audacityteam.org/}{Audacity}, \href{https://inkscape.org/}{InkScape}, \href{https://www.zotero.org/}{Zotero}}
 
   \cvskill
     {Languages}
@@ -97,7 +97,8 @@ I am an Associate Professor and Researcher at \href{https://jdleongomez.info/en/
 ```{r education}
 ezpickr::pick("../data/education_en.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Relevant further education
@@ -105,7 +106,8 @@ ezpickr::pick("../data/education_en.xlsx") %>%
 ```{r edu_comp}
 ezpickr::pick("../data/edu_comp_en.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Working Experience
@@ -113,7 +115,8 @@ ezpickr::pick("../data/edu_comp_en.xlsx") %>%
 ```{r working-experience}
 ezpickr::pick("../data/working-experience_en.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Teaching Experience
@@ -121,7 +124,8 @@ ezpickr::pick("../data/working-experience_en.xlsx") %>%
 ```{r teaching-experience}
 ezpickr::pick("../data/teaching-experience_en.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Scholarships, Awards and Honors
@@ -129,7 +133,8 @@ ezpickr::pick("../data/teaching-experience_en.xlsx") %>%
 ```{r award}
 ezpickr::pick("../data/award_en.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Grants
@@ -137,7 +142,8 @@ ezpickr::pick("../data/award_en.xlsx") %>%
 ```{r grant}
 ezpickr::pick("../data/grant_en.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Publications
@@ -203,15 +209,8 @@ ezpickr::pick("../data/grant_en.xlsx") %>%
 ```{r event}
 ezpickr::pick("../data/event_en.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
-```
-
-# Postgraduate and undergraduate Supervision
-
-```{r supervision}
-ezpickr::pick("../data/supervision_en.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Editorial Appointments
@@ -221,16 +220,24 @@ My verified review record is available from my [Web of Science](https://www.webo
 ```{r service}
 ezpickr::pick("../data/service_en.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+# Postgraduate and undergraduate Supervision
+
+```{r supervision}
+ezpickr::pick("../data/supervision_en.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```
 
 # Memberships
 
-## \textbf{Current}
-
-  * [International Society for Human Ethology (ISHE)](https://ishe.org/)
-
-## \textbf{Past}
-
-  * [European Human Behaviour and Evolution Association (EHBEA)](https://www.cambridge.org/core/membership/ehbea)
-  * [Association for Psychological Science (APS)](https://www.psychologicalscience.org/)
+```{r member}
+ezpickr::pick("../data/member_en.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
