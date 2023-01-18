@@ -70,6 +70,8 @@
 \RequirePackage[quiet]{fontspec}
 % To support LaTeX quoting style
 \defaultfontfeatures{Ligatures=TeX}
+% Change to Spanish
+\usepackage[spanish]{babel}
 % Needed to manage math fonts
 \RequirePackage{unicode-math}
 % Needed to use icons from font-awesome
