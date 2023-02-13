@@ -224,10 +224,21 @@ ezpickr::pick("../data/service_es.xlsx") %>%
                           .protect = FALSE)
 ```
 
-# Supervisión de Posgrado y Pregrado
+# Supervisión
 
-```{r supervision}
-ezpickr::pick("../data/supervision_es.xlsx") %>%
+##  \textbf{Posgrado}
+
+```{r supervision-pos}
+ezpickr::pick("../data/supervision_pos_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+##  \textbf{Pregrado}
+
+```{r supervision-pre}
+ezpickr::pick("../data/supervision_pre_es.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
