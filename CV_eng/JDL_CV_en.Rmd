@@ -224,10 +224,25 @@ ezpickr::pick("../data/service_en.xlsx") %>%
                           .protect = FALSE)
 ```
 
-# Postgraduate and undergraduate Supervision
+# Research Supervision
+
+##  \textbf{Postgraduate}
+
+The Faculty of Psychology at Universidad El Bosque does not offer research degrees, and all M-level courses are professional masters. Because of this, opportunities to supervise postgraduate students are limited, and most of my postgraduate supervision has been external.
 
 ```{r supervision}
-ezpickr::pick("../data/supervision_en.xlsx") %>%
+ezpickr::pick("../data/supervision_pos_en.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+##  \textbf{Undergraduate}
+
+The supervised undergraduate students listed below come from different universities and academic programmes. This list only includes students for whom I was the main supervisor or who were awarded honours degrees. Additionally, I am supervising six students as a principal supervisor, and have supervised over 25 students as a co-supervisor.
+
+```{r supervision-pre}
+ezpickr::pick("../data/supervision_pre_en.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
