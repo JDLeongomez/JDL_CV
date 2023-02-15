@@ -239,7 +239,7 @@ ezpickr::pick("../data/supervision_pos_en.xlsx") %>%
 
 ##  \textbf{Undergraduate}
 
-The supervised undergraduate students listed below come from different universities and academic programmes. This list only includes students for whom I was the main supervisor or who were awarded honours degrees. Additionally, I am supervising six students as a principal supervisor, and have supervised over 25 students as a co-supervisor.
+The supervised undergraduate students listed below come from different universities and academic programmes. This list only includes students for whom I was the main supervisor or who were awarded honours degrees. Additionally, I am currently supervising six students as a principal supervisor, and have supervised over 25 students as a co-supervisor.
 
 ```{r supervision-pre}
 ezpickr::pick("../data/supervision_pre_en.xlsx") %>%
