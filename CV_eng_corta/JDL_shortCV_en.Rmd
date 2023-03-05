@@ -117,7 +117,7 @@ For a full list, please check the publications section on [my website](https://j
 \endgroup
 
 \begin{footnotesize}
-\textbf{Note:} I am the/a corresponding author in all these publications
+\textbf{Note:} Corresponding author in all the publications listed in this section.
 \end{footnotesize}
 
 # Investigación Abierta (YouTube channel)

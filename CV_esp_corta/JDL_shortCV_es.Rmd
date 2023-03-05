@@ -117,7 +117,7 @@ Para una lista completa, por favor visita la sección de publicaciones en mi [si
 \endgroup
 
 \begin{footnotesize}
-\textbf{Nota:} Soy el/un autor de correspondencia en todas estas publicaciones
+\textbf{Nota:} Autor de correspondencia en todas las publicaciones listadas en esta sección.
 \end{footnotesize}
 
 # Investigación Abierta (canal de YouTube)

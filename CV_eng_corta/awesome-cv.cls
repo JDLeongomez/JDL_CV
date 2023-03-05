@@ -478,61 +478,61 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{http://\@homepage}{\faHome\acvHeaderIconSep\@homepage}%
+          \faHome\acvHeaderIconSep\href{http://\@homepage}{\@homepage}%
         }%
       \ifthenelse{\isundefined{\@orcid}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://orcid.org/\@orcid}{\aiOrcidSquare\acvHeaderIconSep\@orcid}%
+          \aiOrcid\acvHeaderIconSep\href{https://orcid.org/\@orcid}{\@orcid}%
         }%
       \ifthenelse{\isundefined{\@publons}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://publons.com/researcher/\@publons}{\aiPublonsSquare\acvHeaderIconSep\@publons}%
+          \aiPublonsSquare\acvHeaderIconSep\href{https://publons.com/researcher/\@publons}{\@publons}%
         }%
       \ifthenelse{\isundefined{\@googlescholar}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://scholar.google.com/citations?user=\@googlescholar}{\aiGoogleScholarSquare\acvHeaderIconSep\@googlescholar}%
+          \aiGoogleScholarSquare\acvHeaderIconSep\href{https://scholar.google.com/citations?user=\@googlescholar}{\@googlescholar}%
         }%
       \ifthenelse{\isundefined{\@researchgate}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://www.researchgate.net/profile/\@researchgate}{\aiResearchGateSquare\acvHeaderIconSep\@researchgate}%
+          \aiResearchGateSquare\acvHeaderIconSep\href{https://www.researchgate.net/profile/\@researchgate}{\@researchgate}%
         }%
       \ifthenelse{\isundefined{\@github}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://github.com/\@github}{\faGithubSquare\acvHeaderIconSep\@github}%
+          \faGithubSquare\acvHeaderIconSep\href{https://github.com/\@github}{\@github}%
         }%
       \ifthenelse{\isundefined{\@gitlab}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://gitlab.com/\@gitlab}{\faGitlab\acvHeaderIconSep\@gitlab}%
+          \faGitlab\acvHeaderIconSep\href{https://gitlab.com/\@gitlab}{\@gitlab}%
         }%
       \ifthenelse{\isundefined{\@stackoverflowid}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://stackoverflow.com/users/\@stackoverflowid}{\faStackOverflow\acvHeaderIconSep\@stackoverflowname}%
+          \faStackOverflow\acvHeaderIconSep\href{https://stackoverflow.com/users/\@stackoverflowid}{\@stackoverflowname}%
         }%
       \ifthenelse{\isundefined{\@linkedin}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedinSquare\acvHeaderIconSep\@linkedin}%
+          \faLinkedinSquare\acvHeaderIconSep\href{https://www.linkedin.com/in/\@linkedin}{\@linkedin}%
         }%
       \ifthenelse{\isundefined{\@twitter}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://twitter.com/\@twitter}{\faTwitter\acvHeaderIconSep\@twitter}%
+          \faTwitter\acvHeaderIconSep\href{https://twitter.com/\@twitter}{\@twitter}%
         }%
       \ifthenelse{\isundefined{\@skype}}%
         {}%
@@ -544,13 +544,13 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://www.reddit.com/user/\@reddit}{\faReddit\acvHeaderIconSep\@reddit}%
+          \faReddit\acvHeaderIconSep\href{https://www.reddit.com/user/\@reddit}{\@reddit}%
         }%
       \ifthenelse{\isundefined{\@xing}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://www.xing.com/profile/\@xing}{\faXingSquare\acvHeaderIconSep\@xing}
+          \faXingSquare\acvHeaderIconSep\href{https://www.xing.com/profile/\@xing}{\@xing}
         }%
       \ifthenelse{\isundefined{\@extrainfo}}%
         {}%

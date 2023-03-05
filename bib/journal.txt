@@ -1,3 +1,5 @@
+Terry, J., Ross, R. M., Nagy, T., ..., Leongómez, J.D., ..., & Field, A. P. (in press). Data from an International Multi-Centre Study of Statistics and Mathematics Anxieties and Related Variables in University Students (the SMARVUS Dataset). *Journal of Open Psychology Data*. https://doi.org/10.31234/osf.io/au9vp
+
 Vásquez-Amézquita, M., Leongómez, J.D., Salvador, A., & Seto, M. C. (in press). What can the eyes tell us about atypical sexual preferences as a function of sex and age? Linking eye movements with child-related chronophilias. *Forensic Sciences Research*. https://jdleongomez.info/en/files/eye-tracking_review.pdf
 
 Leongómez, J.D., Havlíček, J., & Roberts, S. C. (2022). Musicality in Human Vocal Communication: An Evolutionary Perspective. *Philosophical Transactions of the Royal Society B: Biological Sciences, 377*, 20200391. https://doi.org/10.1098/rstb.2020.0391
