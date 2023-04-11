@@ -1,9 +1,9 @@
-Leongómez, J.D. [Investigación Abierta]. (2021). *Hacer meta-análisis en jamovi es muy fácil* [Video]. Youtube. https://jdleongomez.info/en/post/meta/
+Leongómez, J.D. [Investigación Abierta]. (2021). *Hacer meta-análisis en jamovi es muy fácil* [Video]. YouTube. https://jdleongomez.info/en/post/meta/
 
-Leongómez, J.D. [Investigación Abierta]. (2020). *Poder estadístico y tamaño de muestra en R* [3 Videos]. Youtube. https://jdleongomez.info/en/post/power/
+Leongómez, J.D. [Investigación Abierta]. (2020). *Poder estadístico y tamaño de muestra en R* [3 Videos]. YouTube. https://jdleongomez.info/en/post/power/
 
-Leongómez, J.D. [Investigación Abierta]. (2020). *¿Qué es un valor p? Te lo puedo mostrar gráficamente y con simulaciones* [Video]. Youtube. https://jdleongomez.info/en/post/pvalue/
+Leongómez, J.D. [Investigación Abierta]. (2020). *¿Qué es un valor p? Te lo puedo mostrar gráficamente y con simulaciones* [Video]. YouTube. https://jdleongomez.info/en/post/pvalue/
 
-Leongómez, J.D. [Investigación Abierta]. (2020). *Introducción a jamovi* [Video]. Youtube. https://jdleongomez.info/en/post/jamovi/
+Leongómez, J.D. [Investigación Abierta]. (2020). *Introducción a jamovi* [Video]. YouTube. https://jdleongomez.info/en/post/jamovi/
 
-Leongómez, J.D. [Investigación Abierta]. (2020). *Introducción a OBS Studio* [2 Videos]. Youtube. https://jdleongomez.info/en/post/obs/
+Leongómez, J.D. [Investigación Abierta]. (2020). *Introducción a OBS Studio* [2 Videos]. YouTube. https://jdleongomez.info/en/post/obs/
