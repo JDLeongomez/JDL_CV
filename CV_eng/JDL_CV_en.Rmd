@@ -151,6 +151,7 @@ ezpickr::pick("../data/grant_en.xlsx") %>%
 ## \textbf{Published Journal Articles and Works}
 
 \begingroup
+\footnotesize
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
@@ -161,6 +162,7 @@ ezpickr::pick("../data/grant_en.xlsx") %>%
 ## \textbf{Preprints and Articles under Review}
 
 \begingroup
+\footnotesize
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
@@ -171,6 +173,7 @@ ezpickr::pick("../data/grant_en.xlsx") %>%
 ## \textbf{Science outreach}
 
 \begingroup
+\footnotesize
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
@@ -187,6 +190,7 @@ ezpickr::pick("../data/grant_en.xlsx") %>%
 \end{minipage}
 
 \begingroup
+\footnotesize
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
@@ -197,6 +201,7 @@ ezpickr::pick("../data/grant_en.xlsx") %>%
 # Conference Presentations, Posters and Workshops
 
 \begingroup
+\footnotesize
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
@@ -215,7 +220,9 @@ ezpickr::pick("../data/event_en.xlsx") %>%
 
 # Editorial Appointments
 
-My verified review record is available from my [Web of Science](https://www.webofscience.com/wos/author/record/387716) profile. 
+\begin{small}
+\textbf{Note:} My verified review and editor record is available from my \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science} profile. 
+\end{small}
 
 ```{r service}
 ezpickr::pick("../data/service_en.xlsx") %>%

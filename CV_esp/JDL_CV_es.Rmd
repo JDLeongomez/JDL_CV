@@ -151,6 +151,7 @@ ezpickr::pick("../data/grant_es.xlsx") %>%
 ## \textbf{Artículos y Trabajos Publicados}
 
 \begingroup
+\footnotesize
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
@@ -161,6 +162,7 @@ ezpickr::pick("../data/grant_es.xlsx") %>%
 ## \textbf{\textit{Preprints} y Artículos en Revisión}
 
 \begingroup
+\footnotesize
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
@@ -171,6 +173,7 @@ ezpickr::pick("../data/grant_es.xlsx") %>%
 ## \textbf{Articulos de Divulgacion}
 
 \begingroup
+\footnotesize
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
@@ -187,6 +190,7 @@ ezpickr::pick("../data/grant_es.xlsx") %>%
 \end{minipage}
 
 \begingroup
+\footnotesize
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
@@ -197,6 +201,7 @@ ezpickr::pick("../data/grant_es.xlsx") %>%
 # Presentaciones en Conferencias, Pósters y Talleress
 
 \begingroup
+\footnotesize
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
@@ -215,7 +220,9 @@ ezpickr::pick("../data/event_es.xlsx") %>%
 
 # Roles Editoriales
 
-Mi registro verificado como par académico internacional está disponible en mi perfil de [Web of Science](https://www.webofscience.com/wos/author/record/387716).
+\begin{small}
+\textbf{Nota:} Mi registro verificado como par académico y editos internacional está disponible en mi perfil de \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science}.
+\end{small}
 
 ```{r service}
 ezpickr::pick("../data/service_es.xlsx") %>%
