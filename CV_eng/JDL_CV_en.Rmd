@@ -198,6 +198,23 @@ ezpickr::pick("../data/grant_en.xlsx") %>%
 
 \endgroup
 
+# Shiny Apps
+
+\begin{minipage}[c]{0.10\linewidth}
+\href{https://jdleongomez.info/en/#shiny}{\includegraphics[width=1.5cm, height=1.74cm]{shiny_hex.png}}
+\end{minipage} \begin{minipage}[c]{0.90\linewidth}
+I have created a few, small public apps with \href{https://shiny.posit.co/}{Shiny} in R, mostly for fun. While I am still learning, in this section there are some examples.
+\end{minipage} 
+
+\begingroup
+\footnotesize
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/Shiny_en.txt")`
+
+\endgroup
+
 # Conference Presentations, Posters and Workshops
 
 \begingroup
