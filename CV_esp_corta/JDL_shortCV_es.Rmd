@@ -48,11 +48,11 @@ lapply(packages, library, character.only = TRUE) %>%
 
 # Acerca de mí
 
-\begin{minipage}[c]{0.85\linewidth}
-Soy Profesor Asociado e investigador de \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}}, y lider del grupo de investigación \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificación  \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}),  \href{https://www.uelbosque.edu.co/psicologia}{Facultad de Psicología}, \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} en Bogotá, Colombia. Mis intereses de investigación se centran principalmente en la elección de pareja, la comunicación vocal humana y la musicalidad, así como en la bioacústica, la psicoacústica y los efectos hormonales en el comportamiento humano. Publiqué uno de los primeros artículos que muestran los cambios en el tono de la voz en respuesta al estatus social del oyente, y he demostrado los fuertes efectos de la modulación de la voz en los oyentes en contextos de cortejo. Me apasionan los métodos cuantitativos y la programación en \textbf{R}, como herramienta para promover la reproducibilidad y la ciencia abierta. Por esto, soy \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (editor) de \href{https://rr.peercommunityin.org/}{PCI Registered Reports}.
-\end{minipage} \begin{minipage}[c]{0.15\linewidth}
+\begin{minipage}[c]{0.9\linewidth}
+Soy Profesor Asociado e investigador de \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}}, y lider del grupo de investigación \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificación  \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}),  \href{https://www.uelbosque.edu.co/psicologia}{Facultad de Psicología}, \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} en Bogotá, Colombia. Mis intereses de investigación se centran principalmente en la elección de pareja, la comunicación vocal humana y la musicalidad, así como en la bioacústica, la psicoacústica y los efectos hormonales en el comportamiento humano. Me apasionan los métodos cuantitativos y la programación en \textbf{R}, como herramienta para promover la reproducibilidad y la ciencia abierta.
+\end{minipage} \begin{minipage}[c]{0.1\linewidth}
 \begin{flushright} 
-\hfill \href{https://jdleongomez.info/es/team/}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_EvoCo.png}} \newline \href{https://investigaciones.unbosque.edu.co/codec}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_CODEC.png}}
+\hfill \href{https://jdleongomez.info/es/team/}{\includegraphics[width=1.5cm, height=1.5cm]{Logo_EvoCo.png}} \newline \href{https://investigaciones.unbosque.edu.co/codec}{\includegraphics[width=1.5cm, height=1.5cm]{Logo_CODEC.png}}
 \end{flushright}
 \end{minipage}
 
@@ -127,6 +127,14 @@ Para una lista completa, por favor visita la sección de publicaciones en mi [si
 \end{minipage} \begin{minipage}[c]{0.85\linewidth}
 \textcolor{red}{\faYoutube} \href{https://www.youtube.com/@InvestigacionAbierta}{Investigación Abierta} es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas prácticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
 \end{minipage}
+
+# Shiny Apps
+
+\begin{minipage}[c]{0.10\linewidth}
+\href{https://jdleongomez.info/es/#shiny}{\includegraphics[width=1.5cm, height=1.74cm]{shiny_hex.png}}
+\end{minipage} \begin{minipage}[c]{0.90\linewidth}
+He creado algunas, pequeñas aplicaciones públicas con \href{https://shiny.posit.co/}{Shiny} en R, sobre todo por diversión o para ilustrar conceptos estadísticos. Para una lista, por favor visita mi \href{https://jdleongomez.info/es/#shiny}{sitio web}.
+\end{minipage} 
 
 # Supervisión de Posgrado
 
