@@ -61,7 +61,7 @@ Soy Profesor Asociado e investigador de \href{https://jdleongomez.info/es/team/}
 \begin{cvskills}
   \cvskill
     {Programación}
-    {\href{https://www.r-project.org/}{\textbf{R}} (avanzado: todo el procesamiento de datos, análisis, diagramas y tablas -e incluso esta HV- hechas en R)}
+    {\href{https://www.r-project.org/}{\textbf{R}} (avanzado: todo el procesamiento de datos, análisis, diagramas y tablas —e incluso esta HV— hechos en R)}
 
   \cvskill
     {Informes reproducibles}

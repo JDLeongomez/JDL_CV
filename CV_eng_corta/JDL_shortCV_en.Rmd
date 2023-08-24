@@ -61,7 +61,7 @@ I am an Associate Professor and Researcher at \href{https://jdleongomez.info/en/
 \begin{cvskills}
   \cvskill
     {Programming}
-    {\href{https://www.r-project.org/}{\textbf{R}} (advanced: all data wrangling, analysis, plots and tables -and even this CV- made in R)}
+    {\href{https://www.r-project.org/}{\textbf{R}} (advanced: all data wrangling, analysis, plots and tables —and even this CV— made in R)}
 
   \cvskill
     {Reproducible Reports}
