@@ -4,6 +4,6 @@ Leongómez, J.D. [Investigación Abierta]. (2020). *Poder estadístico y tamaño
 
 Leongómez, J.D. [Investigación Abierta]. (2020). *¿Qué es un valor p? Te lo puedo mostrar gráficamente y con simulaciones [What is a p-value? I can show you graphically]* [Video]. YouTube. https://jdleongomez.info/en/post/pvalue/
 
-Leongómez, J.D. [Investigación Abierta]. (2020). *Introducción a jamovi [Introduction to jamovi]* [Video]. YouTube. https://jdleongomez.info/en/post/jamovi/
+Leongómez, J.D. [Investigación Abierta]. (2020). *Introducción a jamovi [Introduction to jamovi]* [2 Videos]. YouTube. https://jdleongomez.info/en/post/jamovi/
 
-Leongómez, J.D. [Investigación Abierta]. (2020). *Introducción a OBS Studio [Introduction to OBS Studio]* [2 Videos]. YouTube. https://jdleongomez.info/en/post/obs/
+Leongómez, J.D. [Investigación Abierta]. (2020). *Introducción a OBS Studio [Introduction to OBS Studio]* [Video]. YouTube. https://jdleongomez.info/en/post/obs/
