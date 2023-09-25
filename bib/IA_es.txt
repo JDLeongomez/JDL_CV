@@ -1,3 +1,5 @@
+Leongómez, J.D. [Investigación Abierta]. (2023). *Meta-análisis de correlaciones en R* [Video]. YouTube. https://jdleongomez.info/en/post/meta_corr_r/
+
 Leongómez, J.D. [Investigación Abierta]. (2021). *Hacer meta-análisis en jamovi es muy fácil* [Video]. YouTube. https://jdleongomez.info/en/post/meta/
 
 Leongómez, J.D. [Investigación Abierta]. (2020). *Poder estadístico y tamaño de muestra en R* [3 Videos]. YouTube. https://jdleongomez.info/en/post/power/
