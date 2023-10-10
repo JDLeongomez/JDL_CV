@@ -148,6 +148,42 @@ ezpickr::pick("../data/grant_es.xlsx") %>%
 
 # Publicaciones
 
+```{r scholar, echo = FALSE}
+profile <- get_profile("8Q0jKHsAAAAJ")
+pubs <- get_publications("8Q0jKHsAAAAJ")
+
+h_index <- profile$h_index
+g_index <- max(which(as.numeric(row.names(pubs))^2 < cumsum(pubs$cites)))
+i10_index <- profile$i10_index
+pubs_num <- dim(pubs)[1]
+citSum <- profile$total_cites
+```
+
+\begin{tcolorbox}[enhanced,
+        on line, 
+        boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+        colframe=white,colback=teal,
+        hyperurl=https://scholar.google.com/citations?user=8Q0jKHsAAAAJ]
+  
+\color{white}
+\begin{minipage}[c]{0.195\linewidth}
+  \begin{center} \begin{huge} `r h_index` \end{huge}
+  \begin{small} Índice \textit{h} \end{small} \end{center} 
+\end{minipage} \begin{minipage}[c]{0.195\linewidth}
+  \begin{center} \begin{huge} `r g_index` \end{huge}
+  \begin{small} Índice \textit{g} \end{small} \end{center}
+\end{minipage} \begin{minipage}[c]{0.195\linewidth}
+  \begin{center} \begin{huge} `r i10_index` \end{huge}
+  \begin{small} Índice i10 \end{small} \end{center}
+\end{minipage} \begin{minipage}[c]{0.195\linewidth}
+  \begin{center} \begin{huge} `r pubs_num` \end{huge}
+  \begin{small} Publicaciones \end{small} \end{center}
+\end{minipage} \begin{minipage}[c]{0.195\linewidth}  
+  \begin{center} \begin{huge} `r citSum` \end{huge} 
+  \begin{small} Citas \end{small} \end{center}
+\end{minipage}
+\end{tcolorbox}
+
 ## \textbf{Artículos y Trabajos Publicados}
 
 \begingroup
