@@ -121,7 +121,7 @@ citSum <- profile$total_cites
         on line, 
         boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
         colframe=white,colback=teal,
-        hyperurl=https://scholar.google.com/citations?user=8Q0jKHsAAAAJ]
+        hyperurl={https://scholar.google.com/citations?user=8Q0jKHsAAAAJ}]
   
 \color{white}
 \begin{minipage}[c]{0.195\linewidth}
