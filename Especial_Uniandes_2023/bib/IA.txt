@@ -1,0 +1,13 @@
+Leongómez, J.D. [Investigación Abierta]. (2023). *Meta-análisis de correlaciones en R* [Video]. YouTube. https://www.youtube.com/watch?v=RNw92QdsW4g
+
+Leongómez, J.D. [Investigación Abierta]. (2022). *Ciencia abierta: necesidad, principios e iniciativas* [Video]. YouTube. hhttps://www.youtube.com/watch?v=Fl98MoBqSaI
+
+Leongómez, J.D. [Investigación Abierta]. (2021). *Hacer meta-análisis en jamovi es muy fácil* [Video]. YouTube. https://www.youtube.com/watch?v=ntBbkOn9D_o
+
+Leongómez, J.D. [Investigación Abierta]. (2020). *Poder estadístico y tamaño de muestra en R* [3 Videos]. YouTube. https://www.youtube.com/playlist?list=PLHk7UNt35ccVdyHqnQ6oXVYA6JBNFrE1x
+
+Leongómez, J.D. [Investigación Abierta]. (2020). *¿Qué es un valor p? Te lo puedo mostrar gráficamente y con simulaciones* [Video]. YouTube. https://www.youtube.com/watch?v=X0At_roDnHc
+
+Leongómez, J.D. [Investigación Abierta]. (2020). *Introducción a jamovi* [2 Videos]. YouTube. https://www.youtube.com/playlist?list=PLHk7UNt35ccXX4I61PiVMOf9VkijgaJN8
+
+Leongómez, J.D. [Investigación Abierta]. (2020). *Cómo grabar clases y tutoriales usando OBS Studio* [Video]. YouTube. https://www.youtube.com/watch?v=05f77YdTb1E

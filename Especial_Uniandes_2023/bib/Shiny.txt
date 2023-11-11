@@ -1,0 +1,11 @@
+**Leongómez, J. D.** (2023). *PowerSimulate* [Colección de aplicaciones]. [https://shiny.jdl-svr.lat/PowerSimulate/](https://shiny.jdl-svr.lat/PowerSimulate/)
+
+**Leongómez, J. D.** (2023). *PowerSimulate: Correlación* [Software]. [https://shiny.jdl-svr.lat/PowerSimulate_corr_ES/](https://shiny.jdl-svr.lat/PowerSimulate_corr_ES/) (Versión en inglés: [https://shiny.jdl-svr.lat/PowerSimulate_corr_EN/](https://shiny.jdl-svr.lat/PowerSimulate_corr_EN/))
+
+**Leongómez, J. D.** (2023). *PowerSimulate: Prueba t independiente* [Software]. [https://shiny.jdl-svr.lat/PowerSimulate_ind_t_ES/](https://shiny.jdl-svr.lat/PowerSimulate_ind_t_ES/) (Versión en inglés: [https://shiny.jdl-svr.lat/PowerSimulate_ind_t_EN/](https://shiny.jdl-svr.lat/PowerSimulate_ind_t_EN/))
+
+**Leongómez, J. D.** (2023). *PowerSimulate: Prueba t pareada* [Software]. [https://shiny.jdl-svr.lat/PowerSimulate_pair_t_ES/](https://shiny.jdl-svr.lat/PowerSimulate_pair_t_ES/) (Versión en inglés: [https://shiny.jdl-svr.lat/PowerSimulate_pair_t_EN/](https://shiny.jdl-svr.lat/PowerSimulate_pair_t_EN/))
+
+**Leongómez, J. D.** (2023). ***ScolarlyOutput**: Crea y exporta un gráfico completo de tu perfil de Google académico* (Versión 1.0.0) [Software]. [https://doi.org/10.5281/zenodo.8060475](https://shiny.jdl-svr.lat/ScholarlyOutput/) (Versión en español: [https://shiny.jdl-svr.lat/ScholarlyOutput_ES/](https://shiny.jdl-svr.lat/ScholarlyOutput_ES/); Versión en inglés: [https://shiny.jdl-svr.lat/ScholarlyOutput/](https://shiny.jdl-svr.lat/ScholarlyOutput/))
+
+**Leongómez, J. D.** (2021). ***ProbDnD**: Probabilidad de obtener un valor en DnD, combinando múltiples dados y un modificador* [Software]. [https://github.com/JDLeongomez/ProbDnD]() (Versión en español: [https://shiny.jdl-svr.lat/ProbDnD/](https://shiny.jdl-svr.lat/ProbDnD/); Versión en inglés: [https://shiny.jdl-svr.lat/ProbDnD_EN/](https://shiny.jdl-svr.lat/ProbDnD_EN/))

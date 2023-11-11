@@ -1,0 +1,365 @@
+---
+graphics: yes
+name: Juan David
+surname: Leongómez Peña
+position: "PhD · MSc"
+phone: (+57) 319 407 7102
+email: "juanleongomez@gmail.com"
+www: jdleongomez.info/es
+orcid: 0000-0002-0092-6298
+googlescholar: 8Q0jKHsAAAAJ
+aboutme: |
+  Soy un investigador interesado principalmente en el comportamiento humano desde una perspectiva transdisciplinar, así como en los métodos cuantitativos aplicados a la ciencia abierta y reproducible .
+date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d de %B de %Y')`"
+header-includes: \usepackage{multicol}
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
+headcolor: 333333
+docname: Hoja de Vida Académica
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+pkgs <- c('vitae' ,'here' ,'tinytex' ,'tibble' ,'glue' ,'rmarkdown' ,'dplyr', 'readr' ,'yaml')
+xfun::pkg_attach2(pkgs)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data sctructure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative Filepaths
+             ,'readr'     # Data Loading
+             ,'tidyverse' # Needed for bind_rows and whatever
+             ,'scholar'   # Updating publications from google scholar
+             ,'kableExtra'# Adding technicalskills table
+            )
+library(magrittr)
+# Install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
+
+# Packages loading
+lapply(packages, library, character.only = TRUE) %>%
+  invisible()
+```
+
+# Resumen
+
+\begin{footnotesize}
+
+\textbf{Sobre mí:} Actualmente soy Profesor Asociado e Investigador en \textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}, y líder del grupo de investigación  \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificación \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{A1}) de la Facultad de Psicología, Universidad El Bosque. Tengo una maestría en Psicología Evolutiva de la Universidad de Liverpool y un doctorado en psicología de la Universidad de Stirling, en el Reino Unido.
+
+\textbf{Investigación:} Mi investigación se centra en los fundamentos evolutivos del comportamiento humano, especialmente en relación con la elección de pareja y los efectos sociales de las señales vocales, con un interés específico en la evolución de la musicalidad. He publicado algunos de los primeros artículos que demuestran cambios individuales en el tono de voz en respuesta al estatus social del oyente y he demostrado fuertes efectos de la modulación de la voz en oyentes en contextos de cortejo.
+
+\underline{\textit{Edición especial sobre modulación de la voz}}: Recientemente, propuse y lideré la edición del número temático en dos partes \href{https://royalsocietypublishing.org/toc/rst%20b/376/1840}{\textit{Voice modulation: from origin and mechanism to social impact}} para la prestigiosa revista \textit{Philosophical Transactions of the Royal Society B}. Este número transdisciplinar de dos partes constituye el primer compendio de investigación sobre la modulación de la voz. Incluye artículos que abarcan las diversas funciones de la modulación de la voz en la comunicación no verbal humana y no humana, desde la señalización de la motivación y la emoción, la exageración de rasgos biológicos como el tamaño corporal y la masculinidad, hasta la aparición del canto y la musicalidad en todas las culturas.
+
+\textbf{Ciencia abierta:} Apoyo firmemente la difusión de prácticas de ciencia abierta y el uso de software y programación de código abierto como herramientas para promover la transparencia y garantizar la reproducibilidad, así como para reducir las desigualdades nacionales e internacionales en la producción y el acceso al conocimiento científico. Por ello, he sido recientemente nombrado como recomendador (editor) del novedoso modelo de \href{https://rr.peercommunityin.org/}{\textit{PCI Registered Reports}} (para más información sobre este modelo, ver \href{https://www.nature.com/articles/d41586-023-03342-6}{artículo en Nature}), y he publicado guías metodológicas en video a través del canal \href{https://www.youtube.com/@InvestigacionAbierta}{\textit{Investigación Abierta}}, así como aplicaciones web usando \textit{Shiny}. He participado activamente en la enseñanza y la transformación de módulos relacionados con la estadística, haciendo hincapié en la ciencia abierta y la reproducibilidad con y sin programación.
+
+\begin{cvskills}
+  \cvskill
+    {Intereses}
+    {Modulación de la voz • Elección de pareja • Psicoacústica • Hormonas y comportamiento • Señales biológicas}
+    
+  \cvskill
+    {}
+    {Evolución y percepción de señales}
+    
+  \cvskill
+    {Métodos de Investigación}
+    {\textit{Principalmete}: Diseños experimentales • Análisis acústico • Morfometría geométrica • Antropometría}
+
+  \cvskill
+    {Programación}
+    {\href{https://www.r-project.org/}{\textbf{R}} (avanzado: todo el procesamiento de datos, análisis, diagramas y tablas —e incluso esta HV— hechos en R)}
+
+  \cvskill
+    {Informes reproducibles}
+    {Markdown/\href{https://rmarkdown.rstudio.com/}{R Markdown} (incluyendo código  \href{https://www.latex-project.org/}{{\fontfamily{cmr}\selectfont\LaTeX}} y \href{https://html.spec.whatwg.org/}{HTML}\faHtml5). Control de versiones: \href{https://git-scm.com/}{Git} \faGit* y \href{https://github.com/JDLeongomez}{GitHub} \faGithub}
+
+  \cvskill
+    {Investigación Cuantitativa}
+    {Modelado estadístico, modelos multinivel, metaanálisis, inferencia multimodelo, \textit{machine learning}}
+
+  \cvskill
+    {Software}
+    {\href{https://posit.co/products/open-source/rstudio/}{RStudio}, \href{https://code.visualstudio.com/}{Visual Studio Code}, \href{https://www.fon.hum.uva.nl/praat/}{Praat}, \href{https://www.audacityteam.org/}{Audacity}, \href{https://inkscape.org/}{InkScape}, \href{https://www.zotero.org/}{Zotero}}
+
+  \cvskill
+    {Idiomas}
+    {Inglés/Español}
+\end{cvskills}
+
+\end{footnotesize}
+
+# Formación Académica
+
+```{r education}
+ezpickr::pick("data/education_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+## Formación complementaria relevante
+
+```{r edu_comp}
+ezpickr::pick("data/edu_comp_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+# Experiencia Profesional
+
+## Reponsabilidades
+
+```{r working-experience}
+ezpickr::pick("data/working-experience_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+## Experiencia Docente
+
+```{r teaching-experience}
+ezpickr::pick("data/teaching-experience_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+## Becas, Premios y Honores
+
+```{r award}
+ezpickr::pick("data/award_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+## Financiación
+
+```{r grant}
+ezpickr::pick("data/grant_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+## Eventos Científicos
+
+\vspace{3mm}
+\blacktriangleright\blacktriangleright\blacktriangleright\space \textbf{Organización}
+
+```{r event}
+ezpickr::pick("data/event_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+\blacktriangleright\blacktriangleright\blacktriangleright\space \textbf{Conferencias, Pósters y Talleress}
+
+\begingroup
+\footnotesize
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/poster_es.txt")`
+
+\endgroup
+
+# Asociaciones
+
+```{r member}
+ezpickr::pick("data/member_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+# Publicaciones y Roles Editoriales
+
+
+```{r scholar, echo = FALSE}
+profile <- get_profile("8Q0jKHsAAAAJ")
+pubs <- get_publications("8Q0jKHsAAAAJ")
+
+h_index <- profile$h_index
+g_index <- max(which(as.numeric(row.names(pubs))^2 < cumsum(pubs$cites)))
+i10_index <- profile$i10_index
+pubs_num <- dim(pubs)[1]
+citSum <- profile$total_cites
+```
+
+## Roles Editoriales
+
+\begin{footnotesize}
+\textbf{Nota:} Mi registro verificado como par académico y editor internacional está disponible en mi perfil de \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science}.
+\end{footnotesize}
+
+```{r service}
+ezpickr::pick("data/service_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+\vspace{-3mm}
+\begin{footnotesize}
+  \begin{minipage}[c]{0.45\linewidth}
+    • \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B: Biological Sciences} (Q1)\newline
+    • \href{https://royalsocietypublishing.org/journal/rsos}{Royal Society Open Science} (Q1)\newline
+    • \href{https://journals.plos.org/plosone/}{PLOS ONE} (Q1)\newline
+    • \href{https://royalsocietypublishing.org/journal/rsbl}{Biology Letters} (Q1)\newline
+    • \href{https://www.sciencedirect.com/journal/evolution-and-human-behavior}{Evolution and Human Behavior} (Q1)\newline
+  \end{minipage}\begin{minipage}[c]{0.32\linewidth}
+    • \href{https://www.nature.com/srep/}{Scientific Reports} (Q1)\newline
+    • \href{https://www.sciencedirect.com/journal/cortex}{Cortex} (Q1)\newline
+    • \href{https://www.springer.com/journal/10919/}{Journal of Nonverbal Behavior} (Q1)\newline
+    • \href{https://journals.sagepub.com/home/pec}{Perception} (Q1)\newline
+    • \href{https://www.tandfonline.com/journals/hbas20}{Basic and Applied Social Psychology} (Q1)\newline
+  \end{minipage}\begin{minipage}[c]{0.24\linewidth}
+    • \href{https://www.frontiersin.org/journals/psychology}{Frontiers in Psychology} (Q1)\newline
+    • \href{https://journals.sagepub.com/home/evp}{Evolutionary Psychology} (Q2)\newline
+    • \href{http://sumapsicologica.konradlorenz.edu.co/}{Suma Psicológica} (Q3)\newline
+    • \href{https://ishe.org/human-ethology/}{Human Ethology}\newline
+    • \href{https://ishe.org/human-ethology-bulletin-2006-2011/}{Human Ethology Bulletin}
+  \end{minipage}
+\end{footnotesize}
+
+## Artículos y Trabajos Publicados
+
+\begin{tcolorbox}[enhanced,
+        on line, 
+        boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+        colframe=white,colback=blue,
+        hyperurl={https://scholar.google.com/citations?user=8Q0jKHsAAAAJ}]
+  
+\color{white}
+\begin{minipage}[c]{0.195\linewidth}
+  \begin{center} \begin{huge} `r h_index` \end{huge}
+  \begin{small} Índice \textit{h} \end{small} \end{center} 
+\end{minipage} \begin{minipage}[c]{0.195\linewidth}
+  \begin{center} \begin{huge} `r g_index` \end{huge}
+  \begin{small} Índice \textit{g} \end{small} \end{center}
+\end{minipage} \begin{minipage}[c]{0.195\linewidth}
+  \begin{center} \begin{huge} `r i10_index` \end{huge}
+  \begin{small} Índice i10 \end{small} \end{center}
+\end{minipage} \begin{minipage}[c]{0.195\linewidth}
+  \begin{center} \begin{huge} `r pubs_num` \end{huge}
+  \begin{small} Publicaciones \end{small} \end{center}
+\end{minipage} \begin{minipage}[c]{0.195\linewidth}  
+  \begin{center} \begin{huge} `r citSum` \end{huge} 
+  \begin{small} Citas \end{small} \end{center}
+\end{minipage}
+\end{tcolorbox}
+
+\begingroup
+\footnotesize
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("bib/journal.txt")`
+
+\endgroup
+
+## \textit{Preprints} y Artículos en Revisión
+
+\begingroup
+\footnotesize
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/working_paper.txt")`
+
+\endgroup
+
+## Articulos de Divulgación
+
+\begingroup
+\footnotesize
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("bib/divulgation.txt")`
+
+\endgroup
+
+## Guías metodológicas
+
+\begingroup
+\footnotesize
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("bib/guias.txt")`
+
+\endgroup
+
+## Otras publicaciones
+
+\begin{minipage}[c]{0.10\linewidth}
+\href{https://www.youtube.com/@InvestigacionAbierta}{\includegraphics[width=1.7cm, height=1.7cm]{Logo_IA.png}}
+\end{minipage} \begin{minipage}[c]{0.90\linewidth} \begin{footnotesize}
+\textcolor{red}{\faYoutube} \href{https://www.youtube.com/@InvestigacionAbierta}{Investigación Abierta} es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas prácticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
+\end{footnotesize}
+\end{minipage}
+
+\begingroup
+\footnotesize
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("bib/IA.txt")`
+
+\endgroup
+
+\begin{minipage}[c]{0.10\linewidth}
+\href{https://jdleongomez.info/es/#shiny}{\includegraphics[width=1.5cm, height=1.74cm]{shiny_hex.png}}
+\end{minipage} \begin{minipage}[c]{0.90\linewidth} \begin{footnotesize}
+He creado algunas, pequeñas aplicaciones públicas con \href{https://shiny.posit.co/}{Shiny} en R, sobre todo por diversión. Aunque todavía estoy aprendiendo, en esta sección hay algunos ejemplos.
+\end{footnotesize}
+\end{minipage} 
+
+\begingroup
+\footnotesize
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("bib/Shiny.txt")`
+
+\endgroup
+
+# Supervisión de Investigación
+
+##  \textbf{Posgrado}
+
+\begin{footnotesize}
+La Facultad de Psicología de la Universidad El Bosque no ofrece títulos de investigación, y todos los cursos de nivel de maestrías son profesionales. Debido a esto, las oportunidades de supervisar a estudiantes de posgrado son limitadas, y la mayor parte de mi supervisión de posgrado ha sido externa.
+\end{footnotesize}
+
+```{r supervision-pos}
+ezpickr::pick("data/supervision_pos_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+##  \textbf{Pregrado}
+
+\begin{footnotesize}
+Los estudiantes universitarios supervisados que figuran a continuación proceden de distintas universidades y programas académicos. Esta lista sólo incluye a los estudiantes de quienes fui supervisor principal u obtuvieron mención a trabajo de grado meritorio. Adicionalmente, actualmente estoy supervisando seis estudiantes como supervisor principal, y he supervisado a más de 25 estudiantes como co-supervisor.
+\textbf{Nota:} Los hipervínculos en los títulos de algunos trabajos de grado recientes conducen a videos cortos (< 10 min) de socialización de los resultados, que pueden ser consultados para ver el nivel de los trabajos, incluyendo los análisis estadísticos.
+\end{footnotesize}
+
+```{r supervision-pre}
+ezpickr::pick("data/supervision_pre_es.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+

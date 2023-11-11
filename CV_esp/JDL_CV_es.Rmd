@@ -274,7 +274,7 @@ ezpickr::pick("../data/event_es.xlsx") %>%
 # Roles Editoriales
 
 \begin{small}
-\textbf{Nota:} Mi registro verificado como par académico y editos internacional está disponible en mi perfil de \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science}.
+\textbf{Nota:} Mi registro verificado como par académico y editor internacional está disponible en mi perfil de \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science}.
 \end{small}
 
 ```{r service}
