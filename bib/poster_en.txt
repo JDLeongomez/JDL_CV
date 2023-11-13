@@ -16,7 +16,7 @@ Leongómez, J.D. (2022, April). *How reliable is the scientific literature? Open
 
 Leongómez, J.D. (2020, November). *How many participants do I need? Statistical power analysis and sample size calculation in R*. Workshop presented at the Online International Congress of Neurosciences: Brain and Behaviour in times of COVID-19 (Universidad El Bosque, Universidad de los Andes), Bogotá, Colombia. https://youtu.be/tVB9sh5ZFH0
 
-Leongómez, J.D. & Sánchez, O. R. (2019, September). *Association between height and waist circumference with health in rural indigenous and urban populations in Latin America*. Paper presented at the XXV Institutional Research Congress (Universidad El Bosque), Bogotá, Colombia.
+Leongómez, J.D. & Sánchez, O. R. (2019, September). *Association between height and waist circumference with health in rural indigenous and urban populations in Latin America*. Paper presented at the XXV Institutional Research Congress (Universidad El Bosque), Bogotá, Colombia. https://static1.squarespace.com/static/5fb667be752a000eaf4b5869/t/60454941f7f209159575a773/1615153475374/Memorias+-XXV+Congreso+2019.pdf
 
 Leongómez, J.D., Sánchez, O.R., Vásquez-Amézquita, M., Valderrama, E., Castellanos-Chacón, A., Morales-Sánchez, L., Nieto, J., & González-Santoyo, I. (2019, August). *Self-reported Health is Related to Body Height and Waist Circumference in Rural Indigenous and Urbanised Latin-American Populations*. Paper and poster presented at the VII Summer Institute of the International Society for Human Ethology (ISHE), Zadar, Croatia. Poster: https://jdleongomez.info/en/publication/leongomez2020/PosterA0.pdf
 

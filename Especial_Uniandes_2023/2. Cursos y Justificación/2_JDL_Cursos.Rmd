@@ -57,8 +57,6 @@ Documento 2. \textbf{ Cursos y su justificación}
 \end{center}\end{LARGE}
 \end{tcolorbox}
 
-https://catalogo2.uniandes.edu.co/Catalogo_General_2013/Facultades/Facultad_de_Ciencias_Sociales/Departamento_de_Psicologia/listado_cursos.php
-
 ```{r}
 options(knitr.kable.NA = "")
 ezpickr::pick("Tabla cursos.xlsx")  |>
@@ -76,5 +74,7 @@ ezpickr::pick("Tabla cursos.xlsx")  |>
   row_spec(c(2,4,6,8,10:12), hline_after = TRUE) |> 
   row_spec(11:12, background = "gray", color = "white") |>
   row_spec(13, background = "black", color = "white") |>
-  row_spec(0, bold = TRUE, italic = TRUE)
+  row_spec(0, bold = TRUE, italic = TRUE, font_size = 11, align = "c") |> 
+  pack_rows("Cursos no electivos", 1, 10) |>
+  pack_rows("Otros cursos", 11, 13)
 ```

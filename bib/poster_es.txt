@@ -16,7 +16,7 @@ Leongómez, J.D. (2022, abril). *¿Qué tan confiable es la literatura científi
 
 Leongómez, J.D. (2020, noviembre). *¿Cuántos participantes necesito? Análisis de poder estadístico y cálculo de tamaño de muestra en  R*. Taller para el Congreso Internacional de Neurociencias: Cerebro y Comportamiento en Tiempos de COVID-19 (Universidad El Bosque, Universidad de los Andes), Bogotá, Colombia. https://youtu.be/tVB9sh5ZFH0
 
-Leongómez, J.D. & Sánchez, O. R. (2019, septiembre). *Asociación entre altura y circunferencia de cintura con salud en poblaciones rurales indígenas y urbanas en América Latina*. Artículo presentado en el XXV Congreso Institucional de Investigaciones (Universidad El Bosque), Bogotá, Colombia.
+Leongómez, J.D. & Sánchez, O. R. (2019, septiembre). *Asociación entre altura y circunferencia de cintura con salud en poblaciones rurales indígenas y urbanas en América Latina*. Artículo presentado en el XXV Congreso Institucional de Investigaciones (Universidad El Bosque), Bogotá, Colombia. https://static1.squarespace.com/static/5fb667be752a000eaf4b5869/t/60454941f7f209159575a773/1615153475374/Memorias+-XXV+Congreso+2019.pdf
 
 Leongómez, J.D., Sánchez, O.R., Vásquez-Amézquita, M., Valderrama, E., Castellanos-Chacón, A., Morales-Sánchez, L., Nieto, J., & González-Santoyo, I. (2019, agosto). *Self-reported Health is Related to Body Height and Waist Circumference in Rural Indigenous and Urbanised Latin-American Populations*. Artículo y póster presentados en el VII Summer Institute of the International Society for Human Ethology (ISHE), Zadar, Croatia. Póster: https://jdleongomez.info/en/publication/leongomez2020/PosterA0.pdf
 
