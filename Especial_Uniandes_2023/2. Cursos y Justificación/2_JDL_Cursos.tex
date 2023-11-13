@@ -1,0 +1,179 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{333333}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Juan David}{Leongómez Peña}
+
+\position{Profesor Asociado}
+\address{PhD University of Stirling · MSc University of Liverpool}
+
+\mobile{(+57) 319 407 7102}
+\email{\href{mailto:juanleongomez@gmail.com}{\nolinkurl{juanleongomez@gmail.com}}}
+\homepage{jdleongomez.info}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+\usepackage{multicol} \usepackage{colortbl}
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {12 de noviembre de 2023}
+    {Juan David Leongómez Peña~~~·~~~Cursos y su justificación}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\vspace{4mm}
+\begin{tcolorbox}[enhanced,
+        on line, 
+        boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+        colframe=white,colback=black]
+  
+\color{white}
+\begin{LARGE}\begin{center}
+Documento 2. \textbf{ Cursos y su justificación}
+\end{center}\end{LARGE}
+\end{tcolorbox}
+
+\url{https://catalogo2.uniandes.edu.co/Catalogo_General_2013/Facultades/Facultad_de_Ciencias_Sociales/Departamento_de_Psicologia/listado_cursos.php}
+
+\begin{table}[!h]
+\centering\begingroup\fontsize{9}{11}\selectfont
+
+\begin{tabular}{|>{\centering\arraybackslash}p{7em}|>{\centering\arraybackslash}p{6em}|>{\raggedright\arraybackslash}p{40em}|}
+\hline
+\em{\textbf{Curso}} & \em{\textbf{Nivel}} & \em{\textbf{Justificación (a partir de su experiencia o formación académica)}}\\
+\hline
+\vfill \vfill Proceso Básico XX (Lenguaje) & \vfill \vfill Pregrado & \textit{\textbf{Experiencia}}: \textcolor{red}{El propósito del curso es presentar al estudiante una panorámica básica de las problemáticas relacionadas con el lenguaje y, en particular, con su estructura, funcionamiento, uso producción, comprensión y adquisición. Se abordarán tanto estudios clásicos como desarrollos recientes en el área de la lingüística y la psicolingüística.}\\
+ &  & \textit{\textbf{Formación}}: Maestría en Metodología de la Investigación, Universidad de Liverpool, Inglaterra.\\
+\hline
+\vfill \vfill Diseño y análisis
+I & \vfill \vfill Pregrado & \textit{\textbf{Experiencia}}: 12 años de experiencia como investigador, asesor y docente a nivel de pregrado y posgrado de asignaturas relacionadas con métodos cuantitativos, tanto en Colombia como en el Reino Unido. Dirección y codirección de múltiples trabajos de grado, incluyendo dos trabajos doctorales, y experiencia en el análisis y modelamiento estadístico de estudios como se puede ver reflejado la mayoría de mis publicaciones. Creación de materiales educativos y didácticos (guías, videos y \textit{apps}) para la enseñanza de conceptos estadísticos y la adopción de buenas prácticas de investigación cuantitativa.\\
+ &  & \textit{\textbf{Formación}}: Maestría (Universidad de Liverpool, Inglaterra) y Doctorado (Universidad de Stirling, Escocia) con énfasis en métodos de \vphantom{3} investigación.\\
+\hline
+\vfill \vfill Diseño y análisis
+II & \vfill \vfill Pregrado & \textit{\textbf{Experiencia}}: 12 años de experiencia como investigador, asesor y docente a nivel de pregrado y posgrado de asignaturas relacionadas con métodos cuantitativos, tanto en Colombia como en el Reino Unido. Dirección y codirección de múltiples trabajos de grado, incluyendo dos trabajos doctorales, y experiencia en el análisis y modelamiento estadístico de estudios como se puede ver reflejado la mayoría de mis publicaciones. Creación de materiales educativos y didácticos (guías, videos y \textit{apps}) para la enseñanza de conceptos estadísticos y la adopción de buenas prácticas de investigación cuantitativa.\\
+ &  & \textit{\textbf{Formación}}: Maestría (Universidad de Liverpool, Inglaterra) y Doctorado (Universidad de Stirling, Escocia) con énfasis en métodos de \vphantom{2} investigación.\\
+\hline
+\vfill \vfill Métodos cuantitativos avanzados & \vfill \vfill Posgrado (Maestría en Psicología) & \textit{\textbf{Experiencia}}: 12 años de experiencia como investigador, asesor y docente a nivel de pregrado y posgrado de asignaturas relacionadas con métodos cuantitativos, tanto en Colombia como en el Reino Unido. Dirección y codirección de múltiples trabajos de grado, incluyendo dos trabajos doctorales, y experiencia en el análisis y modelamiento estadístico de estudios como se puede ver reflejado la mayoría de mis publicaciones. Creación de materiales educativos y didácticos (guías, videos y \textit{apps}) para la enseñanza de conceptos estadísticos y la adopción de buenas prácticas de investigación cuantitativa.\\
+ &  & \textit{\textbf{Formación}}: Maestría (Universidad de Liverpool, Inglaterra) y Doctorado (Universidad de Stirling, Escocia) con énfasis en métodos de \vphantom{1} investigación.\\
+\hline
+\vfill \vfill Curso Metodológico 1 & \vfill \vfill Posgrado (Doctorado) & \textit{\textbf{Experiencia}}: 12 años de experiencia como investigador, asesor y docente a nivel de pregrado y posgrado de asignaturas relacionadas con métodos cuantitativos, tanto en Colombia como en el Reino Unido. Dirección y codirección de múltiples trabajos de grado, incluyendo dos trabajos doctorales, y experiencia en el análisis y modelamiento estadístico de estudios como se puede ver reflejado la mayoría de mis publicaciones. Creación de materiales educativos y didácticos (guías, videos y \textit{apps}) para la enseñanza de conceptos estadísticos y la adopción de buenas prácticas de investigación cuantitativa.\\
+ &  & \textit{\textbf{Formación}}: Maestría (Universidad de Liverpool, Inglaterra) y Doctorado (Universidad de Stirling, Escocia) con énfasis en métodos de investigación.\\
+\hline
+\cellcolor{gray}{\textcolor{white}{\vfill \vfill Bases evolutivas del comportamiento}} & \cellcolor{gray}{\textcolor{white}{\vfill \vfill Electiva}} & \cellcolor{gray}{\textcolor{white}{\textit{\textbf{Experiencia}}: El propósito del curso es presentar al estudiante una panorámica básica de las problemáticas relacionadas con el lenguaje y, en particular, con su estructura, funcionamiento, uso producción, comprensión y adquisición. Se abordarán tanto estudios clásicos como desarrollos recientes en el área de la lingüística y la psicolingüística.}}\\
+\hline
+\cellcolor{gray}{\textcolor{white}{\vfill \vfill Evolución cognitiva}} & \cellcolor{gray}{\textcolor{white}{\vfill \vfill Electiva}} & \cellcolor{gray}{\textcolor{white}{\textit{\textbf{Experiencia}}: El propósito del curso es presentar al estudiante una panorámica básica de las problemáticas relacionadas con el lenguaje y, en particular, con su estructura, funcionamiento, uso producción, comprensión y adquisición. Se abordarán tanto estudios clásicos como desarrollos recientes en el área de la lingüística y la psicolingüística.}}\\
+\hline
+\cellcolor{black}{\textcolor{white}{\vfill \vfill Métodos Reproducibles y Ciencia Abierta}} & \cellcolor{black}{\textcolor{white}{\vfill \vfill Educación Continua}} & \cellcolor{black}{\textcolor{white}{\textit{\textbf{Experiencia}}: El propósito del curso es presentar al estudiante una panorámica básica de las problemáticas relacionadas con el lenguaje y, en particular, con su estructura, funcionamiento, uso producción, comprensión y adquisición. Se abordarán tanto estudios clásicos como desarrollos recientes en el área de la lingüística y la psicolingüística.}}\\
+\hline
+\end{tabular}
+\endgroup{}
+\end{table}
+
+
+
+\end{document}

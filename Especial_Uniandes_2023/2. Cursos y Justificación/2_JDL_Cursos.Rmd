@@ -1,0 +1,80 @@
+---
+graphics: yes
+name: Juan David
+surname: Leongómez Peña
+position: Profesor Asociado
+address: "PhD University of Stirling · MSc University of Liverpool"
+phone: (+57) 319 407 7102
+email: "juanleongomez@gmail.com"
+www: jdleongomez.info
+date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d de %B de %Y')`"
+header-includes: \usepackage{multicol}
+  \usepackage{colortbl}
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
+headcolor: 333333
+docname: Cursos y su justificación
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+pkgs <- c('vitae' ,'here' ,'tinytex' ,'tibble' ,'glue' ,'rmarkdown' ,'dplyr', 'readr' ,'yaml')
+xfun::pkg_attach2(pkgs)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data sctructure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative Filepaths
+             ,'readr'     # Data Loading
+             ,'tidyverse' # Needed for bind_rows and whatever
+             ,'scholar'   # Updating publications from google scholar
+             ,'kableExtra'# Adding technicalskills table
+            )
+library(magrittr)
+# Install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
+
+# Packages loading
+lapply(packages, library, character.only = TRUE) %>%
+  invisible()
+```
+
+\vspace{4mm}
+\begin{tcolorbox}[enhanced,
+        on line, 
+        boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+        colframe=white,colback=black]
+  
+\color{white}
+\begin{LARGE}\begin{center}
+Documento 2. \textbf{ Cursos y su justificación}
+\end{center}\end{LARGE}
+\end{tcolorbox}
+
+https://catalogo2.uniandes.edu.co/Catalogo_General_2013/Facultades/Facultad_de_Ciencias_Sociales/Departamento_de_Psicologia/listado_cursos.php
+
+```{r}
+options(knitr.kable.NA = "")
+ezpickr::pick("Tabla cursos.xlsx")  |>
+  tidyr::fill() |> 
+  kable(align = "ccl",
+        linesep = "",
+        col.names = c("Curso", 
+                      "Nivel",
+                      "Justificación (a partir de su experiencia o formación académica)"),
+        escape = FALSE) |> 
+  kable_styling(font_size = 9, latex_options = c("hold_position")) |>
+  column_spec(3, width = "40em", border_right = TRUE) |> 
+  column_spec(2, width = "6em") |>
+  column_spec(1, width = "7em", border_left = TRUE) |> 
+  row_spec(c(2,4,6,8,10:12), hline_after = TRUE) |> 
+  row_spec(11:12, background = "gray", color = "white") |>
+  row_spec(13, background = "black", color = "white") |>
+  row_spec(0, bold = TRUE, italic = TRUE)
+```
