@@ -8,9 +8,12 @@ phone: (+57) 319 407 7102
 email: "juanleongomez@gmail.com"
 www: jdleongomez.info
 date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d de %B de %Y')`"
+header-includes: \usepackage{multicol}
+  \usepackage{colortbl}
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
 headcolor: 333333
 docname: Cursos y su justificación
-bibliography: referencias.bib
+bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -50,7 +53,7 @@ lapply(packages, library, character.only = TRUE) %>%
   
 \color{white}
 \begin{LARGE}\begin{center}
-Documento 2. \textbf{Cursos y su justificación}
+Documento 2. \textbf{ Cursos y su justificación}
 \end{center}\end{LARGE}
 \end{tcolorbox}
 
@@ -64,24 +67,14 @@ ezpickr::pick("Tabla cursos.xlsx")  |>
                       "Nivel",
                       "Justificación (a partir de su experiencia o formación académica)"),
         escape = FALSE) |> 
-  kable_styling(font_size = 8, latex_options = c("hold_position")) |>
+  kable_styling(font_size = 9, latex_options = c("hold_position")) |>
   column_spec(3, width = "40em", border_right = TRUE) |> 
   column_spec(2, width = "6em") |>
-  column_spec(1, width = "10em", border_left = TRUE) |> 
+  column_spec(1, width = "7em", border_left = TRUE) |> 
   row_spec(c(2,4,6,8,10:12), hline_after = TRUE) |> 
-  row_spec(11:13, background = "lightgray2") |>
+  row_spec(11:12, background = "gray", color = "white") |>
+  row_spec(13, background = "black", color = "white") |>
   row_spec(0, bold = TRUE, italic = TRUE, font_size = 11, align = "c") |> 
   pack_rows("Cursos no electivos", 1, 10) |>
-  pack_rows("Otros cursos", 11, 13,  latex_gap_space = "3em",)
+  pack_rows("Otros cursos", 11, 13)
 ```
-
-\newpage
-
-# Referencias
-
-\begin{multicols}{2}
-\AtNextBibliography{\footnotesize}
-\printbibliography[heading=none]
-\end{multicols}
-
-\def\printbibliography{}

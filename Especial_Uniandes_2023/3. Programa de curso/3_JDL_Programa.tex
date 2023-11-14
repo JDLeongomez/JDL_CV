@@ -1,0 +1,314 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{333333}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Juan David}{Leongómez Peña}
+
+\position{Profesor Asociado}
+\address{PhD University of Stirling · MSc University of Liverpool}
+
+\mobile{(+57) 319 407 7102}
+\email{\href{mailto:juanleongomez@gmail.com}{\nolinkurl{juanleongomez@gmail.com}}}
+\homepage{jdleongomez.info}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {14 de noviembre de 2023}
+    {Juan David Leongómez Peña~~~·~~~Programa de curso}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\vspace{4mm}
+\begin{tcolorbox}[enhanced,
+        on line, 
+        boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+        colframe=white,colback=black]
+  
+\color{white}
+\begin{LARGE}\begin{center}
+Documento 3. \textbf{Programa de curso}
+\end{center}\end{LARGE}
+\end{tcolorbox}
+
+\begin{LARGE}\begin{center}
+\textbf{Proceso Básico: Lenguaje}\linebreak
+Departamento de Psicología
+\end{center}\end{LARGE}
+
+\begin{cvskills}
+  \cvskill
+    {TIPO DE CURSO}
+    {\textbf{Seminario}}
+    
+  \cvskill
+    {PROFESOR}
+    {Juan David Leongómez}
+\end{cvskills}
+
+\hypertarget{descripciuxf3n-general}{%
+\section{Descripción General}\label{descripciuxf3n-general}}
+
+¿Cómo aprenden los bebés a hablar? ¿Por qué somos el único animal que
+habla? Y ¿por qué somos el único animal realmente musical? Estas son
+preguntas complejas relacionadas con la comunicación vocal, y tema
+central de la investigación reciente. Responderlas revelaría aspectos
+fundamentales del ser humano. Nuestra comunicación vocal, y en especial
+nuestro lenguaje y música han, después de todo, moldeado profundamente
+nuestra biología, nuestra psicología, y cada aspecto de nuestra cultura.
+
+Existen fascinantes ejemplos de precursores animales que tienen
+similitudes con la comunicación vocal en humanos, incluyendo casos de
+mensajes acústicos complejos, e incluso proto-sintaxis y
+proto-semántica; sin embargo, ninguna especie llega a un nivel de
+complejidad similar al de la música y lenguaje humanos.
+
+La idea de éste curso, en formato de seminario, es analizar los
+diferentes aspectos de la comunicación vocal y la literatura reciente,
+haciendo énfasis en los métodos utilizados para el análisis vocal
+acústico, así como el análisis del significado de las vocalizaciones, a
+partir de tres aspectos fundamentales: (1) análisis comparativos entre
+humanos y otras especies (principalmente mamíferos y aves), (2)
+evolución de la comunicación vocal, y (3) desarrollo de habilidades
+cognoscitivas y sensoperceptuales para la música y el lenguaje.
+
+Quienes participen obtendrán un conocimiento general de la literatura en
+éste campo, incluyendo la acústica de las voces, los mensajes tanto
+biológicos como psicológicos que transmiten y su relevancia social, las
+principales técnicas para su estudio, y las principales teorías sobre el
+origen del lenguaje y la música.
+
+El seminario es ideal para cualquier persona con un interés general en
+el tema o, por ejemplo, para cualquiera que se interese el origen y
+desarrollo del lenguaje, en cómo los bebés aprenden a hablar, en la
+misteriosa musicalidad humana, en la comunicación animal, o para quien
+quiera comprender la mecánica de la comunicación vocal y los mensajes
+que transmitimos constantemente de manera consciente e inconsciente.
+
+\hypertarget{resultados-de-aprendizaje}{%
+\section{Resultados de Aprendizaje}\label{resultados-de-aprendizaje}}
+
+Al finalizar el curso, los estudiantes estarán en capacidad de:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Analizar los aportes de diversas disciplinas en el estudio de la
+  psicología del lenguaje
+\item
+  Sintetizar y evaluar los aspectos principales de la literatura
+  relevante
+\item
+  Afrontar la literatura de manera crítica
+\item
+  Aportar ideas con cierto nivel de originalidad, a partir de la
+  relación entre las conclusiones de la literatura relevante para el
+  curso
+\item
+  Comparar los límites y los alcances de las aproximaciones
+  metodológicas a la investigación sobre el proceso
+\end{enumerate}
+
+\hypertarget{metodologuxeda}{%
+\section{Metodología}\label{metodologuxeda}}
+
+Este curso se basará en una versión simplificada del método de
+\textit{seminario alemán}, adaptada para el nivel de formación.
+
+Bajo la dirección del profesor, se abordarán temáticas específicas en
+cada sesión, a partir de la lectura de artículos relevantes.
+
+Aunque todas y todos los estudiantes deberán hacer una lectura general
+de los artículos, para cada sesión algunos o algunas estudiantes deberán
+leer uno de los artículos a profundidad, apoyándose en asesorías del
+profesor, y preparar tanto (1) una exposición del artículo, como (2) una
+actividad ilustrativa y didáctica sobre sus contenidos (por ejemplo, un
+\textit{pub quiz}, o un concurso de interpretación de sus resultados).
+
+Al terminar las exposiciones, se discutirán los resultados e
+implicaciones del tema de cada sesión, bajo la guía del profesor, quien
+buscará señalar limitaciones, fortalezas y explicaciones alternativas,
+profundizando tanto en las bases teóricas, como en las fortalezas y
+limitaciones analíticas y metodológicas de cada artículo, con el
+objetivo de fomentar la lectura crítica.
+
+\hypertarget{evaluaciuxf3n}{%
+\section{Evaluación}\label{evaluaciuxf3n}}
+
+Como seminario, la clase se basa en la presentación y discusión de
+artículos importantes de la literatura. Se evalúa tanto la presentación
+(síntesis) de artículos y las actividades ilustrativas y didácticas
+sobre sus contenidos, como las intervenciones en la subsecuente
+discusión.
+
+Ensayos sobre preguntas específicas, que vinculan elementos de varios
+artículos artículos y disciplinas sobre los temas tratados, que
+permitirán permiten que cada estudiante presente sus propias relaciones
+y conclusiones, así como buscar literatura adicional.
+
+\hypertarget{estructura-del-curso}{%
+\section{Estructura del Curso}\label{estructura-del-curso}}
+
+\begin{table}[!h]
+\centering\begingroup\fontsize{8}{10}\selectfont
+
+\begin{tabular}{|>{\centering\arraybackslash}p{4em}|>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{10em}|>{\raggedright\arraybackslash}p{14em}|}
+\hline
+\multicolumn{1}{>{\centering\arraybackslash}p{4em}}{\begingroup\fontsize{11}{13}\selectfont \em{\textbf{Semana}}\endgroup} & \multicolumn{1}{>{\centering\arraybackslash}p{30em}}{\begingroup\fontsize{11}{13}\selectfont \em{\textbf{Tema}}\endgroup} & \multicolumn{1}{>{\centering\arraybackslash}p{10em}}{\begingroup\fontsize{11}{13}\selectfont \em{\textbf{Lecturas}}\endgroup} & \multicolumn{1}{>{\centering\arraybackslash}p{14em}}{\begingroup\fontsize{11}{13}\selectfont \em{\textbf{Trabajo autónomo}}\endgroup}\\
+\hline
+1 & Introducción y presentación del cursEvolución y significado de las señales vocale & — & —\\
+\hline
+2 & Percepción a partir de la voz en animales: tamaño corporal, dominancia, masculinidad-feminidad y selección sexual & \cite{beeMaleGreenFrogs2000}\linebreak \cite{charltonContextrelatedAcousticVariation2011}\linebreak \cite{RefWorks:723}\linebreak & —\\
+\hline
+3 & Percepción a partir de la voz en humanos: ¿Qué explica el fuerte dimorfismo sexual de las voces humanas? & \cite{Collins2000}\linebreak \cite{collinsVocalVisualAttractiveness2003}\linebreak \cite{putsDominanceEvolutionSexual2006}\linebreak \cite{putsSexualSelectionMale2016}\linebreak & —\\
+\hline
+4 & Percepciones de dominancia en humanos & \cite{RefWorks:452}\linebreak \cite{leongomezPerceivedDifferencesSocial2017}\linebreak \cite{kleisnerPredictingStrengthAggressive2021}\linebreak \cite{pisanskiReturnOzVoice2014}\linebreak & —\\
+\hline
+5 & Percepción de atractivo físico en humanos: hormonas, masculinidad y feminidad & \cite{feinbergManipulationsFundamentalFormant2005}\linebreak \cite{RefWorks:385}\linebreak \cite{leongomezVocalModulationCourtship2014}\linebreak & —\\
+\hline
+6 & EXAMEN ¿Qué representa una voz atractiva en humanos? & — & —\\
+\hline
+7 & Precursores animales del lenguaje: proto-semántica & \cite{evansChickenFoodCalls1999}\linebreak \cite{greeneRedSquirrelsTamiasciurus1998}\linebreak \cite{seyfarthMonkeyResponsesThree1980}\linebreak & —\\
+\hline
+8 & Precursores animales del lenguaje: proto-sintaxis & \cite{marlerSpeciesuniversalMicrostructureLearned1984}\linebreak \cite{podosPermissivenessLearningDevelopment1999}\linebreak & —\\
+\hline
+9 & Teorías del origen del lenguaje: expresiones faciales, acicalamiento social & \cite{dunbarOriginSubsequentEvolution2003}\linebreak \cite{dunbarCoevolutionNeocorticalSize1993a}\linebreak \cite{mccombCoevolutionVocalCommunication2005}\linebreak & —\\
+\hline
+10 & Evolución cultural de la comunicación vocal: casos animales & \cite{eriksenCulturalChangeSongs2005}\linebreak \cite{lutherUrbanNoiseCultural2010}\linebreak \cite{noadCulturalRevolutionWhale2000}\linebreak & —\\
+\hline
+11 & Discusión general: Ideas sobre el origen del lenguaje & \cite{RefWorks:428}\linebreak & —\\
+\hline
+12 & EXAMEN ¿Qué diferencias y similitudes existen entre el lenguaje humano y la comunicación vocal en animales? & — & —\\
+\hline
+13 & Similitud entre música y lenguaje: evidencia de recursos compartidos & — & —\\
+\hline
+14 & Relación entre música y lenguaje: evidencia en daños cerebrales y desórdenes del desarrollo & — & —\\
+\hline
+15 & Maternés: comunicación emocional & — & —\\
+\hline
+16 & Evolución de la musicalidad & — & —\\
+\hline
+\end{tabular}
+\endgroup{}
+\end{table}
+
+\hypertarget{referencias}{%
+\section{Referencias}\label{referencias}}
+
+\begin{multicols}{2}
+\AtNextBibliography{\footnotesize}
+\printbibliography[heading=none]
+\end{multicols}
+
+\def\printbibliography{}
+
+
+
+\end{document}

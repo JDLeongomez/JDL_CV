@@ -1,0 +1,140 @@
+---
+graphics: yes
+name: Juan David
+surname: Leongómez Peña
+position: Profesor Asociado
+address: "PhD University of Stirling · MSc University of Liverpool"
+phone: (+57) 319 407 7102
+email: "juanleongomez@gmail.com"
+www: jdleongomez.info
+date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d de %B de %Y')`"
+headcolor: 333333
+docname: Programa de curso
+bibliography: referencias.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+pkgs <- c('vitae' ,'here' ,'tinytex' ,'tibble' ,'glue' ,'rmarkdown' ,'dplyr', 'readr' ,'yaml')
+xfun::pkg_attach2(pkgs)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data sctructure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative Filepaths
+             ,'readr'     # Data Loading
+             ,'tidyverse' # Needed for bind_rows and whatever
+             ,'scholar'   # Updating publications from google scholar
+             ,'kableExtra'# Adding technicalskills table
+            )
+library(magrittr)
+# Install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
+
+# Packages loading
+lapply(packages, library, character.only = TRUE) %>%
+  invisible()
+```
+
+\vspace{4mm}
+\begin{tcolorbox}[enhanced,
+        on line, 
+        boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+        colframe=white,colback=black]
+  
+\color{white}
+\begin{LARGE}\begin{center}
+Documento 3. \textbf{Programa de curso}
+\end{center}\end{LARGE}
+\end{tcolorbox}
+
+\begin{LARGE}\begin{center}
+\textbf{Proceso Básico: Lenguaje}\linebreak
+Departamento de Psicología
+\end{center}\end{LARGE}
+
+\begin{cvskills}
+  \cvskill
+    {TIPO DE CURSO}
+    {\textbf{Seminario}}
+    
+  \cvskill
+    {PROFESOR}
+    {Juan David Leongómez}
+\end{cvskills}
+
+# Descripción General
+
+¿Cómo aprenden los bebés a hablar? ¿Por qué somos el único animal que habla? Y ¿por qué somos el único animal realmente musical?  Estas son preguntas complejas relacionadas con la comunicación vocal, y tema central de la investigación reciente. Responderlas revelaría aspectos fundamentales del ser humano. Nuestra comunicación vocal, y en especial nuestro lenguaje y música han, después de todo, moldeado profundamente nuestra biología, nuestra psicología, y cada aspecto de nuestra cultura. 
+
+Existen fascinantes ejemplos de precursores animales que tienen similitudes con la comunicación vocal en humanos, incluyendo casos de mensajes acústicos complejos, e incluso proto-sintaxis y proto-semántica; sin embargo, ninguna especie llega a un nivel de complejidad similar al de la música y lenguaje humanos. 
+
+La idea de éste curso, en formato de seminario, es analizar los diferentes aspectos de la comunicación vocal y la literatura reciente, haciendo énfasis en los métodos utilizados para el análisis vocal acústico, así como el análisis del significado de las vocalizaciones, a partir de tres aspectos fundamentales: (1) análisis comparativos entre humanos y otras especies (principalmente mamíferos y aves), (2) evolución de la comunicación vocal, y (3) desarrollo de habilidades cognoscitivas y sensoperceptuales para la música y el lenguaje.
+
+Quienes participen obtendrán un conocimiento general de la literatura en éste campo, incluyendo la acústica de las voces, los mensajes tanto biológicos como psicológicos que transmiten y su relevancia social, las principales técnicas para su estudio, y las principales teorías sobre el origen del lenguaje y la música.
+
+El seminario es ideal para cualquier persona con un interés general en el tema o, por ejemplo, para cualquiera que se interese el origen y desarrollo del lenguaje, en cómo los bebés aprenden a hablar, en la misteriosa musicalidad humana, en la comunicación animal, o para quien quiera comprender la mecánica de la comunicación vocal y los mensajes que transmitimos constantemente de manera consciente e inconsciente.
+
+# Resultados de Aprendizaje
+
+Al finalizar el curso, los estudiantes estarán en capacidad de:
+
+1. Analizar los aportes de diversas disciplinas en el estudio de la psicología del lenguaje
+2. Sintetizar y evaluar los aspectos principales de la literatura relevante
+3. Afrontar la literatura de manera crítica
+4. Aportar ideas con cierto nivel de originalidad, a partir de la relación entre las conclusiones de la literatura relevante para el curso
+5. Comparar los límites y los alcances de las aproximaciones metodológicas a la investigación sobre el proceso
+
+# Metodología
+
+Este curso se basará en una versión simplificada del método de \textit{seminario alemán}, adaptada para el nivel de formación.
+
+Bajo la dirección del profesor, se abordarán temáticas específicas en cada sesión, a partir de la lectura de artículos relevantes. 
+
+Aunque todas y todos los estudiantes deberán hacer una lectura general de los artículos, para cada sesión algunos o algunas estudiantes deberán leer uno de los artículos a profundidad, apoyándose en asesorías del profesor, y preparar tanto (1) una exposición del artículo, como (2) una actividad ilustrativa y didáctica sobre sus contenidos (por ejemplo, un \textit{pub quiz}, o un concurso de interpretación de sus resultados).
+
+Al terminar las exposiciones, se discutirán los resultados e implicaciones del tema de cada sesión, bajo la guía del profesor, quien buscará señalar limitaciones, fortalezas y explicaciones alternativas, profundizando tanto en las bases teóricas, como en las fortalezas y limitaciones analíticas y metodológicas de cada artículo, con el objetivo de fomentar la lectura crítica. 
+
+# Evaluación
+
+Como seminario, la clase se basa en la presentación y discusión de artículos importantes de la literatura. Se evalúa tanto la presentación (síntesis) de artículos y las actividades ilustrativas y didácticas sobre sus contenidos, como las intervenciones en la subsecuente discusión.
+
+Ensayos sobre preguntas específicas, que vinculan elementos de varios artículos artículos y disciplinas sobre los temas tratados, que permitirán permiten que cada estudiante presente sus propias relaciones y conclusiones, así como buscar literatura adicional.
+
+# Estructura del Curso
+
+```{r}
+options(knitr.kable.NA = "—")
+ezpickr::pick("Sesiones curso.xlsx")  |>
+  tidyr::fill() |> 
+  select(1:4) |> 
+  kable(align = "clll",
+        linesep = "",
+        col.names = c("Semana", 
+                      "Tema", 
+                      "Lecturas", 
+                      "Trabajo autónomo"),
+        escape = FALSE) |> 
+  kable_styling(font_size = 8, latex_options = c("hold_position")) |>
+  column_spec(1, width = "4em", border_left = TRUE) |> 
+  column_spec(2, width = "30em") |>
+  column_spec(3, width = "10em") |> 
+  column_spec(4, width = "14em", border_right = TRUE) |>
+  row_spec(1:15, hline_after = TRUE) |> 
+  row_spec(0, bold = TRUE, italic = TRUE, font_size = 11, align = "c")
+```
+
+# Referencias
+
+\begin{multicols}{2}
+\AtNextBibliography{\footnotesize}
+\printbibliography[heading=none]
+\end{multicols}
+
+\def\printbibliography{}

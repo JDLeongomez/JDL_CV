@@ -95,7 +95,7 @@
   pdfsubject={},
   pdfkeywords={},
   colorlinks,
-  citecolor=blue,
+  citecolor=purple,
   linkcolor=blue, 
   urlcolor=blue
 }
@@ -147,11 +147,10 @@
 \definecolor{darkgray}{HTML}{333333}
 \definecolor{gray}{HTML}{5D5D5D}
 \definecolor{lightgray}{HTML}{999999}
-\definecolor{lightgray2}{HTML}{D9D9D9}
 % Basic colors
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
-\definecolor{purple}{HTML}{3F3EB0}
+\definecolor{purple}{HTML}{9386F0}
 \definecolor{red}{HTML}{FB4485}
 \definecolor{blue}{HTML}{3F3EB0}
 % Text colors

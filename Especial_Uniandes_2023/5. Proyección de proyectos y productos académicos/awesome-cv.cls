@@ -95,22 +95,12 @@
   pdfsubject={},
   pdfkeywords={},
   colorlinks,
-  citecolor=blue,
-  linkcolor=blue, 
   urlcolor=blue
 }
 % Needed to include graphics
 \RequirePackage{graphicx}
   \graphicspath{ {../../images/} }
-% Fot tcolorbox
-\usepackage{multicol}
-\usepackage{colortbl}
 
-% For biblatex in Spanish
-\usepackage{csquotes}
-\usepackage[style=apa,backend=biber]{biblatex}
-\DeclareLanguageMapping{spanish}{spanish-apa}
-\addbibresource{referencias.bib}
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
@@ -147,11 +137,10 @@
 \definecolor{darkgray}{HTML}{333333}
 \definecolor{gray}{HTML}{5D5D5D}
 \definecolor{lightgray}{HTML}{999999}
-\definecolor{lightgray2}{HTML}{D9D9D9}
 % Basic colors
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
-\definecolor{purple}{HTML}{3F3EB0}
+\definecolor{purple}{HTML}{D3A4F9}
 \definecolor{red}{HTML}{FB4485}
 \definecolor{blue}{HTML}{3F3EB0}
 % Text colors
