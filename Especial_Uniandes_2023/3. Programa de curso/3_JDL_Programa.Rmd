@@ -121,10 +121,10 @@ ezpickr::pick("Sesiones curso.xlsx")  |>
                       "Lecturas", 
                       "Trabajo autónomo"),
         escape = FALSE) |> 
-  kable_styling(font_size = 8, latex_options = c("hold_position")) |>
+  kable_styling(font_size = 7.5, latex_options = c("hold_position")) |>
   column_spec(1, width = "4em", border_left = TRUE) |> 
-  column_spec(2, width = "30em") |>
-  column_spec(3, width = "10em") |> 
+  column_spec(2, width = "28em") |>
+  column_spec(3, width = "12em") |> 
   column_spec(4, width = "14em", border_right = TRUE) |>
   row_spec(1:15, hline_after = TRUE) |> 
   row_spec(0, bold = TRUE, italic = TRUE, font_size = 11, align = "c")
@@ -136,5 +136,3 @@ ezpickr::pick("Sesiones curso.xlsx")  |>
 \AtNextBibliography{\footnotesize}
 \printbibliography[heading=none]
 \end{multicols}
-
-\def\printbibliography{}
