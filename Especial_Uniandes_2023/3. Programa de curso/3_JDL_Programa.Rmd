@@ -127,6 +127,7 @@ ezpickr::pick("Sesiones curso.xlsx")  |>
   column_spec(3, width = "12em") |> 
   column_spec(4, width = "14em", border_right = TRUE) |>
   row_spec(1:15, hline_after = TRUE) |> 
+  row_spec(c(6,12), bold = TRUE) |> 
   row_spec(0, bold = TRUE, italic = TRUE, font_size = 11, align = "c")
 ```
 
