@@ -26,12 +26,13 @@ xfun::pkg_attach2(pkgs)
 
 packages <- c('vitae'     # The CV's LaTeX Template
              ,'tibble'    # Data sctructure for tribbles
-             ,'magrittr'  # The Pipe %>%
+             ,'magrittr'  # The Pipe |>
              ,'here'      # Relative Filepaths
              ,'readr'     # Data Loading
              ,'tidyverse' # Needed for bind_rows and whatever
              ,'scholar'   # Updating publications from google scholar
              ,'kableExtra'# Adding technicalskills table
+             ,'scales'    # Percent
             )
 library(magrittr)
 # Install packages not yet installed
@@ -41,7 +42,7 @@ if (any(installed_packages == FALSE)) {
 }
 
 # Packages loading
-lapply(packages, library, character.only = TRUE) %>%
+lapply(packages, library, character.only = TRUE) |>
   invisible()
 ```
 
@@ -61,7 +62,7 @@ Documento 1. \textbf{Hoja de Vida}
 
 \begin{footnotesize}
 
-\textbf{Sobre mí:} Actualmente soy Profesor Asociado e Investigador en la Facultad de Psicología de la Universidad El Bosque, y lidero el grupo de investigación \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificación \textbf{\href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{A1}}). 
+\textbf{Sobre mí:} Actualmente soy Profesor Asociado e \href{https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001348945}{Investigador Senior} en la Facultad de Psicología de la Universidad El Bosque, y lidero el grupo de investigación \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificación \textbf{\href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{A1}}). 
 
 Mi formación es \textit{sui generis} para el contexto colombiano. Después de formarme en música y pedagogía, obtuve una maestría en psicología evolutiva de la \href{https://www.liverpool.ac.uk/}{Universidad de Liverpool} (anteriormente ofrecida por la \href{https://www.liverpool.ac.uk/life-sciences/}{Escuela de Ciencias Biológicas}) y un doctorado en psicología de la \href{https://www.stir.ac.uk/}{Universidad de Stirling}, ambos en el Reino Unido. El doctorado lo realicé como parte del \textit{\href{https://www.stir.ac.uk/about/faculties/natural-sciences/our-research/research-groups/behaviour-and-evolution-research-group/}{Behaviour and Evolution Research Group}} del \href{https://www.stir.ac.uk/about/faculties/natural-sciences/psychology/}{Departamento de Psicología}, que en Stirling forma parte de la \href{https://www.stir.ac.uk/about/faculties/natural-sciences/departments/}{Facultad de Ciencias Naturales}. En consecuencia, mi perspectiva para la investigación del comportamiento humano está fuertemente influenciada por el enfoque y métodos de las ciencias naturales.
 
@@ -112,8 +113,8 @@ Aunque me he concentrado especialmente en el estudio de los procesos de elecció
 # Formación Académica
 
 ```{r education}
-ezpickr::pick("data/education_es.xlsx") %>%
-  tidyr::fill(-why) %>%
+ezpickr::pick("data/education_es.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -121,8 +122,8 @@ ezpickr::pick("data/education_es.xlsx") %>%
 ## Formación complementaria relevante
 
 ```{r edu_comp}
-ezpickr::pick("data/edu_comp_es.xlsx") %>%
-  tidyr::fill(-why) %>%
+ezpickr::pick("data/edu_comp_es.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -136,8 +137,8 @@ En la actualidad, desempeño responsabilidades administrativas y de liderazgo ta
 ## Principales Responsabilidades
 
 ```{r working-experience}
-ezpickr::pick("data/working-experience_es.xlsx") %>%
-  tidyr::fill(-why) %>%
+ezpickr::pick("data/working-experience_es.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -145,8 +146,8 @@ ezpickr::pick("data/working-experience_es.xlsx") %>%
 ## Participación en Proyectos de investigación
 
 ```{r projects}
-ezpickr::pick("data/project_es.xlsx") %>%
-  tidyr::fill(-why) %>%
+ezpickr::pick("data/project_es.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -162,8 +163,8 @@ Es relevante destacar que entre 2015 y 2019, mi enfoque principal fue la docenci
 \end{footnotesize}
 
 ```{r teaching-experience}
-ezpickr::pick("data/teaching-experience_es.xlsx") %>%
-  tidyr::fill(-why) %>%
+ezpickr::pick("data/teaching-experience_es.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -175,8 +176,8 @@ A continuación, se presenta un resumen de las evaluaciones de estudiantes de lo
 \end{footnotesize}
 
 ```{r student-evaluations}
-ezpickr::pick("data/student-evaluations.xlsx") %>%
-  tidyr::fill(-why) %>%
+ezpickr::pick("data/student-evaluations.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -188,8 +189,8 @@ A continuación figuran algunos comentarios anónimos incluidos en las evaluacio
 \end{footnotesize}
 
 ```{r student-comments}
-ezpickr::pick("data/student-comments.xlsx") %>%
-  tidyr::fill(-why) %>%
+ezpickr::pick("data/student-comments.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -203,8 +204,8 @@ A pesar de ello, he superado sistemáticamente a mis colegas y nunca he dejado d
 \end{footnotesize}
 
 ```{r grant}
-ezpickr::pick("data/grant_es.xlsx") %>%
-  tidyr::fill(-why) %>%
+ezpickr::pick("data/grant_es.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -212,8 +213,8 @@ ezpickr::pick("data/grant_es.xlsx") %>%
 ## Becas, Premios y Honores
 
 ```{r award}
-ezpickr::pick("data/award_es.xlsx") %>%
-  tidyr::fill(-why) %>%
+ezpickr::pick("data/award_es.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -221,8 +222,8 @@ ezpickr::pick("data/award_es.xlsx") %>%
 ## Cursos y congresos
 
 ```{r event}
-ezpickr::pick("data/event_es.xlsx") %>%
-  tidyr::fill(-why) %>%
+ezpickr::pick("data/event_es.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -241,8 +242,8 @@ ezpickr::pick("data/event_es.xlsx") %>%
 # Asociaciones
 
 ```{r member}
-ezpickr::pick("data/member_es.xlsx") %>%
-  tidyr::fill(-why) %>%
+ezpickr::pick("data/member_es.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -252,12 +253,18 @@ ezpickr::pick("data/member_es.xlsx") %>%
 ```{r scholar, echo = FALSE}
 profile <- get_profile("8Q0jKHsAAAAJ")
 pubs <- get_publications("8Q0jKHsAAAAJ")
+cits <- get_citation_history("8Q0jKHsAAAAJ") |> 
+  filter(year > year(Sys.Date())-6) 
+cit5 <- sum(cits$cites)
+citSum <- profile$total_cites
+percentpub <- round(cit5/citSum*100, 0)
 
 h_index <- profile$h_index
 g_index <- max(which(as.numeric(row.names(pubs))^2 < cumsum(pubs$cites)))
 i10_index <- profile$i10_index
-pubs_num <- dim(pubs)[1]
-citSum <- profile$total_cites
+i50 <- pubs |> 
+  filter(cites >= 50) |> 
+  tally()
 ```
 
 \begin{footnotesize}
@@ -265,8 +272,8 @@ citSum <- profile$total_cites
 \end{footnotesize}
 
 ```{r service}
-ezpickr::pick("data/service_es.xlsx") %>%
-  tidyr::fill(-why) %>%
+ezpickr::pick("data/service_es.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -294,6 +301,10 @@ ezpickr::pick("data/service_es.xlsx") %>%
 \end{footnotesize}
 
 # Publicaciones
+
+\begin{footnotesize}
+He publicado artículos académicos, guías metodológicas y artículos de divulgación, pero también tengo publicaciones en otros medios como videos y aplicaciones web. En total, mis trabajos han sido citados `r citSum` veces, `r cit5` (`r percentpub`\%) desde principios de `r min(cits$year)`. De mis artículos, `r i10_index` han sido citados 10 o más veces, y `r i50$n` han sido citados más de 50 veces.
+\end{footnotesize}
 
 ## Artículos en Revistas Científicas
 
@@ -411,12 +422,12 @@ He creado algunas aplicaciones con fines educativos usando \href{https://shiny.p
 ##  \textbf{Posgrado}
 
 \begin{footnotesize}
-La Facultad de Psicología de la Universidad El Bosque no ofrece títulos de investigación, y todos los cursos de nivel de maestrías son profesionales. Debido a esto, las oportunidades de supervisar a estudiantes de posgrado son limitadas, y la mayor parte de mi supervisión de posgrado ha sido externa.
+La Facultad de Psicología de la Universidad El Bosque no ofrece grados enfocados en investigación, y todos los cursos de nivel de maestrías son profesionales. Debido a esto, mis oportunidades de supervisar a estudiantes de posgrado son limitadas, y la mayor parte de mi supervisión de posgrado ha sido externa.
 \end{footnotesize}
 
 ```{r supervision-pos}
-ezpickr::pick("data/supervision_pos_es.xlsx") %>%
-  tidyr::fill(-why) %>%
+ezpickr::pick("data/supervision_pos_es.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -424,14 +435,15 @@ ezpickr::pick("data/supervision_pos_es.xlsx") %>%
 ##  \textbf{Pregrado}
 
 \begin{footnotesize}
-Los estudiantes universitarios supervisados que figuran a continuación proceden de distintas universidades y programas académicos. Esta lista sólo incluye a los estudiantes de quienes fui supervisor principal u obtuvieron mención a trabajo de grado meritorio. Adicionalmente, actualmente estoy supervisando seis estudiantes como supervisor principal, y he supervisado a más de 25 estudiantes como co-supervisor.
+He estudiantes de distintas universidades y programas académicos. Esta lista sólo incluye a los estudiantes de quienes fui supervisor principal en la Universidad El Bosque u obtuvieron mención a trabajo de grado meritorio desde 2020. Adicionalmente, actualmente estoy supervisando seis estudiantes como supervisor principal, y he supervisado a más de 25 estudiantes como co-supervisor.
 
-\textbf{Nota:} Los hipervínculos en los títulos de algunos trabajos de grado recientes conducen a videos cortos (< 10 min) de socialización de los resultados, que pueden ser consultados para constatar su nivel, incluyendo los análisis estadísticos.
+\textbf{Nota:} Los hipervínculos en los títulos de los trabajos de grado conducen a videos cortos (< 10 min) de socialización de los resultados, que pueden ser consultados para constatar su nivel, incluyendo los análisis estadísticos.
 \end{footnotesize}
 
 ```{r supervision-pre}
-ezpickr::pick("data/supervision_pre_es.xlsx") %>%
-  tidyr::fill(-why) %>%
+ezpickr::pick("data/supervision_pre_es.xlsx") |>
+  tidyr::fill(-why) |>
+  slice(1:10) |> 
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
