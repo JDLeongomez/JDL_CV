@@ -16,6 +16,16 @@ docname: Cursos y su justificación
 bibliography: references.bib
 ---
 
+
+https://www.overleaf.com/learn/latex/Articles/How_to_change_paragraph_spacing_in_LaTeX#.5Cleftskip_and_.5Crightskip_.28TeX_primitives.29
+
+\setlength{\baselineskip}{24pt}
+
+
+
+
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE,
                       warning = FALSE,

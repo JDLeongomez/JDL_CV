@@ -72,7 +72,7 @@ Aunque me he concentrado especialmente en el estudio de los procesos de elecció
 
 \textit{Edición especial sobre modulación de la voz}: Recientemente, propuse y lideré la edición del número temático en dos partes \href{https://royalsocietypublishing.org/toc/rstb/2021/376/1840}{\textit{Voice modulation: from origin and mechanism to social impact}} para la prestigiosa revista \href{https://royalsocietypublishing.org/journal/rstb}{\textit{Philosophical Transactions of the Royal Society B: Biological Sciences}}. Este número transdisciplinar en dos partes constituye el primer compendio de investigación sobre la modulación de la voz. Incluye 21 artículos que abarcan las diversas funciones de la modulación de la voz en la comunicación humana y no humana, desde la señalización no verbal de la motivación y la emoción, la exageración de rasgos biológicos como el tamaño corporal y la masculinidad, hasta la aparición del lenguaje, el canto y la musicalidad en todas las culturas.
 
-\textbf{Ciencia abierta:} Apoyo firmemente la difusión de prácticas de ciencia abierta y el uso de software y lenguajes de programación de código abierto como herramientas para promover la transparencia y garantizar la reproducibilidad, así como para reducir las desigualdades nacionales e internacionales en la producción y el acceso al conocimiento. Por ello, he sido reconocido con un nombramiento como recomendador (editor) de la novedosa iniciativa \href{https://rr.peercommunityin.org/}{\textit{PCI Registered Reports}} (para más información sobre este modelo, ver \href{https://www.nature.com/articles/d41586-023-03342-6}{artículo en Nature} y la descripción de \href{https://rr.peercommunityin.org/about/about}{PCI}), y he publicado guías metodológicas en video a través del canal \href{https://www.youtube.com/@InvestigacionAbierta}{\textit{Investigación Abierta}}, así como aplicaciones web con fines educativos usando \textit{Shiny}. He participado activamente en la enseñanza y la transformación de módulos relacionados con la estadística, con un enfoque destacado en la ciencia abierta y la reproducibilidad, tanto con como sin programación.
+\textbf{Ciencia abierta:} Apoyo firmemente la difusión de prácticas de ciencia abierta y el uso de software y lenguajes de programación de código abierto como herramientas para promover la transparencia y garantizar la reproducibilidad, así como para reducir las desigualdades nacionales e internacionales en la producción y el acceso al conocimiento. Por ello, he sido reconocido con un nombramiento como recomendador (editor) de la novedosa iniciativa \href{https://rr.peercommunityin.org/}{\textit{PCI Registered Reports}} (para más información sobre este modelo, ver \href{https://www.nature.com/articles/d41586-023-03342-6}{artículo en Nature} y descripción de \href{https://rr.peercommunityin.org/about/about}{PCI}), y he publicado guías metodológicas en video a través del canal \href{https://www.youtube.com/@InvestigacionAbierta}{\textit{Investigación Abierta}}, así como aplicaciones web con fines educativos usando \textit{Shiny}. He participado activamente en la enseñanza y la transformación de módulos relacionados con la estadística, con un enfoque centrado en la ciencia abierta y la reproducibilidad, tanto con como sin programación.
 
 \begin{cvskills}
   \cvskill
@@ -388,7 +388,8 @@ He publicado artículos académicos, guías metodológicas y artículos de divul
 \begin{minipage}[c]{0.10\linewidth}
 \href{https://www.youtube.com/@InvestigacionAbierta}{\includegraphics[width=1.7cm, height=1.7cm]{Logo_IA.png}}
 \end{minipage} \begin{minipage}[c]{0.90\linewidth} \begin{footnotesize}
-\textcolor{red}{\faYoutube} \href{https://www.youtube.com/@InvestigacionAbierta}{Investigación Abierta} es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas prácticas de investigación, estadística y ciencia abierta, así como información sobre algunos programas útiles de código abierto.
+\textcolor{red}{\faYoutube} \href{https://www.youtube.com/@InvestigacionAbierta}{Investigación Abierta} es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas prácticas de investigación, estadística y ciencia abierta, así como información sobre algunos programas útiles de código abierto. Hasta la fecha, he publicado 11 vídeos públicos que han sido vistos aproximadamente 260000 veces en total. Actualmente, el canal tiene cerca de 2300 suscriptores, y los vídeos tienen una media de 23558 visualizaciones y 406 \textit{likes} (98.9\% de las valoraciones).
+
 \end{footnotesize}
 \end{minipage}
 
@@ -435,7 +436,7 @@ ezpickr::pick("data/supervision_pos_es.xlsx") |>
 ##  \textbf{Pregrado}
 
 \begin{footnotesize}
-He estudiantes de distintas universidades y programas académicos. Esta lista sólo incluye a los estudiantes de quienes fui supervisor principal en la Universidad El Bosque u obtuvieron mención a trabajo de grado meritorio desde 2020. Adicionalmente, actualmente estoy supervisando seis estudiantes como supervisor principal, y he supervisado a más de 25 estudiantes como co-supervisor.
+He estudiantes de distintas universidades y programas académicos. Esta lista sólo incluye a los trabajos sustentado desde 2021 de los que fui supervisor principal en la Universidad El Bosque. Actualmente estoy supervisando seis estudiantes como supervisor principal, y he supervisado a más de 25 estudiantes como co-supervisor.
 
 \textbf{Nota:} Los hipervínculos en los títulos de los trabajos de grado conducen a videos cortos (< 10 min) de socialización de los resultados, que pueden ser consultados para constatar su nivel, incluyendo los análisis estadísticos.
 \end{footnotesize}
@@ -443,7 +444,7 @@ He estudiantes de distintas universidades y programas académicos. Esta lista s�
 ```{r supervision-pre}
 ezpickr::pick("data/supervision_pre_es.xlsx") |>
   tidyr::fill(-why) |>
-  slice(1:10) |> 
+  slice(1:9) |> 
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```

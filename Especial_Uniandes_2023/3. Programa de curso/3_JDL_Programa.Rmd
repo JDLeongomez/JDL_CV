@@ -71,64 +71,132 @@ Departamento de Psicología
 
 # Descripción General
 
-¿Cómo aprenden los bebés a hablar? ¿Por qué somos el único animal que habla? Y ¿por qué somos el único animal realmente musical?  Estas son preguntas complejas relacionadas con la comunicación vocal, y tema central de la investigación reciente. Responderlas revelaría aspectos fundamentales del ser humano. Nuestra comunicación vocal, y en especial nuestro lenguaje y música han, después de todo, moldeado profundamente nuestra biología, nuestra psicología, y cada aspecto de nuestra cultura. 
+\begin{footnotesize}
+¿Por qué somos la única especie con un lenguaje verdadero? ¿Cómo y cuándo aparece el lenguaje? ¿Cómo adquieren el lenguaje los bebés? 
 
-Existen fascinantes ejemplos de precursores animales que tienen similitudes con la comunicación vocal en humanos, incluyendo casos de mensajes acústicos complejos, e incluso proto-sintaxis y proto-semántica; sin embargo, ninguna especie llega a un nivel de complejidad similar al de la música y lenguaje humanos. 
+El lenguaje humano, una herramienta poderosa y fascinante, nos capacita para comunicarnos, expresar emociones, compartir conocimientos y moldear el mundo que nos rodea. A pesar de los asombrosos ejemplos de comunicación vocal en animales y los intrigantes casos de mensajes acústicos complejos, e incluso la existencia de proto-sintaxis, proto-semántica y evolución cultural, ninguna otra especie alcanza la complejidad del lenguaje humano. 
+Este seminario tiene como propósito explorar diversos aspectos del estudio del lenguaje, desde una perspectiva transdisciplinar, centrándose en tres aspectos fundamentales: (1) comunicación vocal y antecedentes del lenguaje, (2) hipótesis sobre el origen del lenguaje, y (3) adquisición y procesamiento del lenguaje.
 
-La idea de éste curso, en formato de seminario, es analizar los diferentes aspectos de la comunicación vocal y la literatura reciente, haciendo énfasis en los métodos utilizados para el análisis vocal acústico, así como el análisis del significado de las vocalizaciones, a partir de tres aspectos fundamentales: (1) análisis comparativos entre humanos y otras especies (principalmente mamíferos y aves), (2) evolución de la comunicación vocal, y (3) desarrollo de habilidades cognoscitivas y sensoperceptuales para la música y el lenguaje.
+A través de este programa, además de adquirir una visión amplia sobre el fenómeno del lenguaje, se fortalecerá la formación científica e investigativa, ya que el curso permitirá a las y los estudiantes adquirir herramientas de lectura crítica de artículos científicos —incluyendo la evaluación de la calidad de su evidencia—, y mejorar la capacidad de sintetizar ideas, aprovechando que el estudio científico del lenguaje es un campo complejo en el que rara vez hay respuestas concretas. 
 
-Quienes participen obtendrán un conocimiento general de la literatura en éste campo, incluyendo la acústica de las voces, los mensajes tanto biológicos como psicológicos que transmiten y su relevancia social, las principales técnicas para su estudio, y las principales teorías sobre el origen del lenguaje y la música.
-
-El seminario es ideal para cualquier persona con un interés general en el tema o, por ejemplo, para cualquiera que se interese el origen y desarrollo del lenguaje, en cómo los bebés aprenden a hablar, en la misteriosa musicalidad humana, en la comunicación animal, o para quien quiera comprender la mecánica de la comunicación vocal y los mensajes que transmitimos constantemente de manera consciente e inconsciente.
+Dada la amplitud de la literatura en este campo, este curso ofrecerá una perspectiva interdisciplinaria y general, abordando artículos que fusionan métodos y evidencia desde los enfoque de la psicología, las ciencias cognitivas y las neurociencias, la biología evolutiva, la etología, la lingüística, la antropología y la psiquiatría, entre otras disciplinas. Además, puesto que la literatura comprende desde artículos empíricos hasta revisiones y propuestas teóricas, este curso integrará conocimientos adquiridos en otros cursos, incluyendo análisis estadísticos y habilidades analíticas.
+\end{footnotesize}
 
 # Resultados de Aprendizaje
 
-Al finalizar el curso, los estudiantes estarán en capacidad de:
+\begin{footnotesize}
 
-1. Analizar los aportes de diversas disciplinas en el estudio de la psicología del lenguaje
-2. Sintetizar y evaluar los aspectos principales de la literatura relevante
-3. Afrontar la literatura de manera crítica
-4. Aportar ideas con cierto nivel de originalidad, a partir de la relación entre las conclusiones de la literatura relevante para el curso
-5. Comparar los límites y los alcances de las aproximaciones metodológicas a la investigación sobre el proceso
+Al finalizar el curso, las y los estudiantes estarán en capacidad de:
+
+\par
+\begingroup
+\leftskip3em
+\rightskip\leftskip
+
+1. Identificar y explicar las características únicas del lenguaje humano en comparación con la comunicación vocal en otras especies animales (Demuestra \textbf{Comprensión de la singularidad del lenguaje humano})
+
+2. Analizar y evaluar críticamente diversas hipótesis sobre el origen del lenguaje, entendiendo que no hay respuestas únicas ni \textit{verdaderas} (Demuestra \textbf{Entendimiento de las teorías del origen del lenguaje})
+
+3. Comprender que hay tanto evidencia de recursos neuronales compartidos, como de especificidad de dominio, entre la música y el lenguaje, a partir de la evidencia que proveen algunos desórdenes del desarrollo y lesiones cerebrales específicas (Demuestra \textbf{Conocimiento sobre la relación entre lenguaje y música})
+
+4. Describir los procesos cognitivos implicados en la adquisición y procesamiento del lenguaje, incluyendo aspectos relacionados con la percepción, la gramática y la comprensión (Demuestra \textbf{Comprensión del procesamiento del lenguaje})
+
+5. Demostrar habilidades para analizar, sintetizar y evaluar críticamente la literatura científica relacionada con el lenguaje, expresando y defendiendo sus puntos de vista a través de ensayos y discusiones basados en evidencia (Demuestra \textbf{Desarrollo de habilidades críticas})
+
+6. Reconocer que el abordaje de temas complejos como el lenguaje requiere de miradas desde diferentes disciplinas (Demuestra \textbf{Entendimiento de la necesidad de miradas transdisciplinares para abordar temas complejos})
+
+\par
+\endgroup
+
+\end{footnotesize}
 
 # Metodología
 
-Este curso se basará en una versión simplificada del método de \textit{seminario alemán}, adaptada para el nivel de formación.
+\begin{footnotesize}
+Dado que el estudio del lenguaje es un campo transdisciplinar y complejo, en el que rara vez hay respuestas concretas, el formato de seminario es ideal, pues permite no sólo abordar la complejidad de los temas desde el debate, sino también integrar conocimientos de otros cursos y acercarse a las miradas desde otras disciplinas. 
 
-Bajo la dirección del profesor, se abordarán temáticas específicas en cada sesión, a partir de la lectura de artículos relevantes. 
+Por esto, este curso se basará en una versión simplificada del método de \textit{seminario alemán}, adaptada para el nivel de formación. Bajo la dirección del profesor, se abordarán temáticas específicas en cada sesión, a partir de la lectura y discusión de artículos relevantes. 
+\end{footnotesize}
 
-Aunque todas y todos los estudiantes deberán hacer una lectura general de los artículos, para cada sesión algunos o algunas estudiantes deberán leer uno de los artículos a profundidad, apoyándose en asesorías del profesor, y preparar tanto (1) una exposición del artículo, como (2) una actividad ilustrativa y didáctica sobre sus contenidos (por ejemplo, un \textit{pub quiz}, o un concurso de interpretación de sus resultados).
+## Organización del curso por módulos
 
-Al terminar las exposiciones, se discutirán los resultados e implicaciones del tema de cada sesión, bajo la guía del profesor, quien buscará señalar limitaciones, fortalezas y explicaciones alternativas, profundizando tanto en las bases teóricas, como en las fortalezas y limitaciones analíticas y metodológicas de cada artículo, con el objetivo de fomentar la lectura crítica. 
+\begin{footnotesize}
+El curso se inicia con una cátedra a cargo del profesor, que tiene como objetivo no solo presentar el curso y su metodología, sino también proporcionar una visión general de los aspectos básicos de la evolución y el significado de las señales vocales, necesarios para comprender algunos puntos clave de la literatura. 
+
+Posteriormente, las siguientes 15 sesiones se dividen en tres módulos, centrados en los aspectos fundamentales propuestos: (1) comunicación vocal y antecedentes del lenguaje, (2) hipótesis sobre el origen del lenguaje, y (3) adquisición y procesamiento del lenguaje.
+
+Cada módulo consta de cinco sesiones: las primeras cuatro abordan temas específicos de cada aspecto mediante la exposición y discusión de artículos relevantes. La última sesión de cada módulo se dedica a una discusión general basada en las conclusiones y preguntas que los estudiantes hayan extraído durante la preparación y escritura de ensayos que prepararán (incluyendo los artículos adicionales que hayan leído).
+\end{footnotesize}
+
+## Organización de cada sesión
+
+\begin{footnotesize}
+Aunque todos los estudiantes deben realizar una lectura general de algunos artículos, para cada sesión se asignará a algunos estudiantes la lectura en profundidad de uno de los artículos. Estos estudiantes recibirán el apoyo del profesor para preparar (1) una exposición del artículo y (2) una actividad ilustrativa y didáctica sobre sus contenidos (por ejemplo, un \textit{pub quiz} o un concurso de interpretación de resultados).
+
+Al concluir las exposiciones, se llevará a cabo una discusión sobre los resultados e implicaciones del tema de la sesión, guiada por el profesor. Se buscará que los estudiantes exploren las limitaciones, fortalezas y explicaciones alternativas, profundizando tanto en las bases teóricas como en las fortalezas y limitaciones analíticas y metodológicas de cada artículo, con el objetivo de fomentar la lectura crítica.
+\end{footnotesize}
 
 # Evaluación
 
-Como seminario, la clase se basa en la presentación y discusión de artículos importantes de la literatura. Se evalúa tanto la presentación (síntesis) de artículos y las actividades ilustrativas y didácticas sobre sus contenidos, como las intervenciones en la subsecuente discusión.
+\begin{footnotesize}
+La evaluación en este seminario se centra en la presentación y discusión de artículos clave de la literatura. Se valorará la capacidad de los estudiantes para sintetizar los artículos, así como la creación de actividades ilustrativas y didácticas relacionadas con su contenido, y su participación en las discusiones subsiguientes.
 
-Ensayos sobre preguntas específicas, que vinculan elementos de varios artículos artículos y disciplinas sobre los temas tratados, que permitirán permiten que cada estudiante presente sus propias relaciones y conclusiones, así como buscar literatura adicional.
+Además, a lo largo del semestre, se requerirá que los estudiantes entreguen tres ensayos (uno por cada módulo) que relacionen elementos de varios artículos y disciplinas sobre los temas tratados. Estos ensayos permitirán que cada estudiante presente sus propias conexiones y conclusiones, y que busque literatura adicional para respaldar sus ideas con evidencia.
+\end{footnotesize}
+
+## Distribución y pesos de cada actividad
+
+```{r evaluacion}
+ezpickr::pick("evaluacion.xlsx") |>
+  tidyr::fill(-why) |>
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
 
 # Estructura del Curso
+
+\begin{footnotesize}
+A continuación se presenta la estructura del curso, incluyendo el tema de cada sesión. 
+
+El número de artículos propuestos como base para cada sesión varía en función de su complejidad y/o extensión. 
+
+De acuerdo al número de estudiantes en el curso, las exposiciones y actividades ilustrativas sobre los artículos serán preparadas en grupos de un tamaño acorde, y de ser necesario se excluirán (o aumentarán) artículos a algunas sesiones.  
+\end{footnotesize}
 
 ```{r}
 options(knitr.kable.NA = "—")
 ezpickr::pick("Sesiones curso.xlsx")  |>
   tidyr::fill() |> 
   select(1:4) |> 
-  kable(align = "clll",
-        linesep = "",
+  kable(linesep = "",
         col.names = c("Semana", 
                       "Tema", 
                       "Lecturas", 
                       "Trabajo autónomo"),
-        escape = FALSE) |> 
-  kable_styling(font_size = 7.5, latex_options = c("hold_position")) |>
-  column_spec(1, width = "4em", border_left = TRUE) |> 
-  column_spec(2, width = "28em") |>
-  column_spec(3, width = "12em") |> 
-  column_spec(4, width = "14em", border_right = TRUE) |>
+        escape = FALSE,
+        longtable = TRUE) |> 
+  kable_styling(font_size = 7.5, latex_options = c("hold_position", "repeat_header")) |>
+  row_spec(0, bold = TRUE, italic = TRUE, font_size = 11, align = "c") |> 
   row_spec(1:15, hline_after = TRUE) |> 
-  row_spec(c(6,12), bold = TRUE) |> 
-  row_spec(0, bold = TRUE, italic = TRUE, font_size = 11, align = "c")
+  row_spec(c(6,11,16), background = "lightgray2") |>
+  column_spec(1, width = "4em", border_left = TRUE) |> 
+  column_spec(2, width = "30em") |>
+  column_spec(3, width = "12em") |> 
+  column_spec(4, width = "12em", border_right = TRUE) |>
+  pack_rows("MÓDULO 1: \\textit{Comunicación vocal y antecedentes del lenguaje}", 2, 6, 
+            color = "white",
+            background = "black",
+            escape = FALSE) |>
+  pack_rows("MÓDULO 2: \\textit{Hipótesis sobre el origen del lenguaje}", 7, 11, 
+            color = "white",
+            background = "black",
+            escape = FALSE) |>
+  pack_rows("MÓDULO 3: \\textit{Adquisición y procesamiento del lenguaje}", 12, 16, 
+            color = "white",
+            background = "black",
+            escape = FALSE) |> 
+  footnote(general = "*Para estudiantes a cargo de exponer un artículo en esa sesión.",
+           general_title = "")
 ```
 
 # Referencias

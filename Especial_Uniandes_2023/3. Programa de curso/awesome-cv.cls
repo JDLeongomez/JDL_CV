@@ -102,10 +102,11 @@
 % Needed to include graphics
 \RequirePackage{graphicx}
   \graphicspath{ {../../images/} }
-% Fot tcolorbox
+% For tcolorbox
 \usepackage{multicol}
 \usepackage{colortbl}
-
+% For long table
+\usepackage{longtable}
 % For biblatex in Spanish
 \usepackage{csquotes}
 \usepackage[style=apa,backend=biber]{biblatex}
@@ -147,6 +148,7 @@
 \definecolor{darkgray}{HTML}{333333}
 \definecolor{gray}{HTML}{5D5D5D}
 \definecolor{lightgray}{HTML}{999999}
+\definecolor{lightgray2}{HTML}{D9D9D9}
 % Basic colors
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}

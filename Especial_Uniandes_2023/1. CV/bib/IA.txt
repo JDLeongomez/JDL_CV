@@ -1,6 +1,6 @@
 Leongómez, J.D. [Investigación Abierta]. (2023). *Meta-análisis de correlaciones en R* [Video]. YouTube. https://www.youtube.com/watch?v=RNw92QdsW4g
 
-Leongómez, J.D. [Investigación Abierta]. (2022). *Ciencia abierta: necesidad, principios e iniciativas* [Video]. YouTube. hhttps://www.youtube.com/watch?v=Fl98MoBqSaI
+Leongómez, J.D. [Investigación Abierta]. (2022). *Ciencia abierta: necesidad, principios e iniciativas* [Video]. YouTube. https://www.youtube.com/watch?v=Fl98MoBqSaI
 
 Leongómez, J.D. [Investigación Abierta]. (2021). *Hacer meta-análisis en jamovi es muy fácil* [Video]. YouTube. https://www.youtube.com/watch?v=ntBbkOn9D_o
 
