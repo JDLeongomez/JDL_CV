@@ -95,12 +95,23 @@
   pdfsubject={},
   pdfkeywords={},
   colorlinks,
+  citecolor=purple,
+  linkcolor=blue, 
   urlcolor=blue
 }
 % Needed to include graphics
 \RequirePackage{graphicx}
   \graphicspath{ {../../images/} }
-
+% For tcolorbox
+\usepackage{multicol}
+\usepackage{colortbl}
+% For long table
+\usepackage{longtable}
+% For biblatex in Spanish
+\usepackage{csquotes}
+\usepackage[style=apa,backend=biber]{biblatex}
+\DeclareLanguageMapping{spanish}{spanish-apa}
+\addbibresource{referencias.bib}
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
@@ -137,10 +148,11 @@
 \definecolor{darkgray}{HTML}{333333}
 \definecolor{gray}{HTML}{5D5D5D}
 \definecolor{lightgray}{HTML}{999999}
+\definecolor{lightgray2}{HTML}{D9D9D9}
 % Basic colors
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
-\definecolor{purple}{HTML}{D3A4F9}
+\definecolor{purple}{HTML}{9386F0}
 \definecolor{red}{HTML}{FB4485}
 \definecolor{blue}{HTML}{3F3EB0}
 % Text colors
@@ -208,7 +220,7 @@
 \newcommand*{\headerquotestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\itshape\color{darktext} #1}}
 \newcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\scshape\color{lighttext} #1}}
 \newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
-\newcommand*{\subsectionstyle}[1]{{\fontsize{14pt}{1em}\bodyfont\bfseries\textcolor{gray}{#1}}}
+\newcommand*{\subsectionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\bfseries\textcolor{gray}{#1}}}
 \newcommand*{\paragraphstyle}{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text}}
 
 % For elements of entry
@@ -595,7 +607,7 @@
 \renewcommand{\subsection}[1]{%
 	\vspace{\acvSectionContentTopSkip}
 	\vspace{-1mm}
-	\blacktriangleright\blacktriangleright\space
+%	\blacktriangleright\blacktriangleright\space
 	\subsectionstyle{#1}
 	\phantomsection
 	\color{gray}

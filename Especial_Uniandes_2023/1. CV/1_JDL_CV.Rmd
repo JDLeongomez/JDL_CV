@@ -262,8 +262,8 @@ percentpub <- round(cit5/citSum*100, 0)
 h_index <- profile$h_index
 g_index <- max(which(as.numeric(row.names(pubs))^2 < cumsum(pubs$cites)))
 i10_index <- profile$i10_index
-i50 <- pubs |> 
-  filter(cites >= 50) |> 
+i40 <- pubs |> 
+  filter(cites >= 40) |> 
   tally()
 ```
 
@@ -303,7 +303,7 @@ ezpickr::pick("data/service_es.xlsx") |>
 # Publicaciones
 
 \begin{footnotesize}
-He publicado artículos académicos, guías metodológicas y artículos de divulgación, pero también tengo publicaciones en otros medios como videos y aplicaciones web. En total, mis trabajos han sido citados `r citSum` veces, `r cit5` (`r percentpub`\%) desde principios de `r min(cits$year)`. De mis artículos, `r i10_index` han sido citados 10 o más veces, y `r i50$n` han sido citados más de 50 veces.
+He publicado artículos académicos, guías metodológicas y artículos de divulgación, pero también tengo publicaciones en otros medios como videos y aplicaciones web. En total, mis trabajos han sido citados `r citSum` veces, `r cit5` (`r percentpub`\%) desde principios de `r min(cits$year)`. De mis artículos, `r i10_index` han sido citados 10 o más veces, y `r i40$n` han sido citados más de 40 veces (alternativamente, \href{https://shiny.jdl-svr.lat/ScholarlyOutput_ES/}{esta app} creará por defecto un resumen gráfico de mi producción).
 \end{footnotesize}
 
 ## Artículos en Revistas Científicas
@@ -436,15 +436,15 @@ ezpickr::pick("data/supervision_pos_es.xlsx") |>
 ##  \textbf{Pregrado}
 
 \begin{footnotesize}
-He estudiantes de distintas universidades y programas académicos. Esta lista sólo incluye a los trabajos sustentado desde 2021 de los que fui supervisor principal en la Universidad El Bosque. Actualmente estoy supervisando seis estudiantes como supervisor principal, y he supervisado a más de 25 estudiantes como co-supervisor.
+He supervisado trabajos de grado realizados por estudiantes de distintas universidades y programas académicos. Esta lista sólo incluye los trabajos sustentados de los que he sido supervisor principal, pero adicionalmente he co-supervisado a más de 30 estudiantes. Actualmente, además, estoy supervisando seis estudiantes como supervisor principal.
 
-\textbf{Nota:} Los hipervínculos en los títulos de los trabajos de grado conducen a videos cortos (< 10 min) de socialización de los resultados, que pueden ser consultados para constatar su nivel, incluyendo los análisis estadísticos.
+\textbf{Nota:} Los hipervínculos en los títulos de los trabajos de grado recientes conducen a videos cortos (< 10 min) de socialización de los resultados, que pueden ser consultados para constatar su nivel, incluyendo los análisis y modelos estadísticos.
 \end{footnotesize}
 
 ```{r supervision-pre}
 ezpickr::pick("data/supervision_pre_es.xlsx") |>
   tidyr::fill(-why) |>
-  slice(1:9) |> 
+  #slice(1:9) |> 
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```

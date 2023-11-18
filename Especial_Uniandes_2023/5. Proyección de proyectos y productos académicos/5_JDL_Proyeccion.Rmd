@@ -1,0 +1,128 @@
+---
+graphics: yes
+name: Juan David
+surname: Leongómez Peña
+position: Profesor Asociado
+address: "PhD University of Stirling · MSc University of Liverpool"
+phone: (+57) 319 407 7102
+email: "juanleongomez@gmail.com"
+www: jdleongomez.info
+date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d de %B de %Y')`"
+header-includes: \usepackage{multicol}
+  \usepackage{colortbl}
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
+headcolor: 333333
+docname: Proyección de proyectos y productos académicos
+# bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+pkgs <- c('vitae' ,'here' ,'tinytex' ,'tibble' ,'glue' ,'rmarkdown' ,'dplyr', 'readr' ,'yaml')
+xfun::pkg_attach2(pkgs)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data sctructure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative Filepaths
+             ,'readr'     # Data Loading
+             ,'tidyverse' # Needed for bind_rows and whatever
+             ,'scholar'   # Updating publications from google scholar
+             ,'kableExtra'# Adding technicalskills table
+            )
+library(magrittr)
+# Install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
+
+# Packages loading
+lapply(packages, library, character.only = TRUE) %>%
+  invisible()
+```
+
+\vspace{4mm}
+\begin{tcolorbox}[enhanced,
+        on line, 
+        boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+        colframe=white,colback=black]
+  
+\color{white}
+\begin{LARGE}\begin{center}
+Documento 5. \textbf{Proyección de proyectos y productos académicos}
+\end{center}\end{LARGE}
+\end{tcolorbox}
+
+# Línea efectos sociales y percepción interpersonal a partir de señales vocales
+
+\space
+
+## Señales de infidelidad y sociosexualidad en rostros y voces (Rol: *investigador principal*)
+
+\begin{footnotesize}
+
+Espero publicar 1 artículo Q1 (año uno) con los análisis principales de este estudio, combinando señales vocales y faciales. Adicionalmente, espero publicar un segundo estudio Q1 (año 3) estudiando la percepción multimodal de sociosexualidad.
+
+\end{footnotesize}
+ 
+## Modulación Vocal: Especificidad Contextual y Efectos Sociales (Rol: *investigador principal*)
+
+\begin{footnotesize}
+
+Este proyecto, planeado y liderado por mí como investigador principal, reúne a un grupo de importantes investigadoras e investigadores al rededor del mundo, incluyendo, entre otras personas, al Dr. \href{https://scholar.google.com/citations?user=fZ_ZqrMAAAAJ}{David Puts} (Department of Anthropology, Pennsylvania State University, EEUU), la Dra. \href{https://scholar.google.com/citations?user=sTCqMrwAAAAJ}{Katarzyna Pisanski} (Sensory Neuro-Ethology Lab (ENES), University of Lyon/Saint-Etienne, Francia), el Dr. \href{https://scholar.google.com/citations?user=6jMFwJQAAAAJ}{Pablo Arias Sarah} (School of Neuroscience and Psychology, University of Glasgow, Reino Unido),  la Dra. \href{https://scholar.google.cz/citations?user=BaIq_QIAAAAJ}{Jaroslava Varella} Valentova (Instituto de Psicología, Universidad de São Paulo, Brasil), el Dr. \href{https://scholar.google.com/citations?user=ZtzwhVsAAAAJ}{Karel Kleisner} (Department of Philosophy and History of Science, Charles University, República Checa), y el Dr. \href{https://scholar.google.com/citations?user=nhsFlxAAAAAJ}{Isaac G-Santoyo} (Facultad de Psicología, Universidad Nacional Autónoma de México). 
+
+El proyecto consta de seis estudios, pero para ser realizado por completo requiere de financiación (la propuesta ya fue sometida a un \textit{grant}, y está a la espera de respuesta). Asumiendo que el proyecto obtenga financiación, espero publicar al menos 4 artículos de investigación Q1, y al menos 2 en revistas generalistas de primer nivel (e.g., Nature Human Behaviour). El proyecto contempla que cada artículo sea publicado siguiendo el modelo de \href{https://www.nature.com/articles/s41562-021-01193-7}{\textit{reporte registrado}}. De no obtener financiación para el propyecto completo, se buscarán fondos para comenzar haciendo estudios específicos, y la producción se ajustará de acuerdo a esto.
+
+\end{footnotesize}
+
+# Colaboraciones internacionales
+
+## Disgust Perception through Sounds and Sights (Rol: *co-investigador*)
+
+\begin{footnotesize}
+
+Espero publicar al menos 1 artículo Q1 (año uno) con los resultados de este estudio global.
+
+\end{footnotesize}
+
+## Efecto de señales estáticas evolutivamente relevantes (sexo, dominancia y atractivo) en el procesamiento cortical de rostros humanos (Rol: *co-investigador*)
+
+\begin{footnotesize}
+
+Espero publicar un artículo Q1 (año dos) con los resultados de un estudio usando \textit{eye-tracking}.
+
+\end{footnotesize}
+
+## Cross‑cultural relationships between music, emotion, and visual imagery: A comparative study of Iran, Canada, and Japan(Rol: *co-investigador*)
+
+\begin{footnotesize}
+
+Espero que el \textit{Stage 1} de este reporte registrado, para el que hice un análisis de poder basado en simulaciones (disponible \href{https://github.com/comp-music-lab/VisualEars/blob/main/Power_Analysis/Power_analysis.pdf}{acá}), sea aceptado en principio (año uno), y el \textit{Stage 2} sea publicado en revista Q1 (año dos).
+
+\end{footnotesize}
+
+## Efecto del control de los recursos real y simulado sobre las preferencias de mujeres andrófilas por la masculinidad en rostros de hombres: un estudio experimental usando rastreo ocular (Rol: *co-investigador*)
+
+\begin{footnotesize}
+
+Espero publicar 1 artículo Q1 (año tres) con los resultados de este estudio.
+
+\end{footnotesize}
+
+# Productos no convencionales
+
+\begin{footnotesize}
+
+Espero publicar más aplicaciones web que ayuden a ilustrar conceptos fundamentales de estadística frecuentista a partir de simulaciones. 
+
+Por ejemplo, como parte de la colección \href{https://shiny.jdl-svr.lat/PowerSimulate/}{\textit{PowerSimulate}}, planeo crear aplicaciones para realizar análisis de poder estadístico y calcular el tamaño de muestra para (1) ANOVA de una vía de medidas independientes, (2) ANOVA de una vía de medidas repetidas, y (3) ANOVA factorial (probablemente 2x2) de medidas independientes, (4) repetidas y (5) mixtas. Todas estas aplicaciones serían creadas y publicadas durante el año uno.
+
+Adicionalmente, espero editar un libro de técnicas de análisis en R para investigadores e investigadoras en ciencias sociales, en el que cada capítulo sea una guía detallada, paso a paso y fácil de seguir, que permita a las y los lectores entender y hacer análisis (incluso análisis relativamente complejos), incluso si tienen muy poca experiencia usando R (año 3). Para maximizar su alcance y accesibilidad, espero que cada capítulo esté acompañado de guías concretas en video o medios interactivos como aplicaciones creadas usando \textit{Shiny}. Esta idea fue anteriormente discutida con profesores de la Facultad de Psicología de la Universidad de Los Andes. 
+
+
+
+\end{footnotesize}
