@@ -1,0 +1,93 @@
+---
+graphics: yes
+name: Juan David
+surname: Leongómez Peña
+position: Profesor Asociado
+address: "PhD University of Stirling · MSc University of Liverpool"
+phone: (+57) 319 407 7102
+email: "juanleongomez@gmail.com"
+www: jdleongomez.info
+date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d de %B de %Y')`"
+headcolor: 333333
+docname: Evaluaciones de curso
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+pkgs <- c('vitae' ,'here' ,'tinytex' ,'tibble' ,'glue' ,'rmarkdown' ,'dplyr', 'readr' ,'yaml')
+xfun::pkg_attach2(pkgs)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data sctructure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative Filepaths
+             ,'readr'     # Data Loading
+             ,'tidyverse' # Needed for bind_rows and whatever
+             ,'scholar'   # Updating publications from google scholar
+             ,'kableExtra'# Adding technicalskills table
+            )
+library(magrittr)
+# Install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
+
+# Packages loading
+lapply(packages, library, character.only = TRUE) %>%
+  invisible()
+```
+
+\vspace{20mm}
+\begin{tcolorbox}[enhanced,
+        on line, 
+        boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+        colframe=white,colback=black]
+  
+\color{white}
+\begin{LARGE}\begin{center}
+Documento 4. \textbf{Evaluaciones de curso}
+\end{center}\end{LARGE}
+\end{tcolorbox}
+
+\vspace{40mm}
+
+\begin{huge}
+\textbf{Secciones}
+\end{huge}
+\vspace{20mm}
+
+\normalsize
+
+\hyperlink{page.2}{Dirección trabajos de grado} \hfill 2016 - 2023
+
+\hyperlink{page.35}{Métodos cuantitativos II (Maestría)} \hfill 2017 - 2019
+
+\hyperlink{page.48}{Trabajo Proyecto de Grado I} \hfill 2018
+
+\hyperlink{page.57}{Fuentes y estilos de documentación en psicología} \hfill 2015
+
+\vfill
+
+
+\section{Dirección trabajos de grado}
+
+\includepdf[scale=0.9,pages={1-32}]{evaluaciones_merged.pdf}
+
+
+\section{Métodos cuantitativos II}
+
+\includepdf[scale=0.9,pages={33-44}]{evaluaciones_merged.pdf}
+
+
+\section{Trabajo Proyecto de Grado I}
+
+\includepdf[scale=0.9,pages={45-52}]{evaluaciones_merged.pdf}
+
+
+\section{Fuentes y estilos de documentación en psicología}
+
+\includepdf[scale=0.9,pages={53-80}]{evaluaciones_merged.pdf}

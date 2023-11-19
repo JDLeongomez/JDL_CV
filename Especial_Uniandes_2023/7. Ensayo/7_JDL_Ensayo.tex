@@ -1,0 +1,187 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{333333}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Juan David}{Leongómez Peña}
+
+\position{Profesor Asociado}
+\address{PhD University of Stirling · MSc University of Liverpool}
+
+\mobile{(+57) 319 407 7102}
+\email{\href{mailto:juanleongomez@gmail.com}{\nolinkurl{juanleongomez@gmail.com}}}
+\homepage{jdleongomez.info}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {19 de noviembre de 2023}
+    {Juan David Leongómez Peña~~~·~~~Ensayo}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\vspace{4mm}
+\begin{tcolorbox}[enhanced,
+        on line, 
+        boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+        colframe=white,colback=black]
+  
+\color{white}
+\begin{LARGE}\begin{center}
+Documento 7. \textbf{Ensayo}
+\end{center}\end{LARGE}
+\end{tcolorbox}
+
+\doublespacing
+
+\begin{small}
+
+A lo largo de este ensayo, demostraré cómo mi formación, intereses y trayectoria son excepcionales, especialmente dentro del contexto colombiano. En primer lugar, mi pregrado no se centró en psicología, sino en pedagogía musical, marcando un inicio poco convencional en mi recorrido académico. En segundo lugar, a medida que progresé hacia estudios de posgrado, mi enfoque se volcó gradualmente hacia la psicología con una fuerte orientación comportamental y biológica, lo cual ha delineado mi camino como investigador. Esta peculiar ruta educativa, por supuesto, dibuja un perfil no convencional. Sin embargo, mi perfil poco ortodoxo, lejos de ser una limitación, aporta perspectivas innovadoras que desafían constantemente las fronteras disciplinarias, brindando una mirada fresca y singular, y sólidos fundamentos metodológicos en línea con los principios de la ciencia abierta.
+
+Aunque mi formación inicial estuvo orientada hacia el arte y la enseñanza, durante mis estudios de pregrado me surgió una pregunta que, por ese entonces, jamás había escuchado: ¿por qué los humanos, así como somos el único animal con lenguaje, somos el único animal realmente musical? O, en esencia, ¿cuál es el origen de la música? Esta pregunta, una vez formulada, \textit{rompió} mi forma de pensar y redefinió mis expectativas. A partir de ese momento decidí que quería que dedicar mi vida a tratar de comprender ese aspecto fundamental, tan profundamente arraigado del ser humano. De hecho, durante mis estudios de pregrado, mi primer paso fue abordar esta cuestión en mi trabajo de grado, a pesar de contar con limitadas herramientas y orientación académica. Aunque dicho trabajo \autocite[eventualmente publicado en][]{Leongomez2008} refleje una aproximación inicial e ingenua, careciendo en muchos aspectos del rigor que ahora procuraría, demostró la pertinencia de mi interrogante y reveló la existencia de personas alrededor del mundo que estaban inmersas en su búsqueda, una sorpresa gratificante en mi indagación inicial.
+
+El segundo paso crucial fue buscar una formación científicamente sólida. Por ello, decidí viajar al Reino Unido, donde realicé una maestría en psicología evolutiva\footnote{\scriptsize Es relevante aclarar que no me refiero a la psicología del desarrollo, sino al estudio de la mente y el comportamiento desde una perspectiva evolutiva. Aunque comúnmente se utiliza el término 'psicología \textit{evolucionista'} de manera errónea y simplificada en el español, prefiero evitar el uso del sufijo \href{https://dle.rae.es/-ismo}{\textit{-ismo}}. Este sufijo a menudo connota una doctrina ideológica, algo lamentablemente asociado con algunas corrientes, de las cuales me distancio. Mi interés y formación parten de un marco conceptual y empírico sólido, propios de la perspectiva evolutiva moderna. Sería similar a referirse a la 'psicología \textit{clinicista}' o, de manera más provocativa ideológicamente, a la 'psicología \textit{socialista}', lo cual, por supuesto, resultaría absolutamente inapropiado y fuera de lugar, pero sirve como ejemplo gracioso de este sesgo lingüístico.} en la \href{https://www.liverpool.ac.uk/}{Universidad de Liverpool}, que incluía figuras tan destacadas como \href{https://en.wikipedia.org/wiki/Robin_Dunbar}{Robin Dunbar}. A pesar de los desafíos que enfrenté para ingresar y completar un programa de posgrado destinado específicamente a biólogos o psicólogos, incluso careciendo de bases formales en estadística, no solo culminé exitosamente el programa, sino que también fui galardonado por el mejor desempeño en la maestría.
+
+Posteriormente, también en el Reino Unido, llevé a cabo mi doctorado como parte del \textit{\href{https://www.stir.ac.uk/about/faculties/natural-sciences/our-research/research-groups/behaviour-and-evolution-research-group/}{Behaviour and Evolution Research Group}} en el \href{https://www.stir.ac.uk/about/faculties/natural-sciences/psychology/}{Departamento de Psicología}, integrado en la \href{https://www.stir.ac.uk/about/faculties/natural-sciences/departments/}{Facultad de Ciencias Naturales} de la Universidad de Stirling\footnote{\scriptsize Para ilustrar la gran amplitud de la perspectiva de la ciencia psicológica en la Universidad de Stirling, vale resaltar que, además de grupos enfocados en psicología clínica y de la salud, por ejemplo, hay un fuerte enfoque en estudios del comportamiento y bienestar en especies animales humanas y no humanas. De hecho, durante la mayor parte de mis estudios doctorales, la directora del departamento fue la Dra. \href{https://scholar.google.co.uk/citations?user=wxh9svQAAAAJ}{Phyllis C. Lee}, conocida particularmente por su trabajo en comportamiento y conservación de elefantes.}. Durante mi investigación doctoral, me enfoqué en la relación entre la musicalidad y ciertos aspectos no verbales del habla humana \autocite[e.g., ][]{leongomezVocalModulationCourtship2014}, lo que me llevó a reflexionar sobre la compleja relación entre la musicalidad y el lenguaje, y la posible conexión entre ambos fenómenos.
+
+Desde mi retorno a Colombia, mi principal vínculo ha sido con la Universidad El Bosque, donde actualmente soy Profesor Asociado e investigador en la Facultad de Psicología. Desde 2016, lidero el grupo de investigación \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}}, que por ese entonces no tenía siquiera reconocimiento como grupo de investigación por Minciencias, pero bajo mi liderazgo logró obtener no solo reconocimiento sino eventualmente alcanzar la categoría \textbf{\href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{A1}}. Asimismo, debido a mi producción académica, tengo el reconocimiento como \href{https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001348945}{Investigador Senior} por Minciencias.
+
+Además de esto, cabe señalar que a partir de mi formación profesional como pedagogo, tengo experiencia docente en todos los niveles (desde preescolar hasta posgrado), tanto en Colombia como en el Reino Unido. Como docente en la Universidad Pedagógica Nacional de Colombia (2010), dicté clases relacionadas con métodos de investigación, estuve a cargo de la supervisión metodológica de varios proyectos de investigación de pregrado, y fui miembro del Comité de Investigación, donde participé en la definición de las líneas de investigación y los lineamientos para la investigación de pregrado. En la Universidad de Stirling (2011-2014), dirigí varios proyectos de investigación en psicoacústica con estudiantes de pregrado, impartí clases magistrales y seminarios sobre comunicación vocal (en animales y humanos), impartí clases magistrales y talleres de estadística, estuve a cargo del apoyo estadístico a los estudiantes de las diferentes maestrías en psicología, dirigí una tesis de maestría, e impartí cursos prácticos sobre acústica e investigación de la voz humana, y talleres técnicos sobre el uso de software especializado. En la Universidad de La Sabana (2015 - 2016) diseñé e impartí asignaturas de estadística, supervisé los aspectos metodológicos de varios trabajos de investigación de pregrado, y diseñé un curso electivo centrado en la evolución y desarrollo de la comunicación vocal.
+
+Aunque mis perspectivas e intereses de investigación se han ampliado con el tiempo, el estudio del comportamiento humano con una perspectiva evolutiva ha sido un eje central en mi carrera académica. Además de investigar sobre las bases de la musicalidad humana y sus funciones sociales, me concentro en el estudio evolutivo del comportamiento humano y su variabilidad cultural. Mi interés se centra en comprender los efectos sociales de señales biológicas y la percepción interpersonal a través de señales vocales no verbales. Mis investigaciones abordan temas como los procesos de elección de pareja, señales faciales y su impacto en la percepción de dominancia, tipicidad sexual y salud, además de los efectos de los niveles hormonales en el comportamiento social humano.
+
+He publicado con éxito mis investigaciones en revistas de alta calidad: hasta la fecha, tengo 30 artículos publicados o aceptados en revistas revisadas por pares, incluyendo 3 artículos \autocite{kleisner2021,leongomez2021,leongomez2022} en un número temático en dos partes (\href{https://royalsocietypublishing.org/toc/rstb/2021/376/1840}{Parte 1}; \href{https://royalsocietypublishing.org/toc/rstb/2022/377/1841}{Parte 2}) centrado en la modulación de la voz para \textit{Philosophical Transactions of the Royal Society B}, del que soy el editor principal.
+
+En los últimos años, he estado activamente involucrado en la difusión y aplicación de técnicas analíticas cuantitativas y enfoques metodológicos innovadores. Mi enfoque ha estado centrado en promover la reproducibilidad y replicabilidad en la investigación científica, abordando las brechas existentes en la producción y acceso al conocimiento científico, una problemática que he experimentado de primera mano. Mi compromiso se ha evidenciado en la enseñanza y transformación de módulos relacionados con la estadística, priorizando la ciencia abierta y la reproducibilidad, tanto en entornos de programación como sin ellos. Esto se ha reflejado en mi labor como asesor metodológico y estadístico, en la reestructuración de módulos de estadística a nivel de pregrado y posgrado, y en la introducción y actualización voluntaria de docentes y estudiantes en el uso de R.
+
+Mi firme apoyo a la difusión de prácticas de ciencia abierta se ha traducido en diversas iniciativas y logros. He trabajado activamente en la promoción de buenas prácticas en investigación cuantitativa y software de código abierto en español, contribuyendo a llenar un vacío en fuentes de alta calidad y accesibles. He elaborado guías metodológicas y vídeos en el canal \href{https://www.youtube.com/@InvestigacionAbierta}{\textit{Investigación Abierta}}, además de desarrollar aplicaciones web educativas mediante \textit{Shiny}.
+
+Actualmente, ejerzo como editor ('\textit{recomendador}') en la innovadora iniciativa \href{https://rr.peercommunityin.org/}{\textit{PCI Registered Reports}}. Este modelo ha sido presentado en un \href{https://www.nature.com/articles/d41586-023-03342-6}{artículo de Nature} y se detalla en la descripción de \href{https://rr.peercommunityin.org/about/about}{PCI}.
+
+Mis intereses de investigación temáticos, combinados con mi enfoque en la ciencia abierta y metodologías cuantitativas transversales a diversas áreas y disciplinas, han generado múltiples colaboraciones establecidas tanto dentro como fuera de Colombia. Mi trabajo se extiende a áreas transdisciplinares del comportamiento humano, así como a estudios neurocientíficos y sociales. He liderado numerosas colaboraciones internacionales, pero también he apoyado análisis estadísticos y diseños de investigación en estas áreas.
+
+Además de mi experiencia en investigación, he acumulado una amplia experiencia administrativa en los casi nueve años en la Universidad El Bosque. Durante un periodo de cambios significativos en la institución, promoví y respaldé transformaciones en la docencia, impulsando la adopción de software libre. Estas iniciativas, junto con mis logros en investigación, fueron reconocidas con mi promoción a Profesor Asociado en 2019. Las estrategias propuestas demostraron su valía durante la crisis generada por la pandemia del COVID-19, donde asesoré al equipo de la Facultad para mantener una enseñanza innovadora y de alta calidad mediante herramientas tecnológicas.
+
+Me entusiasma la perspectiva de incorporarme al Departamento de Psicología de la Universidad de los Andes. Creo que me beneficiaría interactuar con colegas con intereses de investigación más complementarios que los que tengo actualmente en una Facultad de Psicología que no ofrece títulos de investigación, donde mis posibilidades de colaboración interna son por lo tanto limitadas. Aunque colaboro con colegas de varios países, incluyendo el Reino Unido, República Checa, Francia, Brasil, México y Colombia, veo beneficios y oportunidades adicionales para una colaboración más amplia con otros colegas en los grupos de Neurociencia y comportamiento (pensando en mis intereses en la evolución de la musicalidad y su relación con el lenguaje) y el Grupo de investigación en psicología cognitiva.
+
+Estoy convencido de que cumplo con todos los requisitos de esta cátedra en cuanto a cualificaciones, conocimientos, habilidades, experiencia y atributos personales. Deseo abrir una nueva línea de investigación en un entorno dinámico y vibrante, y contribuir activamente a la enseñanza, especialmente a nivel de posgrado, en áreas metodológicas y fundamentales, promoviendo la actualización constante de los métodos cuantitativos en la investigación. Agradezco sinceramente la consideración de mi candidatura.
+
+\end{small}
+
+\hypertarget{referencias}{%
+\section{Referencias}\label{referencias}}
+
+\singlespacing
+\begin{multicols}{2}
+\AtNextBibliography{\footnotesize}
+\printbibliography[heading=none]
+\end{multicols}
+
+
+
+\end{document}
