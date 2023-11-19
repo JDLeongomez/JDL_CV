@@ -79,7 +79,7 @@ El proyecto consta de seis estudios, pero para ser realizado por completo requie
 
 \end{footnotesize}
 
-# Colaboraciones internacionales
+# Colaboraciones
 
 ## Disgust Perception through Sounds and Sights (Rol: *co-investigador*)
 
@@ -113,16 +113,12 @@ Espero publicar 1 artículo Q1 (año tres) con los resultados de este estudio.
 
 \end{footnotesize}
 
-# Productos no convencionales
+# Productos no convencionales y divulgación de Ciencia Abierta
 
 \begin{footnotesize}
 
-Espero publicar más aplicaciones web que ayuden a ilustrar conceptos fundamentales de estadística frecuentista a partir de simulaciones. 
-
-Por ejemplo, como parte de la colección \href{https://shiny.jdl-svr.lat/PowerSimulate/}{\textit{PowerSimulate}}, planeo crear aplicaciones para realizar análisis de poder estadístico y calcular el tamaño de muestra para (1) ANOVA de una vía de medidas independientes, (2) ANOVA de una vía de medidas repetidas, y (3) ANOVA factorial (probablemente 2x2) de medidas independientes, (4) repetidas y (5) mixtas. Todas estas aplicaciones serían creadas y publicadas durante el año uno.
+Espero publicar más aplicaciones web que ayuden a ilustrar conceptos fundamentales de estadística frecuentista a partir de simulaciones. Por ejemplo, como parte de la colección \href{https://shiny.jdl-svr.lat/PowerSimulate/}{\textit{PowerSimulate}}, planeo crear aplicaciones para realizar análisis de poder estadístico y calcular el tamaño de muestra para (1) ANOVA de una vía de medidas independientes, (2) ANOVA de una vía de medidas repetidas, y (3) ANOVA factorial (probablemente 2x2) de medidas independientes, (4) repetidas y (5) mixtas. Todas estas aplicaciones serían creadas y publicadas durante el año uno.
 
 Adicionalmente, espero editar un libro de técnicas de análisis en R para investigadores e investigadoras en ciencias sociales, en el que cada capítulo sea una guía detallada, paso a paso y fácil de seguir, que permita a las y los lectores entender y hacer análisis (incluso análisis relativamente complejos), incluso si tienen muy poca experiencia usando R (año 3). Para maximizar su alcance y accesibilidad, espero que cada capítulo esté acompañado de guías concretas en video o medios interactivos como aplicaciones creadas usando \textit{Shiny}. Esta idea fue anteriormente discutida con profesores de la Facultad de Psicología de la Universidad de Los Andes. 
-
-
 
 \end{footnotesize}

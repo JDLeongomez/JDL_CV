@@ -10,10 +10,10 @@ www: jdleongomez.info
 date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d de %B de %Y')`"
 header-includes: \usepackage{multicol}
   \usepackage{colortbl}
+  \usepackage{orcidlink}
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
 headcolor: 333333
-docname: Cursos y su justificación
-bibliography: references.bib
+docname: Referencias Académicas
 ---
 
 ```{r setup, include=FALSE}
@@ -53,28 +53,13 @@ lapply(packages, library, character.only = TRUE) %>%
   
 \color{white}
 \begin{LARGE}\begin{center}
-Documento 2. \textbf{ Cursos y su justificación}
+Documento 6. \textbf{Referencias Académicas}
 \end{center}\end{LARGE}
 \end{tcolorbox}
 
-```{r}
-options(knitr.kable.NA = "")
-ezpickr::pick("Tabla cursos.xlsx")  |>
-  tidyr::fill() |> 
-  kable(align = "ccl",
-        linesep = "",
-        col.names = c("Curso", 
-                      "Nivel",
-                      "Justificación (a partir de su experiencia o formación académica)"),
-        escape = FALSE) |> 
-  kable_styling(font_size = 9, latex_options = c("hold_position")) |>
-  column_spec(3, width = "40em", border_right = TRUE) |> 
-  column_spec(2, width = "6em") |>
-  column_spec(1, width = "7em", border_left = TRUE) |> 
-  row_spec(c(2,4,6,8,10:12), hline_after = TRUE) |> 
-  row_spec(11:12, background = "gray", color = "white") |>
-  row_spec(13, background = "black", color = "white") |>
-  row_spec(0, bold = TRUE, italic = TRUE, font_size = 11, align = "c") |> 
-  pack_rows("Cursos no electivos", 1, 10) |>
-  pack_rows("Otros cursos", 11, 13)
+```{r referencias}
+ezpickr::pick("referencias.xlsx") |>
+  tidyr::fill(-why) |>
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
 ```

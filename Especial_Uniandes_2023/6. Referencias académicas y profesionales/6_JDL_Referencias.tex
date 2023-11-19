@@ -1,0 +1,176 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{333333}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Juan David}{Leongómez Peña}
+
+\position{Profesor Asociado}
+\address{PhD University of Stirling · MSc University of Liverpool}
+
+\mobile{(+57) 319 407 7102}
+\email{\href{mailto:juanleongomez@gmail.com}{\nolinkurl{juanleongomez@gmail.com}}}
+\homepage{jdleongomez.info}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+\usepackage{multicol} \usepackage{colortbl} \usepackage{orcidlink}
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {19 de noviembre de 2023}
+    {Juan David Leongómez Peña~~~·~~~Referencias Académicas}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\vspace{4mm}
+\begin{tcolorbox}[enhanced,
+        on line, 
+        boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+        colframe=white,colback=black]
+  
+\color{white}
+\begin{LARGE}\begin{center}
+Documento 6. \textbf{Referencias Académicas}
+\end{center}\end{LARGE}
+\end{tcolorbox}
+
+\begin{cventries}
+    \cventry{\space}{\space}{\space}{}{}\vspace{-4.0mm}
+    \cventry{Profesor Titular \linebreak \textit{Psychology, Faculty of Natural Sciences, University of Stirling}}{\href{https://orcid.org/0000-0002-9641-6101}{S. Craig Roberts} \orcidlink{0000-0002-9641-6101}}{Reino Unido}{}{\begin{cvitems}
+\item \faEnvelope \space\space \href{mailto:craig.roberts@stir.ac.uk}{craig.roberts@stir.ac.uk}
+\item \faBuilding \space\space \href{https://www.stir.ac.uk/people/255834}{https://www.stir.ac.uk/people/255834}
+\item \aiGoogleScholarSquare \space\space \href{https://scholar.google.com/citations?user=jPPF5y0AAAAJ}{https://scholar.google.com/citations?user=jPPF5y0AAAAJ}
+\end{cvitems}}
+    \cventry{\space \space}{\space \space}{\space \space}{}{}\vspace{-4.0mm}
+    \cventry{Investigadora Permanente \linebreak \textit{DDL Laboratoire Dynamique du Langage, Université Lyon 2}}{\href{https://orcid.org/0000-0003-0992-2477}{Katarzyna Pisanski} \orcidlink{0000-0003-0992-2477}}{Francia}{}{\begin{cvitems}
+\item \faEnvelope \space\space \href{mailto:katarzyna.pisanska@univ-st-etienne.fr}{katarzyna.pisanska@univ-st-etienne.fr}
+\item \faBuilding \space\space \href{{http://www.ddl.cnrs.fr/annuaires/index.asp?Page=Katarzyna\%20PISANSKI}}{{http://www.ddl.cnrs.fr/Annuaires/Index.asp?Page=Katarzyna\%20PISANSKI}}
+\item \aiGoogleScholarSquare \space\space \href{https://scholar.google.com/citations?user=sTCqMrwAAAAJ}{https://scholar.google.com/citations?user=sTCqMrwAAAAJ}
+\end{cvitems}}
+    \cventry{\space \space \space}{\space \space \space}{\space \space \space}{}{}\vspace{-4.0mm}
+    \cventry{Profesor Asociado (Jefe de departamento)  \linebreak \textit{Department of Philosophy and History of Science, Faculty of Science, Charles University}}{\href{https://orcid.org/0000-0002-3277-8365}{Karel Kleisner} \orcidlink{0000-0002-3277-8365}}{República Checa}{}{\begin{cvitems}
+\item \faEnvelope \space\space \href{mailto:karel.kleisner@natur.cuni.cz}{karel.kleisner@natur.cuni.cz}
+\item \faBuilding \space\space \href{https://is.cuni.cz/webapps/whois2/osoba/1123230300861860/?lang=en}{https://is.cuni.cz/webapps/whois2/osoba/1123230300861860/?lang=en}
+\item \aiGoogleScholarSquare \space\space \href{https://scholar.google.com/citations?user=ZtzwhVsAAAAJ}{https://scholar.google.com/citations?user=ZtzwhVsAAAAJ}
+\end{cvitems}}
+    \cventry{\space \space \space \space}{\space \space \space \space}{\space \space \space \space}{}{}\vspace{-4.0mm}
+    \cventry{Profesor Titular  \linebreak \textit{Department of Zoology, Faculty of Science, Charles University}}{\href{https://orcid.org/0000-0003-2374-7337}{Jan Havlíček} \orcidlink{0000-0003-2374-7337}}{República Checa}{}{\begin{cvitems}
+\item \faEnvelope \space\space \href{mailto:jhavlicek@natur.cuni.cz}{jhavlicek@natur.cuni.cz}
+\item \faBuilding \space\space \href{https://web.natur.cuni.cz/zoologie/eko/en/lide/jan-havlicek-2/}{https://web.natur.cuni.cz/zoologie/eko/en/lide/jan-havlicek-2/}
+\item \aiGoogleScholarSquare \space\space \href{https://scholar.google.com/citations?user=KLbwok0AAAAJ}{https://scholar.google.com/citations?user=KLbwok0AAAAJ}
+\end{cvitems}}
+    \cventry{\space \space \space \space \space}{\space \space \space \space \space}{\space \space \space \space \space}{}{}\vspace{-4.0mm}
+    \cventry{Profesor y director Laboratorio de Neuroecología Cognitiva  \linebreak \textit{Facultad de Psicología, Universidad Nacional Autónoma de México (UNAM)}}{\href{https://orcid.org/0000-0002-1484-9836}{Isaac G-Santoyo} \orcidlink{0000-0002-1484-9836}}{México}{}{\begin{cvitems}
+\item \faEnvelope \space\space \href{mailto:isantoyo@psicologia.unam.mx}{isantoyo@psicologia.unam.mx}
+\item \faBuilding \space\space \href{https://www.researchgate.net/profile/Isaac-Santoyo}{https://www.researchgate.net/profile/Isaac-Santoyo}
+\item \aiGoogleScholarSquare \space\space \href{https://scholar.google.com/citations?user=nhsFlxAAAAAJ}{https://scholar.google.com/citations?user=nhsFlxAAAAAJ}
+\end{cvitems}}
+\end{cventries}
+
+
+
+\end{document}
