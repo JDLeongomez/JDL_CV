@@ -11,7 +11,7 @@ orcid: 0000-0002-0092-6298
 profilepic: "../images/JDL.jpg"
 aboutme: |
   I am a researcher mainly interested in human behaviour, as well as quantitative methods and reproducible science.
-date: "`r Sys.setlocale('LC_TIME','English');format(Sys.Date(),'%d %B, %Y')`"
+date: "`r Sys.setlocale('LC_TIME','en_GB.utf8');format(Sys.Date(),'%d %B, %Y')`"
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
 headcolor: 207373
 docname: Short Curriculum Vitae
@@ -27,14 +27,14 @@ xfun::pkg_attach2(pkgs)
 
 packages <- c('vitae'     # The CV's LaTeX Template
              ,'tibble'    # Data sctructure for tribbles
-             ,'magrittr'  # The Pipe %>%
+             ,'magrittr'  # The Pipe |>
              ,'here'      # Relative Filepaths
              ,'readr'     # Data Loading
              ,'tidyverse' # Needed for bind_rows and whatever
              ,'scholar'   # Updating publications from google scholar
              ,'kableExtra'# Adding technicalskills table
             )
-library(magrittr)
+
 # Install packages not yet installed
 installed_packages <- packages %in% rownames(installed.packages())
 if (any(installed_packages == FALSE)) {
@@ -42,7 +42,7 @@ if (any(installed_packages == FALSE)) {
 }
 
 # Packages loading
-lapply(packages, library, character.only = TRUE) %>%
+lapply(packages, library, character.only = TRUE) |>
   invisible()
 ```
 
@@ -83,8 +83,8 @@ I am an Associate Professor and Researcher at \href{https://jdleongomez.info/en/
 # Education
 
 ```{r education}
-ezpickr::pick("../data/education_eng_S.xlsx") %>%
-  tidyr::fill(-why) %>%
+readxl::read_excel("../data/education_eng_S.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -94,8 +94,8 @@ ezpickr::pick("../data/education_eng_S.xlsx") %>%
 For a full list, and a description of responsibilities, please check [my website](https://jdleongomez.info/en/profile/#experience) or my [academic CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
 
 ```{r working-experience}
-ezpickr::pick("../data/working-experience_eng_S.xlsx") %>%
-  tidyr::fill(-why) %>%
+readxl::read_excel("../data/working-experience_eng_S.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -176,8 +176,8 @@ I have created a few, small public apps with \href{https://shiny.posit.co/}{Shin
 For a full list, including undergraduate supervision, please check [my website](https://jdleongomez.info/en/team/) or my [academic CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
 
 ```{r supervision}
-ezpickr::pick("../data/supervision_eng_S.xlsx") %>%
-  tidyr::fill(-why) %>%
+readxl::read_excel("../data/supervision_eng_S.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```

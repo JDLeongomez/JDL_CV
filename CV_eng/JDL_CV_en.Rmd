@@ -11,7 +11,7 @@ orcid: 0000-0002-0092-6298
 profilepic: "../images/JDL.jpg"
 aboutme: |
   I am a researcher mainly interested in human behaviour, as well as quantitative methods and reproducible science.
-date: "`r Sys.setlocale('LC_TIME','English');format(Sys.Date(),'%d %B, %Y')`"
+date: "`r Sys.setlocale('LC_TIME','en_GB.utf8');format(Sys.Date(),'%d %B, %Y')`"
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
 headcolor: 207373
 docname: Academic Curriculum Vitae
@@ -27,14 +27,14 @@ xfun::pkg_attach2(pkgs)
 
 packages <- c('vitae'     # The CV's LaTeX Template
              ,'tibble'    # Data sctructure for tribbles
-             ,'magrittr'  # The Pipe %>%
+             ,'magrittr'  # The Pipe |>
              ,'here'      # Relative Filepaths
              ,'readr'     # Data Loading
              ,'tidyverse' # Needed for bind_rows and whatever
              ,'scholar'   # Updating publications from google scholar
              ,'kableExtra'# Adding technicalskills table
             )
-library(magrittr)
+
 # Install packages not yet installed
 installed_packages <- packages %in% rownames(installed.packages())
 if (any(installed_packages == FALSE)) {
@@ -42,7 +42,7 @@ if (any(installed_packages == FALSE)) {
 }
 
 # Packages loading
-lapply(packages, library, character.only = TRUE) %>%
+lapply(packages, library, character.only = TRUE) |>
   invisible()
 ```
 
@@ -95,8 +95,8 @@ I am an Associate Professor and Researcher at \href{https://jdleongomez.info/en/
 # Education
 
 ```{r education}
-ezpickr::pick("../data/education_en.xlsx") %>%
-  tidyr::fill(-why) %>%
+readxl::read_excel("../data/education_en.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -104,8 +104,8 @@ ezpickr::pick("../data/education_en.xlsx") %>%
 # Relevant further education
 
 ```{r edu_comp}
-ezpickr::pick("../data/edu_comp_en.xlsx") %>%
-  tidyr::fill(-why) %>%
+readxl::read_excel("../data/edu_comp_en.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -113,8 +113,8 @@ ezpickr::pick("../data/edu_comp_en.xlsx") %>%
 # Working Experience
 
 ```{r working-experience}
-ezpickr::pick("../data/working-experience_en.xlsx") %>%
-  tidyr::fill(-why) %>%
+readxl::read_excel("../data/working-experience_en.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -122,8 +122,8 @@ ezpickr::pick("../data/working-experience_en.xlsx") %>%
 # Teaching Experience
 
 ```{r teaching-experience}
-ezpickr::pick("../data/teaching-experience_en.xlsx") %>%
-  tidyr::fill(-why) %>%
+readxl::read_excel("../data/teaching-experience_en.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -131,8 +131,8 @@ ezpickr::pick("../data/teaching-experience_en.xlsx") %>%
 # Scholarships, Awards and Honors
 
 ```{r award}
-ezpickr::pick("../data/award_en.xlsx") %>%
-  tidyr::fill(-why) %>%
+readxl::read_excel("../data/award_en.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -140,8 +140,8 @@ ezpickr::pick("../data/award_en.xlsx") %>%
 # Grants
 
 ```{r grant}
-ezpickr::pick("../data/grant_en.xlsx") %>%
-  tidyr::fill(-why) %>%
+readxl::read_excel("../data/grant_en.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -265,8 +265,8 @@ I have created a few, small public apps with \href{https://shiny.posit.co/}{Shin
 # Scientific Events
 
 ```{r event}
-ezpickr::pick("../data/event_en.xlsx") %>%
-  tidyr::fill(-why) %>%
+readxl::read_excel("../data/event_en.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -278,8 +278,8 @@ ezpickr::pick("../data/event_en.xlsx") %>%
 \end{small}
 
 ```{r service}
-ezpickr::pick("../data/service_en.xlsx") %>%
-  tidyr::fill(-why) %>%
+readxl::read_excel("../data/service_en.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -291,8 +291,8 @@ ezpickr::pick("../data/service_en.xlsx") %>%
 The Faculty of Psychology at Universidad El Bosque does not offer research degrees, and all M-level courses are professional masters. Because of this, opportunities to supervise postgraduate students are limited, and most of my postgraduate supervision has been external.
 
 ```{r supervision}
-ezpickr::pick("../data/supervision_pos_en.xlsx") %>%
-  tidyr::fill(-why) %>%
+readxl::read_excel("../data/supervision_pos_en.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -302,8 +302,8 @@ ezpickr::pick("../data/supervision_pos_en.xlsx") %>%
 The supervised undergraduate students listed below come from different universities and academic programmes. This list only includes students for whom I was the main supervisor or who were awarded honours degrees. Additionally, I am currently supervising six students as a principal supervisor, and have supervised over 25 students as a co-supervisor.
 
 ```{r supervision-pre}
-ezpickr::pick("../data/supervision_pre_en.xlsx") %>%
-  tidyr::fill(-why) %>%
+readxl::read_excel("../data/supervision_pre_en.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
@@ -311,8 +311,8 @@ ezpickr::pick("../data/supervision_pre_en.xlsx") %>%
 # Memberships
 
 ```{r member}
-ezpickr::pick("../data/member_en.xlsx") %>%
-  tidyr::fill(-why) %>%
+readxl::read_excel("../data/member_en.xlsx") |>
+  tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```

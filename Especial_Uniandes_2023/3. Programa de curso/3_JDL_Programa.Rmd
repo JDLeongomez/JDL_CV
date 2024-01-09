@@ -23,14 +23,14 @@ xfun::pkg_attach2(pkgs)
 
 packages <- c('vitae'     # The CV's LaTeX Template
              ,'tibble'    # Data sctructure for tribbles
-             ,'magrittr'  # The Pipe %>%
+             ,'magrittr'  # The Pipe |>
              ,'here'      # Relative Filepaths
              ,'readr'     # Data Loading
              ,'tidyverse' # Needed for bind_rows and whatever
              ,'scholar'   # Updating publications from google scholar
              ,'kableExtra'# Adding technicalskills table
             )
-library(magrittr)
+
 # Install packages not yet installed
 installed_packages <- packages %in% rownames(installed.packages())
 if (any(installed_packages == FALSE)) {
@@ -38,7 +38,7 @@ if (any(installed_packages == FALSE)) {
 }
 
 # Packages loading
-lapply(packages, library, character.only = TRUE) %>%
+lapply(packages, library, character.only = TRUE) |>
   invisible()
 ```
 
@@ -147,7 +147,7 @@ Además, a lo largo del semestre, se requerirá que los estudiantes entreguen tr
 ## Distribución y pesos de cada actividad
 
 ```{r evaluacion}
-ezpickr::pick("evaluacion.xlsx") |>
+readxl::read_excel("evaluacion.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -165,7 +165,7 @@ De acuerdo al número de estudiantes en el curso, las exposiciones y actividades
 
 ```{r}
 options(knitr.kable.NA = "—")
-ezpickr::pick("Sesiones curso.xlsx")  |>
+readxl::read_excel("Sesiones curso.xlsx")  |>
   tidyr::fill() |> 
   select(1:4) |> 
   kable(linesep = "",

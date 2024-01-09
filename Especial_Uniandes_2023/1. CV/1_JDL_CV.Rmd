@@ -9,7 +9,7 @@ email: "juanleongomez@gmail.com"
 www: jdleongomez.info
 orcid: 0000-0002-0092-6298
 googlescholar: 8Q0jKHsAAAAJ
-date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d de %B de %Y')`"
+date: "`r Sys.setlocale('LC_TIME','es_CO.UTF-8');format(as.Date('2023-11-19'),'%d de %B de %Y')`"
 header-includes: \usepackage{multicol}
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
 headcolor: 333333
@@ -34,7 +34,7 @@ packages <- c('vitae'     # The CV's LaTeX Template
              ,'kableExtra'# Adding technicalskills table
              ,'scales'    # Percent
             )
-library(magrittr)
+
 # Install packages not yet installed
 installed_packages <- packages %in% rownames(installed.packages())
 if (any(installed_packages == FALSE)) {
@@ -113,7 +113,7 @@ Aunque me he concentrado especialmente en el estudio de los procesos de elecció
 # Formación Académica
 
 ```{r education}
-ezpickr::pick("data/education_es.xlsx") |>
+readxl::read_excel("data/education_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -122,7 +122,7 @@ ezpickr::pick("data/education_es.xlsx") |>
 ## Formación complementaria relevante
 
 ```{r edu_comp}
-ezpickr::pick("data/edu_comp_es.xlsx") |>
+readxl::read_excel("data/edu_comp_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -137,7 +137,7 @@ En la actualidad, desempeño responsabilidades administrativas y de liderazgo ta
 ## Principales Responsabilidades
 
 ```{r working-experience}
-ezpickr::pick("data/working-experience_es.xlsx") |>
+readxl::read_excel("data/working-experience_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -146,7 +146,7 @@ ezpickr::pick("data/working-experience_es.xlsx") |>
 ## Participación en Proyectos de investigación
 
 ```{r projects}
-ezpickr::pick("data/project_es.xlsx") |>
+readxl::read_excel("data/project_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -163,7 +163,7 @@ Es relevante destacar que entre 2015 y 2019, mi enfoque principal fue la docenci
 \end{footnotesize}
 
 ```{r teaching-experience}
-ezpickr::pick("data/teaching-experience_es.xlsx") |>
+readxl::read_excel("data/teaching-experience_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -176,7 +176,7 @@ A continuación, se presenta un resumen de las evaluaciones de estudiantes de lo
 \end{footnotesize}
 
 ```{r student-evaluations}
-ezpickr::pick("data/student-evaluations.xlsx") |>
+readxl::read_excel("data/student-evaluations.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -189,7 +189,7 @@ A continuación figuran algunos comentarios anónimos incluidos en las evaluacio
 \end{footnotesize}
 
 ```{r student-comments}
-ezpickr::pick("data/student-comments.xlsx") |>
+readxl::read_excel("data/student-comments.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -204,7 +204,7 @@ A pesar de ello, he superado sistemáticamente a mis colegas y nunca he dejado d
 \end{footnotesize}
 
 ```{r grant}
-ezpickr::pick("data/grant_es.xlsx") |>
+readxl::read_excel("data/grant_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -213,7 +213,7 @@ ezpickr::pick("data/grant_es.xlsx") |>
 ## Becas, Premios y Honores
 
 ```{r award}
-ezpickr::pick("data/award_es.xlsx") |>
+readxl::read_excel("data/award_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -222,7 +222,7 @@ ezpickr::pick("data/award_es.xlsx") |>
 ## Cursos y congresos
 
 ```{r event}
-ezpickr::pick("data/event_es.xlsx") |>
+readxl::read_excel("data/event_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -242,7 +242,7 @@ ezpickr::pick("data/event_es.xlsx") |>
 # Asociaciones
 
 ```{r member}
-ezpickr::pick("data/member_es.xlsx") |>
+readxl::read_excel("data/member_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -272,7 +272,7 @@ i40 <- pubs |>
 \end{footnotesize}
 
 ```{r service}
-ezpickr::pick("data/service_es.xlsx") |>
+readxl::read_excel("data/service_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -427,7 +427,7 @@ La Facultad de Psicología de la Universidad El Bosque no ofrece grados enfocado
 \end{footnotesize}
 
 ```{r supervision-pos}
-ezpickr::pick("data/supervision_pos_es.xlsx") |>
+readxl::read_excel("data/supervision_pos_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -442,7 +442,7 @@ He supervisado trabajos de grado realizados por estudiantes de distintas univers
 \end{footnotesize}
 
 ```{r supervision-pre}
-ezpickr::pick("data/supervision_pre_es.xlsx") |>
+readxl::read_excel("data/supervision_pre_es.xlsx") |>
   tidyr::fill(-why) |>
   #slice(1:9) |> 
   vitae::detailed_entries(what, when, with, where, why,
