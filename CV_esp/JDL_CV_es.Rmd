@@ -282,7 +282,7 @@ He creado algunas, pequeñas aplicaciones públicas con \href{https://shiny.posi
 
 \endgroup
 
-# Presentaciones en Conferencias, Pósters y Talleress
+# Presentaciones en Conferencias, Pósters y Talleres
 
 \begingroup
 \footnotesize
