@@ -9,4 +9,4 @@ This repository contains the code and files to create both long and short versio
 <br>
 <br>
 <br>
-All versions are based on the cv created by <a href="https://github.com/akirosingh">Adam Kirosingh</a>, using the the <a href="https://github.com/mitchelloharawild/vitae">vitae</a> package in R. For a description, please check Adam's <a href="https://github.com/akirosingh/CV">CV repository</a>.
+All versions are based on the cv created by <a href="https://github.com/akirosingh">Adam Kirosingh</a>, using the the <a href="https://github.com/mitchelloharawild/vitae">vitae</a> package in R. For a description, please check Adam's <a href="https://github.com/akirosingh/CV">CV repository</a>. 
