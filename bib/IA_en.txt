@@ -1,4 +1,4 @@
-Leongómez, J.D. [Investigación Abierta]. (2023). *Meta-analysis of correlations in R [Meta-análisis de correlaciones en R]* [Video]. YouTube. https://jdleongomez.info/en/post/meta_corr_r/
+Leongómez, J.D. [Investigación Abierta]. (2023). *Meta-análisis de correlaciones en R [Meta-analysis of correlations in R]* [Video]. YouTube. https://jdleongomez.info/en/post/meta_corr_r/
 
 Leongómez, J.D. [Investigación Abierta]. (2021). *Hacer meta-análisis en jamovi es muy fácil [Meta-analysis in jamovi is very easy]* [Video]. YouTube. https://jdleongomez.info/en/post/meta/
 
