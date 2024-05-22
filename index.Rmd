@@ -1,10 +1,19 @@
 ---
-title: "CV"
-author: "Juan David Leongómez"
+title: "CV - Juan David Leongómez"
+author: ""
 output: 
   html_document:
     theme: flatly
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(fontawesome)
+```
+
+[`r fa(name = "globe", height = "2em")`](https://jdleongomez.info/)   [`r fa(name = "github", height = "2em")`](https://github.com/JDLeongomez/JDL_CV)
+
+______________________
 
 ### English
 
