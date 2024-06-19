@@ -49,7 +49,7 @@ lapply(packages, library, character.only = TRUE) |>
 # Acerca de mí
 
 \begin{minipage}[c]{0.85\linewidth}
-Soy Profesor Asociado e investigador de \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}}, y lider del grupo de investigación \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificación  \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}),  \href{https://www.uelbosque.edu.co/psicologia}{Facultad de Psicología}, \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} en Bogotá, Colombia. Mis intereses de investigación se centran principalmente en la elección de pareja, la comunicación vocal humana y la musicalidad, así como en la bioacústica, la psicoacústica y los efectos hormonales en el comportamiento humano. Publiqué uno de los primeros artículos que muestran los cambios en el tono de la voz en respuesta al estatus social del oyente, y he demostrado los fuertes efectos de la modulación de la voz en los oyentes en contextos de cortejo. Me apasionan los métodos cuantitativos y la programación en \textbf{R}, como herramienta para promover la reproducibilidad y la ciencia abierta. Por esto, soy \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (editor) de \href{https://rr.peercommunityin.org/}{Peer Community In Registered Reports}.
+Soy Profesor Asociado e investigador de \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}}, y lider del grupo de investigación \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificación  \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}),  \href{https://www.uelbosque.edu.co/psicologia}{Facultad de Psicología}, \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} en Bogotá, Colombia. Mis intereses de investigación se centran principalmente en la elección de pareja, la comunicación vocal humana y la musicalidad, así como en la bioacústica, la psicoacústica y los efectos hormonales en el comportamiento humano. Publiqué uno de los primeros artículos que muestran los cambios en el tono de la voz en respuesta al estatus social del oyente, y he demostrado los fuertes efectos de la modulación de la voz en los oyentes en contextos de cortejo. Me apasionan los métodos cuantitativos y la programación en \textbf{R}, como herramienta para promover la reproducibilidad y la ciencia abierta. Por esto, soy \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (editor asociado) de \href{https://rr.peercommunityin.org/}{Peer Community In Registered Reports}.
 \end{minipage} \begin{minipage}[c]{0.15\linewidth}
 \begin{flushright} 
 \hfill \href{https://jdleongomez.info/es/team/}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_EvoCo.png}} \newline \href{https://investigaciones.unbosque.edu.co/codec}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_CODEC.png}}
@@ -237,6 +237,21 @@ mediancit <- median(pubs$cites)
 
 \endgroup
 
+## \textbf{Recomendaciones} (\href{https://rr.peercommunityin.org/}{\textit{Peer Community In Registered Reports}})
+
+\begin{small}
+\textbf{Nota:} Para más información mira la sección dedicada a mis \hyperref[editor]{Roles Editoriales}.
+\end{small}
+
+\begingroup
+\footnotesize
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/recommendation.txt")`
+
+\endgroup
+
 ## \textbf{Articulos de Divulgación}
 
 \begingroup
@@ -302,7 +317,7 @@ readxl::read_excel("../data/event_es.xlsx") |>
                           .protect = FALSE)
 ```
 
-# Roles Editoriales
+# Roles Editoriales {#editor}
 
 \begin{small}
 \textbf{Nota:} Mi registro verificado como par académico y editor internacional está disponible en mi perfil de \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science}.

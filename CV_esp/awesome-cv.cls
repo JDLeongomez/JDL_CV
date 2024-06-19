@@ -95,7 +95,7 @@
   pdfsubject={},
   pdfkeywords={},
   colorlinks,
-  urlcolor=teal
+  allcolors=teal
 }
 % Needed to include graphics
 \RequirePackage{graphicx}

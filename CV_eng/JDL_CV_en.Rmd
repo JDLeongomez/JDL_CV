@@ -237,6 +237,21 @@ mediancit <- median(pubs$cites)
 
 \endgroup
 
+## \textbf{Recommendations} (\href{https://rr.peercommunityin.org/}{\textit{Peer Community In Registered Reports}})
+
+\begin{small}
+\textbf{Note:} For more information check the section dedicated to my \hyperref[editor]{Editorial Appointments}.
+\end{small}
+
+\begingroup
+\footnotesize
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/recommendation.txt")`
+
+\endgroup
+
 ## \textbf{Science outreach}
 
 \begingroup
@@ -302,7 +317,7 @@ readxl::read_excel("../data/event_en.xlsx") |>
                           .protect = FALSE)
 ```
 
-# Editorial Appointments
+# Editorial Appointments {#editor}
 
 \begin{small}
 \textbf{Note:} My verified review and editor record is available from my \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science} profile. 
