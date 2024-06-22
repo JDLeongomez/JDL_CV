@@ -215,6 +215,21 @@ mediancit <- median(pubs$cites)
   \end{minipage} 
 \end{tcolorbox}
 
+## \textbf{Recomendaciones}
+
+\begingroup
+\footnotesize
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/recommendation.txt")`
+
+\endgroup
+
+\begin{footnotesize}
+\textbf{Nota:} Para más información sobre mi rol como \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (equivalente a Editor Asociado) para \textit{Peer Community In Registered Reports}, mira la sección dedicada a mis \hyperref[editor]{Roles Editoriales} más abajo.
+\end{footnotesize}
+
 ## \textbf{Artículos y Trabajos Publicados}
 
 \begingroup
@@ -236,21 +251,6 @@ mediancit <- median(pubs$cites)
 `r knitr::knit_child("../bib/working_paper.txt")`
 
 \endgroup
-
-## \textbf{Recomendaciones} (\href{https://rr.peercommunityin.org/}{\textit{Peer Community In Registered Reports}})
-
-\begingroup
-\footnotesize
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-`r knitr::knit_child("../bib/recommendation.txt")`
-
-\endgroup
-
-\begin{small}
-\textbf{Nota:} Para más información sobre mi rol como \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (equivalente a Editor Asociado) para \textit{Peer Community In Registered Reports}, mira la sección dedicada a mis \hyperref[editor]{Roles Editoriales} más abajo.
-\end{small}
 
 ## \textbf{Articulos de Divulgación}
 
