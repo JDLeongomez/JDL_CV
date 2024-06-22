@@ -72,6 +72,8 @@
 \defaultfontfeatures{Ligatures=TeX}
 % Change to Spanish
 \usepackage[spanish]{babel}
+% Needed for multiple columns
+\usepackage{multicol}
 % Needed to manage math fonts
 \RequirePackage{unicode-math}
 % Needed to use icons from font-awesome
@@ -697,9 +699,10 @@
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
 }{%
-  \end{itemize}
-  \end{justify}
-  \vspace{-4.0mm}
+\end{itemize}
+\end{justify}
+%\vspace{-4.0mm}
+\vspace{1.0mm}
 }
 
 
