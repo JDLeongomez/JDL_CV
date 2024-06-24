@@ -217,9 +217,11 @@ mediancit <- median(pubs$cites)
 
 ## \textbf{Recommendations}
 
-\begin{footnotesize}
-\textbf{Note:} For more information about my role as a \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (equivalent to Associate Editor) for \textit{Peer Community In Registered Reports}, see the section dedicated to my \hyperref[editor]{editorial roles} below.
-\end{footnotesize}
+\begin{minipage}[c]{0.10\linewidth}
+\href{https://rr.peercommunityin.org/about/recommenders}{\includegraphics[width=1.5cm]{pci_rr.png}}
+\end{minipage} \begin{minipage}[c]{0.90\linewidth}
+\footnotesize{\textbf{Note:} For more information about my role as a \href{https://rr.peercommunityin.org/public/user_public_page?userId=1996}{recommender} (equivalent to Associate Editor) for \textit{Peer Community In Registered Reports}, see the section dedicated to my \hyperref[editor]{editorial roles} below.}
+\end{minipage} 
 
 \begingroup
 \footnotesize
