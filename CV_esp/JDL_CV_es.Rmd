@@ -254,18 +254,9 @@ mediancit <- median(pubs$cites)
 
 \endgroup
 
-## \textbf{Articulos de Divulgación}
+# Recursos educativos y comunicación científica
 
-\begingroup
-\footnotesize
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-`r knitr::knit_child("../bib/divulgation_es.txt")`
-
-\endgroup
-
-# Investigación Abierta (canal de YouTube)
+## \textbf{Investigación Abierta (canal de YouTube)}
 
 \begin{minipage}[c]{0.15\linewidth}
 \href{https://www.youtube.com/@InvestigacionAbierta}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_IA.png}}
@@ -282,12 +273,34 @@ mediancit <- median(pubs$cites)
 
 \endgroup
 
-# Shiny Apps
+## \textbf{Guías Prácticas en Línea}
+
+\begingroup
+\footnotesize
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/guides_es.txt")`
+
+\endgroup
+
+## \textbf{Artículos para el Público General}
+
+\begingroup
+\footnotesize
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("../bib/divulgation_es.txt")`
+
+\endgroup
+
+## \textbf{Aplicaciones Shiny con Fines Educativos}
 
 \begin{minipage}[c]{0.10\linewidth}
 \href{https://jdleongomez.info/es/#shiny}{\includegraphics[width=1.5cm, height=1.74cm]{shiny_hex.png}}
 \end{minipage} \begin{minipage}[c]{0.90\linewidth}
-He creado algunas, pequeñas aplicaciones públicas con \href{https://shiny.posit.co/}{Shiny} en R, sobre todo por diversión. Aunque todavía estoy aprendiendo, en esta sección hay algunos ejemplos.
+He desarrollado aplicaciones interactivas en R utilizando \href{https://shiny.posit.co/}{Shiny} sobre todo con el fin de enseñar e ilustrar conceptos estadísticos. En esta sección hay algunos ejemplos.
 \end{minipage} 
 
 \begingroup
