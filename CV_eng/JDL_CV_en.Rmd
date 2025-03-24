@@ -65,7 +65,7 @@ I am an Associate Professor and Researcher at \href{https://jdleongomez.info/en/
 
   \cvskill
     {Reproducible Reports}
-    {Markdown/\href{https://rmarkdown.rstudio.com/}{R Markdown} (including {\fontfamily{cmr}\selectfont\LaTeX} and HTML\faHtml5). Version control: \href{https://git-scm.com/}{Git} \faGit* and \href{https://github.com/JDLeongomez}{GitHub} \faGithub}
+    {Markdown/\href{https://rmarkdown.rstudio.com/}{R Markdown}/\href{https://quarto.org/}{Quarto} (including {\fontfamily{cmr}\selectfont\LaTeX} and HTML\faHtml5 code). Version control: \href{https://git-scm.com/}{Git} \faGit* and \href{https://github.com/JDLeongomez}{GitHub} \faGithub}
 
   \cvskill
     {Quantitative Research}
