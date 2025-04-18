@@ -11,7 +11,7 @@ orcid: 0000-0002-0092-6298
 profilepic: "../images/JDL.jpg"
 aboutme: |
   I am a researcher mainly interested in human behaviour, as well as quantitative methods and reproducible science.
-date: "`r Sys.setlocale('LC_TIME','en_GB.utf8');format(Sys.Date(),'%d %B, %Y')`"
+date: "`r if (.Platform$OS.type == 'windows') { Sys.setlocale('LC_TIME','English_United Kingdom') } else { Sys.setlocale('LC_TIME','en_GB.utf8') }; format(Sys.Date(), '%d %B %Y')`"
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
 headcolor: 207373
 docname: Short Curriculum Vitae

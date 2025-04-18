@@ -11,7 +11,7 @@ orcid: 0000-0002-0092-6298
 profilepic: "../images/JDL.jpg"
 aboutme: |
   Soy un investigador interesado principalmente en el comportamiento humano, así como en los métodos cuantitativos y la ciencia reproducible.
-date: "`r Sys.setlocale('LC_TIME','es_CO.UTF-8');format(Sys.Date(),'%d de %B de %Y')`"
+date: "`r if (.Platform$OS.type == 'windows') { Sys.setlocale('LC_TIME','Spanish_Spain') } else { Sys.setlocale('LC_TIME','es_CO.UTF-8') }; format(Sys.Date(), '%d de %B de %Y')`"
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
 headcolor: 207373
 docname: Hoja de Vida Resumida
