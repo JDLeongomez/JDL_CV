@@ -15,6 +15,20 @@ date: "`r if (.Platform$OS.type == 'windows') { Sys.setlocale('LC_TIME','English
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
 headcolor: 207373
 docname: Short Curriculum Vitae
+header-includes:
+  - |
+    \newtcolorbox{importantnote}{
+      colback=gray!10,
+      colframe=teal,
+      boxrule=0.4pt,
+      arc=2mm,
+      left=3pt,
+      right=3pt,
+      top=3pt,
+      bottom=3pt,
+      enhanced,
+      width=\linewidth,
+    }
 ---
 
 ```{r setup, include=FALSE}
@@ -49,7 +63,11 @@ lapply(packages, library, character.only = TRUE) |>
 # About me
 
 \begin{minipage}[c]{0.85\linewidth}
-I am an Associate Professor and Researcher at \href{https://jdleongomez.info/en/team/}{\textit{\textbf{EvoCo}: Human Behaviour and Evolution Lab}}, and leader of the \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Cognitive and Behavioural Sciences}} research group (classified as \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), \href{https://www.uelbosque.edu.co/psicologia}{Faculty of Psychology}, at \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} in Bogota, Colombia. I am also a founding and board member of the \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). My research primarily focuses on human vocal communication, mate choice, and musicality, as well as bioacoustics, psychoacoustics, and hormonal effects on human behaviour. I have published some of the first articles demonstrating within-individual changes in voice pitch in response to the social status of the listener, as well as the significant effects of voice modulation on listeners in courtship contexts. Passionate about quantitative methods and \textbf{R} programming, I advocate for reproducibility and open science. In line with these values, I serve as a \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (editor) for \href{https://rr.peercommunityin.org/}{Peer Community In Registered Reports}.
+
+I am an Associate Professor and researcher at \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Human Behaviour and Evolution Lab}}, and leader of the \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Cognitive and Behavioural Sciences Research Group}} (classified as \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), within the \href{https://www.uelbosque.edu.co/psicologia}{Faculty of Psychology} at the \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} in Bogotá, Colombia. I am also a founding and board member of the \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.4em}
+\textbf{Research:} My work focuses on human vocal communication, mate choice, musicality, and hormonal influences on behaviour. I have published pioneering studies on vocal modulation in social and courtship contexts.\par \vspace{0.4em}
+\textbf{Open Science:} I am interested in quantitative methods and programming, especially in \textbf{R}, as tools to promote open and reproducible science. In line with these values, I serve as a \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (associate editor) at \href{https://rr.peercommunityin.org/}{Peer Community In Registered Reports}.
+
 \end{minipage} \begin{minipage}[c]{0.15\linewidth}
 \begin{flushright} 
 \hfill \href{https://jdleongomez.info/en/team/}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_EvoCo.png}} \newline \href{https://investigaciones.unbosque.edu.co/codec}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_CODEC.png}}
@@ -145,17 +163,18 @@ citSum <- profile$total_cites
 For a full list, please check the publications section on [my website](https://jdleongomez.info/en/publication/) or my [academic CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf). 
 
 \begingroup
-\small
+\footnotesize
+
+\begin{importantnote}
+  \textbf{Note:} first, last, or corresponding author in all these publications.
+\end{importantnote}
+
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
 `r knitr::knit_child("../bib/featured.txt")`
 
 \endgroup
-
-\begin{footnotesize}
-\textbf{Note:} Corresponding author in all the publications listed in this section.
-\end{footnotesize}
 
 # Investigación Abierta (YouTube channel)
 
@@ -172,6 +191,7 @@ For a full list, please check the publications section on [my website](https://j
 \end{minipage} \begin{minipage}[c]{0.90\linewidth}
 I have created a few, small public apps with \href{https://shiny.posit.co/}{Shiny} in R, mostly for fun or to illustrate statistics concepts. For a list, please check \href{https://jdleongomez.info/en/#shiny}{my website}.
 \end{minipage} 
+
 # Postgraduate Supervision
 
 For a full list, including undergraduate supervision, please check [my website](https://jdleongomez.info/en/team/) or my [academic CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf).

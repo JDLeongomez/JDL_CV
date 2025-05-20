@@ -1,10 +1,10 @@
-**Leongómez, J. D.** (2023). ***PowerSimulate*** [Colección de aplicaciones]. [https://shiny.jdl-svr.lat/PowerSimulate/](https://shiny.jdl-svr.lat/PowerSimulate/)
+Leongómez, J.D. (2023). ***PowerSimulate*** [Colección de aplicaciones]. [https://shiny.jdl-svr.lat/PowerSimulate/](https://shiny.jdl-svr.lat/PowerSimulate/)
 
 \vspace{-2mm}
 - ***PowerSimulate: Correlación***, https://shiny.jdl-svr.lat/PowerSimulate_corr_ES/
 - ***PowerSimulate: Prueba t independiente***, https://shiny.jdl-svr.lat/PowerSimulate_ind_t_ES/
 - ***PowerSimulate: PowerSimulate: Prueba t pareada***, https://shiny.jdl-svr.lat/PowerSimulate_pair_t_ES/
 
-**Leongómez, J. D.** (2023). ***ScolarlyOutput**: Crea y exporta un gráfico completo de tu perfil de Google Académico* (Versión 1.0.0) [Software]. [https://doi.org/10.5281/zenodo.8060475](https://github.com/JDLeongomez/ScholarlyOutput_ES)
+Leongómez, J. D. (2023). ***ScolarlyOutput**: Crea y exporta un gráfico completo de tu perfil de Google Académico* (Versión 1.0.0) [Software]. [https://doi.org/10.5281/zenodo.8060475](https://github.com/JDLeongomez/ScholarlyOutput_ES)
 
-**Leongómez, J. D.** (2021). ***ProbDnD**: Probabilidad de obtener un valor en DnD, combinando múltiples dados y un modificador* [Software]. https://github.com/JDLeongomez/ProbDnD
+Leongómez, J. D. (2021). ***ProbDnD**: Probabilidad de obtener un valor en DnD, combinando múltiples dados y un modificador* [Software]. https://github.com/JDLeongomez/ProbDnD
