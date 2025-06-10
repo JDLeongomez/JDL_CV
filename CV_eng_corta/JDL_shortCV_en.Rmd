@@ -109,7 +109,7 @@ readxl::read_excel("../data/education_eng_S.xlsx") |>
 
 # Working and Teaching Experience
 
-For a full list, and a description of responsibilities, please check [my website](https://jdleongomez.info/en/profile/#experience) or my [academic CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
+For a full list, and a description of responsibilities, please check [my website](https://jdleongomez.info/en/profile/#experience) or my [academic CV](https://jdleongomez.github.io/JDL_CV/CV_eng/JDL_CV_en.pdf).
 
 ```{r working-experience}
 readxl::read_excel("../data/working-experience_eng_S.xlsx") |>
@@ -120,7 +120,7 @@ readxl::read_excel("../data/working-experience_eng_S.xlsx") |>
 
 # Accomplishments
 
-For information on **grants**, **scholarships**, **awards** and **prizes**, please check [my website](https://jdleongomez.info/en/profile/#accomplishments) or my [academic CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
+For information on **grants**, **scholarships**, **awards** and **prizes**, please check [my website](https://jdleongomez.info/en/profile/#accomplishments) or my [academic CV](https://jdleongomez.github.io/JDL_CV/CV_eng/JDL_CV_en.pdf).
 
 # Selected Publications
 
@@ -160,7 +160,7 @@ citSum <- profile$total_cites
 \end{minipage}
 \end{tcolorbox}
 
-For a full list, please check the publications section on [my website](https://jdleongomez.info/en/publication/) or my [academic CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf). 
+For a full list, please check the publications section on [my website](https://jdleongomez.info/en/publication/) or my [academic CV](https://jdleongomez.github.io/JDL_CV/CV_eng/JDL_CV_en.pdf). 
 
 \begingroup
 \footnotesize
@@ -194,7 +194,7 @@ I have created a few, small public apps with \href{https://shiny.posit.co/}{Shin
 
 # Postgraduate Supervision
 
-For a full list, including undergraduate supervision, please check [my website](https://jdleongomez.info/en/team/) or my [academic CV](https://jdleongomez.info/en/files/jdl_cv_en.pdf).
+For a full list, including undergraduate supervision, please check [my website](https://jdleongomez.info/en/team/) or my [academic CV](https://jdleongomez.github.io/JDL_CV/CV_eng/JDL_CV_en.pdf).
 
 ```{r supervision}
 readxl::read_excel("../data/supervision_eng_S.xlsx") |>

@@ -109,7 +109,7 @@ readxl::read_excel("../data/education_esp_S.xlsx") |>
 
 # Experiencia laboral y docente
 
-Para una lista completa y descripción detallada, por favor consulta mi [sitio web](https://jdleongomez.info/es/profile/#experience) o mi [Hoja de Vida Académica](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+Para una lista completa y descripción detallada, por favor consulta mi [sitio web](https://jdleongomez.info/es/profile/#experience) o mi [Hoja de Vida Académica](https://jdleongomez.github.io/JDL_CV/CV_esp/JDL_CV_es.pdf).
 
 ```{r working-experience}
 readxl::read_excel("../data/working-experience_esp_S.xlsx") |>
@@ -120,7 +120,7 @@ readxl::read_excel("../data/working-experience_esp_S.xlsx") |>
 
 # Logros
 
-Para información sobre **subvenciones**, **becas** y **premios**, por favor visita mi [sitio web](https://jdleongomez.info/es/profile/#accomplishments) o mi [Hoja de Vida Académica](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+Para información sobre **subvenciones**, **becas** y **premios**, por favor visita mi [sitio web](https://jdleongomez.info/es/profile/#accomplishments) o mi [Hoja de Vida Académica](https://jdleongomez.github.io/JDL_CV/CV_esp/JDL_CV_es.pdf).
 
 # Publicaciones Seleccionadas
 
@@ -160,7 +160,7 @@ citSum <- profile$total_cites
 \end{minipage}
 \end{tcolorbox}
 
-Para una lista completa, por favor visita la sección de publicaciones en mi [sitio web](https://jdleongomez.info/es/publication/) o mi [Hoja de Vida Académica](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+Para una lista completa, por favor visita la sección de publicaciones en mi [sitio web](https://jdleongomez.info/es/publication/) o mi [Hoja de Vida Académica](https://jdleongomez.github.io/JDL_CV/CV_esp/JDL_CV_es.pdf).
 
 \begingroup
 \footnotesize
@@ -194,7 +194,7 @@ He creado algunas, pequeñas aplicaciones públicas con \href{https://shiny.posi
 
 # Supervisión de Posgrado
 
-Para una lista completa, incluyendo la supervisión de pregrado, por favor visita mi [sitio web](https://jdleongomez.info/es/team/) o mi [Hoja de Vida Académica](https://jdleongomez.info/es/files/jdl_cv_es.pdf).
+Para una lista completa, incluyendo la supervisión de pregrado, por favor visita mi [sitio web](https://jdleongomez.info/es/team/) o mi [Hoja de Vida Académica](https://jdleongomez.github.io/JDL_CV/CV_esp/JDL_CV_es.pdf).
 
 ```{r supervision}
 readxl::read_excel("../data/supervision_esp_S.xlsx") |>
