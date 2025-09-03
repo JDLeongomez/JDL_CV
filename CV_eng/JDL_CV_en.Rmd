@@ -272,7 +272,7 @@ mediancit <- median(pubs$cites)
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/working_paper.txt")`
+`r knitr::knit_child("../bib/working_paper_en.txt")`
 
 \endgroup
 

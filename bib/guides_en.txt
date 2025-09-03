@@ -1,5 +1,5 @@
-[important] Leongómez, J.D. (2023). *Marco unificado para justificar tamaños de muestra en estudios cuantitativos, cualitativos, o mixtos [Unified framework for justifying sample sizes in quantitative, qualitative, or mixed studies]*. Universidad El Bosque. https://jdleongomez.github.io/justificacion_n/
+[important] Leongómez, J.D. (2025). *Just-N Framework: Unified framework to justify sample sizes in quantitative, qualitative, and mixed-methods studies* (Version 1.2). Zenodo. https://doi.org/10.5281/zenodo.16934469 (see [Rendered document](https://jdleongomez.github.io/just_n/en/))
 
-[important] Leongómez, J.D. (2023). Meta-análisis de correlaciones y meta-regresión en R: Guía práctica [Meta-analysis of correlations and meta-regression in R: A Practical Guide]. *MetaArXiv*. https://doi.org/10.31222/osf.io/yaxd4
+[important] Leongómez, J.D. (2023). *Meta-análisis de correlaciones y meta-regresión en R: Guía práctica [Meta-analysis of correlations and meta-regression in R: A Practical Guide]*. MetaArXiv. https://doi.org/10.31222/osf.io/yaxd4
 
-[important] Leongómez, J.D. (2020). Análisis de poder estadístico y cálculo de tamaño de muestra en R: Guía práctica [Statistical power analysis and sample size calculation in R: A practical guide]. *Zenodo*. https://doi.org/10.5281/zenodo.3988776
+[important] Leongómez, J.D. (2020). *Análisis de poder estadístico y cálculo de tamaño de muestra en R: Guía práctica [Statistical power analysis and sample size calculation in R: A practical guide]*. Zenodo. https://doi.org/10.5281/zenodo.3988776
