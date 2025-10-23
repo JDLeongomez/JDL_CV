@@ -237,13 +237,7 @@ mediancit <- median(pubs$cites)
   \textcolor{teal}{\faStar} \textbf{Autoría clave:} autor único, autor principal (primero o último), y/o autor de correspondencia.
 \end{importantnote}
 
-## \textbf{Recomendaciones}
-
-\begin{minipage}[c]{0.10\linewidth}
-\href{https://rr.peercommunityin.org/about/recommenders}{\includegraphics[width=1.5cm]{pci_rr.png}}
-\end{minipage} \begin{minipage}[c]{0.90\linewidth}
-\footnotesize{\textbf{Nota:} Para más información sobre mi rol como \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (equivalente a Editor Asociado) para \textit{Peer Community In Registered Reports}, mira la sección dedicada a mis \hyperref[editor]{Roles Editoriales} más abajo.}
-\end{minipage} 
+## \textbf{Editoriales y Recomendaciones}
 
 \begingroup
 \footnotesize
@@ -253,6 +247,12 @@ mediancit <- median(pubs$cites)
 `r knitr::knit_child("../bib/recommendation.txt")`
 
 \endgroup
+
+\begin{minipage}[c]{0.10\linewidth}
+\href{https://rr.peercommunityin.org/about/recommenders}{\includegraphics[width=1.5cm]{pci_rr.png}}
+\end{minipage} \begin{minipage}[c]{0.90\linewidth}
+\footnotesize{\textbf{Nota:} Para más información sobre mi rol como \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (equivalente a Editor Asociado) para \textit{Peer Community In Registered Reports}, mira la sección dedicada a mis \hyperref[editor]{Roles Editoriales} más abajo.}
+\end{minipage} 
 
 ## \textbf{Artículos y Trabajos Publicados}
 
