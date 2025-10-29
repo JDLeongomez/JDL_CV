@@ -62,15 +62,16 @@ lapply(packages, library, character.only = TRUE) |>
 
 # About me
 
-\begin{minipage}[c]{0.85\linewidth}
 
+\begin{minipage}[c]{0.85\linewidth}
+\begin{small}
 I am an Associate Professor and researcher at \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Human Behaviour and Evolution Lab}}, and leader of the \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Cognitive and Behavioural Sciences Research Group}} (classified as \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), within the \href{https://www.uelbosque.edu.co/psicologia}{Faculty of Psychology} at the \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} in Bogotá, Colombia. I am also a founding and board member of the \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.4em}
 \textbf{Research:} My work focuses on human vocal communication, mate choice, musicality, and hormonal influences on behaviour. I have published pioneering studies on vocal modulation in social and courtship contexts.\par \vspace{0.4em}
-\textbf{Open Science:} I am interested in quantitative methods and programming, especially in \textbf{R}, as tools to promote open and reproducible science. In line with these values, I serve as a \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (associate editor) at \href{https://rr.peercommunityin.org/}{Peer Community In Registered Reports}.
-
+\textbf{Open Science:} I am interested in quantitative methods and programming, especially in \textbf{R}, as tools to promote open and reproducible science. In line with these values, I serve as a \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (associate editor) at \href{https://rr.peercommunityin.org/}{Peer Community In Registered Reports}, and \textit{Data Editor} at \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}. 
+\end{small}
 \end{minipage} \begin{minipage}[c]{0.15\linewidth}
 \begin{flushright} 
-\hfill \href{https://jdleongomez.info/en/team/}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_EvoCo.png}} \newline\newline \href{https://investigaciones.unbosque.edu.co/codec}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_CODEC.png}}
+\hfill \href{https://jdleongomez.info/en/team/}{\includegraphics[width=2cm, height=2cm]{Logo_EvoCo.png}} \newline\newline \href{https://investigaciones.unbosque.edu.co/codec}{\includegraphics[width=2cm, height=2cm]{Logo_CODEC.png}}
 \end{flushright}
 \end{minipage}
 
@@ -205,5 +206,7 @@ readxl::read_excel("../data/supervision_eng_S.xlsx") |>
 
 # Editorial Appointments
 
-I am a [recommender](https://rr.peercommunityin.org/about/recommenders) (editor) for [Peer Community In Registered Reports](https://rr.peercommunityin.org/) and recently acted as guest editor for a two-part theme issue on [Philosophical Transactions B](https://royalsocietypublishing.org/journal/rstb) ([Part 1](https://royalsocietypublishing.org/toc/rstb/2021/376/1840), [Part 2](https://royalsocietypublishing.org/toc/rstb/2022/377/1841)). I regularly serve as an \textit{ad-hoc} reviewer for a number of journals, such as [Proceedings of the Royal Society B: Biological Sciences](https://royalsocietypublishing.org/journal/rspb), [Royal Society Open Science](https://royalsocietypublishing.org/journal/rsos), [PLOS ONE](https://journals.plos.org/plosone/), [Evolution and Human Behavior](https://www.sciencedirect.com/journal/evolution-and-human-behavior), [Scientific Reports](https://www.nature.com/srep/), [Basic and Applied Social Psychology](https://www.tandfonline.com/toc/hbas20/current), [Cortex](https://www.journals.elsevier.com/cortex), [Perception](https://journals.sagepub.com/home/pec),
-[Evolutionary Psychology](https://journals.sagepub.com/home/evp), and [Frontiers in Psychology](https://www.frontiersin.org/journals/psychology) where I served as [Review Editor](https://loop.frontiersin.org/people/438954/overview) for the [\textit{Evolutionary Psychology specialty section}](https://www.frontiersin.org/journals/psychology/sections/evolutionary-psychology) between 2018 and 2024.  My verified record can be viewed on my [Web of Science](https://www.webofscience.com/wos/author/record/387716) profile.
+\begin{small}
+I am a \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (editor) for \href{https://rr.peercommunityin.org/}{Peer Community In Registered Reports} and recently acted as guest editor for a two-part theme issue on \href{https://royalsocietypublishing.org/journal/rstb}{Philosophical Transactions B} (\href{https://royalsocietypublishing.org/toc/rstb/2021/376/1840}{Part 1}, \href{https://royalsocietypublishing.org/toc/rstb/2022/377/1841}{Part 2}). I was recently invited to join \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B} as a Data Editor and regularly serve as an \textit{ad-hoc} reviewer for journals such as \href{https://royalsocietypublishing.org/journal/rsos}{Royal Society Open Science}, \href{https://journals.plos.org/plosone/}{PLOS ONE}, \href{https://www.sciencedirect.com/journal/evolution-and-human-behavior}{Evolution and Human Behavior}, \href{https://www.nature.com/srep/}{Scientific Reports}, \href{https://www.tandfonline.com/toc/hbas20/current}{Basic and Applied Social Psychology}, \href{https://www.journals.elsevier.com/cortex}{Cortex}, \href{https://journals.sagepub.com/home/pec}{Perception}, \href{https://journals.sagepub.com/home/evp}{Evolutionary Psychology}, and \href{https://www.frontiersin.org/journals/psychology}{Frontiers in Psychology}, where I served as \href{https://loop.frontiersin.org/people/438954/overview}{Review Editor} for the \href{https://www.frontiersin.org/journals/psychology/sections/evolutionary-psychology}{\textit{Evolutionary Psychology specialty section}} between 2018 and 2024. My verified record can be viewed on my \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science} profile.
+\end{small}
+
