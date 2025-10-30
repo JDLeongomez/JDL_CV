@@ -65,13 +65,13 @@ lapply(packages, library, character.only = TRUE) |>
 
 \begin{minipage}[c]{0.85\linewidth}
 \begin{small}
-I am an Associate Professor and researcher at \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Human Behaviour and Evolution Lab}}, and leader of the \href{https://investigaciones.unbosque.edu.co/codec}{\textit{\textbf{CODEC}: Cognitive and Behavioural Sciences Research Group}} (classified as \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), within the \href{https://www.uelbosque.edu.co/psicologia}{Faculty of Psychology} at the \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} in Bogotá, Colombia. I am also a founding and board member of the \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.4em}
+I am an Associate Professor and researcher at \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Human Behaviour and Evolution Lab}}, and leader of the \href{https://unbosque.portalinvestigacion.com/grupos/302}{\textit{\textbf{CODEC}: Cognitive and Behavioural Sciences Research Group}} (classified as \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), within the \href{https://www.uelbosque.edu.co/psicologia}{Faculty of Psychology} at the \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} in Bogotá, Colombia. I am also a founding and board member of the \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.4em}
 \textbf{Research:} My work focuses on human vocal communication, mate choice, musicality, and hormonal influences on behaviour. I have published pioneering studies on vocal modulation in social and courtship contexts.\par \vspace{0.4em}
 \textbf{Open Science:} I am interested in quantitative methods and programming, especially in \textbf{R}, as tools to promote open and reproducible science. In line with these values, I serve as a \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (associate editor) at \href{https://rr.peercommunityin.org/}{Peer Community In Registered Reports}, and \textit{Data Editor} at \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}. 
 \end{small}
 \end{minipage} \begin{minipage}[c]{0.15\linewidth}
 \begin{flushright} 
-\hfill \href{https://jdleongomez.info/en/team/}{\includegraphics[width=2cm, height=2cm]{Logo_EvoCo.png}} \newline\newline \href{https://investigaciones.unbosque.edu.co/codec}{\includegraphics[width=2cm, height=2cm]{Logo_CODEC.png}}
+\hfill \href{https://jdleongomez.info/en/team/}{\includegraphics[width=2cm, height=2cm]{Logo_EvoCo.png}} \newline\newline \href{https://unbosque.portalinvestigacion.com/grupos/302}{\includegraphics[width=2cm, height=2cm]{Logo_CODEC.png}}
 \end{flushright}
 \end{minipage}
 
