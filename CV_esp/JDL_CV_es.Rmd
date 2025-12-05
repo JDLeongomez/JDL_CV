@@ -233,7 +233,7 @@ mediancit <- median(pubs$cites)
 \end{tcolorbox}
 
 \begin{importantnote}
-  \textcolor{teal}{\faStar} \textbf{Autoría clave:} autor único, autor principal (primero o último), y/o autor de correspondencia.
+  \textcolor{teal}{\faStar} \textbf{Autoría clave:} único, primer o último autor, y/o autor de correspondencia.
 \end{importantnote}
 
 ## \textbf{Editoriales y Recomendaciones}
