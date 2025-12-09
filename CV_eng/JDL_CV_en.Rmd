@@ -305,7 +305,7 @@ mediancit <- median(pubs$cites)
 
 \endgroup
 
-## \textbf{Public Articles}
+## \textbf{Public Outreach Articles}
 
 \begingroup
 \footnotesize

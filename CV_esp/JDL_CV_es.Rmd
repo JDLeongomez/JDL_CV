@@ -305,7 +305,7 @@ mediancit <- median(pubs$cites)
 
 \endgroup
 
-## \textbf{Artículos para el Público General}
+## \textbf{Artículos de Divulgación Científica}
 
 \begingroup
 \footnotesize
