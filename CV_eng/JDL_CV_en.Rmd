@@ -65,7 +65,7 @@ lapply(packages, library, character.only = TRUE) |>
 
 I am an Associate Professor and researcher at \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Human Behaviour and Evolution Lab}}, and leader of the \href{https://unbosque.portalinvestigacion.com/grupos/302}{\textit{\textbf{CODEC}: Cognitive and Behavioural Sciences Research Group}} (classified as \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), within the \href{https://www.uelbosque.edu.co/psicologia}{Faculty of Psychology} at the \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} in Bogotá, Colombia. I am also a founding and board member of the \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.4em}
 \textbf{Research:} My work focuses on human vocal communication, mate choice, musicality, and hormonal influences on behaviour. I have published pioneering studies on vocal modulation in social and courtship contexts. \par \vspace{0.4em}
-\textbf{Open Science:} I am interested in quantitative methods and programming, especially in \textbf{R}, as tools to promote open and reproducible science. In line with these values, I serve as a \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (associate editor) at \href{https://rr.peercommunityin.org/}{Peer Community In Registered Reports}, and \textit{Data Editor} at \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}. 
+\textbf{Open Science:} I am interested in quantitative methods and programming, especially in \textbf{R}, as tools to promote open and reproducible science. In line with these values, I serve as a \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (associate editor) at \href{https://rr.peercommunityin.org/}{PCI Registered Reports}, and \textit{Data Editor} at \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}. 
 
 \end{minipage} \begin{minipage}[c]{0.15\linewidth}
 \begin{flushright} 
@@ -250,7 +250,7 @@ mediancit <- median(pubs$cites)
 \begin{minipage}[c]{0.10\linewidth}
 \href{https://rr.peercommunityin.org/about/recommenders}{\includegraphics[width=1.5cm]{pci_rr.png}}
 \end{minipage} \begin{minipage}[c]{0.90\linewidth}
-\footnotesize{\textbf{Note:} For more information about my role as a \href{https://rr.peercommunityin.org/public/user_public_page?userId=1996}{recommender} (equivalent to Associate Editor) for \textit{Peer Community In Registered Reports}, see the section dedicated to my \hyperref[editor]{editorial roles} below.}
+\footnotesize{\textbf{Note:} For more information about my role as a \href{https://rr.peercommunityin.org/public/user_public_page?userId=1996}{recommender} (equivalent to Associate Editor) for \textit{PCI Registered Reports}, see the section dedicated to my \hyperref[editor]{editorial roles} below.}
 \end{minipage} 
 
 ## \textbf{Published Journal Articles and Works}
@@ -260,7 +260,7 @@ mediancit <- median(pubs$cites)
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/journal.txt")`
+`r knitr::knit_child("../bib/journal_en.txt")`
 
 \endgroup
 
@@ -271,7 +271,7 @@ mediancit <- median(pubs$cites)
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/working_paper_en.txt")`
+`r knitr::knit_child("../bib/preprints.txt")`
 
 \endgroup
 
@@ -360,7 +360,7 @@ readxl::read_excel("../data/event_en.xlsx") |>
 \end{small}
 
 ```{r service}
-readxl::read_excel("../data/service_en.xlsx") |>
+readxl::read_excel("../data/editorial_en.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)

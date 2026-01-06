@@ -65,7 +65,7 @@ lapply(packages, library, character.only = TRUE) |>
 Soy Profesor Asociado e investigador en \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}}, y líder del grupo de investigación \href{https://unbosque.portalinvestigacion.com/grupos/302}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificado como \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), \href{https://www.uelbosque.edu.co/psicologia}{Facultad de Psicología}, \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} en Bogotá, Colombia. También soy fundador y miembro del Consejo Directivo de \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.4em}
 \textbf{Investigación:} Mi investigación se centra en la comunicación vocal humana, la elección de pareja, la musicalidad y los efectos hormonales en el comportamiento. He publicado estudios pioneros sobre modulación vocal en contextos sociales y de cortejo.
 \par \vspace{0.4em}
-\textbf{Ciencia abierta:}  Me interesan los métodos cuantitativos y la programación, especialmente en \textbf{R}, como herramientas para promover la ciencia abierta y la reproducibilidad. En línea con esta preocupación, soy \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (editor asociado) en \href{https://rr.peercommunityin.org/}{Peer Community In Registered Reports}, y \textit{Data Editor} en \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}.
+\textbf{Ciencia abierta:}  Me interesan los métodos cuantitativos y la programación, especialmente en \textbf{R}, como herramientas para promover la ciencia abierta y la reproducibilidad. En línea con esta preocupación, soy \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (editor asociado) en \href{https://rr.peercommunityin.org/}{PCI Registered Reports}, y \textit{Data Editor} en \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}.
 
 \end{minipage} \begin{minipage}[c]{0.15\linewidth}
 \begin{flushright} 
@@ -250,7 +250,7 @@ mediancit <- median(pubs$cites)
 \begin{minipage}[c]{0.10\linewidth}
 \href{https://rr.peercommunityin.org/about/recommenders}{\includegraphics[width=1.5cm]{pci_rr.png}}
 \end{minipage} \begin{minipage}[c]{0.90\linewidth}
-\footnotesize{\textbf{Nota:} Para más información sobre mi rol como \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (equivalente a Editor Asociado) para \textit{Peer Community In Registered Reports}, mira la sección dedicada a mis \hyperref[editor]{Roles Editoriales} más abajo.}
+\footnotesize{\textbf{Nota:} Para más información sobre mi rol como \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (equivalente a Editor Asociado) para \textit{PCI Registered Reports}, mira la sección dedicada a mis \hyperref[editor]{Roles Editoriales} más abajo.}
 \end{minipage} 
 
 ## \textbf{Artículos y Trabajos Publicados}
@@ -260,7 +260,7 @@ mediancit <- median(pubs$cites)
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/journal.txt")`
+`r knitr::knit_child("../bib/journal_es.txt")`
 
 \endgroup
 
@@ -271,7 +271,7 @@ mediancit <- median(pubs$cites)
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/working_paper_es.txt")`
+`r knitr::knit_child("../bib/preprints.txt")`
 
 \endgroup
 
@@ -360,7 +360,7 @@ readxl::read_excel("../data/event_es.xlsx") |>
 \end{small}
 
 ```{r service}
-readxl::read_excel("../data/service_es.xlsx") |>
+readxl::read_excel("../data/editorial_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
