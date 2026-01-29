@@ -1,4 +1,4 @@
-[important] Castellanos-Chacón, A., Arias-Otero, D., Uribe-Jaramillo, V., Leongómez, J.D.[^1], & , Vásquez-Amézquita, M. (in press). Effects of stimulus emotional content on gaze pattern: an eye-tracking study. *PLOS One*.
+[important] Castellanos-Chacón, A., Arias-Otero, D., Uribe-Jaramillo, V., Leongómez, J.D.[^1], & , Vásquez-Amézquita, M. (in press). Effects of stimulus emotional content on gaze pattern: an eye-tracking study. *PLOS One, 21*(1), e0341261. https://doi.org/10.1371/journal.pone.0341261
 
 [^1]: Leongómez y Vásquez-Amézquita son autores sénior conjuntos (últimos autores).
 
