@@ -1,4 +1,6 @@
-[important] Castellanos-Chacón, A., Arias-Otero, D., Uribe-Jaramillo, V., Leongómez, J.D.[^1], & , Vásquez-Amézquita, M. (in press). Effects of stimulus emotional content on gaze pattern: an eye-tracking study. *PLOS One, 21*(1), e0341261. https://doi.org/10.1371/journal.pone.0341261
+Fiala, V., Wacewicz, S., Štěrbová, Z., Pavlovič, O., Leongómez, J.D., Castellanos-Chacón, A., Sarıbay, S. A., Kleisner, K., & Tureček, P. (in press). Self-reported social media use does not affect cross-cultural consensus in first impressions. *Evolutionary Human Sciences*.
+
+[important] Castellanos-Chacón, A., Arias-Otero, D., Uribe-Jaramillo, V., Leongómez, J.D.[^1], & , Vásquez-Amézquita, M. (2026). Effects of stimulus emotional content on gaze pattern: an eye-tracking study. *PLOS One, 21*(1), e0341261. https://doi.org/10.1371/journal.pone.0341261
 
 [^1]: Leongómez & Vásquez-Amézquita are joint last authors.
 
