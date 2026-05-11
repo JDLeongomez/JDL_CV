@@ -1,3 +1,5 @@
+Leongómez, J.D. (2026). *Just-N Framework: Aplicación interactiva* (Versión 1.0). Zenodo. https://doi.org/10.5281/zenodo.19860616 (ver [Versión en línea](https://jdleongomez.github.io/just_n_app/))
+
 Leongómez, J.D. (2023). ***PowerSimulate*** [Colección de aplicaciones]. [https://shiny.jdl-svr.lat/PowerSimulate/](https://shiny.jdl-svr.lat/PowerSimulate/)
 
 \vspace{-2mm}
