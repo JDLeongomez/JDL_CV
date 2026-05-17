@@ -175,7 +175,11 @@ if (isTRUE(getOption("jdl_scholar_cache_only"))) {
   scholar_data <- tryCatch({
     data <- list(
       profile = get_profile(scholar_id),
-      pubs    = get_publications(scholar_id)
+      pubs    = get_publications(scholar_id)|>
+      dplyr::filter(
+        journal != "",
+        !grepl("The Conversation|University of Stirling", journal)
+      )
     )
     saveRDS(data, cache_file)
     data
