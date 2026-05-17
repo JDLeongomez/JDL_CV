@@ -166,16 +166,44 @@ readxl::read_excel("../data/grant_es.xlsx") |>
 # Publicaciones
 
 ```{r scholar, echo = FALSE}
-profile <- get_profile("8Q0jKHsAAAAJ")
-pubs <- get_publications("8Q0jKHsAAAAJ")
+scholar_id <- "8Q0jKHsAAAAJ"
+cache_file <- "../scholar_cache.rds"
 
-h_index <- profile$h_index
-g_index <- max(which(as.numeric(row.names(pubs))^2 < cumsum(pubs$cites)))
-i10_index <- profile$i10_index
-pubs_num <- dim(pubs)[1]
-citSum <- profile$total_cites
-meancit <- round(mean(pubs$cites), 2)
-mediancit <- median(pubs$cites)
+if (isTRUE(getOption("jdl_scholar_cache_only"))) {
+  scholar_data <- if (file.exists(cache_file)) readRDS(cache_file) else NULL
+} else {
+  scholar_data <- tryCatch({
+    data <- list(
+      profile = get_profile(scholar_id),
+      pubs    = get_publications(scholar_id)
+    )
+    saveRDS(data, cache_file)
+    data
+  }, error = function(e) {
+    message("Scholar fetch failed: ", conditionMessage(e))
+    if (file.exists(cache_file)) {
+      message("Loading cached Scholar data.")
+      readRDS(cache_file)
+    } else {
+      message("No cache available. Citation metrics will show NA.")
+      NULL
+    }
+  })
+}
+
+if (!is.null(scholar_data)) {
+  profile   <- scholar_data$profile
+  pubs      <- scholar_data$pubs
+  h_index   <- profile$h_index
+  g_index   <- max(which(as.numeric(row.names(pubs))^2 < cumsum(pubs$cites)))
+  i10_index <- profile$i10_index
+  pubs_num  <- dim(pubs)[1]
+  citSum    <- profile$total_cites
+  meancit   <- round(mean(pubs$cites), 2)
+  mediancit <- median(pubs$cites)
+} else {
+  h_index <- g_index <- i10_index <- pubs_num <- citSum <- meancit <- mediancit <- NA
+}
 ```
 
 \begin{tcolorbox}[enhanced,
