@@ -11,6 +11,10 @@ scholar_data <- tryCatch({
         !grepl("The Conversation|University of Stirling", journal)
       )
   )
+  # Validate: profile must be a data frame and pubs must have rows
+  if (!is.list(data$profile) || nrow(data$pubs) == 0) {
+    stop("Scholar returned invalid data (possibly rate-limited).")
+  }
   saveRDS(data, cache_file)
   message("Scholar data saved to cache.")
   data

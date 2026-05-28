@@ -154,7 +154,7 @@ if (isTRUE(getOption("jdl_scholar_cache_only"))) {
   })
 }
 
-if (!is.null(scholar_data)) {
+if (!is.null(scholar_data) && is.list(scholar_data$profile) && nrow(scholar_data$pubs) > 0) {
   profile   <- scholar_data$profile
   pubs      <- scholar_data$pubs
   h_index   <- profile$h_index
