@@ -1,6 +1,31 @@
 scholar_id <- "8Q0jKHsAAAAJ"
 cache_file  <- "scholar_cache.rds"
 
+prompt_manual_metrics <- function(cache_file) {
+  message("\nOpen your Scholar profile in a browser:")
+  message("  https://scholar.google.com/citations?user=8Q0jKHsAAAAJ")
+  message("\nEnter the values shown there:\n")
+
+  h_index     <- as.integer(readline("  h-index: "))
+  i10_index   <- as.integer(readline("  i10-index: "))
+  total_cites <- as.integer(readline("  Total citations: "))
+
+  pubs <- if (file.exists(cache_file)) {
+    readRDS(cache_file)$pubs
+  } else {
+    data.frame(
+      title = character(), journal = character(),
+      year = integer(), cites = integer(),
+      stringsAsFactors = FALSE
+    )
+  }
+
+  list(
+    profile = list(h_index = h_index, i10_index = i10_index, total_cites = total_cites),
+    pubs    = pubs
+  )
+}
+
 message("Fetching Google Scholar data...")
 scholar_data <- tryCatch({
   data <- list(
@@ -11,7 +36,6 @@ scholar_data <- tryCatch({
         !grepl("The Conversation|University of Stirling", journal)
       )
   )
-  # Validate: profile must be a data frame and pubs must have rows
   if (!is.list(data$profile) || nrow(data$pubs) == 0) {
     stop("Scholar returned invalid data (possibly rate-limited).")
   }
@@ -20,6 +44,15 @@ scholar_data <- tryCatch({
   data
 }, error = function(e) {
   message("Scholar fetch failed: ", conditionMessage(e))
+  if (interactive()) {
+    use_manual <- readline("Fetch failed. Enter metrics manually? [y/N]: ")
+    if (tolower(trimws(use_manual)) == "y") {
+      data <- prompt_manual_metrics(cache_file)
+      saveRDS(data, cache_file)
+      message("Cache updated with manual values.")
+      return(data)
+    }
+  }
   if (file.exists(cache_file)) {
     message("Loading cached Scholar data.")
     readRDS(cache_file)
