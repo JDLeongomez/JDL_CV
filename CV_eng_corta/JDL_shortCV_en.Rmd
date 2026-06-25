@@ -2,7 +2,7 @@
 graphics: yes
 name: Juan David
 surname: Leongómez
-position: "Associate Professor"
+position: "Full Professor"
 address: "Faculty of Psychology, Universidad El Bosque"
 phone: (+57) 601-6489000 Ext. 1901
 email: "jleongomez@unbosque.edu.co"
@@ -64,7 +64,7 @@ lapply(packages, library, character.only = TRUE) |>
 
 \begin{minipage}[c]{0.85\linewidth}
 \begin{small}
-I am an Associate Professor and researcher at \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Human Behaviour and Evolution Lab}}, and leader of the \href{https://unbosque.portalinvestigacion.com/grupos/302}{\textit{\textbf{CODEC}: Cognitive and Behavioural Sciences Research Group}} (classified as \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), within the \href{https://www.uelbosque.edu.co/psicologia}{Faculty of Psychology} at the \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} in Bogotá, Colombia. I am also a founding and board member of the \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.4em}
+I am a Full Professor and researcher at \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Human Behaviour and Evolution Lab}}, and leader of the \href{https://unbosque.portalinvestigacion.com/grupos/302}{\textit{\textbf{CODEC}: Cognitive and Behavioural Sciences Research Group}} (classified as \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), within the \href{https://www.uelbosque.edu.co/psicologia}{Faculty of Psychology} at the \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} in Bogotá, Colombia. I am also a founding and board member of the \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.4em}
 \textbf{Research:} My work focuses on human vocal communication, mate choice, musicality, and hormonal influences on behaviour. I have published pioneering studies on vocal modulation in social and courtship contexts.\par \vspace{0.4em}
 \textbf{Open Science:} I am interested in quantitative methods and programming, especially in \textbf{R}, as tools to promote open and reproducible science. In line with these values, I serve as a \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (associate editor) at \href{https://rr.peercommunityin.org/}{PCI Registered Reports}, and \textit{Data Editor} at \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}. 
 \end{small}
@@ -154,16 +154,23 @@ if (isTRUE(getOption("jdl_scholar_cache_only"))) {
   })
 }
 
-if (!is.null(scholar_data) && is.list(scholar_data$profile) && nrow(scholar_data$pubs) > 0) {
+if (!is.null(scholar_data) && is.list(scholar_data$profile)) {
   profile   <- scholar_data$profile
-  pubs      <- scholar_data$pubs
   h_index   <- profile$h_index
-  g_index   <- max(which(as.numeric(row.names(pubs))^2 < cumsum(pubs$cites)))
   i10_index <- profile$i10_index
-  pubs_num  <- dim(pubs)[1]
   citSum    <- profile$total_cites
-  meancit   <- round(mean(pubs$cites), 2)
-  mediancit <- median(pubs$cites)
+  if (!is.null(scholar_data$pubs) && nrow(scholar_data$pubs) > 0) {
+    pubs      <- scholar_data$pubs
+    g_index   <- max(which(as.numeric(row.names(pubs))^2 < cumsum(pubs$cites)))
+    pubs_num  <- dim(pubs)[1]
+    meancit   <- round(mean(pubs$cites), 2)
+    mediancit <- median(pubs$cites)
+  } else {
+    g_index   <- if (!is.null(profile$g_index))   profile$g_index   else NA
+    pubs_num  <- if (!is.null(profile$pubs_num))  profile$pubs_num  else NA
+    meancit   <- if (!is.null(profile$meancit))   profile$meancit   else NA
+    mediancit <- if (!is.null(profile$mediancit)) profile$mediancit else NA
+  }
 } else {
   h_index <- g_index <- i10_index <- pubs_num <- citSum <- meancit <- mediancit <- NA
 }
@@ -217,6 +224,10 @@ For a full list, please check the publications section on [my website](https://j
 \end{minipage} \begin{minipage}[c]{0.85\linewidth}
 \textcolor{red}{\faYoutube} \href{https://www.youtube.com/@InvestigacionAbierta}{Investigación Abierta} [\textit{Open Research}] is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software.
 \end{minipage}
+
+# Open Course Materials
+
+\faBook~\href{https://jdleongomez.github.io/curso-r/}{\textbf{Handling, exploring, and visualising data with R}} is a free introductory course I taught at \href{https://www.unbosque.edu.co/}{Universidad El Bosque} (Bogotá, Colombia) in June 2026. All course materials are openly available \href{https://jdleongomez.github.io/curso-r/}{online}.
 
 # Shiny Apps
 

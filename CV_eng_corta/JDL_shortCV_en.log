@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.17)  7 JUN 2026 10:27
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.13)  25 JUN 2026 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **JDL_shortCV_en.tex
 (./JDL_shortCV_en.tex
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-04-28>
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-05-26>
 (./awesome-cv.cls
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -13,19 +13,19 @@ Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count272
-\c@section=\count273
-\c@subsection=\count274
-\c@subsubsection=\count275
-\c@paragraph=\count276
-\c@subparagraph=\count277
-\c@figure=\count278
-\c@table=\count279
+\c@part=\count273
+\c@section=\count274
+\c@subsection=\count275
+\c@subsubsection=\count276
+\c@paragraph=\count277
+\c@subparagraph=\count278
+\c@figure=\count279
+\c@table=\count280
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/tools/array.sty
-Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
 \col@sep=\dimen151
 \ar@mcellbox=\box53
 \extrarowheight=\dimen152
@@ -40,8 +40,8 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@outerparindent=\dimen153
 \enit@toks=\toks19
 \enit@inbox=\box55
-\enit@count@id=\count280
-\enitdp@description=\count281
+\enit@count@id=\count281
+\enitdp@description=\count282
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip54
@@ -61,16 +61,16 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/home/jdl/.TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count282
-\Gm@cntv=\count283
-\c@Gm@tempcnt=\count284
+\Gm@cnth=\count283
+\Gm@cntv=\count284
+\c@Gm@tempcnt=\count285
 \Gm@bindingoffset=\dimen154
 \Gm@wd@mp=\dimen155
 \Gm@odd@mp=\dimen156
@@ -120,15 +120,15 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count285
-\calc@Bcount=\count286
+\calc@Acount=\count286
+\calc@Bcount=\count287
 \calc@Adimen=\dimen162
 \calc@Bdimen=\dimen163
 \calc@Askip=\skip82
 \calc@Bskip=\skip83
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count287
+\calc@Ccount=\count288
 \calc@Cskip=\skip84
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
@@ -136,33 +136,33 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 )) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count288
+\etb@tempcnta=\count289
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty (/home/jdl/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/home/jdl/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2026-04-28 L3 programming layer (loader) 
+Package: expl3 2026-05-26 L3 programming layer (loader) 
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2026-02-18 L3 backend support: XeTeX
-\g__graphics_track_int=\count289
-\g__pdfannot_backend_int=\count290
-\g__pdfannot_backend_link_int=\count291
+\g__graphics_track_int=\count290
+\g__pdfannot_backend_int=\count291
+\g__pdfannot_backend_link_int=\count292
 ))
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count292
-\l__fontspec_language_int=\count293
-\l__fontspec_strnum_int=\count294
-\l__fontspec_tmp_int=\count295
-\l__fontspec_tmpa_int=\count296
-\l__fontspec_tmpb_int=\count297
-\l__fontspec_tmpc_int=\count298
-\l__fontspec_em_int=\count299
-\l__fontspec_emdef_int=\count300
-\l__fontspec_strong_int=\count301
-\l__fontspec_strongdef_int=\count302
+\l__fontspec_script_int=\count293
+\l__fontspec_language_int=\count294
+\l__fontspec_strnum_int=\count295
+\l__fontspec_tmp_int=\count296
+\l__fontspec_tmpa_int=\count297
+\l__fontspec_tmpb_int=\count298
+\l__fontspec_tmpc_int=\count299
+\l__fontspec_em_int=\count300
+\l__fontspec_emdef_int=\count301
+\l__fontspec_strong_int=\count302
+\l__fontspec_strongdef_int=\count303
 \l__fontspec_tmpa_dim=\dimen164
 \l__fontspec_tmpb_dim=\dimen165
 \l__fontspec_tmpc_dim=\dimen166
@@ -170,14 +170,14 @@ Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count303
+\c@tracingmulticols=\count304
 \mult@box=\box56
 \multicol@leftmargin=\dimen167
-\c@unbalance=\count304
-\c@collectmore=\count305
-\doublecol@number=\count306
-\multicoltolerance=\count307
-\multicolpretolerance=\count308
+\c@unbalance=\count305
+\c@collectmore=\count306
+\doublecol@number=\count307
+\multicoltolerance=\count308
+\multicolpretolerance=\count309
 \full@width=\dimen168
 \page@free=\dimen169
 \premulticols=\dimen170
@@ -228,16 +228,16 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box97
 \@tempa=\box98
 \@tempa=\box99
-\c@minrows=\count309
-\c@columnbadness=\count310
-\c@finalcolumnbadness=\count311
+\c@minrows=\count310
+\c@columnbadness=\count311
+\c@finalcolumnbadness=\count312
 \last@try=\dimen173
 \multicolovershoot=\dimen174
 \multicolundershoot=\dimen175
 \mult@nat@firstbox=\box100
 \colbreak@box=\box101
-\mc@col@check@num=\count312
-\g__mc_curr_col_int=\count313
+\mc@col@check@num=\count313
+\g__mc_curr_col_int=\count314
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
@@ -377,7 +377,7 @@ LaTeX Encoding Info:    Redeclaring text symbol \texteuro (encoding TS1) on inpu
 LaTeX Encoding Info:    Redeclaring text symbol \texttimes (encoding TS1) on input line 193.
 LaTeX Encoding Info:    Redeclaring text symbol \textdiv (encoding TS1) on input line 194.
 )) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2025/07/09 v2.17z AMS math features
+Package: amsmath 2026/05/19 v2.18d AMS math features
 \@mathmargin=\skip87
 For additional information on amsmath, use the `?' option.
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -392,14 +392,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count314
+\inf@bad=\count315
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count315
-\leftroot@=\count316
+\uproot@=\count316
+\leftroot@=\count317
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count317
-\DOTSCASE@=\count318
+\classnum@=\count318
+\DOTSCASE@=\count319
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -412,20 +412,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen178
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count319
+\macc@depth=\count320
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count320
+\c@MaxMatrixCols=\count321
 \dotsspace@=\muskip17
-\c@parentequation=\count321
-\dspbrk@lvl=\count322
+\c@parentequation=\count322
+\dspbrk@lvl=\count323
 \tag@help=\toks24
-\row@=\count323
-\column@=\count324
-\maxfields@=\count325
+\row@=\count324
+\column@=\count325
+\maxfields@=\count326
 \andhelp@=\toks25
 \eqnshift@=\dimen179
 \alignsep@=\dimen180
@@ -437,12 +437,12 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \multlinegap=\skip88
 \multlinetaggap=\skip89
 \mathdisplay@stack=\toks27
-LaTeX Info: Redefining \[ on input line 2950.
-LaTeX Info: Redefining \] on input line 2951.
+LaTeX Info: Redefining \[ on input line 2965.
+LaTeX Info: Redefining \] on input line 2966.
 )
-\g__um_fam_int=\count326
-\g__um_fonts_used_int=\count327
-\l__um_primecount_int=\count328
+\g__um_fam_int=\count327
+\g__um_fonts_used_int=\count328
+\l__um_primecount_int=\count329
 \g__um_primekern_muskip=\muskip18
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
@@ -467,7 +467,7 @@ Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
 \XKV@tempa@toks=\toks29
 \XKV@tempb@toks=\toks30
 )
-\XKV@depth=\count329
+\XKV@depth=\count330
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 
@@ -480,7 +480,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/SourceSans3(1)/bx/n on input line 128.
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
+Package: tcolorbox 2026/05/28 version 6.10.0 text color boxes
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/home/jdl/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/home/jdl/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks31
 \pgfutil@tempdima=\dimen185
@@ -492,9 +492,9 @@ Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/home/jdl/.TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
@@ -524,14 +524,14 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@yd=\dimen198
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count330
-\c@pgf@countb=\count331
-\c@pgf@countc=\count332
-\c@pgf@countd=\count333
+\c@pgf@counta=\count331
+\c@pgf@countb=\count332
+\c@pgf@countc=\count333
+\c@pgf@countd=\count334
 \t@pgf@toka=\toks35
 \t@pgf@tokb=\toks36
 \t@pgf@tokc=\toks37
-\pgf@sys@id@count=\count334
+\pgf@sys@id@count=\count335
 (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
@@ -543,24 +543,24 @@ File: pgfsys-dvipdfmx.def 2025-08-29 v3.1.11a (3.1.11a)
 (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 )
-\pgfsys@objnum=\count335
+\pgfsys@objnum=\count336
 ))) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count336
-\pgfsyssoftpath@bigbuffer@items=\count337
+\pgfsyssoftpath@smallbuffer@items=\count337
+\pgfsyssoftpath@bigbuffer@items=\count338
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen199
-\pgfmath@count=\count338
+\pgfmath@count=\count339
 \pgfmath@box=\box105
 \pgfmath@toks=\toks38
 \pgfmath@stack@operand=\toks39
 \pgfmath@stack@operation=\toks40
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count339
+\c@pgfmathroundto@lastzeros=\count340
 )) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@picminx=\dimen256
@@ -590,7 +590,7 @@ File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box106
 \pgf@hbox=\box107
 \pgf@layerbox@main=\box108
-\pgf@picture@serial@count=\count340
+\pgf@picture@serial@count=\count341
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgflinewidth=\dimen274
@@ -611,8 +611,8 @@ File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen279
-\pgf@sys@shading@range@num=\count341
-\pgf@shadingcount=\count342
+\pgf@sys@shading@range@num=\count342
+\pgf@shadingcount=\count343
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
@@ -647,7 +647,7 @@ Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count343
+\pgf@plot@mark@count=\count344
 \pgfplotmarksize=\dimen284
 )
 \tikz@lastx=\dimen285
@@ -662,17 +662,17 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikz@figbox@bg=\box112
 \tikz@tempbox=\box113
 \tikz@tempbox@bg=\box114
-\tikztreelevel=\count344
-\tikznumberofchildren=\count345
-\tikznumberofcurrentchild=\count346
-\tikz@fig@count=\count347
+\tikztreelevel=\count345
+\tikznumberofchildren=\count346
+\tikznumberofcurrentchild=\count347
+\tikz@fig@count=\count348
 (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count348
-\pgfmatrixcurrentcolumn=\count349
-\pgf@matrix@numberofcolumns=\count350
+\pgfmatrixcurrentrow=\count349
+\pgfmatrixcurrentcolumn=\count350
+\pgf@matrix@numberofcolumns=\count351
 )
-\tikz@expandcount=\count351
+\tikz@expandcount=\count352
 (/home/jdl/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty
@@ -689,9 +689,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box116
 \tcb@lowerbox=\box117
 \tcb@phantombox=\box118
-\c@tcbbreakpart=\count352
-\c@tcblayer=\count353
-\c@tcolorbox@number=\count354
+\c@tcbbreakpart=\count353
+\c@tcblayer=\count354
+\c@tcolorbox@number=\count355
 \l__tcobox_tmpa_box=\box119
 \l__tcobox_tmpa_dim=\dimen293
 \tcb@temp=\box120
@@ -699,7 +699,7 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box122
 \tcb@temp=\box123
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
+Library (tcolorbox): 'tcbskins.code.tex' version '6.10.0'
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
 Package: tikzfill.image 2026/04/23 v1.2.0 Image filling library for TikZ
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
@@ -708,7 +708,7 @@ File: tikzlibraryfill.image.code.tex 2026/04/23 v1.2.0 Image filling library
 \l__tikzfill_tmpb_dim=\dimen295
 \l__tikzfill_img_box=\box124
 )) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.10.0'
 ))) (/home/jdl/.TinyTeX/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
@@ -745,19 +745,19 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count355
+\c@section@level=\count356
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen296
-\Hy@linkcounter=\count356
-\Hy@pagecounter=\count357
+\Hy@linkcounter=\count357
+\Hy@pagecounter=\count358
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
 ) (/home/jdl/.TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count358
+\Hy@SavedSpaceFactor=\count359
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
 )
@@ -769,7 +769,7 @@ Package hyperref Info: Plain pages OFF on input line 4214.
 Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4466.
-\c@Hy@tempcnt=\count359
+\c@Hy@tempcnt=\count360
 LaTeX Info: Redefining \url on input line 4805.
 \XeTeXLinkMargin=\dimen297
 (/home/jdl/.TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
@@ -777,7 +777,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 (/home/jdl/.TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count360
+\Fld@menulength=\count361
 \Field@Width=\dimen298
 \Fld@charsize=\dimen299
 Package hyperref Info: Hyper figures OFF on input line 6091.
@@ -787,18 +787,18 @@ Package hyperref Info: backreferencing OFF on input line 6106.
 Package hyperref Info: Link coloring OFF on input line 6111.
 Package hyperref Info: Link coloring with OCG OFF on input line 6116.
 Package hyperref Info: PDF/A mode OFF on input line 6121.
-\Hy@abspage=\count361
-\c@Item=\count362
-\c@Hfootnote=\count363
+\Hy@abspage=\count362
+\c@Item=\count363
+\c@Hfootnote=\count364
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2026-04-24 v7.01q Hyperref driver for XeTeX
 \pdfm@box=\box125
-\c@Hy@AnnotLevel=\count364
-\HyField@AnnotCount=\count365
-\Fld@listcount=\count366
-\c@bookmark@seq@number=\count367
+\c@Hy@AnnotLevel=\count365
+\HyField@AnnotCount=\count366
+\Fld@listcount=\count367
+\c@bookmark@seq@number=\count368
 (/home/jdl/.TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 (/home/jdl/.TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -821,12 +821,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen307
 \cmidrulekern=\dimen308
 \defaultaddspace=\dimen309
-\@cmidla=\count368
-\@cmidlb=\count369
+\@cmidla=\count369
+\@cmidlb=\count370
 \@aboverulesep=\dimen310
 \@belowrulesep=\dimen311
-\@thisruleclass=\count370
-\@lastruleclass=\count371
+\@thisruleclass=\count371
+\@lastruleclass=\count372
 \@thisrulewidth=\dimen312
 )
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/m/n' will be
@@ -968,7 +968,7 @@ LaTeX Font Info:    Font shape `TU/SourceSans3(1)/m/it' will be
 (Font)              scaled to size 9.0pt on input line 107.
 
 Overfull \hbox (1.45999pt too wide) in paragraph at lines 107--107
-[]$[]$ $[]$$[]$ 
+[][] [][] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/m/n' will be
@@ -989,7 +989,7 @@ File: ../images/Logo_CODEC.png Graphic file (type bmp)
 <../images/Logo_CODEC.png>
 
 Overfull \hbox (1.45999pt too wide) in paragraph at lines 126--137
-[]$[]$ $[]$ 
+[][] [] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/m/n' will be
@@ -1056,28 +1056,28 @@ LaTeX Font Info:    Font shape `TU/SourceSans3(0)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 290.
 
 Overfull \hbox (1.45999pt too wide) in paragraph at lines 287--292
-[]$[]$ $[]$ 
+[][] [] 
  []
 
 File: ../images/shiny_hex.png Graphic file (type bmp)
 <../images/shiny_hex.png>
 
-Overfull \hbox (1.45999pt too wide) in paragraph at lines 295--300
-[]$[]$ $[]$ 
+Overfull \hbox (1.45999pt too wide) in paragraph at lines 303--308
+[][] [] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/sc' will be
-(Font)              scaled to size 8.0pt on input line 310.
+(Font)              scaled to size 8.0pt on input line 318.
 
 LaTeX Font Warning: Font shape `TU/SourceSans3(1)/b/scit' undefined
-(Font)              using `TU/SourceSans3(1)/b/it' instead on input line 310.
+(Font)              using `TU/SourceSans3(1)/b/it' instead on input line 318.
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/it' will be
-(Font)              scaled to size 8.0pt on input line 310.
-[2] (./JDL_shortCV_en.aux)
+(Font)              scaled to size 8.0pt on input line 318.
+[2] [3] (./JDL_shortCV_en.aux)
  ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-04-28>
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-05-26>
  ***********
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1086,12 +1086,12 @@ Package rerunfilecheck Info: File `JDL_shortCV_en.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33645 strings out of 469952
- 684199 string characters out of 5473812
- 1262259 words of memory out of 5000000
- 61831 multiletter control sequences out of 15000+600000
+ 33647 strings out of 469781
+ 684348 string characters out of 5468056
+ 1265997 words of memory out of 5000000
+ 62003 multiletter control sequences out of 15000+600000
  633511 words of font info for 158 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 131i,12n,136p,1791b,908s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,11n,136p,1791b,908s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on JDL_shortCV_en.pdf (2 pages).
+Output written on JDL_shortCV_en.pdf (3 pages).
