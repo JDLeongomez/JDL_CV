@@ -61,16 +61,16 @@ lapply(packages, library, character.only = TRUE) |>
 
 # Acerca de mí
 
-\begin{minipage}[c]{0.88\linewidth}
+\begin{minipage}[c]{0.9\linewidth}
 \begin{small}
-Soy Profesor Titular e investigador en \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}}, y líder del grupo de investigación \href{https://unbosque.portalinvestigacion.com/grupos/302}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificado como \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), \href{https://www.uelbosque.edu.co/psicologia}{Facultad de Psicología}, \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} en Bogotá, Colombia. También soy fundador y miembro del Consejo Directivo de \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.4em}
+Soy Profesor Titular e investigador en \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}}, y líder del grupo de investigación \href{https://grupo-codec.netlify.app/}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificado como \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), \href{https://www.uelbosque.edu.co/psicologia}{Facultad de Psicología}, \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} en Bogotá, Colombia. También soy fundador y miembro del Consejo Directivo de \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.4em}
 \textbf{Investigación:} Mi investigación se centra en la comunicación vocal humana, la elección de pareja, la musicalidad y los efectos hormonales en el comportamiento. He publicado estudios pioneros sobre modulación vocal en contextos sociales y de cortejo.
 \par \vspace{0.4em}
 \textbf{Ciencia abierta:}  Me interesan los métodos cuantitativos y la programación, especialmente en \textbf{R}, como herramientas para promover la ciencia abierta y la reproducibilidad. En línea con esta preocupación, soy \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (editor asociado) en \href{https://rr.peercommunityin.org/}{PCI Registered Reports}, y \textit{Data Editor} en \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}. 
 \end{small}
-\end{minipage} \begin{minipage}[c]{0.08\linewidth}
+\end{minipage} \begin{minipage}[c]{0.1\linewidth}
 \begin{flushright} 
-\hfill \href{https://jdleongomez.info/es/team/}{\includegraphics[width=2cm, height=2cm]{Logo_EvoCo.png}} \newline\newline \href{https://unbosque.portalinvestigacion.com/grupos/302}{\includegraphics[width=2cm, height=2cm]{Logo_CODEC.png}}
+\hfill \href{https://jdleongomez.info/es/team/}{\includegraphics[height=2cm]{Logo_EvoCo.png}} \newline\newline \href{https://grupo-codec.netlify.app/}{\includegraphics[height=2cm]{Logo_CODEC.png}}
 \end{flushright}
 \end{minipage}
 
@@ -117,10 +117,6 @@ readxl::read_excel("../data/working-experience_esp_S.xlsx") |>
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
 ```
-
-# Logros
-
-Para información sobre **subvenciones**, **becas** y **premios**, por favor visita mi [sitio web](https://jdleongomez.info/es/profile/#accomplishments) o mi [Hoja de Vida Académica](https://jdleongomez.github.io/JDL_CV/CV_esp/JDL_CV_es.pdf).
 
 # Publicaciones Seleccionadas
 
