@@ -32,21 +32,24 @@ header-includes:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE,
-                      warning = FALSE,
-                      message = FALSE)
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE
+)
 
-pkgs <- c('vitae' ,'here' ,'tinytex' ,'tibble' ,'glue' ,'rmarkdown' ,'dplyr', 'readr' ,'yaml')
+pkgs <- c("vitae", "here", "tinytex", "tibble", "glue", "rmarkdown", "dplyr", "readr", "yaml")
 xfun::pkg_attach2(pkgs)
 
-packages <- c('vitae'     # The CV's LaTeX Template
-             ,'tibble'    # Data sctructure for tribbles
-             ,'here'      # Relative Filepaths
-             ,'readr'     # Data Loading
-             ,'tidyverse' # Needed for bind_rows and whatever
-             ,'scholar'   # Updating publications from google scholar
-             ,'kableExtra'# Adding technicalskills table
-            )
+packages <- c(
+  "vitae" # The CV's LaTeX Template
+  , "tibble" # Data sctructure for tribbles
+  , "here" # Relative Filepaths
+  , "readr" # Data Loading
+  , "tidyverse" # Needed for bind_rows and whatever
+  , "scholar" # Updating publications from google scholar
+  , "kableExtra" # Adding technicalskills table
+)
 
 # Install packages not yet installed
 installed_packages <- packages %in% rownames(installed.packages())
@@ -65,7 +68,7 @@ lapply(packages, library, character.only = TRUE) |>
 Soy Profesor Titular e investigador en \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}}, y líder del grupo de investigación \href{https://grupo-codec.netlify.app/}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificado como \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), \href{https://www.uelbosque.edu.co/psicologia}{Facultad de Psicología}, \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} en Bogotá, Colombia. También soy fundador y miembro del Consejo Directivo de \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.4em}
 \textbf{Investigación:} Mi investigación se centra en la comunicación vocal humana, la elección de pareja, la musicalidad y los efectos hormonales en el comportamiento. He publicado estudios pioneros sobre modulación vocal en contextos sociales y de cortejo.
 \par \vspace{0.4em}
-\textbf{Ciencia abierta:}  Me interesan los métodos cuantitativos y la programación, especialmente en \textbf{R}, como herramientas para promover la ciencia abierta y la reproducibilidad. En línea con esta preocupación, soy \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (editor asociado) en \href{https://rr.peercommunityin.org/}{PCI Registered Reports}, y \textit{Data Editor} en \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}.
+\textbf{Ciencia abierta:}  Me interesan los métodos cuantitativos y la programación, especialmente en \textbf{R}, como herramientas para promover la ciencia abierta y la reproducibilidad. En línea con estos valores, me desempeño como \textit{Data Editor} en \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}, \textit{Editor Asociado} en \href{https://evohuman.org}{Evolutionary Dynamics of Human Behavior (EDHB)}, y como \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (editor asociado) en \href{https://rr.peercommunityin.org/}{PCI Registered Reports}.
 
 \end{minipage} \begin{minipage}[c]{0.15\linewidth}
 \begin{flushright} 
@@ -115,7 +118,8 @@ Soy Profesor Titular e investigador en \href{https://jdleongomez.info/es/team/}{
 readxl::read_excel("../data/education_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 # Educación complementaria relevante
@@ -124,7 +128,8 @@ readxl::read_excel("../data/education_es.xlsx") |>
 readxl::read_excel("../data/edu_comp_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 # Experiencia Laboral
@@ -133,7 +138,8 @@ readxl::read_excel("../data/edu_comp_es.xlsx") |>
 readxl::read_excel("../data/working-experience_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 # Experiencia Docente
@@ -142,7 +148,8 @@ readxl::read_excel("../data/working-experience_es.xlsx") |>
 readxl::read_excel("../data/teaching-experience_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 # Becas, Premios y Honores
@@ -151,7 +158,8 @@ readxl::read_excel("../data/teaching-experience_es.xlsx") |>
 readxl::read_excel("../data/award_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 # Subvenciones
@@ -160,7 +168,8 @@ readxl::read_excel("../data/award_es.xlsx") |>
 readxl::read_excel("../data/grant_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 # Publicaciones
@@ -172,44 +181,47 @@ cache_file <- "../scholar_cache.rds"
 if (isTRUE(getOption("jdl_scholar_cache_only"))) {
   scholar_data <- if (file.exists(cache_file)) readRDS(cache_file) else NULL
 } else {
-  scholar_data <- tryCatch({
-    data <- list(
-      profile = get_profile(scholar_id),
-      pubs    = get_publications(scholar_id)|>
-      dplyr::filter(
-        journal != "",
-        !grepl("The Conversation|University of Stirling", journal)
+  scholar_data <- tryCatch(
+    {
+      data <- list(
+        profile = get_profile(scholar_id),
+        pubs = get_publications(scholar_id) |>
+          dplyr::filter(
+            journal != "",
+            !grepl("The Conversation|University of Stirling", journal)
+          )
       )
-    )
-    saveRDS(data, cache_file)
-    data
-  }, error = function(e) {
-    message("Scholar fetch failed: ", conditionMessage(e))
-    if (file.exists(cache_file)) {
-      message("Loading cached Scholar data.")
-      readRDS(cache_file)
-    } else {
-      message("No cache available. Citation metrics will show NA.")
-      NULL
+      saveRDS(data, cache_file)
+      data
+    },
+    error = function(e) {
+      message("Scholar fetch failed: ", conditionMessage(e))
+      if (file.exists(cache_file)) {
+        message("Loading cached Scholar data.")
+        readRDS(cache_file)
+      } else {
+        message("No cache available. Citation metrics will show NA.")
+        NULL
+      }
     }
-  })
+  )
 }
 
 if (!is.null(scholar_data) && is.list(scholar_data$profile)) {
-  profile   <- scholar_data$profile
-  h_index   <- profile$h_index
+  profile <- scholar_data$profile
+  h_index <- profile$h_index
   i10_index <- profile$i10_index
-  citSum    <- profile$total_cites
+  citSum <- profile$total_cites
   if (!is.null(scholar_data$pubs) && nrow(scholar_data$pubs) > 0) {
-    pubs      <- scholar_data$pubs
-    g_index   <- max(which(as.numeric(row.names(pubs))^2 < cumsum(pubs$cites)))
-    pubs_num  <- dim(pubs)[1]
-    meancit   <- round(mean(pubs$cites), 2)
+    pubs <- scholar_data$pubs
+    g_index <- max(which(as.numeric(row.names(pubs))^2 < cumsum(pubs$cites)))
+    pubs_num <- dim(pubs)[1]
+    meancit <- round(mean(pubs$cites), 2)
     mediancit <- median(pubs$cites)
   } else {
-    g_index   <- if (!is.null(profile$g_index))   profile$g_index   else NA
-    pubs_num  <- if (!is.null(profile$pubs_num))  profile$pubs_num  else NA
-    meancit   <- if (!is.null(profile$meancit))   profile$meancit   else NA
+    g_index <- if (!is.null(profile$g_index)) profile$g_index else NA
+    pubs_num <- if (!is.null(profile$pubs_num)) profile$pubs_num else NA
+    meancit <- if (!is.null(profile$meancit)) profile$meancit else NA
     mediancit <- if (!is.null(profile$mediancit)) profile$mediancit else NA
   }
 } else {
@@ -393,7 +405,8 @@ He desarrollado aplicaciones interactivas en R utilizando \href{https://shiny.po
 readxl::read_excel("../data/event_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 # Roles Editoriales {#editor}
@@ -406,7 +419,8 @@ readxl::read_excel("../data/event_es.xlsx") |>
 readxl::read_excel("../data/editorial_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 # Supervisión de Investigación
@@ -419,7 +433,8 @@ La Facultad de Psicología de la Universidad El Bosque no ofrece títulos de inv
 readxl::read_excel("../data/supervision_pos_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 ## \textbf{Pregrado}
@@ -430,7 +445,8 @@ Los estudiantes universitarios supervisados que figuran a continuación proceden
 readxl::read_excel("../data/supervision_pre_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 # Membresías
@@ -439,5 +455,6 @@ readxl::read_excel("../data/supervision_pre_es.xlsx") |>
 readxl::read_excel("../data/member_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```

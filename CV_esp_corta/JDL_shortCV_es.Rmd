@@ -32,21 +32,24 @@ header-includes:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE,
-                      warning = FALSE,
-                      message = FALSE)
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE
+)
 
-pkgs <- c('vitae' ,'here' ,'tinytex' ,'tibble' ,'glue' ,'rmarkdown' ,'dplyr', 'readr' ,'yaml')
+pkgs <- c("vitae", "here", "tinytex", "tibble", "glue", "rmarkdown", "dplyr", "readr", "yaml")
 xfun::pkg_attach2(pkgs)
 
-packages <- c('vitae'     # The CV's LaTeX Template
-             ,'tibble'    # Data sctructure for tribbles
-             ,'here'      # Relative Filepaths
-             ,'readr'     # Data Loading
-             ,'tidyverse' # Needed for bind_rows and whatever
-             ,'scholar'   # Updating publications from google scholar
-             ,'kableExtra'# Adding technicalskills table
-            )
+packages <- c(
+  "vitae" # The CV's LaTeX Template
+  , "tibble" # Data sctructure for tribbles
+  , "here" # Relative Filepaths
+  , "readr" # Data Loading
+  , "tidyverse" # Needed for bind_rows and whatever
+  , "scholar" # Updating publications from google scholar
+  , "kableExtra" # Adding technicalskills table
+)
 
 # Install packages not yet installed
 installed_packages <- packages %in% rownames(installed.packages())
@@ -63,10 +66,10 @@ lapply(packages, library, character.only = TRUE) |>
 
 \begin{minipage}[c]{0.9\linewidth}
 \begin{small}
-Soy Profesor Titular e investigador en \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}}, y líder del grupo de investigación \href{https://grupo-codec.netlify.app/}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificado como \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), \href{https://www.uelbosque.edu.co/psicologia}{Facultad de Psicología}, \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} en Bogotá, Colombia. También soy fundador y miembro del Consejo Directivo de \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.4em}
+Soy Profesor Titular e investigador en \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}}, y líder del grupo de investigación \href{https://grupo-codec.netlify.app/}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificado como \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), \href{https://www.uelbosque.edu.co/psicologia}{Facultad de Psicología}, \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} en Bogotá, Colombia. También soy fundador y miembro del Consejo Directivo de \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.2em}
 \textbf{Investigación:} Mi investigación se centra en la comunicación vocal humana, la elección de pareja, la musicalidad y los efectos hormonales en el comportamiento. He publicado estudios pioneros sobre modulación vocal en contextos sociales y de cortejo.
-\par \vspace{0.4em}
-\textbf{Ciencia abierta:}  Me interesan los métodos cuantitativos y la programación, especialmente en \textbf{R}, como herramientas para promover la ciencia abierta y la reproducibilidad. En línea con esta preocupación, soy \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (editor asociado) en \href{https://rr.peercommunityin.org/}{PCI Registered Reports}, y \textit{Data Editor} en \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}. 
+\par \vspace{0.2em}
+\textbf{Ciencia abierta:}  Me interesan los métodos cuantitativos y la programación, especialmente en \textbf{R}, como herramientas para promover la ciencia abierta y la reproducibilidad. En línea con estos valores, me desempeño como \textit{Data Editor} en \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}, \textit{Editor Asociado} en \href{https://evohuman.org}{Evolutionary Dynamics of Human Behavior (EDHB)}, y como \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (editor asociado) en \href{https://rr.peercommunityin.org/}{PCI Registered Reports}.
 \end{small}
 \end{minipage} \begin{minipage}[c]{0.1\linewidth}
 \begin{flushright} 
@@ -104,7 +107,8 @@ Soy Profesor Titular e investigador en \href{https://jdleongomez.info/es/team/}{
 readxl::read_excel("../data/education_esp_S.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 # Experiencia laboral y docente
@@ -115,7 +119,8 @@ Para una lista completa y descripción detallada, por favor consulta mi [sitio w
 readxl::read_excel("../data/working-experience_esp_S.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 # Publicaciones Seleccionadas
@@ -127,44 +132,47 @@ cache_file <- "../scholar_cache.rds"
 if (isTRUE(getOption("jdl_scholar_cache_only"))) {
   scholar_data <- if (file.exists(cache_file)) readRDS(cache_file) else NULL
 } else {
-  scholar_data <- tryCatch({
-    data <- list(
-      profile = get_profile(scholar_id),
-      pubs    = get_publications(scholar_id)|>
-      dplyr::filter(
-        journal != "",
-        !grepl("The Conversation|University of Stirling", journal)
+  scholar_data <- tryCatch(
+    {
+      data <- list(
+        profile = get_profile(scholar_id),
+        pubs = get_publications(scholar_id) |>
+          dplyr::filter(
+            journal != "",
+            !grepl("The Conversation|University of Stirling", journal)
+          )
       )
-    )
-    saveRDS(data, cache_file)
-    data
-  }, error = function(e) {
-    message("Scholar fetch failed: ", conditionMessage(e))
-    if (file.exists(cache_file)) {
-      message("Loading cached Scholar data.")
-      readRDS(cache_file)
-    } else {
-      message("No cache available. Citation metrics will show NA.")
-      NULL
+      saveRDS(data, cache_file)
+      data
+    },
+    error = function(e) {
+      message("Scholar fetch failed: ", conditionMessage(e))
+      if (file.exists(cache_file)) {
+        message("Loading cached Scholar data.")
+        readRDS(cache_file)
+      } else {
+        message("No cache available. Citation metrics will show NA.")
+        NULL
+      }
     }
-  })
+  )
 }
 
 if (!is.null(scholar_data) && is.list(scholar_data$profile)) {
-  profile   <- scholar_data$profile
-  h_index   <- profile$h_index
+  profile <- scholar_data$profile
+  h_index <- profile$h_index
   i10_index <- profile$i10_index
-  citSum    <- profile$total_cites
+  citSum <- profile$total_cites
   if (!is.null(scholar_data$pubs) && nrow(scholar_data$pubs) > 0) {
-    pubs      <- scholar_data$pubs
-    g_index   <- max(which(as.numeric(row.names(pubs))^2 < cumsum(pubs$cites)))
-    pubs_num  <- dim(pubs)[1]
-    meancit   <- round(mean(pubs$cites), 2)
+    pubs <- scholar_data$pubs
+    g_index <- max(which(as.numeric(row.names(pubs))^2 < cumsum(pubs$cites)))
+    pubs_num <- dim(pubs)[1]
+    meancit <- round(mean(pubs$cites), 2)
     mediancit <- median(pubs$cites)
   } else {
-    g_index   <- if (!is.null(profile$g_index))   profile$g_index   else NA
-    pubs_num  <- if (!is.null(profile$pubs_num))  profile$pubs_num  else NA
-    meancit   <- if (!is.null(profile$meancit))   profile$meancit   else NA
+    g_index <- if (!is.null(profile$g_index)) profile$g_index else NA
+    pubs_num <- if (!is.null(profile$pubs_num)) profile$pubs_num else NA
+    meancit <- if (!is.null(profile$meancit)) profile$meancit else NA
     mediancit <- if (!is.null(profile$mediancit)) profile$mediancit else NA
   }
 } else {
@@ -241,11 +249,12 @@ Para una lista completa, incluyendo pregrado, por favor visita mi [sitio web](ht
 readxl::read_excel("../data/supervision_esp_S.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 # Roles Editoriales
 
-\begin{small}
-Soy \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (editor) de \href{https://rr.peercommunityin.org/}{PCI Registered Reports}, \href{https://royalsocietypublishing.org/rspb/pages/Editorial_Board}{Data Editor} para \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}, y fui editor invitado de un número temático en dos partes de \href{https://royalsocietypublishing.org/journal/rstb}{Philosophical Transactions B} (\href{https://royalsocietypublishing.org/toc/rstb/2021/376/1840}{Parte 1}, \href{https://royalsocietypublishing.org/toc/rstb/2022/377/1841}{Parte 2}). Soy evaluador \textit{ad-hoc} habitual de revistas como \href{https://royalsocietypublishing.org/journal/rsos}{Royal Society Open Science}, \href{https://journals.plos.org/plosone/}{PLOS ONE}, \href{https://www.sciencedirect.com/journal/evolution-and-human-behavior}{Evolution and Human Behavior}, \href{https://www.nature.com/srep/}{Scientific Reports}, \href{https://www.tandfonline.com/toc/hbas20/current}{Basic and Applied Social Psychology}, \href{https://www.journals.elsevier.com/cortex}{Cortex}, \href{https://journals.sagepub.com/home/pec}{Perception}, \href{https://journals.sagepub.com/home/evp}{Evolutionary Psychology}, y \href{https://www.frontiersin.org/journals/psychology}{Frontiers in Psychology}, donde fui \href{https://loop.frontiersin.org/people/438954/overview}{Review Editor} de la \href{https://www.frontiersin.org/journals/psychology/sections/evolutionary-psychology}{\textit{sección de Psicología Evolutiva}} entre 2018 y 2024. Mi registro verificado se puede consultar en mi perfil de \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science}.
-\end{small}
+\begin{footnotesize}
+Soy \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (editor) de \href{https://rr.peercommunityin.org/}{PCI Registered Reports}, \href{https://royalsocietypublishing.org/rspb/pages/Editorial_Board}{Data Editor} para \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}, \textit{Editor Asociado} en \href{https://evohuman.org}{Evolutionary Dynamics of Human Behavior (EDHB)}, y fui editor invitado de un número temático en dos partes de \href{https://royalsocietypublishing.org/journal/rstb}{Philosophical Transactions B} (\href{https://royalsocietypublishing.org/toc/rstb/2021/376/1840}{Parte 1}, \href{https://royalsocietypublishing.org/toc/rstb/2022/377/1841}{Parte 2}). Soy evaluador \textit{ad-hoc} habitual de revistas como \href{https://royalsocietypublishing.org/journal/rsos}{Royal Society Open Science}, \href{https://journals.plos.org/plosone/}{PLOS ONE}, \href{https://www.sciencedirect.com/journal/evolution-and-human-behavior}{Evolution and Human Behavior}, \href{https://www.nature.com/srep/}{Scientific Reports}, \href{https://www.tandfonline.com/toc/hbas20/current}{Basic and Applied Social Psychology}, \href{https://www.journals.elsevier.com/cortex}{Cortex}, \href{https://journals.sagepub.com/home/pec}{Perception}, \href{https://journals.sagepub.com/home/evp}{Evolutionary Psychology}, y \href{https://www.frontiersin.org/journals/psychology}{Frontiers in Psychology}, donde fui \href{https://loop.frontiersin.org/people/438954/overview}{Review Editor} de la \href{https://www.frontiersin.org/journals/psychology/sections/evolutionary-psychology}{\textit{sección de Psicología Evolutiva}} entre 2018 y 2024. Mi registro verificado se puede consultar en mi perfil de \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science}.
+\end{footnotesize}
