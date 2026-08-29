@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.8.29)  29 AUG 2026 15:26
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.8.29)  29 AUG 2026 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1149,18 +1149,18 @@ Overfull \hbox (1.45999pt too wide) in paragraph at lines 844--849
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/it' will be
-(Font)              scaled to size 9.0pt on input line 860.
+(Font)              scaled to size 9.0pt on input line 865.
 [8] [9]
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 1115.
+(Font)              scaled to size 10.0pt on input line 1120.
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/it' will be
-(Font)              scaled to size 10.0pt on input line 1163.
+(Font)              scaled to size 10.0pt on input line 1168.
 
 LaTeX Font Warning: Font shape `TU/SourceSans3(1)/m/scit' undefined
-(Font)              using `TU/SourceSans3(1)/m/it' instead on input line 1167.
+(Font)              using `TU/SourceSans3(1)/m/it' instead on input line 1172.
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 1167.
+(Font)              scaled to size 8.0pt on input line 1172.
 [10] [11] [12] [13] (./JDL_CV_es.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
