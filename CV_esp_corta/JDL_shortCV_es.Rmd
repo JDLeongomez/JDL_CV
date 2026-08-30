@@ -233,13 +233,13 @@ Para una lista completa, por favor visita la sección de publicaciones en mi [si
 
 \faBook~\href{https://jdleongomez.github.io/curso-r/}{\textbf{Maneja, explora y visualiza datos con R}} es un curso introductorio gratuito que ofrecí en la \href{https://www.unbosque.edu.co/}{Universidad El Bosque} (Bogotá, Colombia) en junio de 2026. Todos los materiales están disponibles abiertamente \href{https://jdleongomez.github.io/curso-r/}{en línea}.
 
-# Shiny Apps
+# Aplicaciones Interactivas
 
 \begin{minipage}[c]{0.10\linewidth}
-\href{https://jdleongomez.info/es/#shiny}{\includegraphics[width=1.5cm, height=1.74cm]{shiny_hex.png}}
+\href{https://jdleongomez.info/es/#apps}{\includegraphics[width=1.5cm, height=1.74cm]{shiny_hex.png}}
 \end{minipage} \begin{minipage}[c]{0.90\linewidth}
-He creado algunas, pequeñas aplicaciones públicas con \href{https://shiny.posit.co/}{Shiny} en R, sobre todo por diversión o para ilustrar conceptos estadísticos. Para una lista, por favor visita mi \href{https://jdleongomez.info/es/#shiny}{sitio web}.
-\end{minipage} 
+He creado algunas, pequeñas aplicaciones públicas, sobre todo con \href{https://shiny.posit.co/}{Shiny} en R, por diversión o para ilustrar conceptos estadísticos. Para una lista, por favor visita mi \href{https://jdleongomez.info/es/#apps}{sitio web}.
+\end{minipage}
 
 # Supervisión de Posgrado
 

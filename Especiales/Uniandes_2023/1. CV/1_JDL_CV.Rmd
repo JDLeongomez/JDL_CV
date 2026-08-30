@@ -17,23 +17,26 @@ docname: Hoja de Vida Académica
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE,
-                      warning = FALSE,
-                      message = FALSE)
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE
+)
 
-pkgs <- c('vitae' ,'here' ,'tinytex' ,'tibble' ,'glue' ,'rmarkdown' ,'dplyr', 'readr' ,'yaml')
+pkgs <- c("vitae", "here", "tinytex", "tibble", "glue", "rmarkdown", "dplyr", "readr", "yaml")
 xfun::pkg_attach2(pkgs)
 
-packages <- c('vitae'     # The CV's LaTeX Template
-             ,'tibble'    # Data sctructure for tribbles
-             ,'magrittr'  # The Pipe |>
-             ,'here'      # Relative Filepaths
-             ,'readr'     # Data Loading
-             ,'tidyverse' # Needed for bind_rows and whatever
-             ,'scholar'   # Updating publications from google scholar
-             ,'kableExtra'# Adding technicalskills table
-             ,'scales'    # Percent
-            )
+packages <- c(
+  "vitae" # The CV's LaTeX Template
+  , "tibble" # Data sctructure for tribbles
+  , "magrittr" # The Pipe |>
+  , "here" # Relative Filepaths
+  , "readr" # Data Loading
+  , "tidyverse" # Needed for bind_rows and whatever
+  , "scholar" # Updating publications from google scholar
+  , "kableExtra" # Adding technicalskills table
+  , "scales" # Percent
+)
 
 # Install packages not yet installed
 installed_packages <- packages %in% rownames(installed.packages())
@@ -116,7 +119,8 @@ Aunque me he concentrado especialmente en el estudio de los procesos de elecció
 readxl::read_excel("data/education_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 ## Formación complementaria relevante
@@ -125,7 +129,8 @@ readxl::read_excel("data/education_es.xlsx") |>
 readxl::read_excel("data/edu_comp_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 # Experiencia Profesional
@@ -140,7 +145,8 @@ En la actualidad, desempeño responsabilidades administrativas y de liderazgo ta
 readxl::read_excel("data/working-experience_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 ## Participación en Proyectos de investigación
@@ -149,7 +155,8 @@ readxl::read_excel("data/working-experience_es.xlsx") |>
 readxl::read_excel("data/project_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 ## Experiencia Docente
@@ -166,7 +173,8 @@ Es relevante destacar que entre 2015 y 2019, mi enfoque principal fue la docenci
 readxl::read_excel("data/teaching-experience_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 \blacktriangleright\blacktriangleright\blacktriangleright\space \textbf{Evaluaciones de estudiantes} (Universidad El Bosque)
@@ -179,7 +187,8 @@ A continuación, se presenta un resumen de las evaluaciones de estudiantes de lo
 readxl::read_excel("data/student-evaluations.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 \blacktriangleright\blacktriangleright\blacktriangleright\space \textbf{Comentarios de estudiantes} (Universidad El Bosque)
@@ -192,7 +201,8 @@ A continuación figuran algunos comentarios anónimos incluidos en las evaluacio
 readxl::read_excel("data/student-comments.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 ## Financiación
@@ -207,7 +217,8 @@ A pesar de ello, he superado sistemáticamente a mis colegas y nunca he dejado d
 readxl::read_excel("data/grant_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 ## Becas, Premios y Honores
@@ -216,7 +227,8 @@ readxl::read_excel("data/grant_es.xlsx") |>
 readxl::read_excel("data/award_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 ## Cursos y congresos
@@ -225,7 +237,8 @@ readxl::read_excel("data/award_es.xlsx") |>
 readxl::read_excel("data/event_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 \blacktriangleright\blacktriangleright\blacktriangleright\space \textbf{Conferencias, Pósters y Talleres}
@@ -245,7 +258,8 @@ readxl::read_excel("data/event_es.xlsx") |>
 readxl::read_excel("data/member_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 # Roles Editoriales
@@ -253,17 +267,17 @@ readxl::read_excel("data/member_es.xlsx") |>
 ```{r scholar, echo = FALSE}
 profile <- get_profile("8Q0jKHsAAAAJ")
 pubs <- get_publications("8Q0jKHsAAAAJ")
-cits <- get_citation_history("8Q0jKHsAAAAJ") |> 
-  filter(year > year(Sys.Date())-6) 
+cits <- get_citation_history("8Q0jKHsAAAAJ") |>
+  filter(year > year(Sys.Date()) - 6)
 cit5 <- sum(cits$cites)
 citSum <- profile$total_cites
-percentpub <- round(cit5/citSum*100, 0)
+percentpub <- round(cit5 / citSum * 100, 0)
 
 h_index <- profile$h_index
 g_index <- max(which(as.numeric(row.names(pubs))^2 < cumsum(pubs$cites)))
 i10_index <- profile$i10_index
-i40 <- pubs |> 
-  filter(cites >= 40) |> 
+i40 <- pubs |>
+  filter(cites >= 40) |>
   tally()
 ```
 
@@ -275,7 +289,8 @@ i40 <- pubs |>
 readxl::read_excel("data/service_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 \vspace{-3mm}
 \begin{footnotesize}
@@ -430,7 +445,8 @@ La Facultad de Psicología de la Universidad El Bosque no ofrece grados enfocado
 readxl::read_excel("data/supervision_pos_es.xlsx") |>
   tidyr::fill(-why) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 
 ##  \textbf{Pregrado}
@@ -444,8 +460,9 @@ He supervisado trabajos de grado realizados por estudiantes de distintas univers
 ```{r supervision-pre}
 readxl::read_excel("data/supervision_pre_es.xlsx") |>
   tidyr::fill(-why) |>
-  #slice(1:9) |> 
+  # slice(1:9) |>
   vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
+    .protect = FALSE
+  )
 ```
 

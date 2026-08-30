@@ -371,20 +371,20 @@ if (!is.null(scholar_data) && is.list(scholar_data$profile)) {
 
 \endgroup
 
-## \textbf{Aplicaciones Shiny con Fines Educativos}
+## \textbf{Aplicaciones Interactivas con Fines Educativos}
 
 \begin{minipage}[c]{0.10\linewidth}
-\href{https://jdleongomez.info/es/#shiny}{\includegraphics[width=1.5cm, height=1.74cm]{shiny_hex.png}}
+\href{https://jdleongomez.info/es/#apps}{\includegraphics[width=1.5cm, height=1.74cm]{shiny_hex.png}}
 \end{minipage} \begin{minipage}[c]{0.90\linewidth}
-He desarrollado aplicaciones interactivas en R utilizando \href{https://shiny.posit.co/}{Shiny} sobre todo con el fin de enseñar e ilustrar conceptos estadísticos. En esta sección hay algunos ejemplos.
-\end{minipage} 
+He desarrollado aplicaciones interactivas, sobre todo en R utilizando \href{https://shiny.posit.co/}{Shiny}, principalmente con el fin de enseñar e ilustrar conceptos estadísticos. En esta sección hay algunos ejemplos.
+\end{minipage}
 
 \begingroup
 \footnotesize
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/Shiny_es.txt")`
+`r knitr::knit_child("../bib/apps_es.txt")`
 
 \endgroup
 
