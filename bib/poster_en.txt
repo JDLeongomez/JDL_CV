@@ -1,4 +1,8 @@
-Leongómez, J. D. (January 2026). *Design of open protocols, code, and data*. Keynote lecture presented at the *Abre tu Ciencia* Workshop, Pontificia Universidad Católica de Chile, Santiago, Chile. https://jdleongomez.github.io/protocolos_codigo_y_datos_abiertos/ ([programme](https://atc26.com/programa-dia2-conferencia1.html); [repository](https://github.com/JDLeongomez/protocolos_codigo_y_datos_abiertos))
+Leongómez, J.D. (2026, August). *Statistical Inference: Three Frameworks*. Invited lecture for the Graduate Program in Behavioural Sciences, Universidade de Brasília (UnB), Brasília, Brazil. https://jdleongomez.github.io/unb-2026/statistical-inference/ (see [certificate](https://jdleongomez.info/es/files/SEI_14742570_Declaracao.pdf))
+
+Leongómez, J.D. (2026, August). *Open Science and Reproducibility*. Opening Lecture of the Graduate Program in Behavioural Sciences, Universidade de Brasília (UnB), Brasília, Brazil. https://jdleongomez.github.io/unb-2026/open-science/ (see [certificate](https://jdleongomez.info/es/files/SEI_14742570_Declaracao.pdf))
+
+Leongómez, J.D. (January 2026). *Design of open protocols, code, and data*. Keynote lecture presented at the *Abre tu Ciencia* Workshop, Pontificia Universidad Católica de Chile, Santiago, Chile. https://jdleongomez.github.io/protocolos_codigo_y_datos_abiertos/ ([programme](https://atc26.com/programa-dia2-conferencia1.html); [repository](https://github.com/JDLeongomez/protocolos_codigo_y_datos_abiertos))
 
 Leongómez, J.D. (2025, August). Moderator of the Opening Panel: *Artificial Intelligence for Health and Quality of Life: From the Laboratory to Social Impact*. 31st Institutional Research Congress – Reconocernos 2025, Universidad El Bosque, Bogotá, Colombia. https://investigaciones.unbosque.edu.co/congreso (see [programme](https://investigaciones.unbosque.edu.co/s/Programacion-congreso_13AG.pdf))
 

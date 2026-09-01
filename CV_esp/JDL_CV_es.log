@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.8.29)  29 AUG 2026 23:14
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.8.29)  1 SEP 2026 08:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1136,7 +1136,7 @@ LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/it' will be
 File: ../images/Logo_IA.png Graphic file (type bmp)
 <../images/Logo_IA.png>
 
-Overfull \hbox (1.45999pt too wide) in paragraph at lines 753--758
+Overfull \hbox (1.45999pt too wide) in paragraph at lines 752--757
 [][] [] 
  []
 
@@ -1144,23 +1144,23 @@ Overfull \hbox (1.45999pt too wide) in paragraph at lines 753--758
 File: ../images/shiny_hex.png Graphic file (type bmp)
 <../images/shiny_hex.png>
 
-Overfull \hbox (1.45999pt too wide) in paragraph at lines 844--849
+Overfull \hbox (1.45999pt too wide) in paragraph at lines 843--848
 [][] [] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/it' will be
-(Font)              scaled to size 9.0pt on input line 865.
+(Font)              scaled to size 9.0pt on input line 864.
 [8] [9]
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 1120.
+(Font)              scaled to size 10.0pt on input line 1133.
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/it' will be
-(Font)              scaled to size 10.0pt on input line 1168.
+(Font)              scaled to size 10.0pt on input line 1181.
 
 LaTeX Font Warning: Font shape `TU/SourceSans3(1)/m/scit' undefined
-(Font)              using `TU/SourceSans3(1)/m/it' instead on input line 1172.
+(Font)              using `TU/SourceSans3(1)/m/it' instead on input line 1185.
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 1172.
+(Font)              scaled to size 8.0pt on input line 1185.
 [10] [11] [12] [13] (./JDL_CV_es.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -1178,7 +1178,7 @@ Package rerunfilecheck Info: File `JDL_CV_es.out' has not changed.
 Here is how much of TeX's memory you used:
  35574 strings out of 469713
  723897 string characters out of 5466867
- 1333031 words of memory out of 5000000
+ 1333032 words of memory out of 5000000
  63971 multiletter control sequences out of 15000+600000
  633599 words of font info for 169 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
