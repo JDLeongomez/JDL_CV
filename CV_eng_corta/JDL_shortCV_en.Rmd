@@ -64,17 +64,23 @@ lapply(packages, library, character.only = TRUE) |>
 
 # About me
 
-
 \begin{minipage}[c]{0.9\linewidth}
-\begin{small}
-I am a Full Professor and researcher at \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Human Behaviour and Evolution Lab}}, and leader of the \href{https://grupo-codec.netlify.app/}{\textit{\textbf{CODEC}: Cognitive and Behavioural Sciences Research Group}} (classified as \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), within the \href{https://www.uelbosque.edu.co/psicologia}{Faculty of Psychology} at the \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} in Bogotá, Colombia. I am also a founding and board member of the \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.2em}
-\textbf{Research:} My work focuses on human vocal communication, mate choice, musicality, and hormonal influences on behaviour. I have published pioneering studies on vocal modulation in social and courtship contexts.\par \vspace{0.2em}
-\textbf{Open Science:} I am interested in quantitative methods and programming, especially in \textbf{R}, as tools to promote open and reproducible science. In line with these values, I serve as \textit{Data Editor} at \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}, \textit{Associate Editor}  at \href{https://evohuman.org}{Evolutionary Dynamics of Human Behavior (EDHB)}, and as \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (associate editor) at \href{https://rr.peercommunityin.org/}{PCI Registered Reports}. 
-\end{small}
-\end{minipage} \begin{minipage}[c]{0.1\linewidth}
-\begin{flushright} 
-\hfill \href{https://jdleongomez.info/en/team/}{\includegraphics[height=2cm]{Logo_EvoCo.png}} \newline\newline \href{https://grupo-codec.netlify.app/}{\includegraphics[height=2cm]{Logo_CODEC.png}}
-\end{flushright}
+  \begin{footnotesize}
+    I am a Full Professor and researcher at \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Human Behaviour and Evolution Lab}}, and leader of the \href{https://grupo-codec.netlify.app/}{\textit{\textbf{CODEC}: Cognitive and Behavioural Sciences Research Group}} (classified as \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), within the \href{https://www.uelbosque.edu.co/psicologia}{Faculty of Psychology} at the \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} in Bogotá, Colombia. I am also a founding and board member of the \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.05em}
+    \textbf{Research:} My work focuses on human vocal communication, mate choice, musicality, and hormonal influences on behaviour. I have published pioneering studies on vocal modulation in social and courtship contexts.\par \vspace{0.05em}
+    \textbf{Open Science:} I am interested in quantitative methods and programming, especially in \textbf{R}, as tools to promote open and reproducible science. In line with these values, I serve as \textit{Data Editor} at \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}, \textit{Associate Editor}  at \href{https://evohuman.org}{Evolutionary Dynamics of Human Behavior (EDHB)}, and as \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (associate editor) at \href{https://rr.peercommunityin.org/}{PCI Registered Reports}. I also direct \href{https://mc-ueb.netlify.app/}{\textbf{MetaCiencia}}, a research incubator on reproducibility and open science.
+  \end{footnotesize}
+\end{minipage} 
+\begin{minipage}[c]{0.09\linewidth}
+  \makebox[\linewidth][r]{%
+    \href{https://jdleongomez.info/en/team/}{\includegraphics[width=1cm]{Logo_EvoCo.png}}%
+  }\par
+  \makebox[\linewidth][r]{%
+    \href{https://grupo-codec.netlify.app/}{\includegraphics[width=1cm]{Logo_CODEC.png}}%
+  }\par
+  \makebox[\linewidth][r]{%
+    \href{https://mc-ueb.netlify.app/}{\includegraphics[width=1cm]{Logo_MetaCiencia.png}}%
+  }
 \end{minipage}
 
 # Skills
@@ -181,15 +187,15 @@ if (!is.null(scholar_data) && is.list(scholar_data$profile)) {
 ```
 
 \begin{tcolorbox}[enhanced,
-        on line, 
-        boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
-        colframe=white,colback=teal,
-        hyperurl={https://scholar.google.com/citations?user=8Q0jKHsAAAAJ}]
-  
+  on line,
+  boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+  colframe=white,colback=teal,
+  hyperurl={https://scholar.google.com/citations?user=8Q0jKHsAAAAJ}]
+
 \color{white}
 \begin{minipage}[c]{0.195\linewidth}
   \begin{center} \begin{huge} `r h_index` \end{huge}
-  \begin{small} \textit{h}-index \end{small} \end{center} 
+  \begin{small} \textit{h}-index \end{small} \end{center}
 \end{minipage} \begin{minipage}[c]{0.195\linewidth}
   \begin{center} \begin{huge} `r g_index` \end{huge}
   \begin{small} \textit{g}-index \end{small} \end{center}
@@ -199,46 +205,46 @@ if (!is.null(scholar_data) && is.list(scholar_data$profile)) {
 \end{minipage} \begin{minipage}[c]{0.195\linewidth}
   \begin{center} \begin{huge} `r pubs_num` \end{huge}
   \begin{small} Publications \end{small} \end{center}
-\end{minipage} \begin{minipage}[c]{0.195\linewidth}  
-  \begin{center} \begin{huge} `r citSum` \end{huge} 
+\end{minipage} \begin{minipage}[c]{0.195\linewidth}
+  \begin{center} \begin{huge} `r citSum` \end{huge}
   \begin{small} Citations \end{small} \end{center}
 \end{minipage}
 \end{tcolorbox}
 
-For a full list, please check the publications section on [my website](https://jdleongomez.info/en/publication/) or my [academic CV](https://jdleongomez.github.io/JDL_CV/CV_eng/JDL_CV_en.pdf). 
+For a full list, please check the publications section on [my website](https://jdleongomez.info/en/publication/) or my [academic CV](https://jdleongomez.github.io/JDL_CV/CV_eng/JDL_CV_en.pdf).
 
 \begingroup
-\footnotesize
+  \footnotesize
 
-\begin{importantnote}
-  \textbf{Note:} first, last, or corresponding author in all these publications.
-\end{importantnote}
+  \begin{importantnote}
+    \textbf{Note:} first, last, or corresponding author in all these publications.
+  \end{importantnote}
 
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
+  \setlength{\parindent}{-0.5in}
+  \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/featured.txt")`
+  `r knitr::knit_child("../bib/featured.txt")`
 
 \endgroup
 
 # Investigación Abierta (YouTube channel)
 
 \begin{minipage}[c]{0.15\linewidth}
-\href{https://www.youtube.com/@InvestigacionAbierta}{\includegraphics[width=2cm, height=2cm]{Logo_IA.png}}
+  \href{https://www.youtube.com/@InvestigacionAbierta}{\includegraphics[width=2cm, height=2cm]{Logo_IA.png}}
 \end{minipage} \begin{minipage}[c]{0.85\linewidth}
-\textcolor{red}{\faYoutube} \href{https://www.youtube.com/@InvestigacionAbierta}{Investigación Abierta} [\textit{Open Research}] is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software.
+  \textcolor{red}{\faYoutube} \href{https://www.youtube.com/@InvestigacionAbierta}{Investigación Abierta} [\textit{Open Research}] is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software.
 \end{minipage}
 
 # Open Course Materials
 
-\faBook~\href{https://jdleongomez.github.io/curso-r/}{\textbf{Handling, exploring, and visualising data with R}} is a free introductory course I taught at \href{https://www.unbosque.edu.co/}{Universidad El Bosque} (Bogotá, Colombia) in June 2026. All course materials are openly available \href{https://jdleongomez.github.io/curso-r/}{online}.
+\faBook \phantom{x} \href{https://jdleongomez.github.io/curso-r/}{\textbf{Handling, exploring, and visualising data with R}} is a free introductory course I taught at \href{https://www.unbosque.edu.co/}{Universidad El Bosque} (Bogotá, Colombia) in June 2026. All course materials are openly available \href{https://jdleongomez.github.io/curso-r/}{online}.
 
 # Interactive Apps
 
 \begin{minipage}[c]{0.10\linewidth}
-\href{https://jdleongomez.info/en/#apps}{\includegraphics[width=1.5cm, height=1.74cm]{shiny_hex.png}}
+  \href{https://jdleongomez.info/en/#apps}{\includegraphics[width=1.5cm, height=1.74cm]{shiny_hex.png}}
 \end{minipage} \begin{minipage}[c]{0.90\linewidth}
-I have created a few, small public apps, mostly with \href{https://shiny.posit.co/}{Shiny} in R, for fun or to illustrate statistics concepts. For a list, please check \href{https://jdleongomez.info/en/#apps}{my website}.
+  I have created a few, small public apps, mostly with \href{https://shiny.posit.co/}{Shiny} in R, for fun or to illustrate statistics concepts. For a list, please check \href{https://jdleongomez.info/en/#apps}{my website}.
 \end{minipage}
 
 # Postgraduate Supervision
@@ -258,4 +264,3 @@ readxl::read_excel("../data/supervision_eng_S.xlsx") |>
 \begin{footnotesize}
 I am a \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (editor) for \href{https://rr.peercommunityin.org/}{PCI Registered Reports}, a \href{https://royalsocietypublishing.org/rspb/pages/Editorial_Board}{Data Editor} for \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}, an \textit{Associate Editor} at \href{https://evohuman.org}{Evolutionary Dynamics of Human Behavior (EDHB)}, and acted as guest editor for a two-part theme issue on \href{https://royalsocietypublishing.org/journal/rstb}{Philosophical Transactions B} (\href{https://royalsocietypublishing.org/toc/rstb/2021/376/1840}{Part 1}, \href{https://royalsocietypublishing.org/toc/rstb/2022/377/1841}{Part 2}). I regularly serve as an \textit{ad-hoc} reviewer for journals such as \href{https://royalsocietypublishing.org/journal/rsos}{Royal Society Open Science}, \href{https://journals.plos.org/plosone/}{PLOS ONE}, \href{https://www.sciencedirect.com/journal/evolution-and-human-behavior}{Evolution and Human Behavior}, \href{https://www.nature.com/srep/}{Scientific Reports}, \href{https://www.tandfonline.com/toc/hbas20/current}{Basic and Applied Social Psychology}, \href{https://www.journals.elsevier.com/cortex}{Cortex}, \href{https://journals.sagepub.com/home/pec}{Perception}, \href{https://journals.sagepub.com/home/evp}{Evolutionary Psychology}, and \href{https://www.frontiersin.org/journals/psychology}{Frontiers in Psychology}, where I served as \href{https://loop.frontiersin.org/people/438954/overview}{Review Editor} for the \href{https://www.frontiersin.org/journals/psychology/sections/evolutionary-psychology}{\textit{Evolutionary Psychology specialty section}} between 2018 and 2024. My verified record can be viewed on my \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science} profile.
 \end{footnotesize}
-

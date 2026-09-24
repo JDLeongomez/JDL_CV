@@ -64,17 +64,24 @@ lapply(packages, library, character.only = TRUE) |>
 
 # Acerca de mí
 
-\begin{minipage}[c]{0.9\linewidth}
-\begin{small}
-Soy Profesor Titular e investigador en \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}}, y líder del grupo de investigación \href{https://grupo-codec.netlify.app/}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificado como \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), \href{https://www.uelbosque.edu.co/psicologia}{Facultad de Psicología}, \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} en Bogotá, Colombia. También soy fundador y miembro del Consejo Directivo de \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.2em}
-\textbf{Investigación:} Mi investigación se centra en la comunicación vocal humana, la elección de pareja, la musicalidad y los efectos hormonales en el comportamiento. He publicado estudios pioneros sobre modulación vocal en contextos sociales y de cortejo.
-\par \vspace{0.2em}
-\textbf{Ciencia abierta:}  Me interesan los métodos cuantitativos y la programación, especialmente en \textbf{R}, como herramientas para promover la ciencia abierta y la reproducibilidad. En línea con estos valores, me desempeño como \textit{Data Editor} en \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}, \textit{Editor Asociado} en \href{https://evohuman.org}{Evolutionary Dynamics of Human Behavior (EDHB)}, y como \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (editor asociado) en \href{https://rr.peercommunityin.org/}{PCI Registered Reports}.
-\end{small}
-\end{minipage} \begin{minipage}[c]{0.1\linewidth}
-\begin{flushright} 
-\hfill \href{https://jdleongomez.info/es/team/}{\includegraphics[height=2cm]{Logo_EvoCo.png}} \newline\newline \href{https://grupo-codec.netlify.app/}{\includegraphics[height=2cm]{Logo_CODEC.png}}
-\end{flushright}
+\begin{minipage}[c]{0.91\linewidth}
+  \begin{footnotesize}
+    Soy Profesor Titular e investigador en \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Laboratorio de Evolución y Comportamiento Humano}}, y líder del grupo de investigación \href{https://grupo-codec.netlify.app/}{\textit{\textbf{CODEC}: Ciencias Cognitivas y del Comportamiento}} (clasificado como \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), \href{https://www.uelbosque.edu.co/psicologia}{Facultad de Psicología}, \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} en Bogotá, Colombia. También soy fundador y miembro del Consejo Directivo de \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.05em}
+    \textbf{Investigación:} Mi investigación se centra en la comunicación vocal humana, la elección de pareja, la musicalidad y los efectos hormonales en el comportamiento. He publicado estudios pioneros sobre modulación vocal en contextos sociales y de cortejo.
+    \par \vspace{0.05em}
+    \textbf{Ciencia abierta:}  Me interesan los métodos cuantitativos y la programación, especialmente en \textbf{R}, como herramientas para promover la ciencia abierta y la reproducibilidad. En línea con estos valores, me desempeño como \textit{Data Editor} en \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}, \textit{Editor Asociado} en \href{https://evohuman.org}{Evolutionary Dynamics of Human Behavior (EDHB)}, y como \href{https://rr.peercommunityin.org/about/recommenders}{recomendador} (editor asociado) en \href{https://rr.peercommunityin.org/}{PCI Registered Reports}. También dirijo el semillero \href{https://mc-ueb.netlify.app/}{\textbf{MetaCiencia}}, sobre reproducibilidad y ciencia abierta.
+  \end{footnotesize}
+\end{minipage} 
+\begin{minipage}[c]{0.09\linewidth}
+  \makebox[\linewidth][r]{%
+    \href{https://jdleongomez.info/es/team/}{\includegraphics[width=1cm]{Logo_EvoCo.png}}%
+  }\par
+  \makebox[\linewidth][r]{%
+    \href{https://grupo-codec.netlify.app/}{\includegraphics[width=1cm]{Logo_CODEC.png}}%
+  }\par
+  \makebox[\linewidth][r]{%
+    \href{https://mc-ueb.netlify.app/}{\includegraphics[width=1cm]{Logo_MetaCiencia.png}}%
+  }
 \end{minipage}
 
 # Habilidades
@@ -181,15 +188,15 @@ if (!is.null(scholar_data) && is.list(scholar_data$profile)) {
 ```
 
 \begin{tcolorbox}[enhanced,
-        on line, 
-        boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
-        colframe=white,colback=teal,
-        hyperurl={https://scholar.google.com/citations?user=8Q0jKHsAAAAJ}]
-  
+  on line,
+  boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+  colframe=white,colback=teal,
+  hyperurl={https://scholar.google.com/citations?user=8Q0jKHsAAAAJ}]
+
 \color{white}
 \begin{minipage}[c]{0.195\linewidth}
   \begin{center} \begin{huge} `r h_index` \end{huge}
-  \begin{small} Índice \textit{h} \end{small} \end{center} 
+  \begin{small} Índice \textit{h} \end{small} \end{center}
 \end{minipage} \begin{minipage}[c]{0.195\linewidth}
   \begin{center} \begin{huge} `r g_index` \end{huge}
   \begin{small} Índice \textit{g} \end{small} \end{center}
@@ -199,8 +206,8 @@ if (!is.null(scholar_data) && is.list(scholar_data$profile)) {
 \end{minipage} \begin{minipage}[c]{0.195\linewidth}
   \begin{center} \begin{huge} `r pubs_num` \end{huge}
   \begin{small} Publicaciones \end{small} \end{center}
-\end{minipage} \begin{minipage}[c]{0.195\linewidth}  
-  \begin{center} \begin{huge} `r citSum` \end{huge} 
+\end{minipage} \begin{minipage}[c]{0.195\linewidth}
+  \begin{center} \begin{huge} `r citSum` \end{huge}
   \begin{small} Citas \end{small} \end{center}
 \end{minipage}
 \end{tcolorbox}
@@ -208,37 +215,37 @@ if (!is.null(scholar_data) && is.list(scholar_data$profile)) {
 Para una lista completa, por favor visita la sección de publicaciones en mi [sitio web](https://jdleongomez.info/es/publication/) o mi [Hoja de Vida Académica](https://jdleongomez.github.io/JDL_CV/CV_esp/JDL_CV_es.pdf).
 
 \begingroup
-\footnotesize
+  \footnotesize
 
-\begin{importantnote}
-  \textbf{Nota:} autor principal (primero o último), y/o autor de correspondencia en todas estas publicaciones.
-\end{importantnote}
+  \begin{importantnote}
+    \textbf{Nota:} autor principal (primero o último), y/o autor de correspondencia en todas estas publicaciones.
+  \end{importantnote}
 
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
+  \setlength{\parindent}{-0.5in}
+  \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/featured.txt")`
+  `r knitr::knit_child("../bib/featured.txt")`
 
 \endgroup
 
 # Investigación Abierta (canal de YouTube)
 
 \begin{minipage}[c]{0.15\linewidth}
-\href{https://www.youtube.com/@InvestigacionAbierta}{\includegraphics[width=2cm, height=2cm]{Logo_IA.png}}
+  \href{https://www.youtube.com/@InvestigacionAbierta}{\includegraphics[width=2cm, height=2cm]{Logo_IA.png}}
 \end{minipage} \begin{minipage}[c]{0.85\linewidth}
-\textcolor{red}{\faYoutube} \href{https://www.youtube.com/@InvestigacionAbierta}{Investigación Abierta} es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas prácticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
+  \textcolor{red}{\faYoutube} \href{https://www.youtube.com/@InvestigacionAbierta}{Investigación Abierta} es un canal de YouTube donde publico videos y tutoriales acerca de métodos y buenas prácticas de investigación, estadística y ciencia abierta, así como algunos programas útiles de código abierto.
 \end{minipage}
 
 # Materiales de Curso Abierto
 
-\faBook~\href{https://jdleongomez.github.io/curso-r/}{\textbf{Maneja, explora y visualiza datos con R}} es un curso introductorio gratuito que ofrecí en la \href{https://www.unbosque.edu.co/}{Universidad El Bosque} (Bogotá, Colombia) en junio de 2026. Todos los materiales están disponibles abiertamente \href{https://jdleongomez.github.io/curso-r/}{en línea}.
+\faBook \phantom{x} \href{https://jdleongomez.github.io/curso-r/}{\textbf{Maneja, explora y visualiza datos con R}} es un curso introductorio gratuito que ofrecí en la \href{https://www.unbosque.edu.co/}{Universidad El Bosque} (Bogotá, Colombia) en junio de 2026. Todos los materiales están disponibles abiertamente \href{https://jdleongomez.github.io/curso-r/}{en línea}.
 
 # Aplicaciones Interactivas
 
 \begin{minipage}[c]{0.10\linewidth}
-\href{https://jdleongomez.info/es/#apps}{\includegraphics[width=1.5cm, height=1.74cm]{shiny_hex.png}}
+  \href{https://jdleongomez.info/es/#apps}{\includegraphics[width=1.5cm, height=1.74cm]{shiny_hex.png}}
 \end{minipage} \begin{minipage}[c]{0.90\linewidth}
-He creado algunas, pequeñas aplicaciones públicas, sobre todo con \href{https://shiny.posit.co/}{Shiny} en R, por diversión o para ilustrar conceptos estadísticos. Para una lista, por favor visita mi \href{https://jdleongomez.info/es/#apps}{sitio web}.
+  He creado algunas, pequeñas aplicaciones públicas, sobre todo con \href{https://shiny.posit.co/}{Shiny} en R, por diversión o para ilustrar conceptos estadísticos. Para una lista, por favor visita mi \href{https://jdleongomez.info/es/#apps}{sitio web}.
 \end{minipage}
 
 # Supervisión de Posgrado

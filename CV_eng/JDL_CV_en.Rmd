@@ -65,15 +65,20 @@ lapply(packages, library, character.only = TRUE) |>
 # About me
 
 \begin{minipage}[c]{0.85\linewidth}
-
-I am a Full Professor and researcher at \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Human Behaviour and Evolution Lab}}, and leader of the \href{https://grupo-codec.netlify.app/}{\textit{\textbf{CODEC}: Cognitive and Behavioural Sciences Research Group}} (classified as \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), within the \href{https://www.uelbosque.edu.co/psicologia}{Faculty of Psychology} at the \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} in Bogotá, Colombia. I am also a founding and board member of the \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.4em}
-\textbf{Research:} My work focuses on human vocal communication, mate choice, musicality, and hormonal influences on behaviour. I have published pioneering studies on vocal modulation in social and courtship contexts. \par \vspace{0.4em}
-\textbf{Open Science:} I am interested in quantitative methods and programming, especially in \textbf{R}, as tools to promote open and reproducible science. In line with these values, I serve as \textit{Data Editor} at \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}, \textit{Associate Editor}  at \href{https://evohuman.org}{Evolutionary Dynamics of Human Behavior (EDHB)}, and as \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (associate editor) at \href{https://rr.peercommunityin.org/}{PCI Registered Reports}. 
-
-\end{minipage} \begin{minipage}[c]{0.15\linewidth}
-\begin{flushright} 
-\hfill \href{https://jdleongomez.info/en/team/}{\includegraphics[width=2cm]{Logo_EvoCo.png}} \newline\newline \href{https://grupo-codec.netlify.app/}{\includegraphics[width=2cm]{Logo_CODEC.png}}
-\end{flushright}
+  I am a Full Professor and researcher at \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Human Behaviour and Evolution Lab}}, leader of the \href{https://grupo-codec.netlify.app/}{\textit{\textbf{CODEC}: Cognitive and Behavioural Sciences Research Group}} (classified as \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), and director of the \href{https://mc-ueb.netlify.app/}{\textit{\textbf{MetaCiencia}} research incubator}, within the \href{https://www.uelbosque.edu.co/psicologia}{Faculty of Psychology} at the \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} in Bogotá, Colombia. I am also a founding and board member of the \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.4em}
+  \textbf{Research:} My work focuses on human vocal communication, mate choice, musicality, and hormonal influences on behaviour. I have published pioneering studies on vocal modulation in social and courtship contexts. \par \vspace{0.4em}
+  \textbf{Open Science:} I am interested in quantitative methods and programming, especially in \textbf{R}, as tools to promote open and reproducible science. In line with these values, I serve as \textit{Data Editor} at \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}, \textit{Associate Editor}  at \href{https://evohuman.org}{Evolutionary Dynamics of Human Behavior (EDHB)}, and as \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (associate editor) at \href{https://rr.peercommunityin.org/}{PCI Registered Reports}. In 2026, I also founded and now direct \href{https://mc-ueb.netlify.app/}{\textit{\textbf{MetaCiencia}}}, an open research incubator on scientific reproducibility, transparency, and metascience education, affiliated with CODEC.
+\end{minipage} 
+\begin{minipage}[c]{0.15\linewidth}
+  \makebox[\linewidth][r]{%
+    \href{https://jdleongomez.info/en/team/}{\includegraphics[width=2cm]{Logo_EvoCo.png}}%
+  }\newline \par
+  \makebox[\linewidth][r]{%
+    \href{https://grupo-codec.netlify.app/}{\includegraphics[width=2cm]{Logo_CODEC.png}}%
+  }\newline \par
+  \makebox[\linewidth][r]{%
+    \href{https://mc-ueb.netlify.app/}{\includegraphics[width=2cm]{Logo_MetaCiencia.png}}%
+  }
 \end{minipage}
 
 # Skills
@@ -230,57 +235,57 @@ if (!is.null(scholar_data) && is.list(scholar_data$profile)) {
 ```
 
 \begin{tcolorbox}[enhanced,
-        on line, 
-        boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
-        colframe=white,colback=teal,
-        hyperurl={https://scholar.google.com/citations?user=8Q0jKHsAAAAJ}]
-  
+  on line,
+  boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+  colframe=white,colback=teal,
+  hyperurl={https://scholar.google.com/citations?user=8Q0jKHsAAAAJ}]
+
 \color{white}
   \begin{minipage}[c]{0.245\linewidth}
-    \begin{center} 
+    \begin{center}
       \begin{huge} `r h_index` \end{huge}
-     \begin{small} \textit{h}-index \end{small} 
-    \end{center} 
-  \end{minipage} 
+      \begin{small} \textit{h}-index \end{small}
+    \end{center}
+  \end{minipage}
   \begin{minipage}[c]{0.245\linewidth}
-    \begin{center} 
+    \begin{center}
       \begin{huge} `r g_index` \end{huge}
-      \begin{small} \textit{g}-index \end{small} 
+      \begin{small} \textit{g}-index \end{small}
     \end{center}
-  \end{minipage} 
+  \end{minipage}
   \begin{minipage}[c]{0.245\linewidth}
-    \begin{center} 
+    \begin{center}
       \begin{huge} `r i10_index` \end{huge}
-      \begin{small} i10-index \end{small} 
+      \begin{small} i10-index \end{small}
     \end{center}
-  \end{minipage} 
+  \end{minipage}
   \begin{minipage}[c]{0.245\linewidth}
-    \begin{center}  
+    \begin{center}
       \begin{huge} `r pubs_num` \end{huge}
-      \begin{small} Publications \end{small} 
+      \begin{small} Publications \end{small}
     \end{center}
-  \end{minipage} 
-  
+  \end{minipage}
+
   \begin{center} \noindent\line(1,0){150} Citations \noindent\line(1,0){150} \end{center}
-  
-  \begin{minipage}[c]{0.325\linewidth}  
-    \begin{center} 
-      \begin{small} Total \end{small} 
-      \begin{LARGE} `r citSum` \end{LARGE} 
-    \end{center}
-  \end{minipage} 
+
   \begin{minipage}[c]{0.325\linewidth}
-    \begin{center} 
-      \begin{small} Mean \end{small} 
+    \begin{center}
+      \begin{small} Total \end{small}
+      \begin{LARGE} `r citSum` \end{LARGE}
+    \end{center}
+  \end{minipage}
+  \begin{minipage}[c]{0.325\linewidth}
+    \begin{center}
+      \begin{small} Mean \end{small}
       \begin{LARGE} `r meancit` \end{LARGE}
     \end{center}
-  \end{minipage} 
+  \end{minipage}
   \begin{minipage}[c]{0.325\linewidth}
-    \begin{center}  
-      \begin{small} Median \end{small} 
+    \begin{center}
+      \begin{small} Median \end{small}
       \begin{LARGE} `r mediancit` \end{LARGE}
-   \end{center}
-  \end{minipage} 
+    \end{center}
+  \end{minipage}
 \end{tcolorbox}
 
 \begin{importantnote}
@@ -290,39 +295,39 @@ if (!is.null(scholar_data) && is.list(scholar_data$profile)) {
 ## \textbf{Editorials and Recommendations}
 
 \begingroup
-\footnotesize
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
+  \footnotesize
+  \setlength{\parindent}{-0.5in}
+  \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/recommendation.txt")`
+  `r knitr::knit_child("../bib/recommendation.txt")`
 
 \endgroup
 
 \begin{minipage}[c]{0.10\linewidth}
-\href{https://rr.peercommunityin.org/about/recommenders}{\includegraphics[width=1.5cm]{pci_rr.png}}
+  \href{https://rr.peercommunityin.org/about/recommenders}{\includegraphics[width=1.5cm]{pci_rr.png}}
 \end{minipage} \begin{minipage}[c]{0.90\linewidth}
-\footnotesize{\textbf{Note:} For more information about my role as a \href{https://rr.peercommunityin.org/public/user_public_page?userId=1996}{recommender} (equivalent to Associate Editor) for \textit{PCI Registered Reports}, see the section dedicated to my \hyperref[editor]{editorial roles} below.}
-\end{minipage} 
+  \footnotesize{\textbf{Note:} For more information about my role as a \href{https://rr.peercommunityin.org/public/user_public_page?userId=1996}{recommender} (equivalent to Associate Editor) for \textit{PCI Registered Reports}, see the section dedicated to my \hyperref[editor]{editorial roles} below.}
+\end{minipage}
 
 ## \textbf{Published Journal Articles and Works}
 
 \begingroup
-\footnotesize
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
+  \footnotesize
+  \setlength{\parindent}{-0.5in}
+  \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/journal_en.txt")`
+  `r knitr::knit_child("../bib/journal_en.txt")`
 
 \endgroup
 
 ## \textbf{Preprints and Articles under Review}
 
 \begingroup
-\footnotesize
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
+  \footnotesize
+  \setlength{\parindent}{-0.5in}
+  \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/preprints.txt")`
+  `r knitr::knit_child("../bib/preprints.txt")`
 
 \endgroup
 
@@ -331,28 +336,28 @@ if (!is.null(scholar_data) && is.list(scholar_data$profile)) {
 ## \textbf{Investigación Abierta (YouTube channel)}
 
 \begin{minipage}[c]{0.15\linewidth}
-\href{https://www.youtube.com/@InvestigacionAbierta}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_IA.png}}
+  \href{https://www.youtube.com/@InvestigacionAbierta}{\includegraphics[width=2.3cm, height=2.3cm]{Logo_IA.png}}
 \end{minipage} \begin{minipage}[c]{0.85\linewidth}
-\textcolor{red}{\faYoutube} \href{https://www.youtube.com/@InvestigacionAbierta}{Investigación Abierta} [\textit{Open Research}] is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software.
+  \textcolor{red}{\faYoutube} \href{https://www.youtube.com/@InvestigacionAbierta}{Investigación Abierta} [\textit{Open Research}] is a YouTube channel (in Spanish) where I post videos and tutorials related to quantitative research methods and open science, as well as useful open source software.
 \end{minipage}
 
 \begingroup
-\footnotesize
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
+  \footnotesize
+  \setlength{\parindent}{-0.5in}
+  \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/IA_en.txt")`
+  `r knitr::knit_child("../bib/IA_en.txt")`
 
 \endgroup
 
 ## \textbf{Online Practical Guides}
 
 \begingroup
-\footnotesize
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
+  \footnotesize
+  \setlength{\parindent}{-0.5in}
+  \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/guides_en.txt")`
+  `r knitr::knit_child("../bib/guides_en.txt")`
 
 \endgroup
 
@@ -363,39 +368,39 @@ if (!is.null(scholar_data) && is.list(scholar_data$profile)) {
 ## \textbf{Public Outreach Articles}
 
 \begingroup
-\footnotesize
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
+  \footnotesize
+  \setlength{\parindent}{-0.5in}
+  \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/divulgation_en.txt")`
+  `r knitr::knit_child("../bib/divulgation_en.txt")`
 
 \endgroup
 
 ## \textbf{Interactive Apps for Educational Purposes}
 
 \begin{minipage}[c]{0.10\linewidth}
-\href{https://jdleongomez.info/en/#apps}{\includegraphics[width=1.5cm, height=1.74cm]{shiny_hex.png}}
+  \href{https://jdleongomez.info/en/#apps}{\includegraphics[width=1.5cm, height=1.74cm]{shiny_hex.png}}
 \end{minipage} \begin{minipage}[c]{0.90\linewidth}
-Developed interactive apps, mostly in R using \href{https://shiny.posit.co/}{Shiny}, mainly for teaching and illustrating statistical concepts. In this section you can find some examples.
+  Developed interactive apps, mostly in R using \href{https://shiny.posit.co/}{Shiny}, mainly for teaching and illustrating statistical concepts. In this section you can find some examples.
 \end{minipage}
 
 \begingroup
-\footnotesize
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
+  \footnotesize
+  \setlength{\parindent}{-0.5in}
+  \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/apps_en.txt")`
+  `r knitr::knit_child("../bib/apps_en.txt")`
 
 \endgroup
 
 # Conference Presentations, Posters and Workshops
 
 \begingroup
-\footnotesize
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
+  \footnotesize
+  \setlength{\parindent}{-0.5in}
+  \setlength{\leftskip}{0.5in}
 
-`r knitr::knit_child("../bib/poster_en.txt")`
+  `r knitr::knit_child("../bib/poster_en.txt")`
 
 \endgroup
 
@@ -412,7 +417,7 @@ readxl::read_excel("../data/event_en.xlsx") |>
 # Editorial Appointments {#editor}
 
 \begin{small}
-\textbf{Note:} My verified review and editor record is available from my \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science} profile. 
+  \textbf{Note:} My verified review and editor record is available from my \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science} profile.
 \end{small}
 
 ```{r service}
