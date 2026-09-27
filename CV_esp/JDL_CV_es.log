@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.25)  25 SEP 2026 15:41
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.24)  27 SEP 2026 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -179,7 +179,7 @@ LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) o
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2103.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2128.
 \U@D=\dimen167
-\l@unhyphenated=\language4
+\l@unhyphenated=\language6
 (/home/jdl/.TinyTeX/texmf-dist/tex/generic/babel/xebabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count305
@@ -1130,27 +1130,27 @@ LaTeX Font Info:    Font shape `TU/SourceSans3(0)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/n' will be
 (Font)              scaled to size 9.0pt on input line 417.
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 420.
+(Font)              scaled to size 9.0pt on input line 421.
 File: ../images/pci_rr.png Graphic file (type bmp)
 <../images/pci_rr.png>
 
-Overfull \hbox (1.45999pt too wide) in paragraph at lines 437--442
+Overfull \hbox (1.45999pt too wide) in paragraph at lines 436--441
 [][] [] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 457.
+(Font)              scaled to size 6.0pt on input line 456.
 [5] [6]
 
 LaTeX Font Warning: Font shape `TU/SourceSans3(1)/b/scit' undefined
-(Font)              using `TU/SourceSans3(1)/b/it' instead on input line 705.
+(Font)              using `TU/SourceSans3(1)/b/it' instead on input line 704.
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/it' will be
-(Font)              scaled to size 12.0pt on input line 705.
+(Font)              scaled to size 12.0pt on input line 704.
 File: ../images/Logo_IA.png Graphic file (type bmp)
 <../images/Logo_IA.png>
 
-Overfull \hbox (1.45999pt too wide) in paragraph at lines 764--769
+Overfull \hbox (1.45999pt too wide) in paragraph at lines 763--768
 [][] [] 
  []
 
@@ -1158,23 +1158,23 @@ Overfull \hbox (1.45999pt too wide) in paragraph at lines 764--769
 File: ../images/shiny_hex.png Graphic file (type bmp)
 <../images/shiny_hex.png>
 
-Overfull \hbox (1.45999pt too wide) in paragraph at lines 855--860
+Overfull \hbox (1.45999pt too wide) in paragraph at lines 854--859
 [][] [] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/it' will be
-(Font)              scaled to size 9.0pt on input line 876.
+(Font)              scaled to size 9.0pt on input line 875.
 [8] [9]
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 1154.
+(Font)              scaled to size 10.0pt on input line 1153.
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/it' will be
-(Font)              scaled to size 10.0pt on input line 1202.
+(Font)              scaled to size 10.0pt on input line 1201.
 
 LaTeX Font Warning: Font shape `TU/SourceSans3(1)/m/scit' undefined
-(Font)              using `TU/SourceSans3(1)/m/it' instead on input line 1206.
+(Font)              using `TU/SourceSans3(1)/m/it' instead on input line 1205.
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 1206.
+(Font)              scaled to size 8.0pt on input line 1205.
 [10] [11] [12] [13] (./JDL_CV_es.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -1190,12 +1190,12 @@ Package rerunfilecheck Info: File `JDL_CV_es.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 35601 strings out of 469726
- 724664 string characters out of 5467385
- 1330910 words of memory out of 5000000
- 64014 multiletter control sequences out of 15000+600000
+ 35601 strings out of 469685
+ 724664 string characters out of 5466370
+ 1331060 words of memory out of 5000000
+ 64021 multiletter control sequences out of 15000+600000
  633599 words of font info for 169 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 36 hyphenation exceptions out of 8191
  131i,12n,136p,916b,871s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on JDL_CV_es.pdf (13 pages).
