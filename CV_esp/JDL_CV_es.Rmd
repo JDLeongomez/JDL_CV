@@ -418,7 +418,7 @@ readxl::read_excel("../data/event_es.xlsx") |>
 # Roles Editoriales {#editor}
 
 \begin{small}
-  \textbf{Nota:} Mi registro verificado como par académico y editor internacional está disponible en mi perfil de \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science}.
+  \textbf{Nota:} Mi registro verificado como par académico y editor internacional está disponible en mis perfiles de \href{https://orcid.org/0000-0002-0092-6298}{ORCID} o \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science}.
 \end{small}
 
 ```{r service}

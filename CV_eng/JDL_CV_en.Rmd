@@ -417,7 +417,7 @@ readxl::read_excel("../data/event_en.xlsx") |>
 # Editorial Appointments {#editor}
 
 \begin{small}
-  \textbf{Note:} My verified review and editor record is available from my \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science} profile.
+  \textbf{Note:} My verified review and editor record is available from my \href{https://orcid.org/0000-0002-0092-6298}{ORCID} or   \href{https://www.webofscience.com/wos/author/record/387716}{Web of Science} profiles.
 \end{small}
 
 ```{r service}
