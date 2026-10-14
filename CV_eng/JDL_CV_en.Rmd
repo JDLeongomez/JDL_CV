@@ -64,20 +64,20 @@ lapply(packages, library, character.only = TRUE) |>
 
 # About me
 
-\begin{minipage}[c]{0.85\linewidth}
+\begin{minipage}[c]{0.9\linewidth}
   I am a Full Professor and researcher at \href{https://jdleongomez.info/es/team/}{\textit{\textbf{EvoCo}: Human Behaviour and Evolution Lab}}, leader of the \href{https://grupo-codec.netlify.app/}{\textit{\textbf{CODEC}: Cognitive and Behavioural Sciences Research Group}} (classified as \href{https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446}{\textbf{A1}}), and director of the \href{https://mc-ueb.netlify.app/}{\textit{\textbf{MetaCiencia}} research incubator}, within the \href{https://www.uelbosque.edu.co/psicologia}{Faculty of Psychology} at the \href{https://www.uelbosque.edu.co/}{Universidad El Bosque} in Bogotá, Colombia. I am also a founding and board member of the \textbf{\textit{Latin American Association for Human Behavioral and Evolutionary Sciences}} (\textbf{\textit{LAAHBES}}). \par \vspace{0.4em}
   \textbf{Research:} My work focuses on human vocal communication, mate choice, musicality, and hormonal influences on behaviour. I have published pioneering studies on vocal modulation in social and courtship contexts. \par \vspace{0.4em}
   \textbf{Open Science:} I am interested in quantitative methods and programming, especially in \textbf{R}, as tools to promote open and reproducible science. In line with these values, I serve as \textit{Data Editor} at \href{https://royalsocietypublishing.org/journal/rspb}{Proceedings of the Royal Society B}, \textit{Associate Editor}  at \href{https://evohuman.org}{Evolutionary Dynamics of Human Behavior (EDHB)}, and as \href{https://rr.peercommunityin.org/about/recommenders}{recommender} (associate editor) at \href{https://rr.peercommunityin.org/}{PCI Registered Reports}. In 2026, I also founded and now direct \href{https://mc-ueb.netlify.app/}{\textit{\textbf{MetaCiencia}}}, an open research incubator on scientific reproducibility, transparency, and metascience education, affiliated with CODEC.
 \end{minipage} 
-\begin{minipage}[c]{0.15\linewidth}
+\begin{minipage}[c]{0.1\linewidth}
   \makebox[\linewidth][r]{%
-    \href{https://jdleongomez.info/en/team/}{\includegraphics[width=2cm]{Logo_EvoCo.png}}%
+    \href{https://jdleongomez.info/en/team/}{\includegraphics[width=1.4cm]{Logo_EvoCo.png}}%
   }\newline \par
   \makebox[\linewidth][r]{%
-    \href{https://grupo-codec.netlify.app/}{\includegraphics[width=2cm]{Logo_CODEC.png}}%
+    \href{https://grupo-codec.netlify.app/}{\includegraphics[width=1.4cm]{Logo_CODEC.png}}%
   }\newline \par
   \makebox[\linewidth][r]{%
-    \href{https://mc-ueb.netlify.app/}{\includegraphics[width=2cm]{Logo_MetaCiencia.png}}%
+    \href{https://mc-ueb.netlify.app/}{\includegraphics[width=1.4cm]{Logo_MetaCiencia.png}}%
   }
 \end{minipage}
 
