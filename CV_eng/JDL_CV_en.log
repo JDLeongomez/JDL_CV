@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.29)  13 OCT 2026 23:28
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.29)  14 OCT 2026 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1191,25 +1191,27 @@ LaTeX Font Info:    Font shape `TU/SourceSans3(0)/m/n' will be
 File: ../images/Logo_IA.png Graphic file (type bmp)
 <../images/Logo_IA.png>
 
-Overfull \hbox (1.45999pt too wide) in paragraph at lines 781--786
+Overfull \hbox (1.45999pt too wide) in paragraph at lines 790--795
 [][] [] 
  []
 
+LaTeX Font Info:    Font shape `TU/SourceSans3(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 831.
 [7]
 File: ../images/shiny_hex.png Graphic file (type bmp)
 <../images/shiny_hex.png>
 
-Overfull \hbox (1.45999pt too wide) in paragraph at lines 878--883
+Overfull \hbox (1.45999pt too wide) in paragraph at lines 887--892
 [][] [] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/it' will be
-(Font)              scaled to size 9.0pt on input line 899.
+(Font)              scaled to size 9.0pt on input line 908.
 [8] [9]
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 1173.
+(Font)              scaled to size 10.0pt on input line 1182.
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/it' will be
-(Font)              scaled to size 10.0pt on input line 1222.
+(Font)              scaled to size 10.0pt on input line 1231.
 [10] [11] [12] [13] (./JDL_CV_en.aux)
  ***********
 LaTeX2e <2026-06-01>
@@ -1222,10 +1224,10 @@ Package rerunfilecheck Info: File `JDL_CV_en.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34862 strings out of 469664
- 708338 string characters out of 5464921
- 1306089 words of memory out of 5000000
- 63266 multiletter control sequences out of 15000+600000
+ 34863 strings out of 469664
+ 708362 string characters out of 5464921
+ 1307089 words of memory out of 5000000
+ 63267 multiletter control sequences out of 15000+600000
  634457 words of font info for 168 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  131i,12n,136p,1482b,870s stack positions out of 10000i,1000n,20000p,200000b,200000s
