@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.29)  17 OCT 2026 16:15
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.29)  20 OCT 2026 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1139,18 +1139,18 @@ Overfull \hbox (1.45999pt too wide) in paragraph at lines 445--450
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 470.
+(Font)              scaled to size 6.0pt on input line 471.
 [5] [6]
 
 LaTeX Font Warning: Font shape `TU/SourceSans3(1)/b/scit' undefined
-(Font)              using `TU/SourceSans3(1)/b/it' instead on input line 718.
+(Font)              using `TU/SourceSans3(1)/b/it' instead on input line 719.
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/it' will be
-(Font)              scaled to size 12.0pt on input line 718.
+(Font)              scaled to size 12.0pt on input line 719.
 File: ../images/Logo_IA.png Graphic file (type bmp)
 <../images/Logo_IA.png>
 
-Overfull \hbox (1.45999pt too wide) in paragraph at lines 780--785
+Overfull \hbox (1.45999pt too wide) in paragraph at lines 781--786
 [][] [] 
  []
 
@@ -1158,23 +1158,23 @@ Overfull \hbox (1.45999pt too wide) in paragraph at lines 780--785
 File: ../images/shiny_hex.png Graphic file (type bmp)
 <../images/shiny_hex.png>
 
-Overfull \hbox (1.45999pt too wide) in paragraph at lines 871--876
+Overfull \hbox (1.45999pt too wide) in paragraph at lines 872--877
 [][] [] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/it' will be
-(Font)              scaled to size 9.0pt on input line 892.
+(Font)              scaled to size 9.0pt on input line 893.
 [8] [9]
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 1170.
+(Font)              scaled to size 10.0pt on input line 1171.
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/it' will be
-(Font)              scaled to size 10.0pt on input line 1219.
+(Font)              scaled to size 10.0pt on input line 1220.
 
 LaTeX Font Warning: Font shape `TU/SourceSans3(1)/m/scit' undefined
-(Font)              using `TU/SourceSans3(1)/m/it' instead on input line 1223.
+(Font)              using `TU/SourceSans3(1)/m/it' instead on input line 1224.
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 1223.
+(Font)              scaled to size 8.0pt on input line 1224.
 [10] [11] [12] [13] (./JDL_CV_es.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
