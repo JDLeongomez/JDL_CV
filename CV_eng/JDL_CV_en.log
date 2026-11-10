@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.29)  10 NOV 2026 11:46
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.29)  10 NOV 2026 12:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1191,7 +1191,7 @@ LaTeX Font Info:    Font shape `TU/SourceSans3(0)/m/n' will be
 File: ../images/Logo_IA.png Graphic file (type bmp)
 <../images/Logo_IA.png>
 
-Overfull \hbox (1.45999pt too wide) in paragraph at lines 802--807
+Overfull \hbox (1.45999pt too wide) in paragraph at lines 803--808
 [][] [] 
  []
 
@@ -1199,17 +1199,17 @@ Overfull \hbox (1.45999pt too wide) in paragraph at lines 802--807
 File: ../images/shiny_hex.png Graphic file (type bmp)
 <../images/shiny_hex.png>
 
-Overfull \hbox (1.45999pt too wide) in paragraph at lines 899--904
+Overfull \hbox (1.45999pt too wide) in paragraph at lines 900--905
 [][] [] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/it' will be
-(Font)              scaled to size 9.0pt on input line 920.
+(Font)              scaled to size 9.0pt on input line 921.
 [8] [9]
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 1194.
+(Font)              scaled to size 10.0pt on input line 1195.
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/it' will be
-(Font)              scaled to size 10.0pt on input line 1243.
+(Font)              scaled to size 10.0pt on input line 1244.
 [10] [11] [12] [13] [14] (./JDL_CV_en.aux)
  ***********
 LaTeX2e <2026-06-01>

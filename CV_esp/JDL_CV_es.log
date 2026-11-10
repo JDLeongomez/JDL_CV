@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.29)  10 NOV 2026 11:46
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.9.29)  10 NOV 2026 12:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1150,7 +1150,7 @@ LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/it' will be
 File: ../images/Logo_IA.png Graphic file (type bmp)
 <../images/Logo_IA.png>
 
-Overfull \hbox (1.45999pt too wide) in paragraph at lines 788--793
+Overfull \hbox (1.45999pt too wide) in paragraph at lines 789--794
 [][] [] 
  []
 
@@ -1158,23 +1158,23 @@ Overfull \hbox (1.45999pt too wide) in paragraph at lines 788--793
 File: ../images/shiny_hex.png Graphic file (type bmp)
 <../images/shiny_hex.png>
 
-Overfull \hbox (1.45999pt too wide) in paragraph at lines 879--884
+Overfull \hbox (1.45999pt too wide) in paragraph at lines 880--885
 [][] [] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/it' will be
-(Font)              scaled to size 9.0pt on input line 900.
+(Font)              scaled to size 9.0pt on input line 901.
 [8] [9]
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 1178.
+(Font)              scaled to size 10.0pt on input line 1179.
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/it' will be
-(Font)              scaled to size 10.0pt on input line 1227.
+(Font)              scaled to size 10.0pt on input line 1228.
 
 LaTeX Font Warning: Font shape `TU/SourceSans3(1)/m/scit' undefined
-(Font)              using `TU/SourceSans3(1)/m/it' instead on input line 1231.
+(Font)              using `TU/SourceSans3(1)/m/it' instead on input line 1232.
 
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 1231.
+(Font)              scaled to size 8.0pt on input line 1232.
 [10] [11] [12] [13] (./JDL_CV_es.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
